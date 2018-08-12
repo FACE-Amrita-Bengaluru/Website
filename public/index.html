@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>FACE | Forum for Aspiring Computer Engineers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <meta charset="UTF-8">
+	<meta name="description" content="FACE (The Forum for Aspiring Computer Engineers) is the official student club of the CSE Department of Amrita School of Engineering-Bengaluru.This webiste serves to educate students about the latest events organized by FACE and the core team of FACE">
+	<meta name="keywords" content="FACE, computer club,Bengaluru, stay late and code, slac, SLAC,Amrita, Amrita School of Engineering, College, Fest,CSE, Technology,Computer,Computer Science,Forum for Aspiring Computer Engineers">
+	<meta name="author" content="Arjun Kedlaya">
+
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/lightgallery/latest/css/lightgallery.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body onLoad="myFunction()" style="margin:0;">
+  <header style="display:none;">
+  <div class="container">
+    <a class="logo" href="#"><img src="images/face.png" class="icon"/></a>
+<nav class="nav-collapse">
+        <ul>
+          <li class="menu-item active" id="events"><a href="#"><img src="images/events.png" height="28px/55px" width="28px/55px"/> Events</a></li>
+          <li class="menu-item" id="abtus"><a href="#"><img src="images/info.png" height="28px/55px" width="28px/55px"/> About Us</a></li>
+          <li class="menu-item" id="clubs"><a href="#"><img src="images/club.png" height="28px/55px" width="28px/55px"/> Clubs </a></li>
+          <li class="menu-item" id="gal"><a href="#"><img src="images/gallery.png" height="28px/55px" width="28px/55px"/> Gallery</a></li>
+          <li class="menu-item" id="tanda"><a href="#"><img src="images/team.png" height="28px/55px" width="28px/55px"/> Team</a></li>
+        </ul>
+      </nav>
+    </div>
+ </header><!--Menu-->
+<div class="stair" id="load">
+<div class="loader">
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__bar"></div>
+  <div class="loader__ball"></div>
+</div>
+</div>
+<div id="myDiv">
+<div class="homepage">
+  <div class="welcome text-center">
+    <br><br>
+    <img  class="wow flipInY" data-wow-delay="1s" src="images/face.png"/>
+    <br><br>
+    <h2>Tune into Technology!<br>Tune into FACE!</h2>
+    <a href="#" style="color:white;">
+      <i class="fa fa-angle-double-down" id="down" aria-hidden="true"></i></a>
+  </div>
+</div><!--Splash Page--> 
+ <div class="fault" id="u">
+   <div class="upcoming">
+   <div class="cal">
+  <div class="cal-heading wow slideInLeft">Upcoming Events</div>
+  <div class="cal-event 1">
+    <div class="cal-event-tile">
+      <div class="cal-event-tile-date" id="date1"></div>
+      <div class="cal-event-tile-month" id="month1"></div>
+    </div>
+    <div class="cal-event-desc">
+      <div class="cal-event-title" id="title1"></div>
+      <div class="cal-event-time" id="time1">
+        <icon>&#xf017;</icon>
+      </div>
+      <div class="cal-event-location">
+        <icon>&#xf041;</icon>
+        <div class="cal-event-location-content" id="loc1">
+           </div>
+      </div>
+      <div class="cal-event-info">
+        <icon>&#xf05a;</icon>
+        <div class="cal-event-location-content" id="info1">
+           </div>
+      </div>
+      </div> 
+  </div>
+   <div class="cal-event 2">
+    <div class="cal-event-tile">
+      <div class="cal-event-tile-date" id="date2"></div>
+      <div class="cal-event-tile-month" id="month2"></div>
+    </div>
+    <div class="cal-event-desc">
+      <div class="cal-event-title" id="title2"></div>
+      <div class="cal-event-time" id="time2">
+        <icon>&#xf017;</icon>
+      </div>
+      <div class="cal-event-location">
+        <icon>&#xf041;</icon>
+        <div class="cal-event-location-content" id="loc2">
+           </div>
+      </div>
+      <div class="cal-event-info">
+        <icon>&#xf05a;</icon>
+        <div class="cal-event-location-content" id="info2">
+           </div>
+      </div>
+      </div> 
+  </div>
+  <div class="cal-event 3">
+    <div class="cal-event-tile">
+      <div class="cal-event-tile-date" id="date3"></div>
+      <div class="cal-event-tile-month" id="month3"></div>
+    </div>
+    <div class="cal-event-desc">
+      <div class="cal-event-title" id="title3"></div>
+      <div class="cal-event-time" id="time3">
+        <icon>&#xf017;</icon>
+      </div>
+      <div class="cal-event-location">
+        <icon>&#xf041;</icon>
+        <div class="cal-event-location-content" id="loc3">
+           </div>
+      </div>
+      <div class="cal-event-info">
+        <icon>&#xf05a;</icon>
+        <div class="cal-event-location-content" id="info3">
+           </div>
+      </div>
+      </div> 
+  </div>
+  </div>
+   </div>
+     <h2 class="text-center" style="color:white;">For detailed reports about past events,<a style="color:green;" href='https://faceaseb.wordpress.com/' target="_blank">Click Here</a></h2>
+<br><br>
+   </div>
+  <!--Events-->
+ <div class="about card">
+   <h1 class="text-center">Forum For Aspiring Computer Engineers</h1><br><br>
+   <div style="font-size:15px;">
+   <b>Welcome to FACE!</b><br>
+In today`s world where technology advances each day by leaps and bounds evolving faster than mankind can keep up, miss a day and you might as well have missed a month. So what do you do when you have no clue to what`s going on in the tech empire?<br>
+   You tune into FACE.<br>
+<br>
+We at FACE, the Forum for Aspiring Computer Engineers at Amrita School of Engineering, Bangalore solely dedicate ourselves to organize workshops, conduct events and fests to acquaint and immerse you into the world of technology.  Ranging  from courses on game programming to hands-on OS installations and project exhibitions. We do it all.<br>
+If you`re into computing and technology then you`ll certainly be into FACE. Stay with us and we`ll go together, hand in hand, alongside technological advancements.<br>
+<b>Tune into Technology.<br>
+  Tune into F.A.C.E.</b><br>
+    <br><br>
+   <b>Contact Us: </b>
+   <a target="_blank" href="https://www.facebook.com/face00amrita/"><i style="color:#3b5998;"class="fa fa-facebook fa-2x social_icon"></i></a>
+     </div>
+  </div>
+ <div class="club">
+<div class="case-study-gallery">
+  <h1 class="text-center">Student Clubs in ASE-B<br></h1>
+  <div class="case-study study1">
+ <div class="case-study__overlay">
+  	<h2 class="case-study__title">Association for Computing Machinery(ACM)</h2>
+    <a class="case-study__link" data-toggle="modal" href="#acm">Read More..</a>
+   </div>
+</div>
+  <div class="case-study study2">
+	<div class="case-study__overlay">
+  	<h2 href="" class="case-study__title">Computer Society of India(CSI)</h2>
+    <a class="case-study__link" data-toggle="modal" href="#csi">Read More..</a>
+  </div>
+</div>
+  <div class="case-study study3">
+	<div class="case-study__overlay">
+  	<h2 class="case-study__title">ACM Council on Women in Computing(ACM-W)</h2>
+    <a class="case-study__link" data-toggle="modal" href="#acm-w">Read More..</a>
+  </div>
+</div>
+  <div class="case-study study4">
+	<div class="case-study__overlay">
+  	<h2 class="case-study__title">Codechef Amrita Chapter</h2>
+    <a class="case-study__link" data-toggle="modal" href="#codechef">Read More..</a>
+  </div>
+</div>
+</div>
+  
+</div>
+<div class="container">
+  <!-- Modal -->
+<div class="modal fade" id="acm" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" style="position:absolute;right:30px;">&times;</button>
+        <h1 class="modal-title text-center"><img src="images/acm.png"/> ACM</h1>
+          <br>
+     </div>
+        <div class="modal-body">
+          ACM brings together computing educators, researchers, and professionals to inspire dialogue, share resources, and address the field's challenges. As the world’s largest computing society, ACM strengthens the profession's collective voice through strong leadership, promotion of the highest standards, and recognition of technical excellence. ACM supports the professional growth of its members by providing opportunities for life‐long learning, career development, and professional networking.<br><br>A vast network of nearly 100,000 highly dedicated student and professional peers.ACM's Career & Job Center, where you will find targeted job opportunities and more.
+The opportunity to join one or more of ACM's Special Interest Groups in 37 specialty areas of IT.Become a member of computing community through one of hundreds of Professional and Student Chapters worldwide.Unique volunteering opportunities to gain hands-on experience and knowledge of the marketplace<br><br><b>Contact:<br>
+          <h5>Faculty In Charge:</b></h5>
+<div class="chip" id="acmf">
+  <img id="pacmfaculty" src="" alt="Person" width="96" height="96">
+</div><br>
+          <h5><b>Student Representatives:</b></h5>
+<div class="chip" id="acms">
+  <img id="pacmsec" src="" alt="Person" width="96" height="96">
+</div>
+<div class="chip" id="acmc">
+  <img id="pcoacm" src="" alt="Person" width="96" height="96">
+
+</div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" onclick="window.open('http://www.acm.org/','_blank')" class="btn btn-primary">Visit Website</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="modal fade" id="csi" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" style="position:absolute;right:30px;" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title text-center"><img src="images/csi.png"/> CSI</h1>
+          
+        </div>
+        <div class="modal-body">
+          The "Computer Society of India" is a professional body where computer professionals meet to exchange views and information, to learn and share ideas. The wide spectrum of members is committed to the advancement of the theory and practice of Computer Engineering and Technology Systems, Science and Engineering, Information Processing and related Arts and Sciences.<br><br> CSI is the oldest and largest organisation of IT professionals in India having 25000 members and 63 chapters and more than 185 students Branches across the country exclusively focusing on the interest of the IT Professionals.The benefits of joining CSI is one gets to be a part of the distinguished fraternity of famous IT industry leaders, brilliant scientists and dedicated academicians through Networking,Training and Certification in futuristic areas and a forum for activities like Paper Presentations, Quiz, Competitions and Exhibitions.<br><br><b>Contact:<br>
+          <h5>Faculty In Charge:</b></h5>
+<div class="chip" id="csif">
+  <img id="pcsifaculty" src="" alt="Person" width="96" height="96">
+</div><br>
+          <h5><b>Student Representatives:</b></h5>
+<div class="chip" id="csis">
+  <img id="pcsisec" src="" alt="Person" width="96" height="96">
+</div>
+<div class="chip" id="csic">
+  <img id="pcocsi" src="" alt="Person" width="96" height="96"></div></div>
+        <div class="modal-footer">
+          <button type="button" onclick="window.open('http://www.csi-india.org/','_blank')" class="btn btn-primary">Visit Website</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="modal fade" id="acm-w" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" style="position:absolute;right:30px;" class="close" data-dismiss="modal">&times;</button>
+          <h1 class="modal-title text-center"><img src="images/acmw.jpg"/> ACM-W</h1>
+        </div>
+        <div class="modal-body">
+         ACM-W supports, celebrates, and advocates internationally for the full engagement of women in all aspects of the computing field, providing a wide range of programs and services to ACM members and working in the larger community to advance the contributions of technical women.<br><br>
+ ACM-W’s student scholarship program, young women are informed about the research going on, and become acquainted with the researchers, in their field. Members of ACM-W Student Chapters are informed about the educational and career opportunities available to them.<br>
+          <br><b>Contact:<br>
+          <h5>Faculty In Charge:</b></h5>
+<div class="chip" id="acmwf">
+  <img id="pacmwfaculty" src="" alt="Person" width="96" height="96"></div><br>
+          <h5><b>Student Representatives:</b></h5>
+<div class="chip" id="acmws">
+  <img id="pacmwsec" src="" alt="Person" width="96" height="96"></div>
+<div class="chip" id="acmwc">
+  <img id="pcoacmw" src="" alt="Person" width="96" height="96"></div>
+  
+</div>
+        <div class="modal-footer">
+          <button type="button" onclick="window.open('https://women.acm.org/','_blank')" class="btn btn-primary">Visit Website</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+   <div class="modal fade"  id="codechef" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" style="position:absolute;right:30px;" class="close" data-dismiss="modal">&times;</button>
+         <h1 class="modal-title  text-center"> <img src="images/codechef.jpeg"/> Codechef</h1>
+        </div>
+        <div class="modal-body">
+          CodeChef Amrita Bengaluru Campus Chapter aims at promoting competitive programming in Amrita Bengaluru and help students become better problem solvers which goes a long way in learning as well as in their career development.<br><br>
+So if you are looking for a way to meet fellow programmers, improve your skills, and have fun start or join a CodeChef Campus Chapter at Amrita Bengaluru! Amrita Bengaluru CodeChef Campus Chapter is an independent programming club under FACE that uses CodeChef's platform and resources<br><br><b>Contact:<br>
+          <h5>Faculty In Charge:</b></h5>
+<div class="chip" id="codef">
+  <img id="pcodefaculty" src="" alt="Person" width="96" height="96"></div><br>
+          <h5><b>Student Representatives:</b></h5>
+<div class="chip" id="codes">
+  <img id="pcodesec" src="" alt="Person" width="96" height="96"></div>
+<div class="chip" id="codec">
+  <img id="pcocode" src="" alt="Person" width="96" height="96"></div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" onclick="window.open('https://www.codechef.com/','_blank')" class="btn btn-primary">Visit Website</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+ <div class="cont">
+  <br><br>
+  <h1 class="text-center">Gallery</h1>
+  <br><br>
+  <div class="demo-gallery">
+    <ul id="lightgallery">
+      <li id="one"  style="height:120px;min-height:120px;max-height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="onem" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="two" style="height:120px;min-height:120px;max-height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="twom" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="three" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img style="height:120px;min-height:120px;max-height:120px;" class="img-responsive" id="threem" src="">
+          <div class="demo-gallery-poster">
+            <img  src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="four" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img style="height:120px;" class="img-responsive" id="fourm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+            </div>
+        </a>
+      </li>
+      <li id="five"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="fivem" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="six"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="sixm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="seven"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="sevenm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="eight"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="eightm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="nine"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="ninem" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="ten"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="tenm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+       <li id="eleven"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="elevenm" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="twelve"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="twelvem" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="13"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="13m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="14"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="14m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="15"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="15m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="16"  style="height:120px;min-height:120px;max-height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="16m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="17"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="17m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="18"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="18m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="19"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="19m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+      <li id="20"  style="height:120px;" data-responsive="" data-src=""
+      data-sub-html="" data-pinterest-text="Pin it" data-tweet-text="share on twitter ">
+        <a href="">
+          <img class="img-responsive" id="20m" src="">
+          <div class="demo-gallery-poster">
+            <img src="images/zoom.png">
+          </div>
+        </a>
+      </li>
+    </ul>
+    
+  </div>
+</div>
+ <div class="core">
+   <h2 class="text-center">Faculty Coordinators</h2><br>
+<div style="text-align:center;" class="row  ">
+  <div class="col-sm-6 block wow bounceIn">
+    <div class="row">
+      <div class="col-md-12 ">
+        <img id="pdhead" style="border-radius:50%;width:153px;height:151px;" src=""/>
+      </div>
+      <div class="col-md-12 box-ct">
+        <br>
+        <h5 id="ndhead"></h5>
+        <h5 class="team-contact"><a id="cdhead" href=""></a></h5>
+      </div>
+    </div>
+  </div>
+<div class="col-sm-6 block wow bounceIn">
+    <div class="row">
+      <div class="col-md-12 ">
+        <img id="pfhead" style="border-radius:50%;width:153px;height:151px;" src=""/>
+      </div>
+      <div class="col-md-12 box-ct">
+        <br>
+        <h5 id="nfhead"></h5>
+        <h5 class="team-contact"><a id="cfhead" href=""></a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="text-align:center;" class="row">
+  <div class="col-sm-4 block wow bounceIn">
+    <div class="row">
+      <div class="col-md-12 ">
+        <img id="pacmf" style="border-radius:50%;width:153px;height:151px;" src=""/>
+      </div>
+      <div class="col-md-12 box-ct">
+        <br>
+        <h5 id="nacmf"></h5>
+        <h5 class="team-contact"><a href="" id="cacmf"></a></h5>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-sm-4 block wow bounceIn">
+    <div class="row">
+      <div class="col-md-12 ">
+        <img id="pcsif" style="border-radius:50%;width:153px;height:151px;" src=""/>
+      </div>
+      <div class="col-md-12 box-ct">
+        <br>
+        <h5 id="ncsif"></h5>
+        <h5 class="team-contact"><a id="ccsif" href=""></a></h5>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-4 block wow bounceIn">
+    <div class="row">
+      <div class="col-md-12 ">
+        <img id="pcodef" style="border-radius:50%;width:153px;height:151px;" src=""/>
+      </div>
+      <div class="col-md-12 box-ct">
+        <br>
+        <h5 id="ncodef"></h5>
+        <h5 class="team-contact"><a id="ccodef" href=""></a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+   <h1 class="text-center">Team Members</h1>
+  <div id="team">
+    
+  <figure><img id="psec" src=""><figcaption id="nsec"><a id="csec" href=""></a></figcaption></figure>
+  <figure><img id="pcosec" src=""><figcaption id="ncosec"><a id="ccosec" href=""></a></figcaption></figure>
+  <figure><img id="psecacm" src=""><figcaption id="nsecacm"></figcaption></figure>
+  <figure><img id="pseccsi" src=""><figcaption id="nseccsi"></figcaption></figure>
+  <figure><img id="pseccode" src=""><figcaption id="nseccode"></figcaption></figure>
+  <figure><img id="psecacmw" src=""><figcaption id="nsecacmw"></figcaption></figure>
+  <figure><img id="pcosecacm" src=""><figcaption id="ncosecacm"></figcaption></figure>
+  <figure><img id="pcoseccsi" src=""><figcaption id="ncoseccsi"></figcaption></figure>
+  <figure><img id="pcoseccode" src=""><figcaption id="ncoseccode"></figcaption></figure>
+  <figure><img id="pcosecacmw" src=""><figcaption id="ncosecacmw"></figcaption></figure>
+    </div>
+</div>
+  <footer style="background-color:white;padding-bottom:5px;">
+  <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <h3 class="footer-title">Tune into Technology!... Tune&nbsp;Into&nbsp;<b style="color:	#00BFFF;">&nbsp;FACE</b>&nbsp;!</h3>© 2017 FACE | Amrita School of Engineering, Bengaluru. All rights reserved.<br>Developed By <a href="mailto:arjunskedlaya@gmail.com?">Arjun</a><br>
+ <br>
+</div>
+<div class="col-md-5"></div>
+  </div></div>
+</footer>
+  </div>
+</body>
+  <script src='https://use.fontawesome.com/a69fe979cd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdn.rawgit.com/viljamis/responsive-nav.js/master/responsive-nav.min.js'></script>
+<script src='https://www.gstatic.com/firebasejs/4.3.1/firebase.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdn.jsdelivr.net/g/lightgallery@1.3.5,lg-fullscreen@1.0.1,lg-hash@1.0.1,lg-pager@1.0.1,lg-share@1.0.1,lg-thumbnail@1.0.1,lg-video@1.0.1,lg-autoplay@1.0.1,lg-zoom@1.0.3'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script>
+       wow = new WOW(
+        {
+        boxClass:     'wow',      // default
+        animateClass: 'animated', // change this if you are not using animate.css
+        offset:       0,          // default
+        mobile:       true,       // keep it on mobile
+        live:         true        // track if element updates
+      }
+    )
+   wow.init();
+      </script>
+<script  src="js/index.js"></script>
+
+</body>
+</html>
