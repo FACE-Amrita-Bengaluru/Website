@@ -3,12 +3,12 @@ $(document).ready(function () {
     var nav = responsiveNav(".nav-collapse");
     (function () {
         const config = {
-            apiKey: "AIzaSyBOUTFop5wFgD4HGi_9ggbZOyflH0m0qU8",
-            authDomain: "faceaseblr.firebaseapp.com",
-            databaseURL: "https://faceaseblr.firebaseio.com",
-            projectId: "faceaseblr",
-            storageBucket: "faceaseblr.appspot.com",
-            messagingSenderId: "916989541921"
+            apiKey: "AIzaSyD9rL-difCRKEJbXgOvi-6W4G1a7Btkp_4",
+            authDomain: "face-f2d46.firebaseapp.com",
+            databaseURL: "https://face-f2d46.firebaseio.com",
+            projectId: "face-f2d46",
+            storageBucket: "face-f2d46.appspot.com",
+            messagingSenderId: "874594170338"
         };
         firebase.initializeApp(config);
         var temp = null;
