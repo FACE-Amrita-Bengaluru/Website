@@ -3,12 +3,13 @@
   var nav = responsiveNav(".nav-collapse");
   (function(){
     const  config = {
-    apiKey:/*need to create an api key for the website if u are planning to use firebase databse*/
-    authDomain: "faceamritablr.firebaseapp.com",
-    databaseURL: "https://faceamritablr.firebaseio.com",
-    projectId: "faceamritablr",
-    storageBucket: "faceamritablr.appspot.com",
-    messagingSenderId: "1018230271726"
+        apiKey: "AIzaSyBOUTFop5wFgD4HGi_9ggbZOyflH0m0qU8",
+        authDomain: "faceaseblr.firebaseapp.com",
+        databaseURL: "https://faceaseblr.firebaseio.com",
+        projectId: "faceaseblr",
+        storageBucket: "faceaseblr.appspot.com",
+        messagingSenderId: "916989541921"
+    
     
   };
   firebase.initializeApp(config);
