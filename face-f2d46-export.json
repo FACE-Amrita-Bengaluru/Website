@@ -1,0 +1,91 @@
+{
+  "Object" : {
+    "acm" : {
+      "cacmfaculty" : "+91 8482362378",
+      "cacmsec" : "+91 7374287327",
+      "ccoacm" : "+91 793274932",
+      "nacmfaculty" : "John Doe",
+      "nacmsec" : "Jenna Doe",
+      "ncoacm" : "John Doe",
+      "pacmfaculty" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pacmsec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcoacm" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "acmw" : {
+      "cacmwfaculty" : "+91 821818139",
+      "cacmwsec" : "+91 83722893",
+      "ccoacmw" : "+91 8741984327",
+      "nacmwfaculty" : "John Doe",
+      "nacmwsec" : "John Doe",
+      "ncoacmw" : "John Doe",
+      "pacmwfaculty" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pacmwsec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcoacmw" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "code" : {
+      "ccocode" : "+91 38942378",
+      "ccodefaculty" : "+91 3343127",
+      "ccodesec" : "+91 382268932",
+      "ncocode" : "Jenna Doe",
+      "ncodefaculty" : "John Doe",
+      "ncodesec" : "John Doe",
+      "pcocode" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcodefaculty" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcodesec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "csi" : {
+      "ccocsi" : "+91 8412741217",
+      "ccsifaculty" : "+91 863727347",
+      "ccsisec" : "+91 9999999324",
+      "ncocsi" : "Jenna Doe",
+      "ncsifaculty" : "John Doe",
+      "ncsisec" : "John Doe",
+      "pcocsi" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcsifaculty" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcsisec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "day" : [ 26, 13, 28 ],
+    "image" : [ null, "https://www.w3schools.com/w3css/img_lights.jpg", "https://www.w3schools.com/w3images/fjords.jpg", "https://www.w3schools.com/howto/img_nature.jpg", "https://sachinchoolur.github.io/lightGallery/static/img/thumb-4.jpg", "https://www.w3schools.com/w3css/img_lights.jpg", "https://www.w3schools.com/w3images/fjords.jpg", "https://www.w3schools.com/howto/img_nature.jpg", "https://static.boredpanda.com/blog/wp-content/uploads/2017/03/PRESS_189372_205547_9_-China-Shortlist-Professional-Sport-2017-Sony-World-Photography-Awards-58c691a42e7ed__880.jpg", "https://www.w3schools.com/w3css/img_lights.jpg", "https://www.w3schools.com/w3images/fjords.jpg", "https://www.w3schools.com/howto/img_nature.jpg", "https://c1.staticflickr.com/4/3786/32789674690_27c70b1d0e_b.jpg", "https://www.w3schools.com/w3css/img_lights.jpg", "https://www.w3schools.com/w3images/fjords.jpg", "https://www.w3schools.com/howto/img_nature.jpg", "https://static.boredpanda.com/blog/wp-content/uploads/2017/03/PRESS_197081_212952_1_-Christian-Vizl-Mexico-Shortlist-Professional-Natural-World-2017-Sony-World-Photography-Awards-58c691ade3e14__880.jpg", "https://www.w3schools.com/w3css/img_lights.jpg", "https://www.w3schools.com/w3images/fjords.jpg", "https://www.w3schools.com/howto/img_nature.jpg", "https://media.timeout.com/images/103678916/image.jpg" ],
+    "info" : [ "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum fermentum leo", "Nulla hendrerit suscipit lacus sed rutrum. Ut vulputate sodales urna", "Cras et pulvinar nunc." ],
+    "loc" : [ "At 5th Floor Computer Lab", "At A-403", "At Valmiki Hall" ],
+    "month" : [ "Jan", "Feb", "Apr" ],
+    "overall" : {
+      "cdhead" : "+91 8752589232",
+      "cfhead" : "+91 98592532892",
+      "ndhead" : "Dr. Amuda Joseph",
+      "nfhead" : "Mr.Vishwas",
+      "pdhead" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pfhead" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "team" : {
+      "ccosec" : "+91 834782542",
+      "csec" : "+91 9238478327",
+      "n1" : "P1",
+      "n10" : "p10",
+      "n2" : "P2",
+      "n3" : "P3",
+      "n4" : "p4",
+      "n5" : "p5",
+      "n6" : "p6",
+      "n7" : "p7",
+      "n8" : "p8",
+      "n9" : "p9",
+      "ncosec" : "Lalitha",
+      "nsec" : "Vineeth",
+      "p1" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p10" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p2" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p3" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p4" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p5" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p6" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p7" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p8" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "p9" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "pcosec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3",
+      "psec" : "https://firebasestorage.googleapis.com/v0/b/face-f2d46.appspot.com/o/csichip.png?alt=media&token=11e6d6bf-241b-4ffe-b481-d0636d1553b3"
+    },
+    "time" : [ "11:00 AM, Tue 26 Jan", "03:30 PM, Fri 13th Feb", "01:30 PM, Thu 28th Apr" ],
+    "title" : [ "SLAC 2k18", "Talk on AI", "I/O Week" ]
+  }
+}
