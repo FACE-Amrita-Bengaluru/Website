@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<title>Distinctive Themes | Impact Documentation</title>
+		<meta name="keywords" content="DistinctPress, Documentation">
+		<meta name="description" content="DistinctPress - Documentation">
+		<meta name="author" content="Dan">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicons -->
+		<link rel="shortcut icon" href="assets/favicon.ico">
+		<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="assets/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="assets/apple-touch-icon-114x114.png">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="assets/reset.css">
+		<link rel="stylesheet" href="assets/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/shCore.css">
+		<link rel="stylesheet" href="assets/shThemeDefault.css">
+		<link rel="stylesheet" href="assets/style.css">
+
+	</head>
+
+	<body>
+
+
+		<!-- Menu -->
+		<div id="doc-menu">
+			<!-- Header -->
+			<div id="header">
+				<h1>Impact Documentation</h1>
+			</div>
+			<ul class="nav">
+				<li class="section active"><span>1</span><a href="#s1">Introduction</a></li>
+				<li class="section"><span>2</span><a href="#s2">Editing The Template</a></li>
+				<li><span>2.1</span><a href="#s2e1">Heading</a></li>
+				<li><span>2.2</span><a href="#s2e2">Navigation</a></li>
+				<li><span>2.3</span><a href="#s2e3">Animating Items</a></li>
+				<li class="section"><span>3</span><a href="#s3">Setting Up Scripts</a></li>
+				<li><span>3.1</span><a href="#s3e1">Map</a></li>
+				<li><span>3.2</span><a href="#s3e2">Home Background Slider</a></li>
+				<li><span>3.3</span><a href="#s3e3">Contact Form</a></li>
+				<li class="section"><span>4</span><a href="#s4">Template Files</a></li>
+				<li class="section"><span>4</span><a href="#s5">Support</a></li>
+			</ul>
+		</div>
+
+		<!-- Content -->
+		<div id="doc-content" data-spy="scroll" data-target="#menu">
+
+			<div id="intro">
+				<div class="vertical">
+					<h1>Impact Documentation <span>v1.0</span></h1>
+					<h2>Thank you for purchasing our theme.</h2>
+				</div>
+			</div>
+
+<!-- ===================================================================================-->
+<!-- 1 Introduction
+ -->
+<!-- ===================================================================================-->
+
+<h1 id="s1"><span>1</span>Introduction</h1>
+<p>Hi there! Thanks for using my theme, Impact. This documentation assumes you have at least a basic familiarity of how HTML Websites work - you will need to basically FTP the files to your web hosts tp get started.</p>
+
+<!-- ===================================================================================-->
+<!-- 2 Settings
+ -->
+<!-- ===================================================================================-->
+
+<h1 id="s2"><span>2</span>Editing The Template</h1>
+<p>Each Sections folows a similar HTML layout, and can be easily edited to suit your needs. The best resource for really getting to grips would be the boostrap documentation (on which this template is based) - <a href="http://getbootstrap.com/css/" target="_blank">View Bootstrap Docs</a></p>
+
+<h2 id="s2e1"><span>2.1</span>Heading</h2>
+<p>The heading logo can be either text or an image - an example text logo is is below</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+<a class="navbar-brand hidden-xs hidden-sm" href="#home"><h1><span class="pe-7s-loop"></span> Impact</h1></a>
+]]></script>
+<p>Or an image</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+<a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="/your/logo/url/" alt="Alternative Text Here"/></a>
+]]></script>
+
+<h2 id="s2e2"><span>2.2</span>Navigation</h2>
+<p>The navigation is very simple to use, for the single page varion, the only difference is the added 'smoothScroll' class to any links, however the overall markup us the same</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+<div class="navbar-collapse collapse">
+  	<ul class="nav navbar-nav">
+        <li><a href="#">Nav A</a></li>
+		<li><a href="#">Nav B</a></li>
+		<li><a href="#">Nav C</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Nav With Dropdown<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+	        <li><a href="#">Sub Nav A</a></li>
+			<li><a href="#">Sub Nav B</a></li>
+			<li><a href="#">Sub Nav C</a></li>
+          </ul>
+		</li>
+		<li> <a href="#" class="search-trigger"><i class="el-icon-search"></i></a></li>
+	</ul>
+</div><!--/.nav-collapse -->
+]]></script>
+
+<h2 id="s2e3"><span>2.3</span>Animating Items</h2>
+<p>In Impact you have several classes you can simply add to any applicible element to make them fade in etc when they enter the screen, the classes are <strong>bounce-in</strong>, <strong>fade-up</strong> and <strong>fade-down</strong> - just add these to an element and your good to go.</p>
+
+
+<!-- ===================================================================================-->
+<!-- 3 Scripts
+ -->
+<!-- ===================================================================================-->
+
+<h1 id="s3"><span>3</span>Setting Up The Scripts</h1>
+
+<h2 id="s3e1"><span>3.1</span>Map</h2>
+<p>In the index.html file, locate the following code in the head of the document. Here you can tweak the map to show your location by simply entering the relevant logitude and latitude. To find your logitude and latitude you can use the following handy website - <a href="http://stevemorse.org/jcal/latlon.php">Convert Address.</a></p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+$("#mapwrapper").gMap({ 
+	controls: false,
+	scrollwheel: false,
+	draggable: false,
+	latitude:40.7566,
+	longitude: -73.9863,
+	zoom: 11
+});
+]]></script>
+
+<h2 id="s3e2"><span>3.2</span>Editing/Adding Background Images</h2>
+<p>in the plugin assets/js/init look for the following code to edit/add more slides</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+$('#main-slider').backstretch([
+    "assets/img/bg/bg1.jpg"
+  , "assets/img/bg/bg2.jpg"
+  , "assets/img/bg/bg3.jpg"
+], {duration: 3000, fade: 750});
+]]></script>
+
+<h2 id="s3e3"><span>3.3</span>Contact Form</h2>
+<p>within the main template folder you will find a fill called sendemail.php - locate the following line and edit it to suit.</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+//ENTER YOUR EMAIL ADDRESS HERE
+$address = 'email@example.com';
+]]></script>
+
+
+<!-- ===================================================================================-->
+<!-- 4 Template
+ -->
+<!-- ===================================================================================-->
+
+<h1 id="s4"><span>4</span>Template Files</h1>
+<h2 id="s4e1"><span>4.1</span>Single Project</h2>
+<p>The single projects featued a full screen slideshow which can be linked to a set of titles for navigation to set this up, you will need to add any backgground images via the following code found in the head of single-projct.html</p>
+<script type="syntaxhighlighter" class="brush: php; html-script: true"><![CDATA[
+$('#main-slider').backstretch([
+    "assets/img/bg/bg1.jpg"
+  , "assets/img/bg/bg2.jpg"
+  , "assets/img/bg/bg3.jpg"
+], {duration: 3000, fade: 750});
+]]></script>
+
+<!-- ===================================================================================-->
+<!-- 5 Support
+ -->
+<!-- ===================================================================================-->
+
+<h1 id="s4"><span>4</span>Support</h1>
+<p>I am always happy to help - so if you have any issues or perhaps even a suggestion for a new feature to include, then head over to our <a href="http://www.distinctivethemes.com/forum/" target="_blank">support forum</a></p>
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="newprojects" tabindex="-1" role="dialog" aria-labelledby="newprojectsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="newprojectsLabel">Adding New Projects</h4>
+      </div>
+      <div class="modal-body">
+        <img src="assets/projects.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="shortcodesvid" tabindex="-1" role="dialog" aria-labelledby="shortcodesvidLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="shortcodesvidLabel">Shortcode Demo (from v1)</h4>
+      </div>
+      <div class="modal-body">
+        <iframe src="http://www.screenr.com/embed/C3CH" width="550" height="396" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+		<!-- JavaScripts -->
+		<script type='text/javascript' src='assets/jquery.min.js'></script>
+		<script type='text/javascript' src='assets/bootstrap.min.js'></script>
+		<script type='text/javascript' src='assets/jquery.scrollTo.min.js'></script>
+		<script type='text/javascript' src='assets/jquery.localscroll-1.2.7-min.js'></script>
+		<script type='text/javascript' src='assets/shCore.js'></script>
+		<script type='text/javascript' src='assets/shBrushPhp.js'></script>
+		<script type='text/javascript' src='assets/shBrushXML.js'></script>
+		<script type='text/javascript' src='assets/shBrushJScript.js'></script>
+		<script type='text/javascript' src='assets/shBrushCss.js'></script>
+		<script type='text/javascript' src='assets/custom.js'></script>
+
+	</body>
+</html>
