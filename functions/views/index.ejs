@@ -1,1026 +1,955 @@
-<%include head.ejs%>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Kreo</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.min.css">
+   <link rel="stylesheet" href="css/main.css">     
+
+   <!-- script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
 
 <body>
-	<%include header.ejs%>
 
-	<section id="main-slider" class="no-margin">
-		<div class="carousel slide" data-ride="carousel">
-			<div class="carousel-inner">
-				<div class="item active">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="carousel-content center centered">
-									<span class="home-icon pe-7s-gleam bounce-in"></span>
-									<h2 class="boxed animation animated-item-1 fade-down">Forum for Aspiring Computer Engineers</h2>
-									<p class="boxed animation animated-item-2 fade-up">Tune into technology! Tune into FACE!</p>
-									<br>
-									<a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--/.item-->
-			</div>
-			<!--/.carousel-inner-->
-		</div>
-		<!--/.carousel-->
-	</section>
-	<!--/#main-slider-->
+	<!-- header
+   ================================================== -->
+   <header id="main-header">
 
-	<div id="content-wrapper">
-		<section id="services" class="white">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="center gap fade-down section-heading">
-							<h2 class="main-title">Upcoming Events</h2>
-							<hr>
-							<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-sm-6">
-						<div class="service-block">
-							<div class="pull-left bounce-in">
-								<i class="fa fa-windows fa fa-md"></i>
-							</div>
-							<div class="media-body fade-up">
-								<h3 class="media-heading">Windows Apps</h3>
-								<p>Unfeeling so rapturous discovery he exquisite. Reasonably so middletons or impression by terminated. Old pleasure
-									required removing elegance him had. Down she bore sing saw calm high.</p>
-							</div>
-						</div>
-					</div>
-					<!--/.col-md-4-->
-					<div class="col-md-4 col-sm-6">
-						<div class="service-block">
-							<div class="pull-left bounce-in">
-								<i class="fa fa-android fa fa-md"></i>
-							</div>
-							<div class="media-body fade-up">
-								<h3 class="media-heading">Facebook Marketing</h3>
-								<p>The who arrival end how fertile enabled. Brother she add yet see minuter natural smiling article painted. Themselves
-									at dispatched interested insensible am be prosperous reasonably it. </p>
-							</div>
-						</div>
-					</div>
-					<!--/.col-md-4-->
-					<div class="col-md-4 col-sm-6">
-						<div class="service-block">
-							<div class="pull-left bounce-in">
-								<i class="fa fa-apple fa fa-md"></i>
-							</div>
-							<div class="media-body fade-up">
-								<h3 class="media-heading">iOS Development</h3>
-								<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-									quam, feugiat vitae.</p>
-							</div>
-						</div>
-					</div>
-					<!--/.col-md-4-->
-				</div>
-				
-			</div>
-			<div class="gap"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="center gap fade-down section-heading">
-							<h2 class="main-title">Our Skills</h2>
-							<hr>
-							<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3">
-						<div class="tile-progress tile-red bounce-in">
-							<div class="tile-header">
-								<h3>Video Editing</h3>
-								<span>Our cutting room floor is messy.</span>
-							</div>
-							<div class="tile-progressbar">
-								<span data-fill="65.5%" style="width: 65.5%;"></span>
-							</div>
-							<div class="tile-footer">
-								<h4>
-									<span class="pct-counter counter">65.5</span>%
-								</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="tile-progress tile-cyan bounce-in">
-							<div class="tile-header">
-								<h3>Marketing</h3>
-								<span>How well we can sell you and your brand.</span>
-							</div>
-							<div class="tile-progressbar">
-								<span data-fill="98.5%" style="width: 98.5%;"></span>
-							</div>
-							<div class="tile-footer">
-								<h4>
-									<span class="pct-counter counter">98.5</span>%
-								</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="tile-progress tile-primary bounce-in">
-							<div class="tile-header">
-								<h3>Web Development</h3>
-								<span>We love servers and stuff.</span>
-							</div>
-							<div class="tile-progressbar">
-								<span data-fill="90%" style="width: 90%;"></span>
-							</div>
-							<div class="tile-footer">
-								<h4>
-									<span class="pct-counter counter">90</span>%
-								</h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3">
-						<div class="tile-progress tile-pink bounce-in">
-							<div class="tile-header">
-								<h3>Coffee</h3>
-								<span>We done make good joe, though.</span>
-							</div>
-							<div class="tile-progressbar">
-								<span data-fill="10%" style="width: 10%;"></span>
-							</div>
-							<div class="tile-footer">
-								<h4>
-									<span class="pct-counter counter">10</span>%
-								</h4>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--/.row-->
-				<div class="gap"></div>
-			</div>
-		</section>
+   	<div class="row">
+
+	      <div class="logo">
+	         <a href="index.html">Kreo</a>
+	      </div>
+
+	      <nav id="nav-wrap">         
+	         
+	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	         	<span class="menu-icon">Menu</span>
+	         </a>
+         	<a class="mobile-btn" href="#" title="Hide navigation">
+         		<span class="menu-icon">Menu</span>
+         	</a>            
+
+	         <ul id="nav" class="nav">
+	            <li><a class="smoothscroll" href="#hero">Home.</a></li>
+		         <li class="current"><a class="smoothscroll" href="#portfolio">Works.</a></li>
+	            <li><a class="smoothscroll" href="#services">Services.</a></li>
+	            <li><a class="smoothscroll" href="#about">About.</a></li>
+	            <li><a class="smoothscroll" href="#contact">Contact.</a></li>
+	         </ul> <!-- end #nav -->
+
+	      </nav> <!-- end #nav-wrap -->
+
+	      <ul class="header-social">
+	        	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	        	<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+	      </ul>      
+
+	   </div>
+
+   </header> <!-- end header -->
 
 
-		<section id="single-quote" class="divider-section">
-			<div class="container">
-				<div class="gap"></div>
-				<div class="row">
-					<div class='col-md-offset-2 col-md-8 fade-up'>
-						<div class="carousel slide" data-ride="carousel" id="quote-carousel">
-							<div class="carousel-inner">
-								<div class="item active">
-									<blockquote>
-										<div class="row">
-											<div class="col-sm-3 text-center">
-												<img class="img-responsive" src="https://placehold.it/400x400" style="width: 100px;height:100px;">
-											</div>
-											<div class="col-sm-9">
-												<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-												<small>Someone famous</small>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="gap"></div>
-			</div>
-		</section>
+   <!-- homepage hero
+   ================================================== -->
+   <section id="hero">	
+   	  
+		<div class="row hero-content">
 
-		<section id="about-us" class="white">
-			<div class="container">
-				<div class="gap"></div>
-				<div class="row">
-					<div class="col-md-12">
-						<div class="center gap fade-down section-heading">
-							<h2 class="main-title">A Little About Us</h2>
-							<hr>
-							<p>FACE - Forum For Aspiring Computer Engineers</p>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 fade-up">
-						<p>In today`s world where technology advances each day by leaps and bounds evolving faster than mankind can keep up, miss a day and you might as well have missed a month. So what do you do when you have no clue to what`s going on in the tech empire?
-							You tune into FACE.</p>
+			<div class="twelve columns hero-container">
 
-						<p>We at FACE, the Forum for Aspiring Computer Engineers at Amrita School of Engineering, Bangalore solely dedicate ourselves to organize workshops, conduct events and fests to acquaint and immerse you into the world of technology. Ranging from courses on game programming to hands-on OS installations and project exhibitions. We do it all.
-						If you`re into computing and technology then you`ll certainly be into FACE. Stay with us and we`ll go together, hand in hand, alongside technological advancements.</p>
+			   <!-- hero-slider start-->
+			   <div id="hero-slider" class="flexslider">
 
-						
-					</div>
-					<div class="col-md-4 fade-up">		
-					</div>
-				</div>
-			</section>
-			<section class="divider-section">
-				<div class="row fade-up">
-						<div class="row">
-								<div class="col-md-12">
-									<div class="center gap fade-down section-heading">
-										<h2 class="main-title">The 4 sister clubs are</h2>
-										<hr>
-									</div>
-								</div>
-							</div>
-					<div class="col-md-6">
-						<div class="testimonial-list-item">
-							<img class="pull-left img-responsive quote-author-list" src="https://placehold.it/400x400">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<small>Manager at <cite title="Source Title">Company</cite></small>
-							</blockquote>
-						</div>
-						<div class="testimonial-list-item">
-							<img class="pull-left img-responsive quote-author-list" src="https://placehold.it/400x400">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<small>Manager at <cite title="Source Title">Company</cite></small>
-							</blockquote>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="testimonial-list-item">
-							<img class="pull-left img-responsive quote-author-list" src="https://placehold.it/400x400">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<small>Manager at <cite title="Source Title">Company</cite></small>
-							</blockquote>
-						</div>
-						<div class="testimonial-list-item">
-							<img class="pull-left img-responsive quote-author-list" src="https://placehold.it/400x400">
-							<blockquote>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-								<small>Manager at <cite title="Source Title">Company</cite></small>
-							</blockquote>
-						</div>
-					</div>
-				</div>
-			</section>
-		<section class="white">
-				<div class="container">
-						<div class="gap"></div>
-						<div class="row">
-							<div class="col-md-12">
-				<div class="center gap fade-down section-heading">
-					<h2 class="main-title">Meet The Team</h2>
-					<hr>
-					<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-				</div>
-				<div class="gap"></div>
+				   <ul class="slides">
 
-				<div id="meet-the-team" class="row">
-					<div class="col-md-3 col-xs-6">
-						<div class="center team-member">
-							<img class="img-responsive img-thumbnail bounce-in" src="./images/team/abhishek.jpg" alt="Abhishek Sai">
-							<div class="team-content fade-up">
-								<h5>Abhishek Sai<small class="role muted">CSI Co Chairperson</small></h5>
-								<p>
-									A sophomore pursuing his B.Tech in Computer Science and Engineering, Abhishek loves to dapple with different programming
-									languages and is a keen web developer.
-								</p>
-								<a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
-								 href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Say hello to <span>Kreo</span>. We create awesome and stunning 
+									digital solutions.
+								</h1>	
+									
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>				   
+							</div>						
+					   </li>
 
-					<div class="col-md-3 col-xs-6">
-						<div class="center team-member">
-							<img class="img-responsive img-thumbnail bounce-in" src="./images/team/aravind.jpg" alt="Aravind V. Nair">
-							<div class="team-content fade-up">
-								<h5>Aravind V. Nair<small class="role muted">Lead Web Developer</small></h5>
-								<p>
-									A sophomore pursuing B.Tech in Computer Science and Engineering, Aravind V. Nair has enormous passion for coding and web
-									development. He also has a great zeal in server management and ethical hacking.
-								</p>
-								<a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
-								 href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="center team-member">
-							<img class="img-responsive img-thumbnail bounce-in" src="https://placehold.it/400x400" alt="">
-							<div class="team-content fade-up">
-								<h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-								<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-								<a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
-								 href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="center team-member">
-							<img class="img-responsive img-thumbnail bounce-in" src="https://placehold.it/400x400" alt="">
-							<div class="team-content fade-up">
-								<h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-								<p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-								<a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus"
-								 href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-								<a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!--/#meet-the-team-->
-				<div class="gap"></div>
-				<div class="gap"></div>
-			</div>
-			</div>
-			</div>
-			
-		</section>
+					   <!-- slide -->
+					   <li>						
+							<div class="flex-caption">
+								<h1 class="">We are a small design studio dedicated to build great digital
+									products.</h1>
 
-		<section id="stats" class="divider-section">
-			<div class="gap"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-xs-6">
-						<div class="center bounce-in">
-							<span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-							<h1><span class="counter">246000</span></h1>
-							<h3>AWARDS</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="center bounce-in">
-							<span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
-							<h1><span class="counter">16875</span></h1>
-							<h3>EVENTS HELD</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="center bounce-in">
-							<span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
-							<h1><span class="counter">99999999</span></h1>
-							<h3>NUMBER OF MEMBERS</h3>
-						</div>
-					</div>
-					<div class="col-md-3 col-xs-6">
-						<div class="center bounce-in">
-							<span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
-							<h1><span class="counter">54875</span></h1>
-							<h3>PROJECTS</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="gap"></div>
-		</section>
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
+							</div>					
+					   </li>
 
-		<section id="portfolio" class="white">
-			<div class="container">
-				<div class="gap"></div>
-				<div class="center gap fade-down section-heading">
-					<h2 class="main-title">Gallery</h2>
-					<hr>
-					<p>She evil face fine calm have now. Separate screened he outweigh of distance landlord.</p>
-				</div>
-				<ul class="portfolio-filter fade-down center">
-					<li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-					<li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Events</a></li>
-					<li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Workshops</a></li>
-					<li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">---</a></li>
-				</ul>
-				<!--/#portfolio-filter-->
+					   <!-- slide -->
+					   <li>
+						   <div class="flex-caption">
+								<h1 class="">Take a look at some of <a class="smoothscroll" href="#portfolio" title="portfolio" >our works</a> or 
+								<a class="smoothscroll" href="#contact" title="contact us">get in touch</a> to discuss how we can help you.</h1>
 
-				<ul class="portfolio-items col-3 isotope fade-up">
-					<li class="portfolio-item apps isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+								<h3 class="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</h3>			   
 							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item joomla nature isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item bootstrap design isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item joomla design apps isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item joomla apps isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item wordpress nature isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item joomla design apps isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item joomla nature isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-					<li class="portfolio-item wordpress design isotope-item">
-						<div class="item-inner">
-							<img src="https://placehold.it/800x600" alt="">
-							<h5>Temp</h5>
-							<div class="overlay">
-								<a class="preview btn btn-outlined btn-primary" href="https://placehold.it/800x600" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-							</div>
-						</div>
-					</li>
-					<!--/.portfolio-item-->
-				</ul>
-			</div>
-		</section>
+					   </li>					              
 
-		<section id="testimonial-carousel" class="divider-section">
-			<div class="gap"></div>
-			<div class="container">
-				<div class="row">
-					<div class="center gap fade-down section-heading">
-						<h2 class="main-title">What They Have Been Saying</h2>
-						<hr>
-						<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-						<div class="gap"></div>
-					</div>
-					<div class='col-md-offset-2 col-md-8 fade-up'>
-						<div class="carousel slide" data-ride="carousel" id="quote-carousel">
-							<!-- Bottom Carousel Indicators -->
-							<ol class="carousel-indicators">
-								<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-								<li data-target="#quote-carousel" data-slide-to="1"></li>
-								<li data-target="#quote-carousel" data-slide-to="2"></li>
-							</ol>
-							<!-- Carousel Slides / Quotes -->
-							<div class="carousel-inner">
-								<!-- Quote 1 -->
-								<div class="item active">
-									<blockquote>
-										<div class="row">
-											<div class="col-sm-3 text-center">
-												<img class="img-responsive" src="https://placehold.it/400x400" style="width: 100px;height:100px;">
-											</div>
-											<div class="col-sm-9">
-												<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit!</p>
-												<small>Someone famous</small>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<!-- Quote 2 -->
-								<div class="item">
-									<blockquote>
-										<div class="row">
-											<div class="col-sm-3 text-center">
-												<img class="img-responsive" src="https://placehold.it/400x400" style="width: 100px;height:100px;">
-											</div>
-											<div class="col-sm-9">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam auctor nec lacus ut tempor. Mauris.</p>
-												<small>Someone famous</small>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-								<!-- Quote 3 -->
-								<div class="item">
-									<blockquote>
-										<div class="row">
-											<div class="col-sm-3 text-center">
-												<img class="img-responsive" src="https://placehold.it/400x400" style="width: 100px;height:100px;">
-											</div>
-											<div class="col-sm-9">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl
-													accumsan. Sed ultricies commodo tortor, eu pretium mauris.</p>
-												<small>Someone famous</small>
-											</div>
-										</div>
-									</blockquote>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="gap"></div>
-			</div>
-		</section>
+				   </ul>
 
-		<section id="blog" class="white">
-			<div class="container">
-				<div class="center gap fade-down section-heading">
-					<div class="gap"></div>
-					<h2 class="main-title">From The Blog</h2>
-					<hr>
-					<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-				</div>
-				<div class="gap"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="gap"></div>
-				<div class="row">
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="post">
-							<div class="post-img-content">
-								<img src="https://placehold.it/800x600" class="img-responsive" />
-								<div class="overlay">
-									<a class="preview btn btn-outlined btn-primary" href="#"><i class="fa fa-link"></i></a>
-								</div>
-							</div>
-							<div class="content">
-								<h2 class="post-title">Post Title</h2>
-								<div class="author">
-									<i class="fa fa-user"></i> By <b>Author</b> | <i class="fa fa-clock-o"></i> <time datetime="2014-01-20">April 11th,
-										2014
-									</time>
-								</div>
-								<div>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
-									text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
-									book.
-								</div>
-								<div class="read-more-wrapper">
-									<a href="#" class="btn btn-outlined btn-primary">Read more</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="gap"></div>
-			</div>
-		</section>
+			   </div> <!-- end hero-slider -->				   
 
-		<section id="pricing" class="white">
-			<div class="container">
-				<div class="center gap fade-down section-heading">
-					<h2 class="main-title">So, How Much?</h2>
-					<hr>
-					<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-				</div>
-				<div class="gap"></div>
-				<div id="pricing-table" class="row">
-					<div class="col-md-3 col-xs-6 flip-in">
-						<ul class="plan plan1">
-							<li class="plan-name">
-								<h3>Basic</h3>
-							</li>
-							<li class="plan-price">
-								<div>
-									<span class="price"><sup>$</sup>10</span>
-									<small>month</small>
-								</div>
-							</li>
-							<li>
-								<strong>5GB</strong> Storage
-							</li>
-							<li>
-								<strong>1GB</strong> RAM
-							</li>
-							<li>
-								<strong>400GB</strong> Bandwidth
-							</li>
-							<li>
-								<strong>10</strong> Email Address
-							</li>
-							<li>
-								<strong>Forum</strong> Support
-							</li>
-							<li class="plan-action">
-								<a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-							</li>
-						</ul>
-					</div>
-					<!--/.col-md-3-->
-					<div class="col-md-3 col-xs-6 flip-in">
-						<ul class="plan plan2 featured">
-							<li class="plan-name">
-								<h3>Standard</h3>
-							</li>
-							<li class="plan-price">
-								<div>
-									<span class="price"><sup>$</sup>20</span>
-									<small>month</small>
-								</div>
-							</li>
-							<li>
-								<strong>5GB</strong> Storage
-							</li>
-							<li>
-								<strong>1GB</strong> RAM
-							</li>
-							<li>
-								<strong>400GB</strong> Bandwidth
-							</li>
-							<li>
-								<strong>10</strong> Email Address
-							</li>
-							<li>
-								<strong>Forum</strong> Support
-							</li>
-							<li class="plan-action">
-								<a href="#" class="btn btn-outlined btn-primary btn-md">Signup</a>
-							</li>
-						</ul>
-					</div>
-					<!--/.col-md-3-->
-					<div class="col-md-3 col-xs-6 flip-in">
-						<ul class="plan plan3">
-							<li class="plan-name">
-								<h3>Advanced</h3>
-							</li>
-							<li class="plan-price">
-								<div>
-									<span class="price"><sup>$</sup>40</span>
-									<small>month</small>
-								</div>
-							</li>
-							<li>
-								<strong>50GB</strong> Storage
-							</li>
-							<li>
-								<strong>8GB</strong> RAM
-							</li>
-							<li>
-								<strong>1024GB</strong> Bandwidth
-							</li>
-							<li>
-								<strong>Unlimited</strong> Email Address
-							</li>
-							<li>
-								<strong>Forum</strong> Support
-							</li>
-							<li class="plan-action">
-								<a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-							</li>
-						</ul>
-					</div>
-					<!--/.col-md-3-->
-					<div class="col-md-3 col-xs-6 flip-in">
-						<ul class="plan plan4">
-							<li class="plan-name">
-								<h3>Mighty</h3>
-							</li>
-							<li class="plan-price">
-								<div>
-									<span class="price"><sup>$</sup>100</span>
-									<small>month</small>
-								</div>
-							</li>
-							<li>
-								<strong>50GB</strong> Storage
-							</li>
-							<li>
-								<strong>8GB</strong> RAM
-							</li>
-							<li>
-								<strong>1024GB</strong> Bandwidth
-							</li>
-							<li>
-								<strong>Unlimited</strong> Email Address
-							</li>
-							<li>
-								<strong>Forum</strong> Support
-							</li>
-							<li class="plan-action">
-								<a href="#" class="btn btn-outlined btn-primary btn-md btn-white">Signup</a>
-							</li>
-						</ul>
-					</div>
-					<!--/.col-md-3-->
-				</div>
-				<div class="gap"></div>
-			</div>
-		</section>
+	      </div> <!-- end twelve columns-->
 
-		<div id="mapwrapper">
-			<div id="map"></div>
-		</div>
+		</div> <!-- end row -->	
 
-		<section id="contact" class="white">
-			<div class="container">
-				<div class="gap"></div>
-				<div class="center gap fade-down section-heading">
-					<h2 class="main-title">Get In Touch</h2>
-					<hr>
-					<p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-				</div>
-				<div class="gap"></div>
-				<div class="row">
-					<div class="col-md-4 fade-up">
-						<h3>Contact Information</h3>
-						<p><span class="icon icon-home"></span>Amrita Vishwa Vidyapeetham University,<br/>
-							<span class="icon icon-phone"></span>Kasavanahalli,<br/>
-							<span class="icon icon-mobile"></span>Carmelaram P.O., Bangalore: 560 035 <br/>
-							<span class="icon icon-envelop"></span>Karnataka, India<br/>
-							<span class="icon icon-twitter"></span> <a href="#">amritaface@gmail.com</a> <br/>
-						</p>
-					</div><!-- col -->
-					
-					<div class="col-md-8 fade-up">
-						<h3>Drop Us A Message</h3>
-						<br>
-						<br>
-						<div id="message"></div>
-						<form method="post" action="sendemail.php" id="contactform">
-							<input type="text" name="name" id="name" placeholder="Name" />
-							<input type="text" name="email" id="email" placeholder="Email" />
-							<input type="text" name="website" id="website" placeholder="Website" />
-							<textarea name="comments" id="comments" placeholder="Comments"></textarea>
-							<input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
-						</form>
-					</div><!-- col -->
-							
-				</div><!-- row -->
-				<div class = "row">
-					<div class="col-md-4 fade-up">
-						<h3>Email us at</h3>
-						<p>
-							<span class="icon icon-twitter"></span> <a href="#">amritaface@gmail.com</a> <br/>
-						</p>
-					</div>
-				</div>
-				<div class="gap"></div>
-			</div>
-		</section>
-	</div>
+		<div id="more">
+		      <a class="smoothscroll" href="#services">More About Us<i class="fa fa-angle-down"></i></a>
+		</div> 	
 
-	<div id="footer-wrapper">
-		<section id="bottom" class="">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-3 col-sm-6 about-us-widget">
-						<h4>Global Coverage</h4>
-						<p>Was drawing natural fat respect husband. An as noisy an offer drawn blush place. These tried for way joy wrote witty.
-							In mr began music weeks after at begin.</p>
-					</div>
-					<!--/.col-md-3-->
-
-					<div class="col-md-3 col-sm-6">
-						<h4>Company</h4>
-						<div>
-							<ul class="arrow">
-								<li><a href="#">Company Overview</a></li>
-								<li><a href="#">Meet The Team</a></li>
-								<li><a href="#">Our Awesome Partners</a></li>
-								<li><a href="#">Our Services</a></li>
-							</ul>
-						</div>
-					</div>
-					<!--/.col-md-3-->
-
-					<div class="col-md-3 col-sm-6">
-						<h4>Latest Articles</h4>
-						<div>
-							<div class="media">
-								<div class="pull-left">
-									<img class="widget-img" src="https://placehold.it/800x600" alt="">
-								</div>
-								<div class="media-body">
-									<span class="media-heading"><a href="#">Blog Post A</a></span>
-									<small class="muted">Posted 14 April 2014</small>
-								</div>
-							</div>
-							<div class="media">
-								<div class="pull-left">
-									<img class="widget-img" src="https://placehold.it/800x600" alt="">
-								</div>
-								<div class="media-body">
-									<span class="media-heading"><a href="#">Blog Post B</a></span>
-									<small class="muted">Posted 14 April 2014</small>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!--/.col-md-3-->
-
-					<div class="col-md-3 col-sm-6">
-						<h4>Come See Us</h4>
-						<address>
-							<strong>Ace Towers</strong><br> New York Ave,<br> New York, 215648<br>
-							<abbr title="Phone"><i class="fa fa-phone"></i></abbr> 546 840654 05
-						</address>
-					</div>
-					<!--/.col-md-3-->
-				</div>
-			</div>
-		</section>
-		<!--/#bottom-->
-
-		<footer id="footer" class="">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-6">
-						&copy; 2014 <a target="_blank" href="https://www.distinctivethemes.com" title="Premium Themes and Templates">Distinctive
-							Themes
-						</a>. All Rights Reserved.
-					</div>
-					<div class="col-sm-6">
-						<ul class="pull-right">
-							<li><a id="gototop" class="gototop" href="#"><i class="fa fa-chevron-up"></i></a></li>
-							<!--#gototop-->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!--/#footer-->
-	</div>
+   </section> <!-- end homepage hero -->
 
 
-	<script src="js/plugins.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.prettyPhoto.js"></script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdljDmsGUivKns6QBnxvOpifxeSTrcWwc"></script>
-	<script src="js/init.js"></script>
+   <!-- portfolio
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Our Latest Projects<span>.</span></h1>
+
+	         <hr />               
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row items">
+
+         <!-- portfolio-wrapper -->
+         <div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-01">
+	                  <img src="images/portfolio/underwater.jpg" alt="Underwater">
+                     <div class="overlay"></div>                       
+                     <div class="portfolio-item-meta">
+     					      <h5>Underwater</h5>
+                        <p>Videography</p>
+     					   </div> 
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+        		</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-02">
+                     <img src="images/portfolio/hotel.jpg" alt="Hotel Sign">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Hotel Sign</h5>
+                           <p>Branding</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-03">
+                     <img src="images/portfolio/beetle.jpg" alt="Beetle">                        
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Beetle</h5>
+                           <p>Webdesign</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-04">
+                     <img src="images/portfolio/banjo-player.jpg" alt="Banjo Player">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Banjo Player</h5>
+                           <p>Photography</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-05">
+                   <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Lighthouse</h5>
+                           <p>Web Development</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-06">
+                     <img src="images/portfolio/girl.jpg" alt="Girl Stuff">
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Girl Stuff</h5>
+                           <p>Photography</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-07">                        
+                     <img src="images/portfolio/coffee.jpg" alt="Coffee Cup">                       
+                     <div class="overlay">
+                      <div class="portfolio-item-meta">
+          					   <h5>Coffee Cup</h5>
+                           <p>Branding</p>
+          					</div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>
+                  </a>
+               </div>
+         	</div> <!-- item end -->
+
+            <div class="bgrid folio-item">
+               <div class="item-wrap">
+                  <a href="#modal-08">
+                     <img src="images/portfolio/judah.jpg" alt="Judah">
+                     <div class="overlay">
+                      	<div class="portfolio-item-meta">
+        					      <h5>Judah</h5>
+                           <p>Webdesign</p>
+        					   </div>
+                     </div>
+                     <div class="link-icon"><i class="fa fa-plus"></i></div>                     
+                  </a>
+               </div>
+       		</div>  <!-- item end -->
+
+         </div> <!-- end portfolio-wrapper -->
+         
+
+         <!-- modal popup
+	   	========================================================= -->
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-underwater.jpg" alt="Underwater" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Underwater</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Videography</span>
+		      </div>
+
+            <div class="link-box group">
+            	<a href="http://www.behance.net">Details</a>
+            	<a href="#" class="popup-modal-dismiss">Close</a>         
+            </div>
+
+	      </div><!-- modal-01 end -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-hotel.jpg" alt="Hotel Sign" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Hotel Sign</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Branding, Web Development</span>
+		      </div>
+
+            <div class="link-box">            	
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 end -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-beetle.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Beetle</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Webdesign</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 end -->
+
+			<div id="modal-04" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-banjo-player.jpg" alt="" />
+	      	</div>
+
+		      <div class="description-box">
+			      <h4>Banjo Player</h4>
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+               <span class="categories">Photography</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 end -->
+
+	      <div id="modal-05" class="popup-modal slider mfp-hide">	
+
+	      	<div class="media">
+	      		<img src="images/portfolio/modals/m-lighthouse.jpg" alt="" />
+	      	</div>      	
+
+		      <div class="description-box">
+			      <h4>Lighthouse</h4>		      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Web Development</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>		      
+
+	      </div><!-- modal-05 end -->
+
+	      <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-girl.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Girl Stuff</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Photography</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 end -->
+
+	      <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-coffee.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Coffee Cup</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Branding</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 end -->
+
+	      <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <div class="media">
+	      		<img src="images/portfolio/modals/m-judah.jpg" alt="" />
+	      	</div>	
+
+		      <div class="description-box">
+			      <h4>Judah</h4>			      
+
+			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+
+			      <div class="categories">Webdesign</div>
+               
+		      </div>
+
+            <div class="link-box">
+               <a href="http://www.behance.net">Details</a>
+		         <a href="#" class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-08 end -->
+
+      </div>  <!-- end row -->
+
+   </section> <!-- end portfolio -->
+
+
+   <!-- Services Section
+   ================================================== -->
+   <section id="services">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Our Awesome Services<span>.</span></h1>
+
+	         <hr />      	         
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row mobile-no-padding">      	
+
+	      <div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
+
+	      	<div class="bgrid">	               
+
+	            <h3>Marketing.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	         	</div>  
+
+				</div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+
+	            <h3>Videography.</h3>                  
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	            </div>	              
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	              
+
+	            <h3>Photography.</h3>
+
+	            <div class="service-content">		                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div> 	               
+
+			   </div> <!-- end bgrid -->
+
+				<div class="bgrid">	              
+	                  
+	            <h3>Branding.</h3> 
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         		</p> 
+	            </div>                
+
+				</div> <!-- end bgrid -->
+
+			   <div class="bgrid">
+
+	            <h3>Web Design.</h3>
+
+	            <div class="service-content">	                  
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+			   <div class="bgrid">	               
+
+	            <h3>Web Development.</h3>
+
+	            <div class="service-content">
+		            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	        			</p> 
+	            </div>	               
+
+			   </div> <!-- end bgrid -->
+
+	      </div> <!-- end service-list -->	      
+
+      </div> <!-- end row -->      
+
+   </section> <!-- end services -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+   	<div class="row section-head">
+
+      	<div class="twelve columns">
+
+      		<h1>Who Are We<span>.</span></h1>
+
+	         <hr />     	    
+
+	         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+	         eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+	         voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+	         </p>
+
+	      </div> <!-- end section-head -->
+
+      </div>
+
+      <div class="row mobile-no-padding">       	
+
+      	<div class="process bgrid-half tab-bgrid-whole group">
+
+      		<div class="bgrid">
+
+			      <h3>Our Process.</h3>	
+
+			      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>
+
+		   	</div>
+
+      		<div class="bgrid">
+
+			     	<h3>Our Approach.</h3>
+
+			     	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			   	</p>	
+
+		      </div> 
+
+		      <div class="bgrid">
+
+			     	<h3>Our Goal.</h3>	
+
+			     	<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>
+
+		      </div>
+
+		      <div class="bgrid">
+
+			      <h3>Our Mission.</h3>
+
+			      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+			      </p>	
+
+		      </div>
+
+      	</div> <!-- end process -->      	
+
+     	</div> <!-- end row -->
+
+
+      <div class="row team section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Meet Our Team<span>.</span></h1>
+
+	         <hr />	         
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row">
+
+         <div id="team-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
+
+            <div class="bgrid member">
+
+					<div class="member-pic">
+						<img src="images/team/member01-k.jpg" alt=""/>
+                 	<div class="mask"></div>       	
+               </div>
+               <div class="member-name">
+                  <h3>Naruto Uzumaki</h3>
+                  <span>Creative Director</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                  <img src="images/team/member03-k.jpg" alt=""/>
+               	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Sasuke Uchiha</h3>
+                  <span>Lead Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+						<img src="images/team/member04-k.jpg" alt=""/>
+                 	<div class="mask"></div>                          	
+               </div>
+               <div class="member-name">
+                  <h3>Shikamaru Nara</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+     			</div> <!-- end member -->
+
+            <div class="bgrid member">
+								
+					<div class="member-pic">
+                 	<img src="images/team/member05-k.jpg" alt=""/>
+                 	<div class="mask"></div>  
+               </div>
+               <div class="member-name">
+                  <h3>Sakura Haruno</h3>
+                  <span>Designer</span>
+               </div>
+
+               <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+               nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+
+               <ul class="member-social">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="#"><i class="fa fa-skype"></i></a></li>
+               </ul>
+
+            </div> <!-- end member -->
+
+         </div> <!-- end team-wrapper -->
+
+      </div> <!-- end row -->
+
+      <div id="call-to-action">	       
+
+		   <div class="row section-ads">
+
+		      <div class="twelve columns">		         		
+
+			      <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost<span>.</span></a></h2>
+
+			      <p>
+			      Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
+					Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>. 
+					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. -->					
+					</p>
+
+					<div class="action">
+			         <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" >Sign Up Now</a>
+	         	</div>
+
+			   </div>
+
+		   </div> <!-- end section-ads -->		         	         
+
+	   </div> <!-- end call-to-action -->	           
+
+   </section> <!-- end about -->  
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="row content flex-container">
+    
+         <div id="testimonial-slider" class="flexslider">
+
+            <ul class="slides">
+               <li>
+                  <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+                  to do what you believe is great work. And the only way to do great work is to love what you do.
+                  If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+                  </p>
+
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-1.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		Steve Jobs
+                    		<span class="position">CEO, Apple.</span>
+                    	</div>
+                  </div>
+             	</li> <!-- end slide -->
+
+               <li>                       
+                  <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                  </p>
+                  <div class="testimonial-author">
+                    	<img src="images/avatars/avatar-2.jpg" alt="Author image">
+                    	<div class="author-info">
+                    		John Doe
+                    		<span>CEO, ABC Corp.</span>
+                    	</div>
+                  </div>                        
+               </li> <!-- end slide -->
+
+            </ul> <!-- end slides -->
+
+         </div> <!-- end flexslider -->         
+        
+      </div> <!-- end row -->
+
+   </section> <!-- end testimonials section -->  
+
+
+   <!-- contact
+   ================================================== -->
+   <section id="contact">
+
+   	<div class="row section-head">
+
+   		<div class="twelve columns">
+
+	         <h1>Get In Touch With Us<span>.</span></h1>
+
+	         <hr />	        
+
+	      </div>
+
+      </div> <!-- end section-head -->
+
+      <div class="row">
+      	
+      	<div id="contact-form" class="six columns tab-whole left">
+
+            <!-- form -->
+            <form name="contactForm" id="contactForm" method="post" action=""  >
+      			<fieldset>
+
+                  <div class="group">
+ 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minLength="2" required />
+                  </div>
+                  <div>
+	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required />
+	               </div>
+                  <div>
+	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject"  value="" />
+	               </div>                       
+                  <div>
+	                 	<textarea name="contactMessage"  id="contactMessage" placeholder="message" rows="10" cols="50" required ></textarea>
+	               </div>                      
+                  <div>
+                     <button class="submitform">Submit</button>
+                     <div id="submit-loader">
+                        <div class="text-loader">Sending...</div>                             
+       				      <div class="s-loader">
+								  	<div class="bounce1"></div>
+								  	<div class="bounce2"></div>
+								  	<div class="bounce3"></div>
+								</div>
+							</div>
+                  </div>
+
+      			</fieldset>
+      		</form> <!-- Form End -->
+
+            <!-- contact-warning -->
+            <div id="message-warning"></div>
+            <!-- contact-success -->
+      		<div id="message-success">
+               <i class="icon-ok"></i>Your message was sent, thank you!<br />
+      		</div>
+
+         </div>
+
+         <div class="six columns tab-whole right">
+
+            <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+
+	         <h3 class="address">Come Visit</h3>
+
+	         <p>
+            1600 Amphitheatre Parkway<br>
+            Mountain View, CA<br>
+            94043 US
+            </p>
+
+            <h3>Contact Numbers:</h3>
+			   <p>Phone: (000) 555 1212<br>
+			   	Mobile: (000) 555 0100<br>
+			     	Fax: (000) 555 0101
+			   </p>
+               	
+         </div>     	
+
+      </div> <!-- end row -->     
+
+   </section>  <!-- end contact -->
+
+
+   <!-- Footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">  
+
+      	<div class="twelve columns content group">
+      		
+				<ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>               
+               <li><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+               <li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
+               <li><a href="#"><i class="fa fa-flickr"></i></a></li>               
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <hr />
+
+            <div class="info">
+
+            	<div class="footer-logo"></div>
+
+	            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+	            Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
+	            nibh id elit. 
+	            </p>	        
+
+	         </div>
+
+      	</div>           
+
+         <ul class="copyright">
+         	<li>&copy; Copyright 2015 KREO.</li> 
+         	<li>Design by <a href="http://www.styleshout.com/">Styleshout.</a>.</li>
+         </ul>
+
+         <div id="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
+         </div>
+
+      </div> <!-- end row -->
+
+   </footer> <!-- end footer -->
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery-migrate-1.2.1.min.js"></script>
+   <script src="js/jquery.flexslider-min.js"></script>
+   <script src="js/jquery.waypoints.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/jquery.placeholder.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>  
+   <script src="js/main.js"></script>
+
 </body>
 
 </html>
-
