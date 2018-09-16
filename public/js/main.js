@@ -1,34 +1,19 @@
-/*---------------------------------------------------------------------------------
-/*
-/* Main JS
-/*
------------------------------------------------------------------------------------*/  
-
 (function($) {
-
 	"use strict";
-
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */ 
    $(window).load(function() {
-
       // will first fade out the loading animation 
     	$("#loader").fadeOut("slow", function(){
-
         // will fade out the whole DIV that covers the website.
         $("#preloader").delay(300).fadeOut("slow");
-
       });       
-
   	})
-
-
   	/*----------------------------------------------------*/
   	/* Flexslider
   	/*----------------------------------------------------*/
   	$(window).load(function() {
-
 	  	$('#hero-slider').flexslider({
 	   	namespace: "flex-",
 	      controlsContainer: ".hero-container",
@@ -211,60 +196,5 @@
    /*----------------------------------------------------*/
 	/*  Placeholder Plugin Settings
 	------------------------------------------------------ */  	 
-	$('input, textarea').placeholder()  
-
-   
-	/*----------------------------------------------------*/
-	/*	contact form
-	------------------------------------------------------*/
-
-	/* local validation */
-	$('#contactForm').validate({
-
-		/* submit via ajax */
-		submitHandler: function(form) {
-
-			var sLoader = $('#submit-loader');
-
-			$.ajax({      	
-
-		      type: "POST",
-		      url: "inc/sendEmail.php",
-		      data: $(form).serialize(),
-		      beforeSend: function() { 
-
-		      	sLoader.fadeIn(); 
-
-		      },
-		      success: function(msg) {
-
-	            // Message was sent
-	            if (msg == 'OK') {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').hide();
-	               $('#contactForm').fadeOut();
-	               $('#message-success').fadeIn();   
-	            }
-	            // There was an error
-	            else {
-	            	sLoader.fadeOut(); 
-	               $('#message-warning').html(msg);
-		            $('#message-warning').fadeIn();
-	            }
-
-		      },
-		      error: function() {
-
-		      	sLoader.fadeOut(); 
-		      	$('#message-warning').html("Something went wrong. Please try again.");
-		         $('#message-warning').fadeIn();
-
-		      }
-
-	      });     		
-  		}
-
-	});
-	
-
+	$('input, textarea').placeholder() 
 })(jQuery);
