@@ -8,8 +8,11 @@ app.set('view engine', 'ejs');
 app.get("/", (req, res) => {
     res.render('index');
 });
-app.get("/TheFACESeason", (req, res) => {
+app.get("/TFS", (req, res) => {
     res.render('tfs');
+});
+app.get("/Team", (req, res) => {
+    res.render('team');
 });
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
