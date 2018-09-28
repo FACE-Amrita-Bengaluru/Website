@@ -1,10 +1,4 @@
 /* =================================================================== */
-/*
-/*  KREO v1.0 Main Stylesheet
-/*  url: styleshout.com
-/*  10-12-2015
-/*
-/*	 TOC:
 /*  01. =webfonts and iconfonts
 /*  02. =document setup
 /*  03. =preloader
@@ -2040,7 +2034,7 @@ ul#nav li.current a:after {
 
 #testimonial-slider p {
 	font: 27px/1.9 "merriweather-regular", sans-serif;
-	color: #FFFFFF;
+	color: rgb(0, 0, 0);
 	padding: 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
