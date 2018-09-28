@@ -6,16 +6,46 @@
 <!--<![endif]-->
 
 <head>
+	<%include meta.ejs%>
 	<title>404 - FACE Amrita Bangalore</title>
 	<meta name="description" content="404 - Forum for Aspiring Computer Engineers">
 	<meta property="og:title" content="404 - FACE Amrita Bangalore" />
 	<meta property="og:url" content="https://face-amrita.firebaseapp.com/404" />
 	<meta property="og:description" content="404 - Forum for Aspiring Computer Engineers" />
-	<%include meta.ejs%>
 </head>
 
 <body>
-	<%include header.ejs%>
+	<header id="main-header">
+		<div class="row">
+			<div class="logo">
+				<a href="/">FACE</a>
+			</div>
+			<nav id="nav-wrap">
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<a class="mobile-btn" href="#" title="Hide navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<ul id="nav" class="nav">
+					<li class="current"><a href="/">Home</a></li>
+					<li><a href="./#events">Events</a></li>
+					<li><a href="./#about">About</a></li>
+					<li><a href="./#portfolio">Gallery</a></li>
+					<li><a href="/Team">Team</a></li>
+					<li><a class="smoothscroll" href="#contact">Contact</a></li>
+					<li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
+					<li><a target="_blank" rel="noopener" href="/Magazine">Magazine</a></li>
+				</ul>
+			</nav>
+			<ul class="header-social">
+				<li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+	</header>
 	<section id="hero">
 		<div class="row hero-content">
 			<div class="twelve columns hero-container">
