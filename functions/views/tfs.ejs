@@ -128,6 +128,27 @@
 	<script src="js/jquery.placeholder.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script async src="js/manup.js"></script>
+	<script>
+		if (navigator.serviceWorker.controller) {
+			console.log('[PWA Builder] active service worker found, no need to register')
+		} else {
+			navigator.serviceWorker.register('pwabuilder-sw.js', {
+				scope: './'
+			}).then(function (reg) {
+				console.log('Service worker has been registered for scope:' + reg.scope);
+			});
+		}
+	</script>
+	<script type="application/ld+json">
+        {
+          "@context": "http://schema.org/",
+          "@type": "WebSite",
+          "name": "FACE Amrita",
+          "alternateName": "Forum for Aspiring Computer Engineers",
+          "url": "https://face-amrita.firebaseapp.com"
+        }
+    </script>
 </body>
 
 </html>
