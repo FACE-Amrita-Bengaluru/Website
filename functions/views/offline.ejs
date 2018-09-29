@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<%include meta.ejs%>
+	<title>Offline - FACE Amrita Bangalore</title>
+	<meta name="description" content="Offline - Forum for Aspiring Computer Engineers">
+	<meta property="og:title" content="Offline - FACE Amrita Bangalore" />
+	<meta property="og:url" content="https://face-amrita.firebaseapp.com/Offline" />
+	<meta property="og:description" content="Offline - Forum for Aspiring Computer Engineers" />
+</head>
+
+<body>
+	<header id="main-header">
+		<div class="row">
+			<div class="logo">
+				<a href="/">FACE</a>
+			</div>
+			<nav id="nav-wrap">
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<a class="mobile-btn" href="#" title="Hide navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<ul id="nav" class="nav">
+					<li class="current"><a class="smoothscroll" href="./#hero">Home</a></li>
+					<li><a href="/TFS">TFS</a></li>
+					<li><a target="_blank" rel="noopener" href="/Identifire">Identifire</a></li>
+					<li><a class="smoothscroll" href="/#about">About</a></li>
+					<li><a href="/Team">Team</a></li>
+					<li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
+					<li><a class="smoothscroll" href="/#portfolio">Gallery</a></li>
+					<li><a class="smoothscroll" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<ul class="header-social">
+				<li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="hero">
+		<div class="row hero-content">
+			<div class="twelve columns hero-container">
+				<div id="hero-slider" class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="flex-caption">
+								<h1 class="">
+									Offline &#x1f61f;
+								</h1>
+								<h3 class="">
+									The content you are looking for couldn't be found. Please check your connection or URL and try
+									again.
+								</h3>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<%include contact.ejs%>
+	<%include footer.ejs%>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+	<script async src="js/manup.js"></script>
+	<script>
+		if (navigator.serviceWorker.controller) {
+			console.log('[PWA Builder] active service worker found, no need to register')
+		} else {
+			navigator.serviceWorker.register('pwabuilder-sw.js', {
+				scope: './'
+			}).then(function (reg) {
+				console.log('Service worker has been registered for scope:' + reg.scope);
+			});
+		}
+	</script>
+	<script type="application/ld+json">
+        {
+          "@context": "http://schema.org/",
+          "@type": "WebSite",
+          "name": "FACE Amrita",
+          "alternateName": "Forum for Aspiring Computer Engineers",
+          "url": "https://face-amrita.firebaseapp.com"
+        }
+    </script>
+</body>
+
+</html>

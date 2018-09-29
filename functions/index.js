@@ -14,6 +14,9 @@ app.get("/TFS", (req, res) => {
 app.get("/Team", (req, res) => {
     res.render('team');
 });
+app.get("/Offline", (req, res) => {
+    res.render('offline');
+});
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
 });
