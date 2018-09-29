@@ -17,7 +17,7 @@ app.get("/Team", (req, res) => {
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
 });
-app.get("/Magazine", (req, res) => {
+app.get("/Identifire", (req, res) => {
     res.redirect('https://drive.google.com/drive/folders/1_yxMFFhuUTfb-xTxqKeueHjkRiZC7Yyv');
 });
 
