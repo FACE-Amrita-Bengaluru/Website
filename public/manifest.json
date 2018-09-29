@@ -1,0 +1,23 @@
+{
+    "name": "FACE Amrita",
+    "short_name": "FACE",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "display": "standalone",
+    "start_url": "https://face-amrita.firebaseapp.com/?utm_source=homescreen",
+    "lang": "English",
+    "orientation": "any",
+    "description": "Forum for Aspiring Computer Engineers"
+}
