@@ -17,6 +17,9 @@ app.get("/Team", (req, res) => {
 app.get("/Offline", (req, res) => {
     res.render('offline');
 });
+app.get("/Privacy", (req, res) => {
+    res.render('privacy');
+});
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
 });
