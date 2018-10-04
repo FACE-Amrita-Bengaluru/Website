@@ -20,6 +20,9 @@ app.get("/Offline", (req, res) => {
 app.get("/Privacy", (req, res) => {
     res.render('privacy');
 });
+app.get("/Conference", (req, res) => {
+    res.render('conference');
+});
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
 });
