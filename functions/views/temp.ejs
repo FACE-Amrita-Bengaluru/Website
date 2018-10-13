@@ -6,6 +6,12 @@
 <!--<![endif]-->
 
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <%include meta.ejs%>
     <title>Conference - FACE Amrita Bangalore</title>
     <meta name="description" content="Conference - Forum for Aspiring Computer Engineers">
@@ -149,6 +155,41 @@
     </section>
     <section id="about">
         <div class="row section-head">
+            <div class="bs-example">
+                <a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">Data Visualiztion and IoT
+                    conference</a>
+                <div id="myModal" class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title">Dr. Anand Lakshmanan has helped academic institutions and
+                                    corporations
+                                    deep dive into their data and make better decisions. He has 18+ years of experience
+                                    in
+                                    academia and industry.
+
+                                    Most recently he worked at Apple in Cupertino, California for 6 years. He has
+                                    published or
+                                    co-published several papers and holds 7 patents. He believes that all scientists
+                                    and
+                                    professionals need to be data-savvy to make decisions and persuade actions. He is
+                                    the
+                                    Founder and CEO of sirpi.io , a data visualization company.
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Do you want to save changes you made to document before closing?</p>
+                                <p class="text-warning"><small>If you don't save, your changes will be lost.</small></p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="twelve columns">
                 <h1>Conference Schedule<span>.</span></h1>
                 <hr />
