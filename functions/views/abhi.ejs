@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+	<%include meta.ejs%>
+	<title>Conference - FACE Amrita Bangalore</title>
+	<meta name="description" content="Conference - Forum for Aspiring Computer Engineers">
+	<meta property="og:title" content="Conference - FACE Amrita Bangalore" />
+	<meta property="og:url" content="https://face-amrita.firebaseapp.com/Conference" />
+	<meta property="og:description" content="Conference - Forum for Aspiring Computer Engineers" />
+	<style>
+		.rtable {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.rtable,
+.rtable--flip tbody {
+  /* optional - enable iOS momentum scrolling*/
+  -webkit-overflow-scrolling: touch;
+  
+  /* scrolling shadows*/
+  background: radial-gradient(left, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 0 center,
+			  radial-gradient(right, ellipse, rgba(0,0,0, .2) 0%, rgba(0,0,0, 0) 75%) 100% center;
+  background-size: 10px 100%, 10px 100%;
+  background-attachment: scroll, scroll;
+  background-repeat: no-repeat;
+}
+
+
+.rtable th {
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  background: #f2f0e6;
+}
+
+.rtable th,
+.rtable td {
+  padding: 6px 12px;
+  border: 1px solid #d9d7ce;
+}
+
+.rtable--flip {
+  display: flex;
+  overflow: hidden;
+  background: none;
+}
+
+.rtable--flip thead {
+  display: flex;
+  flex-shrink: 0;
+  min-width: min-content;
+}
+
+.rtable--flip tbody {
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.rtable--flip tr {
+  display: flex;
+  flex-direction: column;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+
+.rtable--flip td,
+.rtable--flip th {
+  display: block;
+}
+
+.rtable--flip td {
+  background-image: none !important;
+  /* border-collapse is no longer active*/
+  border-left: 0;
+}
+
+/* border-collapse is no longer active*/
+.rtable--flip th:not(:last-child),
+.rtable--flip td:not(:last-child) {
+  border-bottom: 0;
+}
+	</style>
+</head>
+
+<body>
+	<header id="main-header">
+		<div class="row">
+			<div class="logo">
+				<a href="/">FACE</a>
+			</div>
+			<nav id="nav-wrap">
+				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<a class="mobile-btn" href="#" title="Hide navigation">
+					<span class="menu-icon">Menu</span>
+				</a>
+				<ul id="nav" class="nav">
+					<li class="current"><a class="smoothscroll" href="./#hero">Home</a></li>
+					<li><a target="_blank" rel="noopener" href="/Identifire">Identifire</a></li>
+					<li><a class="smoothscroll" href="./#about">About</a></li>
+					<li><a href="/Team">Team</a></li>
+					<li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
+					<li><a class="smoothscroll" href="/#portfolio">Gallery</a></li>
+					<li><a class="smoothscroll" href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<ul class="header-social">
+				<li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
+				<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+		</div>
+	</header>
+	<section id="hero">
+		<div class="row hero-content">
+			<div class="twelve columns hero-container">
+				<div id="hero-slider" class="flexslider">
+					<%include slides.ejs%>
+				</div>
+			</div>
+		</div>
+		<div id="more">
+			<a class="smoothscroll" href="#services">More About ICIC 2018<i class="fa fa-angle-down"></i></a>
+		</div>
+	</section>
+	<!-- <section id="track1">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Data Visualization<span>.</span></h1>
+				<hr />
+				<a href="#objective1" class="btn btn-lg btn-primary" data-toggle="modal">
+					Objective
+				</a>
+				<div id="objective1" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title text-dark">
+									Objective
+								</h4>
+							</div>
+							<div class="modal-body">
+								Data driven decision making is the gold standard industry goal today. However, implementing this in practice
+								needs a powerful intermediate step: Data Visualization. This day-long workshop helps students and industry
+								practitioners make decisions using data visualization.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#topic1" class="btn btn-lg btn-primary" data-toggle="modal">
+					Topics covered
+				</a>
+				<div id="topic1" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title text-dark">
+									Topics covered
+								</h4>
+							</div>
+							<div class="modal-body">
+								<li>R-Programming and Tidyverse for data visualization</li>
+								<li>Importing, Transforming, Arranging, Grouping, Summarizing and Visualizing your data</li>
+								<li>Iterative data visualization</li>
+								<li>Density charts and modal diagnostics</li>
+								<li>Case studies</li>
+								<li>Data Visualization Types : Histograms, Barcharts, Scatter plots, Box plots, Facet charts, Network charts,
+									and Animations and Dashboards.</li>
+								<li>Streaming API data visualization</li>
+								<li>Data Visualization Do’s and Dont’s</li>
+								<li>Data Visualization as a pre-requisite for Machine Learning and AI</li>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#bio1" class="btn btn-lg btn-primary" data-toggle="modal">
+					Speaker Bio
+				</a>
+				<div id="bio1" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title text-dark">
+									Speaker Bio
+								</h4>
+							</div>
+							<div class="modal-body">
+								Dr. Anand Lakshmanan has helped academic institutions and corporations deep dive into their data and make
+								better decisions. He has 18+ years of experience in academia and industry.
+
+								Most recently he worked at Apple in Cupertino, California for 6 years. He has published or co-published several
+								papers and holds 7 patents. He believes that all scientists and professionals need to be data-savvy to make
+								decisions and persuade actions. He is the Founder and CEO of sirpi.io , a data visualization company.
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<section id="portfolio">
+		<div class="row items">
+			<div id="portfolio-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half">
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-01">
+							<img src="images/portfolio/blindcoding.jpg" alt="blindcoding">
+							<div class="overlay"></div>
+							<div class="portfolio-item-meta">
+								<h5>Blind Coding</h5>
+								<p>CSI</p>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-02">
+							<img src="images/portfolio/bugster.jpg" alt="bugster">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Bugster</h5>
+									<p>FACE</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-03">
+							<img src="images/portfolio/codechef.jpg" alt="codechef">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Codechef Coding Training Sessions</h5>
+									<p>Codechef</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-04">
+							<img src="images/portfolio/gamedesign.jpg" alt="gamedesign">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Intoduction to Game Designing</h5>
+									<p>FORGE</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-05">
+							<img src="images/portfolio/uiux.jpg" alt="uiux">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>UI/UX Design Challenges</h5>
+									<p>FACE(Top Coder)</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-06">
+							<img src="images/portfolio/techtriathalon.jpg" alt="techtriathalon">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Tech Triathalon</h5>
+									<p>FACE</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-07">
+							<img src="images/portfolio/logical.jpg" alt="logical">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Introduction to Logical Thinking</h5>
+									<p>Codechef</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+				<div class="bgrid folio-item">
+					<div class="item-wrap">
+						<a href="#modal-08">
+							<img src="images/portfolio/tech2.jpg" alt="tech2">
+							<div class="overlay">
+								<div class="portfolio-item-meta">
+									<h5>Tech Triathalon</h5>
+									<p>FACE</p>
+								</div>
+							</div>
+							<div class="link-icon"><i class="fa fa-plus"></i></div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="modal-01" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/blindcoding.jpg" alt="blindcoding" />
+				</div>
+				<div class="description-box">
+					<h4>Bind Coding</h4>
+					<p>
+						This is a one of a kind event where the participants will have to code with the Monitors switched OFF
+						A simple code with syntax error will be given on paper.
+						Participants have to correct the errors on paper and type the code with MONITOR switched Off.
+					</p>
+					<span class="categories">CSI</span>
+				</div>
+				<div class="link-box group">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-02" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/bugster.jpg" alt="bugster" />
+				</div>
+				<div class="description-box">
+					<h4>Bugster</h4>
+					<p>
+						Do you hate bugs just as we do?
+					</p>
+					<span class="categories">FACE</span>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-03" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/codechef.jpg" alt="Codechef" />
+				</div>
+				<div class="description-box">
+					<h4>Competitive Coding Training Sessions </h4>
+					<p>
+						Codechef's initiative in bringing up competitive coding skills among students for competitive coding contests,
+						the most important one being ICPC.
+					</p>
+					<span class="categories">Codechef</span>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-04" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/gamedesign.jpg" alt="gamedesign" />
+				</div>
+				<div class="description-box">
+					<h4>Getting started with game development</h4>
+					<p>
+						All the technical know-hows on how to start off with game development. The brand new club FORGE kisckstarted its
+						journey with this amazing event.
+					</p>
+					<span class="categories">FORGE</span>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-05" class="popup-modal slider mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/uiux.jpg" alt="uiux" />
+				</div>
+				<div class="description-box">
+					<h4>UI/UX Challenges</h4>
+					<p>
+						Inspired by Topcoder, these challenges are aimed at bringing out the best creativity in you! This is for all the
+						designers and techies out there
+					</p>
+					<div class="categories">FACE</div>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-06" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/techtriathalon.jpg" alt="" />
+				</div>
+				<div class="description-box">
+					<h4>Tech Triathalon</h4>
+					<p>
+						An event held exclusively for the first years. A fun filled event consisting of brainstorming puzzles, tech
+						taboo and Pictionary.
+					</p>
+					<div class="categories">FACE</div>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-07" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/logical.jpg" alt="" />
+				</div>
+				<div class="description-box">
+					<h4>Introduction to logical thinking</h4>
+					<p>
+						A Codechef event held for the first and second years where the logical thinking skills of the students were put
+						to test.
+					</p>
+					<div class="categories">Codechef</div>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+			<div id="modal-08" class="popup-modal mfp-hide">
+				<div class="media">
+					<img src="images/portfolio/tech2.jpg" alt="" />
+				</div>
+				<div class="description-box">
+					<h4>Tech Triathalon</h4>
+					<p>
+						An event held exclusively for the first years. A fun filled event consisting of brainstorming puzzles, tech
+						taboo and Pictionary
+					</p>
+					<div class="categories">FACE</div>
+				</div>
+				<div class="link-box">
+					<a target="_blank" rel="noopener" href="/Blog">Details</a>
+					<a href="#" class="popup-modal-dismiss">Close</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="about">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Data Analytics<span>.</span></h1>
+				<hr />
+				<h5>Introduction to machine learning with Python<span>.</span></h5>
+				<hr />
+				<a href="#objective2" class="btn btn-lg btn-primary" data-toggle="modal">
+					Objective
+				</a>
+				<div id="objective2" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title text-dark">
+									Objective
+								</h4>
+							</div>
+							<div class="modal-body">
+								Machine Learning provides computers the ability to automatically learn and improve with data without being
+								explicitly programmed. It is one of the hottest areas in computer technology today with a wide array of
+								applications including self-driving cars, computer vision, natural language processing, ecommerce website
+								recommendations, financial market analysis, robotics and so on. Machine Learning algorithms are typically
+								categorized as supervised and unsupervised. In supervised machine learning, the system builds a model from
+								labeled data sets and uses the model to make predictions on future input. In contrast, unsupervised machine
+								learning algorithms attempt to discover hidden structures from unlabeled data sets.
+								<br><br>
+								In this tutorial, we will understand how machine learning differs from regular computer programming and some
+								examples of the applications of machine learning. We will briefly explore the various types of machine learning
+								algorithms. Then we will dive into a few hands-on illustrations of machine learning on sample data sets using
+								Python. This will acquaint us with the key Python packages that are typically used for data preprocessing,
+								statistical learning and data visualization. The tutorial will conclude with links to additional references for
+								self study.
+
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#bio2" class="btn btn-lg btn-primary" data-toggle="modal">
+					Speaker Bio
+				</a>
+				<div id="bio2" class="modal fade">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								<h4 class="modal-title text-dark">
+									Speaker Bio
+								</h4>
+							</div>
+							<div class="modal-body">
+								Narasimha Datta has a Masters degree in Computer Science from the Indian Institute of Science (IISc),
+								Bangalore. He has more than 15 years of software development experience spanning industry giants such as
+								Microsoft, Cisco and Citrix, and startup companies such as Nevis Networks and Zscaler. He currently works for
+								Peritus.AI, a startup that aims to enable the autonomous datacenter using AI and Machine Learning.
+								<br><br>
+								Nagaraj BK Harikar has completed his Bachelor of Engineering in Computer Science from New Horizon College of
+								Engineering. He is currently pursuing Master of Science in Management Information Systems from Illinois
+								Institute of Technology. He has 10+ years of industry experience and is working for Citrix R&D India Pvt. Ltd.
+								in the NetScaler product engineering team since the last several years. He has several achievements to his
+								credit including the Global Innovation Challenge Award (machine learning) and the Global Hackathon Award (Speed
+								of production category).
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="schedule">
+		<div class="row section-head">
+			<div class="twelve columns">
+				<h1>Conference Schedule<span>.</span></h1>
+				<hr />
+				<table class="rtable rtable--flip">
+					<thead>
+						<tr>
+							<th>Slot</th>
+							<th>9:00 - 10:30</th>
+							<th>11:00 - 13:00</td>
+							<th>14:00 - 15:20</th>
+							<th>15:30 - 17:00</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Track-1 (Data Visualization)</td>
+							<td>Data Visualization By Dr. Anand Lakshmanan Ex-Apple, CEO at SIRPI.io</td>
+							<td>Data Visualization By Dr. Anand Lakshmanan Ex-Apple, CEO at SIRPI.io</td>
+							<td>Data Visualization By Dr. Anand Lakshmanan Ex-Apple, CEO at SIRPI.io</td>
+							<td>Data Visualization By Dr. Anand Lakshmanan Ex-Apple, CEO at SIRPI.io</td>
+						</tr>
+						<tr>
+							<td>Track-2 (Data Analytics)</td>
+							<td>Introduction to machine learning with python By Dr Narsimha Datta</td>
+							<td>Introduction to machine learning with python By Dr Narsimha Datta</td>
+							<td>Data Analytics By Dr Veeramani Moorthy (Intuit)</td>
+							<td>Data Analytics By Dr Veeramani Moorthy (Intuit)</td>
+						</tr>
+						<tr>
+							<td>Track-3 (Eye Tracking and Medical Image Processing)</td>
+							<td>Eye Tracking Workshop by Dr. Amudha J</td>
+							<td>Eye Tracking Workshop by Dr. Amudha J</td>
+							<td>Bio Innovations and Research from Indian Perspective by Dr Ravi Nayar HCG Hospital</td>
+							<td>Developing Low Cost Devices for Cancer Patients for Indian Perspective by Dr Vishal Rao
+								HCG Hospital</td>
+						</tr>
+						<tr>
+							<td>Track-4 (Robotics, IoT, Cloud Networking)</td>
+							<td>Robotics & AI: Where are we headed next? by Dr. Akshatha Pai</td>
+							<td>
+								Advances in Intelligent Sensor, Controls and Communications by Dr. K. Kanagasundaram,
+								Senior Engineering Manager, Nevis Networks India Pvt Ltd. Topic: Research Issues in
+								SDNs</td>
+							<td>
+								Demystifying Containerization Principles for Data Scientists by Dr. Ganesh Neelakanta
+								Iyer Amrita Vishwa Vidyapeetham, Coimbatore</td>
+							<td>
+								Machine Learning and Intelligent Systems by Mr. J. Mahesh Babu, Principal Engineer –
+								Research, Ericsson India Global Services Pvt. Ltd. Topic: Artificial Intelligence –
+								Planning</td>
+							<td>
+								Prepare your Future with Cloud Computing by Dr. Prakash P
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section>
+	<%include contact.ejs%>
+	<%include footer.ejs%>
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/jquery.placeholder.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+	<script async src="js/manup.js"></script>
+	<script>
+		if (navigator.serviceWorker.controller) {
+			console.log('[PWA Builder] active service worker found, no need to register')
+		} else {
+			navigator.serviceWorker.register('pwabuilder-sw.js', {
+				scope: './'
+			}).then(function (reg) {
+				console.log('Service worker has been registered for scope:' + reg.scope);
+			});
+		}
+	</script>
+	<script type="application/ld+json">
+		{
+		  "@context": "http://schema.org/",
+		  "@type": "WebSite",
+		  "name": "FACE Amrita",
+		  "alternateName": "Forum for Aspiring Computer Engineers",
+		  "url": "https://face-amrita.firebaseapp.com"
+		}
+	</script>
+</body>
+
+</html>
