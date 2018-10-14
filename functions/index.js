@@ -29,6 +29,9 @@ app.get("/Blog", (req, res) => {
 app.get("/Identifire", (req, res) => {
     res.redirect('https://drive.google.com/drive/folders/1_yxMFFhuUTfb-xTxqKeueHjkRiZC7Yyv');
 });
+app.get("/temp", (req, res) => {
+    res.render('temp');
+});
 
 app.use((req, res, next) => {
     res.status(404).render('404');
