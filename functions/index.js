@@ -20,20 +20,14 @@ app.get("/Offline", (req, res) => {
 app.get("/Privacy", (req, res) => {
     res.render('privacy');
 });
-app.get("/Conference", (req, res) => {
-    res.render('conference');
+app.get("/ICIC2018", (req, res) => {
+    res.render('icic2018');
 });
 app.get("/Blog", (req, res) => {
     res.redirect('https://faceaseb.wordpress.com');
 });
 app.get("/Identifire", (req, res) => {
     res.redirect('https://drive.google.com/drive/folders/1_yxMFFhuUTfb-xTxqKeueHjkRiZC7Yyv');
-});
-app.get("/Temp", (req, res) => {
-    res.render('temp');
-});
-app.get("/Abhi", (req, res) => {
-    res.render('abhi');
 });
 
 app.use((req, res, next) => {
