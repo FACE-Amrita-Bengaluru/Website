@@ -99,7 +99,6 @@ var generateObj = function (ajaxString) {
     manUpObject = JSON.parse(ajaxString);
     generateLinkArray();
     generateMetaArray();
-
 };
 
 var makeAjax = function (url) {
@@ -120,7 +119,6 @@ var collectManifestObj = function () {
     for (var i = 0; i < links.length; i++) {
         if (links[i].rel && links[i].rel == 'manifest') makeAjax(links[i].href);
     }
-
 };
 
 var testForManifest = function () {
@@ -129,5 +127,4 @@ var testForManifest = function () {
     //it looks like the manifest will override the tags
     //browser: we need context here
     collectManifestObj();
-
 }();
