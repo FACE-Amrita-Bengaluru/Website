@@ -1,6 +1,6 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "face_amrita",
+  "description": "FACE Amrita Bangalore",
   "author": "Aravind V Nair, Abhishek Sai",
   "scripts": {
     "lint": "eslint .",
