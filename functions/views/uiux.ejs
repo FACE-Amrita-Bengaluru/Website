@@ -1,75 +1,99 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+	<!--<![endif]-->
 
-<head>
-	<%include meta.ejs%>
-	<title>UI / UX Submission - Amrita Bangalore</title>
-	<meta name="description" content="UI / UX Submission - Forum for Aspiring Computer Engineers">
-	<meta property="og:title" content="UI / UX Submission - Amrita Bangalore" />
-	<meta property="og:url" content="https://face-amrita.firebaseapp.com/UI-UX" />
-	<meta property="og:description" content="UI / UX Submission - Forum for Aspiring Computer Engineers" />
-</head>
+	<head>
+		<%include meta.ejs%>
+		<title>UI / UX Submission - Amrita Bangalore</title>
+		<meta
+			name="description"
+			content="UI / UX Submission - Forum for Aspiring Computer Engineers"
+		/>
+		<meta
+			property="og:title"
+			content="UI / UX Submission - Amrita Bangalore"
+		/>
+		<meta
+			property="og:url"
+			content="https://face-amrita.firebaseapp.com/UI-UX"
+		/>
+		<meta
+			property="og:description"
+			content="UI / UX Submission - Forum for Aspiring Computer Engineers"
+		/>
+	</head>
 
-<body>
-	<%include header.ejs%>
-	<section id="hero">
-		<div class="row hero-content">
-			<div class="twelve columns hero-container">
-				<div id="hero-slider" class="flexslider">
-					<%include slides.ejs%>
+	<body>
+		<%include header.ejs%>
+		<section id="hero">
+			<div class="row hero-content">
+				<div class="twelve columns hero-container">
+					<div id="hero-slider" class="flexslider">
+						<%include slides.ejs%>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div id="more">
-			<a class="smoothscroll" href="#about">More About Us<i class="fa fa-angle-down"></i></a>
-		</div>
-	</section>
-	<section id="about">
-		<div class="row section-head">
-			<div class="twelve columns">
-				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQLgpI3sISruNxveIotzVCTrOEycG5_StOoOU5tnsKWc7USg/viewform?embedded=true" style="width: 100%; height: 100vh;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+			<div id="more">
+				<a class="smoothscroll" href="#about"
+					>More About Us<i class="fa fa-angle-down"></i
+				></a>
 			</div>
-		</div>
-	</section>
-	<%include contact.ejs%>
-	<%include footer.ejs%>
-	<div id="preloader">
-		<div id="loader"></div>
-	</div>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.fittext.js"></script>
-	<script src="js/jquery.placeholder.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-	<script async src="js/manup.js"></script>
-	<script>
-		if (navigator.serviceWorker.controller) {
-			console.log('[PWA Builder] active service worker found, no need to register')
-		} else {
-			navigator.serviceWorker.register('pwabuilder-sw.js', {
-				scope: './'
-			}).then(function (reg) {
-				console.log('Service worker has been registered for scope:' + reg.scope);
-			});
-		}
-	</script>
-	<script type="application/ld+json">
-        {
-          "@context": "http://schema.org/",
-          "@type": "WebSite",
-          "name": "FACE Amrita",
-          "alternateName": "Forum for Aspiring Computer Engineers",
-          "url": "https://face-amrita.firebaseapp.com"
-        }
-    </script>
-</body>
-
+		</section>
+		<section id="about">
+			<div class="row section-head">
+				<div class="twelve columns">
+					<iframe
+						src="https://docs.google.com/forms/d/e/1FAIpQLSeQLgpI3sISruNxveIotzVCTrOEycG5_StOoOU5tnsKWc7USg/viewform?embedded=true"
+						style="width: 100%; height: 100vh;"
+						frameborder="0"
+						marginheight="0"
+						marginwidth="0"
+						>Loading...</iframe
+					>
+				</div>
+			</div>
+		</section>
+		<%include contact.ejs%> <%include footer.ejs%>
+		<div id="preloader"><div id="loader"></div></div>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+		<script async src="js/manup.js"></script>
+		<script>
+			if (navigator.serviceWorker.controller) {
+				console.log(
+					'[PWA Builder] active service worker found, no need to register'
+				);
+			} else {
+				navigator.serviceWorker
+					.register('pwabuilder-sw.js', {
+						scope: './'
+					})
+					.then(function(reg) {
+						console.log(
+							'Service worker has been registered for scope:' +
+								reg.scope
+						);
+					});
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+			  "@context": "http://schema.org/",
+			  "@type": "WebSite",
+			  "name": "FACE Amrita",
+			  "alternateName": "Forum for Aspiring Computer Engineers",
+			  "url": "https://face-amrita.firebaseapp.com"
+			}
+		</script>
+	</body>
 </html>
