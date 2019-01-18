@@ -29,8 +29,8 @@ app.get("/Blog", (req, res) => {
 app.get("/Identifire", (req, res) => {
     res.redirect('https://drive.google.com/drive/folders/1_yxMFFhuUTfb-xTxqKeueHjkRiZC7Yyv');
 });
-app.get("/temp", (req, res) => {
-    res.render('temp');
+app.get("/UI-UX", (req, res) => {
+    res.render('uiux');
 });
 
 app.use((req, res, next) => {
