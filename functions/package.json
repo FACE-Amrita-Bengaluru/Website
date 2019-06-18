@@ -1,6 +1,6 @@
 {
 	"name": "face_amrita",
-	"version": "3.1.0",
+	"version": "3.2.0",
 	"description": "FACE Amrita Bangalore",
 	"author": "Aravind V Nair, Abhishek Sai",
 	"scripts": {
@@ -20,6 +20,9 @@
 	"devDependencies": {
 		"eslint": "^5.16.0",
 		"eslint-plugin-promise": "^4.1.1"
+	},
+	"engines": {
+		"node": "8"
 	},
 	"private": true
 }
