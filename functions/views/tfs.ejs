@@ -1,154 +1,230 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+	<!--<![endif]-->
 
-<head>
-	<%include meta.ejs%>
-	<title>TFS - FACE Amrita Bangalore</title>
-	<meta name="description" content="The FACE Season - Forum for Aspiring Computer Engineers">
-	<meta property="og:title" content="TFS - FACE Amrita Bangalore" />
-	<meta property="og:url" content="https://face-amrita.firebaseapp.com/TFS" />
-	<meta property="og:description" content="The FACE Season - Forum for Aspiring Computer Engineers" />
-</head>
+	<head>
+		<%include meta.ejs%>
+		<title>TFS - FACE Amrita Bangalore</title>
+		<meta
+			name="description"
+			content="The FACE Season - Forum for Aspiring Computer Engineers"
+		/>
+		<meta property="og:title" content="TFS - FACE Amrita Bangalore" />
+		<meta
+			property="og:url"
+			content="https://face-amrita.firebaseapp.com/TFS"
+		/>
+		<meta
+			property="og:description"
+			content="The FACE Season - Forum for Aspiring Computer Engineers"
+		/>
+	</head>
 
-<body>
-	<header id="main-header">
-		<div class="row">
-			<div class="logo">
-				<a href="/">FACE</a>
-			</div>
-			<nav id="nav-wrap">
-				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-					<span class="menu-icon">Menu</span>
-				</a>
-				<a class="mobile-btn" href="#" title="Hide navigation">
-					<span class="menu-icon">Menu</span>
-				</a>
-				<ul id="nav" class="nav">
-					<li class="current"><a class="smoothscroll" href="./#hero">Home</a></li>
-					<li><a target="_blank" rel="noopener" href="/Identifire">Identifire</a></li>
-					<li><a class="smoothscroll" href="./#about">About</a></li>
-					<li><a href="/Team">Team</a></li>
-					<li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
-					<li><a class="smoothscroll" href="/#portfolio">Gallery</a></li>
-					<li><a class="smoothscroll" href="#contact">Contact</a></li>
+	<body>
+		<header id="main-header">
+			<div class="row">
+				<div class="logo">
+					<a href="/">FACE</a>
+				</div>
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation"
+					>
+						<span class="menu-icon">Menu</span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-icon">Menu</span>
+					</a>
+					<ul id="nav" class="nav">
+						<li class="current">
+							<a class="smoothscroll" href="./#hero">Home</a>
+						</li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Identifire"
+								>Identifire</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="./#about">About</a>
+						</li>
+						<li><a href="/Team">Team</a></li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Blog"
+								>Blog</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="/#portfolio"
+								>Gallery</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="header-social">
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.facebook.com/face00amrita/"
+							><i class="fa fa-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://twitter.com/faceaseb"
+							><i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.instagram.com/face_aseb/"
+							><i class="fa fa-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.linkedin.com/company/face-aseb/"
+							><i class="fa fa-linkedin"></i
+						></a>
+					</li>
 				</ul>
-			</nav>
-			<ul class="header-social">
-				<li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-		</div>
-	</header>
-	<section id="hero">
-		<div class="row hero-content">
-			<div class="twelve columns hero-container">
-				<div id="hero-slider" class="flexslider">
-					<%include slides.ejs%>
-				</div>
 			</div>
-		</div>
-		<div id="more">
-			<a class="smoothscroll" href="#services">More About TFS<i class="fa fa-angle-down"></i></a>
-		</div>
-	</section>
-	<section id="about">
-		<div class="row section-head">
-			<div class="twelve columns">
-				<h1>TFS - The FACE Season<span>.</span></h1>
-				<hr />
-				<p>
-					Introducing a brand new concept for FACE this year! We came across this "Brainchild" of ours after several hours
-					of thinking and strategic planning. The FACE team proudly presents to you : The FACE Season (TFS 2018). So, what
-					is TFS all about? The main aim at introducing TFS was to create a community here at ASEB that was open to
-					learning new concepts and also ready for competing against each other. And, to encourage participation, FACE also
-					decided to award prizes to the season winners at the end of a season ( 1 semester) and also get them a place in
-					TFS Hall of Fame. Such a list of the best would also let the club select top performers for representing the
-					college in external competitions. And the winners are selected looking at how regular they are in TFS events. To
-					encourage this, we have even decided to award points for just participation ! LEARN. COMPETE. WIN
-				</p>
-			</div>
-		</div>
-	</section>
-	<section id="services">
-		<div class="row section-head">
-			<div class="twelve columns">
-				<h1>FACE Top Scorers<span>.</span></h1>
-				<hr />
-				<p>
-					Meet the top 3.
-				</p>
-			</div>
-		</div>
-		<div class="row mobile-no-padding">
-			<div class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group">
-				<div class="bgrid">
-					<h3>R Sriharish (CSE17103)</h3>
-					<div class="service-content">
-						<p>
-							110 points
-						</p>
-					</div>
-				</div>
-				<div class="bgrid">
-					<h3>Shashankh S (CSE17117)</h3>
-					<div class="service-content">
-						<p>
-							100 points
-						</p>
-					</div>
-				</div>
-				<div class="bgrid">
-					<h3>Animesh Singh (CSE18003)</h3>
-					<div class="service-content">
-						<p>
-							64.375 points
-						</p>
+		</header>
+		<section id="hero">
+			<div class="row hero-content">
+				<div class="twelve columns hero-container">
+					<div id="hero-slider" class="flexslider">
+						<%include slides.ejs%>
 					</div>
 				</div>
 			</div>
+			<div id="more">
+				<a class="smoothscroll" href="#services"
+					>More About TFS<i class="fa fa-angle-down"></i
+				></a>
+			</div>
+		</section>
+		<section id="about">
+			<div class="row section-head">
+				<div class="twelve columns">
+					<h1>TFS - The FACE Season<span>.</span></h1>
+					<hr />
+					<p>
+						Introducing a brand new concept for FACE this year! We
+						came across this "Brainchild" of ours after several
+						hours of thinking and strategic planning. The FACE team
+						proudly presents to you : The FACE Season (TFS 2018).
+						So, what is TFS all about? The main aim at introducing
+						TFS was to create a community here at ASEB that was open
+						to learning new concepts and also ready for competing
+						against each other. And, to encourage participation,
+						FACE also decided to award prizes to the season winners
+						at the end of a season ( 1 semester) and also get them a
+						place in TFS Hall of Fame. Such a list of the best would
+						also let the club select top performers for representing
+						the college in external competitions. And the winners
+						are selected looking at how regular they are in TFS
+						events. To encourage this, we have even decided to award
+						points for just participation ! LEARN. COMPETE. WIN
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="services">
+			<div class="row section-head">
+				<div class="twelve columns">
+					<h1>FACE Top Scorers<span>.</span></h1>
+					<hr />
+					<p>
+						Meet the top 3.
+					</p>
+				</div>
+			</div>
+			<div class="row mobile-no-padding">
+				<div
+					class="service-list bgrid-third s-bgrid-half tab-bgrid-whole group"
+				>
+					<div class="bgrid">
+						<h3>R Sriharish (CSE17103)</h3>
+						<div class="service-content">
+							<p>
+								110 points
+							</p>
+						</div>
+					</div>
+					<div class="bgrid">
+						<h3>Shashankh S (CSE17117)</h3>
+						<div class="service-content">
+							<p>
+								100 points
+							</p>
+						</div>
+					</div>
+					<div class="bgrid">
+						<h3>Animesh Singh (CSE18003)</h3>
+						<div class="service-content">
+							<p>
+								64.375 points
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<%include contact.ejs%> <%include footer.ejs%>
+		<div id="preloader">
+			<div id="loader"></div>
 		</div>
-	</section>
-	<%include contact.ejs%>
-	<%include footer.ejs%>
-	<div id="preloader">
-		<div id="loader"></div>
-	</div>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.fittext.js"></script>
-	<script src="js/jquery.placeholder.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-	<script async src="js/manup.js"></script>
-	<script>
-		if (navigator.serviceWorker.controller) {
-			console.log('[PWA Builder] active service worker found, no need to register')
-		} else {
-			navigator.serviceWorker.register('pwabuilder-sw.js', {
-				scope: './'
-			}).then(function (reg) {
-				console.log('Service worker has been registered for scope:' + reg.scope);
-			});
-		}
-	</script>
-	<script type="application/ld+json">
-        {
-          "@context": "http://schema.org/",
-          "@type": "WebSite",
-          "name": "FACE Amrita",
-          "alternateName": "Forum for Aspiring Computer Engineers",
-          "url": "https://face-amrita.firebaseapp.com"
-        }
-    </script>
-</body>
-
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+		<script async src="js/manup.js"></script>
+		<script>
+			if (navigator.serviceWorker.controller) {
+				console.log(
+					'[PWA Builder] active service worker found, no need to register'
+				);
+			} else {
+				navigator.serviceWorker
+					.register('pwabuilder-sw.js', {
+						scope: './'
+					})
+					.then(function(reg) {
+						console.log(
+							'Service worker has been registered for scope:' +
+								reg.scope
+						);
+					});
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org/",
+				"@type": "WebSite",
+				"name": "FACE Amrita",
+				"alternateName": "Forum for Aspiring Computer Engineers",
+				"url": "https://face-amrita.firebaseapp.com"
+			}
+		</script>
+	</body>
 </html>

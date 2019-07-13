@@ -8,6 +8,9 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
 	res.render('index');
 });
+app.get('/Hackathon', (req, res) => {
+	res.render('hackathon');
+});
 app.get('/TFS', (req, res) => {
 	res.render('tfs');
 });
