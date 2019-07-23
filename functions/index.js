@@ -8,6 +8,9 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
 	res.render('index');
 });
+app.get('/ACM', (req, res) => {
+	res.send('Will be live soon!');
+});
 app.get('/Hackathon', (req, res) => {
 	res.render('hackathon');
 });
