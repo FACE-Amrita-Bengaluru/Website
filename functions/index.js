@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
 app.get('/ACM', (req, res) => {
 	res.send('Will be live soon!');
 });
-app.get('/Hackathon', (req, res) => {
-	res.render('hackathon');
+app.get('/HackathonVerification', (req, res) => {
+	res.render('HackathonVerification');
 });
 app.get('/TFS', (req, res) => {
 	res.render('tfs');
