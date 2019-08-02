@@ -1,647 +1,1295 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+	<!--<![endif]-->
 
-<head>
-	<%include meta.ejs%>
-	<title>Team - FACE Amrita Bangalore</title>
-	<meta name="description" content="Team - Forum for Aspiring Computer Engineers">
-	<meta property="og:title" content="Team - FACE Amrita Bangalore" />
-	<meta property="og:url" content="https://face-amrita.firebaseapp.com/Team" />
-	<meta property="og:description" content="Team - Forum for Aspiring Computer Engineers" />
-</head>
+	<head>
+		<%include meta.ejs%>
+		<title>Team - FACE Amrita Bangalore</title>
+		<meta
+			name="description"
+			content="Team - Forum for Aspiring Computer Engineers"
+		/>
+		<meta property="og:title" content="Team - FACE Amrita Bangalore" />
+		<meta
+			property="og:url"
+			content="https://face-amrita.firebaseapp.com/Team"
+		/>
+		<meta
+			property="og:description"
+			content="Team - Forum for Aspiring Computer Engineers"
+		/>
+	</head>
 
-<body>
-	<header id="main-header">
-		<div class="row">
-			<div class="logo">
-				<a href="/">FACE</a>
-			</div>
-			<nav id="nav-wrap">
-				<a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-					<span class="menu-icon">Menu</span>
-				</a>
-				<a class="mobile-btn" href="#" title="Hide navigation">
-					<span class="menu-icon">Menu</span>
-				</a>
-				<ul id="nav" class="nav">
-					<li class="current"><a class="smoothscroll" href="./#hero">Home</a></li>
-					<li><a href="/TFS">TFS</a></li>
-					<li><a target="_blank" rel="noopener" href="/Identifire">Identifire</a></li>
-					<li><a class="smoothscroll" href="/#about">About</a></li>
-					<li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
-					<li><a class="smoothscroll" href="/#portfolio">Gallery</a></li>
-					<li><a class="smoothscroll" href="#contact">Contact</a></li>
+	<body>
+		<header id="main-header">
+			<div class="row">
+				<div class="logo">
+					<a href="/">FACE</a>
+				</div>
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation"
+					>
+						<span class="menu-icon">Menu</span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-icon">Menu</span>
+					</a>
+					<ul id="nav" class="nav">
+						<li class="current">
+							<a class="smoothscroll" href="./#hero">Home</a>
+						</li>
+						<li><a href="/TFS">TFS</a></li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Identifire"
+								>Identifire</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="/#about">About</a>
+						</li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Blog"
+								>Blog</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="/#portfolio"
+								>Gallery</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="header-social">
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.facebook.com/face00amrita/"
+							><i class="fa fa-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://twitter.com/faceaseb"
+							><i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.instagram.com/face_aseb/"
+							><i class="fa fa-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.linkedin.com/company/face-aseb/"
+							><i class="fa fa-linkedin"></i
+						></a>
+					</li>
 				</ul>
-			</nav>
-			<ul class="header-social">
-				<li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
-				<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
-			</ul>
-		</div>
-	</header>
-	<section id="hero">
-		<div class="row hero-content">
-			<div class="twelve columns hero-container">
-				<div id="hero-slider" class="flexslider">
-					<%include slides.ejs%>
+			</div>
+		</header>
+		<section id="hero">
+			<div class="row hero-content">
+				<div class="twelve columns hero-container">
+					<div id="hero-slider" class="flexslider">
+						<%include slides.ejs%>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div id="more">
-			<a class="smoothscroll" href="#team">Meet Our Team<i class="fa fa-angle-down"></i></a>
-		</div>
-	</section>
-	<section id="team">
-		<div class="row team section-head">
-			<div class="twelve columns">
-				<h1>Meet Our Team<span>.</span></h1>
-				<hr />
+			<div id="more">
+				<a class="smoothscroll" href="#team"
+					>Meet Our Team<i class="fa fa-angle-down"></i
+				></a>
 			</div>
-		</div>
-		<div class="row hero-content">
-			<div id="team-wrapper" class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group">
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/aditya.jpg" alt="Aditya D Udapudi" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Aditya D Udapudi</h3>
-						<span>Secretary of FACE</span>
-					</div>
-					<p>
-						A third year pursuing his B-Tech in CSE. Has a great passion for Graphic and UI/UX designing. A Web Developer and a Tech Enthusiast. Loves to convert coffee into code and fiddling around with new tech.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://adityaudapudi.firebaseapp.com/" target="_blank" rel="noopener"><i class="fa fa-user"></i></a></li>
-						<li><a href="https://linkedin.com/in/adityaudapudi/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://instagram.com/aditya.deepak18/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://github.com/adityadu-18" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/rakshana.jpg" alt="Rakshana J" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Rakshana J</h3>
-						<span>Joint Secretary</span>
-					</div>
-					<p>
-						A third year computer enthusiast who enjoys problem solving and likes to try her hand in every new topic she comes across.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://facebook.com/rakshana.reddy.12" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="
-									https://instagram.com/amrutha_akm" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/amrutha-krishnamoorthy-124832166/" target="_blank" rel="noopener"><i
-								 class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/rahul.jpg" alt="Rahul N Kamath" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Rahul N Kamath</h3>
-						<span>Joint Secretary</span>
-					</div>
-					<p>
-						An avid coder, who likes to expand his interests in every new topic he comes across. He is currently striving
-						to achieve finesse in competitive programming and app development.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/profile.php?id=100004573008262" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/rnkpew/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/rahul-kamath-b1069816b/"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/arvind.jpg" alt="Arvind Sudheer" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Arvind Sudheer</h3>
-						<span>Chairperson, ACM Student Chapter ASE-B</span>
-					</div>
-					<p>
-						A third year student interested in coding in different
-						programming languages, mainly trying to get his hands messy with Python and Java, currently working on
-						Machine Learning, AI and Image processing .
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/arvind.sudheer" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/arvindsudheer/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/arvind-sudheer-407b37136" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://plus.google.com/117975221163233127928" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/sriharish.jpg" alt="Sriharish R" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Sriharish R</h3>
-						<span>Co-Chair, ACM ASE-B</span>
-					</div>
-					<p>
-						A sophomore who enjoys coding and problem solving. He
-						is enthusiastic about Artificial Intelligence and Machine Learning and also fascinated with Big Data Analytics.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/sriharish.ramakrishnan
-									" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://linkedin.com/in/sriharish-r"><i class="fa fa-linkedin" target="_blank" rel="noopener"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/abhirami.jpg" alt="Abhirami J" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Abhirami J</h3>
-						<span>Chairperson, CSI</span>
-					</div>
-					<p>
-						A third year student pursuing her B-Tech in Computer Science and Engineering, enjoys backend coding.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/abhi.abhirami.33" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/abhirami_j/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/abhirami-j-307490149/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/abhishek.jpg" alt="Abhishek Sai" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Abhishek Sai</h3>
-						<span>Co-chair of CSI</span>
-					</div>
-					<p>
-						A sophomore pursuing his B.Tech in Computer Science and Engineering, he loves to dapple with different
-						programming
-						languages and is a keen web developer.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/abhishek.sai.52" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/abhishek.kvs/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/abhishek-sai-8b352a159/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/lavanaya.jpg" alt="Lavanaya" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Lavanaya Karthikeyan</h3>
-						<span>Chairperson, ACM-W ASE-B</span>
-					</div>
-					<p>
-						A simple girl with big dreams who strongly believes that good leadership can bring a substantial change in this
-						growing world of technology.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/lavanya.karthikeyan.180" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/harshita.jpg" alt="Harshita Reddy" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Harshita Reddy</h3>
-						<span>Co-Chairperson, ACM-W ASE-B</span>
-					</div>
-					<p>
-						A sophomore pursuing B.Tech in Computer Science and Engineering. She is fascinated about Artificial Intelligence
-						and Machine Learning.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/harshitareddy.edugudi
-									" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://instagram.com/harshita._.reddy
-									" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/harshita-reddy-41a69a16b
-									" target="_blank" rel="noopener"><i
-								 class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/prudhvi.jpg" alt="Prudhvi Nadh" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Prudhvi Nadh</h3>
-						<span>Chairperson, Codechef ASE-B</span>
-					</div>
-					<p>
-						A third year student pursuing B.Tech in Computer Science and Engineering, he has great interest in Deep
-						Learning and Computer Vision.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.linkedin.com/in/prudhvi-nadh-reddy-41aa2014a/"><i class="fa fa-linkedin" target="_blank"
-								 rel="noopener"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/arjun.jpg" alt="Arjun S Kedlaya" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Arjun S Kedlaya</h3>
-						<span>Co-Chairperson, Codechef ASE-B</span>
-					</div>
-					<p>
-						A third year student pursuing B.Tech in Computer Science Engineering, enjoys coding and web development. He is
-						interested in data science and machine learning.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.linkedin.com/in/arjunkedlaya/"><i class="fa fa-linkedin" target="_blank" rel="noopener"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/sathwic.jpg" alt="Sathwic Somarouthu" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Sathwic Somarouthu</h3>
-						<span>Chairperson, Forge</span>
-					</div>
-					<p>Description</p>
-					<ul class="member-social">
-						<li><a href="https://www.linkedin.com/in/sathwic-somarouthu-49088b159/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/charan.jpg" alt="Sri Charan Vendra" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Sri Charan Vendra</h3>
-						<span>Co-Secretary, Forge</span>
-					</div>
-					<p>
-						A freelancer turning amateur in game development, Charan is currently pursuing his career in electronics
-						engineering. His vision is to bring creativity to life in a large scale through games and help improve the world
-						of RPG given the evolution of gaming smartphones.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/cheranvnd" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/sri-charan-vendra-46569a16a/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/aravind.jpg" alt="Aravind V. Nair" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Aravind V. Nair</h3>
-						<span>Executive member</span>
-					</div>
-					<p>
-						A sophomore pursuing B.Tech in Computer Science and Engineering, Aravind V. Nair has enormous passion for coding
-						and web
-						development. He also has a great zeal in server management and ethical hacking.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://aravindvnair99.firebaseapp.com" target="_blank" rel="noopener"><i class="fa fa-user"></i></a></li>
-						<li><a href="https://www.github.com/aravindvnair99/" target="_blank" rel="noopener"><i class="fa fa-github"></i></a></li>
-						<li><a href="https://www.facebook.com/AravindV.Nair1999" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://www.instagram.com/aravindvnair99/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/aravindvnair99/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="https://plus.google.com/+AravindVNair" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="https://www.twitter.com/aravindvnair99/" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="https://aravindvnair1999.blogspot.com" target="_blank" rel="noopener"><i class="fa fa-globe"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/nuha.jpg" alt="Nuha Varier" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Nuha Varier</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A third year student pursuing her B-Tech in Computer Science and Engineering, passionate about coding, Android
-						development and robotics. She loves to explore and learn more in the field of artificial intelligence.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.facebook.com/profile.php?id=100012425462550" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/sharon.jpg" alt="Nirmal Sharon Joji" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Nirmal Sharon Joji</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A sophomore pursuing B.Tech in Computer Science and Engineering.
-						Enjoys solving problems, troubleshooting issues and coming up with new solutions.
-						Keen interest on learning and working on upcoming technologies.
-					</p>
-					<ul class="member-social">
-						<li><a target="_blank" rel="noopener" href="https://www.facebook.com/sharon.joji.52"><i class="fa fa-facebook"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.instagram.com/sharon.joji/"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://twitter.com/JojiSharon/"><i class="fa fa-twitter"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/vijaya.jpg" alt="K Vijaya" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>K Vijaya</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						An INTP (Introvert, Intuitive, Thinking, Perceiving) personality. She keeps her curiosity levels high and remains
-						positive. She's also a infinite loop foodie whose routine is eat, sleep, code, watch K-Drama and repeat.
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/vijaya.katuri.98" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.instagram.com/vijaya.katuri/"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/katuri-vijaya-a58070141"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/kaushik.jpg" alt="K Kaushik Reddy" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>K Kaushik Reddy</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						Kaushik is an enthusiastic CS student and a coding geek. More of a team player , he always produces Energy and
-						Clarity at work. Right now, this budding Data science enthusiast is working to solve real world problems .
-					</p>
-					<ul class="member-social">
-						<li><a href="https://www.facebook.com/kaushik.reddy.16503" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/k-kaushik-reddy-154bb6147/"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/varsha.jpg" alt="Sree Varsha Reddy" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Sree Varsha Reddy</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A computer science enthusiast, passionate about coding.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.facebook.com/profile.php?id=100004309909150" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/sree-varsha-reddy-k-5294b8164" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-						<li>
-							<a href="https://www.instagram.com/varshu__k/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/rutvij.jpg" alt="Rutvij D Khatri" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Rutvij D Khatri</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>Interested in designing along with programming.</p>
-					<ul class="member-social">
-						<li><a href="https://www.instagram.com/rutvij281197/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/rutvij-khatri-1s-unik/"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/aakash.jpg" alt="Aakash Rayaroth" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Aakash Rayaroth</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A third year student pursuing B.Tech Computer Science, enjoys coding and is interested in Machine
-						Learning and Artificial Intelligence.
-					</p>
-					<ul class="member-social">
-						<li><a target="_blank" rel="noopener" href="https://www.facebook.com/AakashRayaroth"><i class="fa fa-facebook"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.instagram.com/the.aakash.rayaroth/?hl=en"><i class="fa fa-instagram"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://twitter.com/AakashRayaroth"><i class="fa fa-twitter"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://plus.google.com/u/0/108592120405463598918?tab=mX"><i class="fa fa-google-plus"></i></a></li>
-						<li><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/aakashrayaroth/"><i class="fa fa-linkedin"></i></a></li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/phani.jpg" alt="K B Phani" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>K B Phani</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A third year student pursuing B.Tech in Computer Science and Engineering, who is a passionate coder and also
-						has a keen interest in ML and AI
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.linkedin.com/in/phani-khandavilli" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/malavika.jpg" alt="Malavika Nagarathe" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Malavika Nagarathe</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A student pursuing B.Tech in Computer Science and Engineering, who is a passionate coder and also
-						has a keen interest in Artificial Intelligence.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://plus.google.com/+NagaratheMalavika" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/nagarathe-malavika-49207416a" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/shabreesh.jpg" alt="Shabreesh Nair" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Shabreesh Nair</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A sophomore persuing his B.Tech in Computer Science and Engineering, who loves networking and network security.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.facebook.com/shabreesh.nair" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/shabreesh-nair-23b161160" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/akhil.jpg" alt="Sai Akhil U" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Sai Akhil U</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A Third year student pursuing his B-Tech in CSE, has passion for Data Analytics and Machine Learning. He also
-						enjoys coding and applying concepts learnt to the real world scenario.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.instagram.com/akhil_4081/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/saiakhil-ukkalam/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/rakshana.jpg" alt="Rakshana J" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Rakshana J</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A sophomore pursuing B.Tech in Computer Science and Engineering, Rakshana enjoys problem solving and is a
-						passionate programmer.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.instagram.com/rakshanoo/" target="_blank" rel="noopener"><i class="fa fa-instagram"></i></a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/rakshanajp/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-						<li>
-							<a href="https://plus.google.com/u/0/112637537807084226047" target="_blank" rel="noopener"><i class="fa fa-google-plus"></i></a>
-						</li>
-						<li>
-							<a href="https://www.facebook.com/rakshana.reddy.12" target="_blank" rel="noopener"><i class="fa fa-facebook"></i></a>
-						</li>
-						<li>
-							<a href="https://twitter.com/Rakshana_j" target="_blank" rel="noopener"><i class="fa fa-twitter"></i></a>
-						</li>
-					</ul>
-				</div>
-				<div class="bgrid member">
-					<div class="member-pic">
-						<img src="images/team/vaishnavi.jpg" alt="Vaishnavi Poolla" />
-						<div class="mask"></div>
-					</div>
-					<div class="member-name">
-						<h3>Vaishnavi Poolla</h3>
-						<span>Executive Member</span>
-					</div>
-					<p>
-						A 3rd year coding enthusiast, she has a strong fervour for robotics and artificial intelligence.
-					</p>
-					<ul class="member-social">
-						<li>
-							<a href="https://www.linkedin.com/in/poolla-vaishnavi-2820a3148/" target="_blank" rel="noopener"><i class="fa fa-linkedin"></i></a>
-						</li>
-					</ul>
+		</section>
+		<section id="team">
+			<div class="row team section-head">
+				<div class="twelve columns">
+					<h1>Meet Our Team<span>.</span></h1>
+					<hr />
 				</div>
 			</div>
+			<div class="row hero-content">
+				<div
+					id="team-wrapper"
+					class="bgrid-fourth s-bgrid-third tab-bgrid-half mob-bgrid-whole group"
+				>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/aditya.jpg"
+								alt="Aditya D Udapudi"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Aditya D Udapudi</h3>
+							<span>Secretary of FACE</span>
+						</div>
+						<p>
+							A third year pursuing his B-Tech in CSE. Has a great
+							passion for Graphic and UI/UX designing. A Web
+							Developer and a Tech Enthusiast. Loves to convert
+							coffee into code and fiddling around with new tech.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://adityaudapudi.firebaseapp.com/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-user"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://linkedin.com/in/adityaudapudi/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://instagram.com/aditya.deepak18/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://github.com/adityadu-18"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-github"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/rakshana.jpg"
+								alt="Rakshana J"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Rakshana J</h3>
+							<span>Joint Secretary</span>
+						</div>
+						<p>
+							A third year computer enthusiast who enjoys problem
+							solving and likes to try her hand in every new topic
+							she comes across.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://facebook.com/rakshana.reddy.12"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="
+									https://instagram.com/amrutha_akm"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/amrutha-krishnamoorthy-124832166/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/rahul.jpg"
+								alt="Rahul N Kamath"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Rahul N Kamath</h3>
+							<span>Joint Secretary</span>
+						</div>
+						<p>
+							An avid coder, who likes to expand his interests in
+							every new topic he comes across. He is currently
+							striving to achieve finesse in competitive
+							programming and app development.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/profile.php?id=100004573008262"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/rnkpew/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.linkedin.com/in/rahul-kamath-b1069816b/"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/arvind.jpg"
+								alt="Arvind Sudheer"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Arvind Sudheer</h3>
+							<span>Chairperson, ACM Student Chapter ASE-B</span>
+						</div>
+						<p>
+							A third year student interested in coding in
+							different programming languages, mainly trying to
+							get his hands messy with Python and Java, currently
+							working on Machine Learning, AI and Image processing
+							.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/arvind.sudheer"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/arvindsudheer/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/arvind-sudheer-407b37136"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://plus.google.com/117975221163233127928"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-google-plus"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/sriharish.jpg"
+								alt="Sriharish R"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Sriharish R</h3>
+							<span>Co-Chair, ACM ASE-B</span>
+						</div>
+						<p>
+							A sophomore who enjoys coding and problem solving.
+							He is enthusiastic about Artificial Intelligence and
+							Machine Learning and also fascinated with Big Data
+							Analytics.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/sriharish.ramakrishnan
+									"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a href="https://linkedin.com/in/sriharish-r"
+									><i
+										class="fa fa-linkedin"
+										target="_blank"
+										rel="noopener"
+									></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/abhirami.jpg"
+								alt="Abhirami J"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Abhirami J</h3>
+							<span>Chairperson, CSI</span>
+						</div>
+						<p>
+							A third year student pursuing her B-Tech in Computer
+							Science and Engineering, enjoys backend coding.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/abhi.abhirami.33"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/abhirami_j/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/abhirami-j-307490149/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/abhishek.jpg"
+								alt="Abhishek Sai"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Abhishek Sai</h3>
+							<span>Co-chair of CSI</span>
+						</div>
+						<p>
+							A sophomore pursuing his B.Tech in Computer Science
+							and Engineering, he loves to dapple with different
+							programming languages and is a keen web developer.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/abhishek.sai.52"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/abhishek.kvs/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/abhishek-sai-8b352a159/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/lavanaya.jpg"
+								alt="Lavanaya"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Lavanaya Karthikeyan</h3>
+							<span>Chairperson, ACM-W ASE-B</span>
+						</div>
+						<p>
+							A simple girl with big dreams who strongly believes
+							that good leadership can bring a substantial change
+							in this growing world of technology.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/lavanya.karthikeyan.180"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/harshita.jpg"
+								alt="Harshita Reddy"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Harshita Reddy</h3>
+							<span>Co-Chairperson, ACM-W ASE-B</span>
+						</div>
+						<p>
+							A sophomore pursuing B.Tech in Computer Science and
+							Engineering. She is fascinated about Artificial
+							Intelligence and Machine Learning.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/harshitareddy.edugudi
+									"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://instagram.com/harshita._.reddy
+									"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/harshita-reddy-41a69a16b
+									"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/prudhvi.jpg"
+								alt="Prudhvi Nadh"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Prudhvi Nadh</h3>
+							<span>Chairperson, Codechef ASE-B</span>
+						</div>
+						<p>
+							A third year student pursuing B.Tech in Computer
+							Science and Engineering, he has great interest in
+							Deep Learning and Computer Vision.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/prudhvi-nadh-reddy-41aa2014a/"
+									><i
+										class="fa fa-linkedin"
+										target="_blank"
+										rel="noopener"
+									></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/arjun.jpg"
+								alt="Arjun S Kedlaya"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Arjun S Kedlaya</h3>
+							<span>Co-Chairperson, Codechef ASE-B</span>
+						</div>
+						<p>
+							A third year student pursuing B.Tech in Computer
+							Science Engineering, enjoys coding and web
+							development. He is interested in data science and
+							machine learning.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/arjunkedlaya/"
+									><i
+										class="fa fa-linkedin"
+										target="_blank"
+										rel="noopener"
+									></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/sathwic.jpg"
+								alt="Sathwic Somarouthu"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Sathwic Somarouthu</h3>
+							<span>Chairperson, Forge</span>
+						</div>
+						<p>Description</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/sathwic-somarouthu-49088b159/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/charan.jpg"
+								alt="Sri Charan Vendra"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Sri Charan Vendra</h3>
+							<span>Co-Secretary, Forge</span>
+						</div>
+						<p>
+							A freelancer turning amateur in game development,
+							Charan is currently pursuing his career in
+							electronics engineering. His vision is to bring
+							creativity to life in a large scale through games
+							and help improve the world of RPG given the
+							evolution of gaming smartphones.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/cheranvnd"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/sri-charan-vendra-46569a16a/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/aravind.jpg"
+								alt="Aravind V. Nair"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Aravind V. Nair</h3>
+							<span>Executive member</span>
+						</div>
+						<p>
+							A sophomore pursuing B.Tech in Computer Science and
+							Engineering, Aravind V. Nair has enormous passion
+							for coding and web development. He also has a great
+							zeal in server management and ethical hacking.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://aravindvnair99.firebaseapp.com"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-user"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.github.com/aravindvnair99/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-github"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.facebook.com/AravindV.Nair1999"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/aravindvnair99/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/aravindvnair99/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://plus.google.com/+AravindVNair"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-google-plus"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.twitter.com/aravindvnair99/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-twitter"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://aravindvnair1999.blogspot.com"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-globe"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img src="images/team/nuha.jpg" alt="Nuha Varier" />
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Nuha Varier</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A third year student pursuing her B-Tech in Computer
+							Science and Engineering, passionate about coding,
+							Android development and robotics. She loves to
+							explore and learn more in the field of artificial
+							intelligence.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/profile.php?id=100012425462550"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/sharon.jpg"
+								alt="Nirmal Sharon Joji"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Nirmal Sharon Joji</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A sophomore pursuing B.Tech in Computer Science and
+							Engineering. Enjoys solving problems,
+							troubleshooting issues and coming up with new
+							solutions. Keen interest on learning and working on
+							upcoming technologies.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.facebook.com/sharon.joji.52"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.instagram.com/sharon.joji/"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://twitter.com/JojiSharon/"
+									><i class="fa fa-twitter"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img src="images/team/vijaya.jpg" alt="K Vijaya" />
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>K Vijaya</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							An INTP (Introvert, Intuitive, Thinking, Perceiving)
+							personality. She keeps her curiosity levels high and
+							remains positive. She's also a infinite loop foodie
+							whose routine is eat, sleep, code, watch K-Drama and
+							repeat.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/vijaya.katuri.98"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.instagram.com/vijaya.katuri/"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.linkedin.com/in/katuri-vijaya-a58070141"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/kaushik.jpg"
+								alt="K Kaushik Reddy"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>K Kaushik Reddy</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							Kaushik is an enthusiastic CS student and a coding
+							geek. More of a team player , he always produces
+							Energy and Clarity at work. Right now, this budding
+							Data science enthusiast is working to solve real
+							world problems .
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/kaushik.reddy.16503"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.linkedin.com/in/k-kaushik-reddy-154bb6147/"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/varsha.jpg"
+								alt="Sree Varsha Reddy"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Sree Varsha Reddy</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A computer science enthusiast, passionate about
+							coding.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/profile.php?id=100004309909150"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/sree-varsha-reddy-k-5294b8164"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.instagram.com/varshu__k/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/rutvij.jpg"
+								alt="Rutvij D Khatri"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Rutvij D Khatri</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>Interested in designing along with programming.</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.instagram.com/rutvij281197/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.linkedin.com/in/rutvij-khatri-1s-unik/"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/aakash.jpg"
+								alt="Aakash Rayaroth"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Aakash Rayaroth</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A third year student pursuing B.Tech Computer
+							Science, enjoys coding and is interested in Machine
+							Learning and Artificial Intelligence.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.facebook.com/AakashRayaroth"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.instagram.com/the.aakash.rayaroth/?hl=en"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://twitter.com/AakashRayaroth"
+									><i class="fa fa-twitter"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://plus.google.com/u/0/108592120405463598918?tab=mX"
+									><i class="fa fa-google-plus"></i
+								></a>
+							</li>
+							<li>
+								<a
+									target="_blank"
+									rel="noopener"
+									href="https://www.linkedin.com/in/aakashrayaroth/"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img src="images/team/phani.jpg" alt="K B Phani" />
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>K B Phani</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A third year student pursuing B.Tech in Computer
+							Science and Engineering, who is a passionate coder
+							and also has a keen interest in ML and AI
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/phani-khandavilli"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/malavika.jpg"
+								alt="Malavika Nagarathe"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Malavika Nagarathe</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A student pursuing B.Tech in Computer Science and
+							Engineering, who is a passionate coder and also has
+							a keen interest in Artificial Intelligence.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://plus.google.com/+NagaratheMalavika"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-google-plus"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/nagarathe-malavika-49207416a"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/shabreesh.jpg"
+								alt="Shabreesh Nair"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Shabreesh Nair</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A sophomore persuing his B.Tech in Computer Science
+							and Engineering, who loves networking and network
+							security.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.facebook.com/shabreesh.nair"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/shabreesh-nair-23b161160"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/akhil.jpg"
+								alt="Sai Akhil U"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Sai Akhil U</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A Third year student pursuing his B-Tech in CSE, has
+							passion for Data Analytics and Machine Learning. He
+							also enjoys coding and applying concepts learnt to
+							the real world scenario.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.instagram.com/akhil_4081/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/saiakhil-ukkalam/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/rakshana.jpg"
+								alt="Rakshana J"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Rakshana J</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A sophomore pursuing B.Tech in Computer Science and
+							Engineering, Rakshana enjoys problem solving and is
+							a passionate programmer.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.instagram.com/rakshanoo/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-instagram"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.linkedin.com/in/rakshanajp/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://plus.google.com/u/0/112637537807084226047"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-google-plus"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://www.facebook.com/rakshana.reddy.12"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-facebook"></i
+								></a>
+							</li>
+							<li>
+								<a
+									href="https://twitter.com/Rakshana_j"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-twitter"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+					<div class="bgrid member">
+						<div class="member-pic">
+							<img
+								src="images/team/vaishnavi.jpg"
+								alt="Vaishnavi Poolla"
+							/>
+							<div class="mask"></div>
+						</div>
+						<div class="member-name">
+							<h3>Vaishnavi Poolla</h3>
+							<span>Executive Member</span>
+						</div>
+						<p>
+							A 3rd year coding enthusiast, she has a strong
+							fervour for robotics and artificial intelligence.
+						</p>
+						<ul class="member-social">
+							<li>
+								<a
+									href="https://www.linkedin.com/in/poolla-vaishnavi-2820a3148/"
+									target="_blank"
+									rel="noopener"
+									><i class="fa fa-linkedin"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<%include contact.ejs%> <%include footer.ejs%>
+		<div id="preloader">
+			<div id="loader"></div>
 		</div>
-	</section>
-	<%include contact.ejs%>
-	<%include footer.ejs%>
-	<div id="preloader">
-		<div id="loader"></div>
-	</div>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.validate.min.js"></script>
-	<script src="js/jquery.fittext.js"></script>
-	<script src="js/jquery.placeholder.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/main.js"></script>
-	<script async src="js/manup.js"></script>
-	<script>
-		if (navigator.serviceWorker.controller) {
-			console.log('[PWA Builder] active service worker found, no need to register')
-		} else {
-			navigator.serviceWorker.register('pwabuilder-sw.js', {
-				scope: './'
-			}).then(function (reg) {
-				console.log('Service worker has been registered for scope:' + reg.scope);
-			});
-		}
-	</script>
-	<script type="application/ld+json">
-        {
-          "@context": "http://schema.org/",
-          "@type": "WebSite",
-          "name": "FACE Amrita",
-          "alternateName": "Forum for Aspiring Computer Engineers",
-          "url": "https://face-amrita.firebaseapp.com"
-        }
-    </script>
-</body>
-
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+		<script async src="js/manup.js"></script>
+		<script>
+			if (navigator.serviceWorker.controller) {
+				console.log(
+					'[PWA Builder] active service worker found, no need to register'
+				);
+			} else {
+				navigator.serviceWorker
+					.register('pwabuilder-sw.js', {
+						scope: './'
+					})
+					.then(function(reg) {
+						console.log(
+							'Service worker has been registered for scope:' +
+								reg.scope
+						);
+					});
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org/",
+				"@type": "WebSite",
+				"name": "FACE Amrita",
+				"alternateName": "Forum for Aspiring Computer Engineers",
+				"url": "https://face-amrita.firebaseapp.com"
+			}
+		</script>
+	</body>
 </html>
