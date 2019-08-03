@@ -11,17 +11,8 @@ app.get('/', (req, res) => {
 app.get('/ACM', (req, res) => {
 	res.render('acm');
 });
-app.get('/HackathonVerification', (req, res) => {
-	res.render('HackathonVerification');
-});
 app.get('/Submission', (req, res) => {
 	res.render('Submission');
-});
-app.get('/Submission1', (req, res) => {
-	res.render('Submission1');
-});
-app.get('/Submission2', (req, res) => {
-	res.render('Submission2');
 });
 app.get('/TFS', (req, res) => {
 	res.render('tfs');
