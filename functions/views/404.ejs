@@ -69,40 +69,7 @@
 						</li>
 					</ul>
 				</nav>
-				<ul class="header-social">
-					<li>
-						<a
-							target="_blank"
-							rel="noopener"
-							href="https://www.facebook.com/face00amrita/"
-							><i class="fa fa-facebook"></i
-						></a>
-					</li>
-					<li>
-						<a
-							target="_blank"
-							rel="noopener"
-							href="https://twitter.com/faceaseb"
-							><i class="fa fa-twitter"></i
-						></a>
-					</li>
-					<li>
-						<a
-							target="_blank"
-							rel="noopener"
-							href="https://www.instagram.com/face_aseb/"
-							><i class="fa fa-instagram"></i
-						></a>
-					</li>
-					<li>
-						<a
-							target="_blank"
-							rel="noopener"
-							href="https://www.linkedin.com/company/face-aseb/"
-							><i class="fa fa-linkedin"></i
-						></a>
-					</li>
-				</ul>
+				<%include social.ejs%>
 			</div>
 		</header>
 		<section id="hero">
@@ -112,10 +79,10 @@
 						<ul class="slides">
 							<li>
 								<div class="flex-caption">
-									<h1 class="">
+									<h1>
 										404 &#x1f61f;
 									</h1>
-									<h3 class="">
+									<h3>
 										The content you are looking for couldn't
 										be found. Please check your connection
 										or URL and try again.
@@ -127,10 +94,6 @@
 				</div>
 			</div>
 		</section>
-		<%include contact.ejs%> <%include footer.ejs%>
-		<div id="preloader">
-			<div id="loader"></div>
-		</div>
-		<%include scripts.ejs%>
+		<%include contact.ejs%> <%include footer.ejs%> <%include scripts.ejs%>
 	</body>
 </html>
