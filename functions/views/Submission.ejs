@@ -27,7 +27,27 @@
 	</head>
 
 	<body>
-		<%include header.ejs%>
+		<header id="main-header">
+			<div class="row">
+				<div class="logo">
+					<a href="/">FACE</a>
+				</div>
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation"
+					>
+						<span class="menu-icon">Menu</span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-icon">Menu</span>
+					</a>
+					<%include nav.ejs%>
+				</nav>
+				<%include social.ejs%>
+			</div>
+		</header>
 		<section id="hero">
 			<div class="row hero-content">
 				<div class="twelve columns hero-container">
