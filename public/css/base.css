@@ -143,9 +143,9 @@ select {
 }
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
 	-webkit-appearance: button;
 	cursor: pointer;
 }
@@ -165,26 +165,26 @@ input {
 	line-height: normal;
 }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
 	box-sizing: border-box;
 	padding: 0;
 }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
 	height: auto;
 }
 
-input[type="search"] {
+input[type='search'] {
 	-webkit-appearance: textfield;
 	-moz-box-sizing: content-box;
 	-webkit-box-sizing: content-box;
 	box-sizing: content-box;
 }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
 	-webkit-appearance: none;
 }
 
@@ -249,7 +249,6 @@ body {
 	line-height: 1;
 	text-rendering: optimizeLegibility;
 }
-
 
 /*
 /* Typography 
@@ -411,7 +410,7 @@ img {
 
 .row:before,
 .row:after {
-	content: "";
+	content: '';
 	display: table;
 }
 
@@ -445,11 +444,11 @@ img {
 	padding: 0;
 }
 
-[class*="column"] + [class*="column"]:last-child {
+[class*='column'] + [class*='column']:last-child {
 	float: right;
 }
 
-[class*="column"] + [class*="column"].end {
+[class*='column'] + [class*='column'].end {
 	float: right;
 }
 
@@ -514,7 +513,7 @@ img {
 
 /* small screens
 --------------------------------------------------------------- */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
 	.row .row {
 		margin-left: -18px;
 		margin-right: -18px;
@@ -524,12 +523,11 @@ img {
 	.columns {
 		padding: 0 18px;
 	}
-
 }
 
 /* tablets
 --------------------------------------------------------------- */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 	.row {
 		width: auto;
 		padding-left: 30px;
@@ -577,12 +575,11 @@ img {
 	.row .tab-whole {
 		width: 100%;
 	}
-
 }
 
 /* large mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 	.row {
 		padding-left: 25px;
 		padding-right: 25px;
@@ -617,12 +614,11 @@ img {
 	.row .mob-whole {
 		width: 100%;
 	}
-
 }
 
 /* small mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
 	.row {
 		padding-left: 30px;
 		padding-right: 30px;
@@ -645,10 +641,9 @@ img {
 		padding: 0;
 	}
 
-	[class*="column"] + [class*="column"]:last-child {
+	[class*='column'] + [class*='column']:last-child {
 		float: none;
 	}
-
 }
 
 /* 
@@ -677,17 +672,16 @@ img {
 /* Clearing for block grid columns. Allows columns with 
 different heights to align properly.
 --------------------------------------------------------------------- */
-.bgrid-sixth .bgrid:nth-child(6n+1),
-.bgrid-fourth .bgrid:nth-child(4n+1),
-.bgrid-third .bgrid:nth-child(3n+1),
-.bgrid-half .bgrid:nth-child(2n+1) {
+.bgrid-sixth .bgrid:nth-child(6n + 1),
+.bgrid-fourth .bgrid:nth-child(4n + 1),
+.bgrid-third .bgrid:nth-child(3n + 1),
+.bgrid-half .bgrid:nth-child(2n + 1) {
 	clear: both;
 }
 
 /* small screens
 --------------------------------------------------------------- */
-@media screen and (max-width:1024px) {
-
+@media screen and (max-width: 1024px) {
 	/* block grids for small screens */
 	.s-bgrid-sixth .bgrid {
 		width: 16.66667%;
@@ -710,22 +704,21 @@ different heights to align properly.
 		clear: both;
 	}
 
-	[class*="bgrid-"] .bgrid:nth-child(n) {
+	[class*='bgrid-'] .bgrid:nth-child(n) {
 		clear: none;
 	}
 
-	.s-bgrid-sixth .bgrid:nth-child(6n+1),
-	.s-bgrid-fourth .bgrid:nth-child(4n+1),
-	.s-bgrid-third .bgrid:nth-child(3n+1),
-	.s-bgrid-half .bgrid:nth-child(2n+1) {
+	.s-bgrid-sixth .bgrid:nth-child(6n + 1),
+	.s-bgrid-fourth .bgrid:nth-child(4n + 1),
+	.s-bgrid-third .bgrid:nth-child(3n + 1),
+	.s-bgrid-half .bgrid:nth-child(2n + 1) {
 		clear: both;
 	}
-
 }
 
 /* tablets
 --------------------------------------------------------------- */
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 	.tab-bgrid-sixth .bgrid {
 		width: 16.66667%;
 	}
@@ -747,22 +740,21 @@ different heights to align properly.
 		clear: both;
 	}
 
-	[class*="tab-bgrid-"] .bgrid:nth-child(n) {
+	[class*='tab-bgrid-'] .bgrid:nth-child(n) {
 		clear: none;
 	}
 
-	.tab-bgrid-sixth .bgrid:nth-child(6n+1),
-	.tab-bgrid-fourth .bgrid:nth-child(4n+1),
-	.tab-bgrid-third .bgrid:nth-child(3n+1),
-	.tab-bgrid-half .bgrid:nth-child(2n+1) {
+	.tab-bgrid-sixth .bgrid:nth-child(6n + 1),
+	.tab-bgrid-fourth .bgrid:nth-child(4n + 1),
+	.tab-bgrid-third .bgrid:nth-child(3n + 1),
+	.tab-bgrid-half .bgrid:nth-child(2n + 1) {
 		clear: both;
 	}
-
 }
 
 /* mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 	.mob-bgrid-sixth .bgrid {
 		width: 16.66667%;
 	}
@@ -784,22 +776,21 @@ different heights to align properly.
 		clear: both;
 	}
 
-	[class*="mob-bgrid-"] .bgrid:nth-child(n) {
+	[class*='mob-bgrid-'] .bgrid:nth-child(n) {
 		clear: none;
 	}
 
-	.mob-bgrid-sixth .bgrid:nth-child(6n+1),
-	.mob-bgrid-fourth .bgrid:nth-child(4n+1),
-	.mob-bgrid-third .bgrid:nth-child(3n+1),
-	.mob-bgrid-half .bgrid:nth-child(2n+1) {
+	.mob-bgrid-sixth .bgrid:nth-child(6n + 1),
+	.mob-bgrid-fourth .bgrid:nth-child(4n + 1),
+	.mob-bgrid-third .bgrid:nth-child(3n + 1),
+	.mob-bgrid-half .bgrid:nth-child(2n + 1) {
 		clear: both;
 	}
-
 }
 
 /* stack on small mobile devices
 --------------------------------------------------------------- */
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
 	.stack .bgrid {
 		width: auto !important;
 		float: none !important;
@@ -807,7 +798,6 @@ different heights to align properly.
 		margin-right: 0;
 		clear: both;
 	}
-
 }
 
 /* 
@@ -818,7 +808,7 @@ different heights to align properly.
 --------------------------------------------------------------------- */
 .group:before,
 .group:after {
-	content: "";
+	content: '';
 	display: table;
 }
 
