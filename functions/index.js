@@ -21,7 +21,13 @@ app.get('/TFS', (req, res) => {
 	res.render('tfs');
 });
 app.get('/Team', (req, res) => {
-	res.render('team');
+	res.redirect('/Team_1920');
+});
+app.get('/Team_1819', (req, res) => {
+	res.render('team_1819');
+});
+app.get('/Team_1920', (req, res) => {
+	res.render('team_1920');
 });
 app.get('/Offline', (req, res) => {
 	res.render('offline');
