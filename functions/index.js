@@ -17,8 +17,8 @@ app.get('/ACMComingSoon', (req, res) => {
 app.get('/Submission', (req, res) => {
 	res.render('Submission');
 });
-app.get('/CSI_Comquer', (req, res) => {
-	res.render('CSI_Comquer');
+app.get('/Comquer', (req, res) => {
+	res.render('Comquer');
 });
 app.get('/TFS', (req, res) => {
 	res.render('tfs');
