@@ -10,3 +10,7 @@ p {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
 }
+
+.card{
+	margin: auto;
+}
