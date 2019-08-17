@@ -15,11 +15,6 @@ p {
 	font-size: 1.2rem;
 }
 
-<<<<<<< HEAD
-.card {
-	margin: auto;
-}
-=======
 
 .card:hover{
 	transform: scale(1.025);
@@ -28,4 +23,3 @@ p {
 .card{
 	transition: transform .2s;
 }
->>>>>>> added blog and events links and hover
