@@ -1,5 +1,5 @@
-body{
-	transition: .2s;
+body {
+	transition: 0.2s;
 	background-color: pink;
 }
 
@@ -16,11 +16,10 @@ p {
 	font-size: 1.2rem;
 }
 
-
-.card:hover{
+.card:hover {
 	transform: scale(1.025);
 }
 
-.card{
-	transition: transform .2s;
+.card {
+	transition: transform 0.2s;
 }
