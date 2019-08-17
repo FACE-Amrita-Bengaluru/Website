@@ -16,8 +16,14 @@ p {
 	font-size: 1.2rem;
 }
 
+<<<<<<< HEAD
 .card:hover {
 	transform: scale(1.025);
+=======
+
+.card:hover{
+	transform: scale(1.025); 
+>>>>>>> added trasition
 }
 
 .card {
