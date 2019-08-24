@@ -1,6 +1,5 @@
 body {
 	transition: 0.2s;
-	background-color: pink;
 }
 
 footer {
@@ -22,4 +21,8 @@ p {
 
 .card {
 	transition: transform 0.2s;
+}
+
+.bd{
+	height: 50%;
 }
