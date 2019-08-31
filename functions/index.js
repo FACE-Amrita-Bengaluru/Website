@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/ACM', (req, res) => {
 	res.render('acm');
 });
+app.get('/ACM_Blog', (req, res) => {
+	res.render('acmBlog');
+});
 app.get('/ACMComingSoon', (req, res) => {
 	res.render('acmComingSoon');
 });
