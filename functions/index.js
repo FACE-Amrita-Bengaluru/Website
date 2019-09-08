@@ -59,8 +59,8 @@ app.get('/SLAC', (req, res) => {
 	res.redirect('https://slacfest.in');
 });
 
-app.get('/acmMembers', (req, res) => {
-	res.render('acmMembers');
+app.get('/acmMember', (req, res) => {
+	res.render('acmMember');
 });
 
 app.use((req, res, next) => {
