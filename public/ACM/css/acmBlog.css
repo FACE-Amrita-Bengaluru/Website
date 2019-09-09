@@ -31,3 +31,15 @@ p {
 .bd-example .carousel .carousel-inner .carousel-item img {
 	height: 500px;
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color: black; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
