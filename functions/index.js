@@ -17,6 +17,9 @@ app.get('/ACM_Blog', (req, res) => {
 app.get('/ACMComingSoon', (req, res) => {
 	res.render('acmComingSoon');
 });
+app.get('/ACM_Member', (req, res) => {
+	res.render('acmMember');
+});
 app.get('/Submission', (req, res) => {
 	res.render('submission');
 });
@@ -58,11 +61,6 @@ app.get('/UI-UX', (req, res) => {
 app.get('/SLAC', (req, res) => {
 	res.redirect('https://slacfest.in');
 });
-
-app.get('/acmMember', (req, res) => {
-	res.render('acmMember');
-});
-
 app.use((req, res, next) => {
 	res.status(404).render('404');
 });
