@@ -28,8 +28,8 @@ p {
 	transition: transform 0.2s;
 }
 
-.bd {
-	height: 50%;
+.bd-example .carousel .carousel-inner .carousel-item img {
+	height: 500px;
 }
 
 .team .carousel-control-prev-icon {
