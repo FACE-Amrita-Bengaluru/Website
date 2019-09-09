@@ -1,306 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Bootstrap Example</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link
-			rel="stylesheet"
-			href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	</head>
-	<body>
-		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-			<!-- Brand/logo -->
-			<a class="navbar-brand" href="#">Logo</a>
 
-			<!-- Links -->
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Blog</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Events</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Members</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Gallery</a>
-				</li>
-			</ul>
-		</nav>
+<head>
+	<title>Bootstrap Example</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="/ACM/css/members.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-		<!-- <div class="jumbotron text-center">
-	<h1>My First Bootstrap Page</h1>
-	<p>Resize this responsive page to see the effect!</p> 
-</div> -->
-		<div id="demo" class="carousel slide" data-ride="carousel">
-			<!-- Indicators -->
-			<ul class="carousel-indicators">
-				<li data-target="#demo" data-slide-to="0" class="active"></li>
-				<li data-target="#demo" data-slide-to="1"></li>
-				<li data-target="#demo" data-slide-to="2"></li>
-				<li data-target="#demo" data-slide-to="3"></li>
-			</ul>
+</head>
 
-			<!-- The slideshow -->
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img
-						src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-						alt="A black, brown, and white dog wearing a kerchief"
-						width="1100"
-						height="500"
-					/>
-					<div class="carousel-caption">
-						<h3>THE TEAM PHOTO</h3>
-						<p>All the SIG and ACM official members</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-						alt="A black, brown, and white dog wearing a kerchief"
-						width="1100"
-						height="500"
-					/>
-					<div class="carousel-caption">
-						<h3>WEB DEVELOPMENT SIG</h3>
-						<p>All the particular SIG members</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-						alt="A black, brown, and white dog wearing a kerchief"
-						width="1100"
-						height="500"
-					/>
-					<div class="carousel-caption">
-						<h3>DATA SCIENCE SIG</h3>
-						<p>All the particular SIG members</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img
-						src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-						alt="A black, brown, and white dog wearing a kerchief"
-						width="1100"
-						height="500"
-					/>
-					<div class="carousel-caption">
-						<h3>COMPETITIVE CODING SIG</h3>
-						<p>All the particular SIG members</p>
-					</div>
-				</div>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<div class="container">
+			<img src="/ACM/img/logo.png" class="d-inline-block align-top" width="170" height="50" />
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#carouselExampleCaptions">Home <span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#events">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#members">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Gallery</a>
+					</li>
+				</ul>
 			</div>
-
-			<!-- Left and right controls -->
-			<a class="carousel-control-prev" href="#demo" data-slide="prev">
-				<span class="carousel-control-prev-icon"></span>
-			</a>
-			<a class="carousel-control-next" href="#demo" data-slide="next">
-				<span class="carousel-control-next-icon"></span>
-			</a>
 		</div>
-		<div class="m-5 pb-5">
+	</nav>
+
+	<div class="container">
+		<h1 class="display-2">Meet Our Team</h1>
+		<div class="jumbotron jumbotron-fluid">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="card" style="width:18rem">
-							<img
-								class="img-fluid"
-								src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-								alt="Card image"
-							/>
-							<div class="card-body">
-								<h4 class="card-title">Member 1</h4>
-								<p class="card-text">ROLE</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card" style="width:18rem">
-							<img
-								class="card-img-top"
-								src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-								alt="Card image"
-							/>
-							<div class="card-body">
-								<h4 class="card-title">Member 2</h4>
-								<p class="card-text">ROLE</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="card" style="width:18rem">
-							<img
-								class="card-img-top"
-								src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-								alt="Card image"
-							/>
-							<div class="card-body">
-								<h4 class="card-title">Member 3</h4>
-								<p class="card-text">ROLE</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="m-5 pb-5">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="card" style="width:18rem">
-								<img
-									class="card-img-top"
-									src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-									alt="Card image"
-								/>
-								<div class="card-body">
-									<h4 class="card-title">Member 4</h4>
-									<p class="card-text">ROLE</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width:18rem">
-								<img
-									class="card-img-top"
-									src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-									alt="Card image"
-								/>
-								<div class="card-body">
-									<h4 class="card-title">Member 5</h4>
-									<p class="card-text">ROLE</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="card" style="width:18rem">
-								<img
-									class="card-img-top"
-									src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-									alt="Card image"
-								/>
-								<div class="card-body">
-									<h4 class="card-title">Member 6</h4>
-									<p class="card-text">ROLE</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="m-5 pb-5">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-4">
-								<div class="card" style="width:18rem">
-									<img
-										class="card-img-top"
-										src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-										alt="Card image"
-									/>
-									<div class="card-body">
-										<h4 class="card-title">Member 7</h4>
-										<p class="card-text">ROLE</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="card" style="width:18rem">
-									<img
-										class="card-img-top"
-										src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-										alt="Card image"
-									/>
-									<div class="card-body">
-										<h4 class="card-title">Member 8</h4>
-										<p class="card-text">ROLE</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-sm-4">
-								<div class="card" style="width:18rem">
-									<img
-										class="card-img-top"
-										src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-										alt="Card image"
-									/>
-									<div class="card-body">
-										<h4 class="card-title">Member 9</h4>
-										<p class="card-text">ROLE</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="m-5 pb-5">
-						<div class="container">
-							<div class="row">
-								<div class="col-sm-4">
-									<div class="card" style="width:18rem">
-										<img
-											class="card-img-top"
-											src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-											alt="Card image"
-										/>
-										<div class="card-body">
-											<h4 class="card-title">
-												Member 10
-											</h4>
-											<p class="card-text">ROLE</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="card" style="width:18rem">
-										<img
-											class="card-img-top"
-											src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-											alt="Card image"
-										/>
-										<div class="card-body">
-											<h4 class="card-title">
-												Member 11
-											</h4>
-											<p class="card-text">ROLE</p>
-										</div>
-									</div>
-								</div>
-								<div class="col-sm-4">
-									<div class="card" style="width:18rem">
-										<img
-											class="card-img-top"
-											src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/dog.jpg"
-											alt="Card image"
-										/>
-										<div class="card-body">
-											<h4 class="card-title">
-												Member 12
-											</h4>
-											<p class="card-text">ROLE</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="m-5 pb-5">
-							<div class="footer">
-								<p>Footer will be displayed here</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				<h1 class="display-4">THE TEAM PHOTO</h1>
+				<p class="lead">All the SIG and ACM office bearers</p>
 			</div>
 		</div>
-	</body>
+		<section id="members">
+			<div class="row d-flex justify-content-around">
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-xl-4">
+					<div class="container">
+						<div class="card">
+
+							<div class="card__front">
+
+								<div class="card__top">
+								</div>
+
+								<div class="card__bottom">
+									<h3 class="card__title">Julia D. Hamilton</h3>
+									<h3 class="card__subtitle">Developer</h3>
+								</div>
+
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">About me</h3>
+								<p class="card__text">Lorem ipsum dolor sit amet pokrm lo consectetur adipisicing elit
+									mors.
+									Quaery ipsa
+									autem repellendus lot fuga molre, ipsum dolor. dolore nis temporayo dolor rerum
+									deleniti
+									sip
+									reiciendis.</p>
+
+								<ul class="card__list">
+									<li class="card__item">2008 Freelancer</li>
+									<li class="card__item">2010 UX/UI Designer</li>
+									<li class="card__item">2014 Fullstack Developer</li>
+									<li class="card__item">2016 Project Manager</li>
+									<li class="card__item">2019 Frontend Engineer</li>
+								</ul>
+
+								<ul class="social-networks">
+									<a href="#" target="_blank"><i class="icon fab fa-facebook-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-linkedin"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-github-square"></i></a>
+									<a href="#" target="_blank"><i class="icon fab fa-youtube-square"></i></a>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+	</div>
+	</section>
+	<!-- <div class="m-5 pb-5">
+						<div class="footer">
+							<p>Footer will be displayed here</p>
+						</div>
+					</div> -->
+	</div>
+</body>
+
 </html>
