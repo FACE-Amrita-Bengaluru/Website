@@ -114,3 +114,7 @@
   #members .card__title--cream {
     color: #e4e0c9;
   }
+
+  footer {
+	background-color: gainsboro;
+}
