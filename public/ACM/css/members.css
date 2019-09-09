@@ -1,15 +1,17 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	transition: 0.2s;
+}
+
 .navbar {
 	background-color: #1b80ce;
 }
 
-.footer {
-	position: relative;
-	/* left: 0;
-	bottom: 0; */
-	width: 100%;
-	background-color: grey;
-	color: white;
-	text-align: center;
+footer {
+	background-color: gainsboro;
 }
 
 
