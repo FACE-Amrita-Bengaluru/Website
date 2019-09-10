@@ -1,13 +1,122 @@
-.carousel-inner img {
-	width: 100%;
-	height: 100%;
+html {
+	scroll-behavior: smooth;
 }
-.footer {
-	position: relative;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: grey;
-	color: white;
-	text-align: center;
+
+body {
+	transition: 0.2s;
+}
+
+.navbar {
+	background-color: #1b80ce;
+}
+
+footer {
+	background-color: gainsboro;
+}
+
+
+/* Members section */
+.jumbotron
+{
+	background-color: white;
+	background-image: url("/ACM/img/team.png");
+}
+  #members .card, .card__front, .card__back {
+    width: 320px;
+	height: 480px;
+	border-radius: 5px;
+  }
+  #members .card {
+	margin: 10px;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    /* position: relative; */
+  }
+  #members .card__front, .card__back {
+	backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #members .card__front {
+    z-index: 2;
+    background: #009fb7;
+    color: #f4f4f8;
+    overflow: hidden;
+  }
+  #members .card__back {
+    padding: 15px;
+    transform: rotateY(180deg);
+    background: #0091a7;
+    color: #f4f4f8;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #members .container:hover .card {
+    transform: rotateY(180deg);
+  }
+  #members .card__top {
+    height: 80%;
+    width: 100%;
+    background-image: url('https://images.unsplash.com/photo-1549351512-c5e12b11e283?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  #members .card__picture {
+    width: 100%;
+  }
+  #members .card__bottom {
+    padding: 15px;
+  }
+  #members .card__title, .card__subtitle {
+    text-align: center;
+  }
+  #members .card__title {
+    font-size: 24px;
+    margin: 5px;
+    font-family: 'Merienda One', cursive;
+  }
+  #members .card__subtitle {
+    font-size: 24px;
+    margin: 0;
+    color: #e4e0c9;
+    font-family: 'Amaranth', sans-serif;
+  }
+  #members .card__list {
+    margin: 25px 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+  #members .card__text {
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  #members .card__item {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #members .social-networks {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #members .icon {
+    font-size: 28px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #f4f4f8;
+    transition: 0.5s all;
+  }
+  #members .icon:hover {
+    transform: scale(1.2);
+    color: #e4e0c9;
+  }
+  #members .card__title--cream {
+    color: #e4e0c9;
+  }
+
+  footer {
+	background-color: gainsboro;
 }
