@@ -32,18 +32,16 @@ p {
 	height: 40rem;
 }
 
-@media only screen and (max-width:768px)
-{
+@media only screen and (max-width: 768px) {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 30rem;
-	}	
+	}
 }
 
-@media only screen and (max-width:480px)
-{
+@media only screen and (max-width: 480px) {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 20rem;
-	}	
+	}
 }
 .team .carousel-control-prev-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
