@@ -1,3 +1,5 @@
+//Owl Carousel 
+
 $('.owl-carousel').owlCarousel({
 	loop: true,
 	margin: 10,
@@ -16,14 +18,8 @@ $('.owl-carousel').owlCarousel({
 	}
 });
 
+// Hide navbar on clicking links
+
 $('.navbar-nav>li>a').on('click', function() {
 	$('.navbar-collapse').collapse('hide');
 });
-
-
-(function() {
-    $('a[href*=#]').on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-    });
-  });
