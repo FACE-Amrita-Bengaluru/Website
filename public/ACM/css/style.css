@@ -32,6 +32,11 @@ p {
 	height: 40rem;
 }
 
+.navbar-collapse{
+	display: flex;
+  	justify-content: flex-end;
+}
+
 @media only screen and (max-width: 768px) {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 30rem;
@@ -50,3 +55,67 @@ p {
 .team .carousel-control-next-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
+
+
+.gal img
+{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Styling for Scoll Indicator */
+
+.demo a {
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	transition: opacity .3s;
+  }
+  .demo a:hover {
+	opacity: .5;
+  }
+
+#section04 a {
+	padding-top: 60px;
+  }
+  #section04 a span {
+	position: absolute;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb04 2s infinite;
+	animation: sdb04 2s infinite;
+	box-sizing: border-box;
+  }
+  @-webkit-keyframes sdb04 {
+	0% {
+	  -webkit-transform: rotate(-45deg) translate(0, 0);
+	}
+	20% {
+	  -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+	}
+	40% {
+	  -webkit-transform: rotate(-45deg) translate(0, 0);
+	}
+  }
+  @keyframes sdb04 {
+	0% {
+	  transform: rotate(-45deg) translate(0, 0);
+	}
+	20% {
+	  transform: rotate(-45deg) translate(-10px, 10px);
+	}
+	40% {
+	  transform: rotate(-45deg) translate(0, 0);
+	}
+  }
+  
+
+

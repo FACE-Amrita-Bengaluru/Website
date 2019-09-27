@@ -1,3 +1,5 @@
+//Owl Carousel 
+
 $('.owl-carousel').owlCarousel({
 	loop: true,
 	margin: 10,
@@ -15,6 +17,8 @@ $('.owl-carousel').owlCarousel({
 		}
 	}
 });
+
+// Hide navbar on clicking links
 
 $('.navbar-nav>li>a').on('click', function() {
 	$('.navbar-collapse').collapse('hide');
