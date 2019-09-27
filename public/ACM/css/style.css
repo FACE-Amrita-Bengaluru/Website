@@ -32,6 +32,11 @@ p {
 	height: 40rem;
 }
 
+.navbar-collapse{
+	display: flex;
+  	justify-content: flex-end;
+}
+
 @media only screen and (max-width: 768px) {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 30rem;
