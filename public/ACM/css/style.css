@@ -1,22 +1,36 @@
+/* Styling for whole html */
 html {
 	scroll-behavior: smooth;
 }
 
+/* Styling for body */
 body {
 	transition: 0.2s;
 }
 
+/* Styling for footer */
 footer {
 	background-color: gainsboro;
 }
 
+/* Styling for navbar */
 .navbar {
 	background-color: #1b80ce;
 }
+.navbar-collapse{
+	display: flex;
+  	justify-content: flex-end;
+}
 
+/* Styling for all the paragraghs */
 p {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
+}
+
+/* Styling for all the cards */
+.card {
+	transition: transform 0.2s;
 }
 
 .card:hover {
@@ -24,17 +38,9 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card {
-	transition: transform 0.2s;
-}
-
+/* Setting height of bootstrap Carousel for different resolutions */
 .bd-example .carousel .carousel-inner .carousel-item img {
 	height: 40rem;
-}
-
-.navbar-collapse{
-	display: flex;
-  	justify-content: flex-end;
 }
 
 @media only screen and (max-width: 768px) {
@@ -48,15 +54,8 @@ p {
 		height: 20rem;
 	}
 }
-.team .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
 
-.team .carousel-control-next-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-
+/* Styling for Gallery Indicator */
 .gal img
 {
   width: 100%;
@@ -64,8 +63,7 @@ p {
   margin-bottom: 20px;
 }
 
-/* Styling for Scoll Indicator */
-
+/* Styling for Scroll Indicator */
 .demo a {
 	z-index: 2;
 	display: inline-block;
