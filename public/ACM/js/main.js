@@ -1,4 +1,4 @@
-//Owl Carousel 
+//Owl Carousel
 
 $('.owl-carousel').owlCarousel({
 	loop: true,
