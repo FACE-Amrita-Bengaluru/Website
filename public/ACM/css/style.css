@@ -6,7 +6,13 @@ html {
 /* Styling for body */
 body {
 	transition: 0.2s;
+	box-sizing: border-box;
 }
+
+body, html{
+	height:100%;
+	margin:0;
+  }
 
 /* Styling for footer */
 footer {
@@ -39,11 +45,12 @@ p {
 }
 
 /* Setting height of bootstrap Carousel for different resolutions */
-.bd-example .carousel .carousel-inner .carousel-item img {
-	height: 40rem;
-}
+/* .bd-example .carousel .carousel-inner .carousel-item img {
+	height: 50rem;
+	width: 100%;
+} */
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 30rem;
 	}
@@ -53,7 +60,7 @@ p {
 	.bd-example .carousel .carousel-inner .carousel-item img {
 		height: 20rem;
 	}
-}
+} */
 
 /* Styling for Gallery Indicator */
 .gal img {
