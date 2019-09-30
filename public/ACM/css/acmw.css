@@ -1,4 +1,4 @@
-html{
+.html{
     scroll-behavior: smooth;
   } 
 body {
@@ -44,8 +44,8 @@ h4 {
 		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
 	}
 }
-.bg-1 {
-	background: #fff;
+/* .bg-1 {
+	background: #fff; */
 	/*color: #111;*/
 }
 .bg-1 h3 {color: #111;}
