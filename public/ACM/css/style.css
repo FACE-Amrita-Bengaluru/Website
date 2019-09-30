@@ -12,6 +12,7 @@ body {
 body, html{
 	height:100%;
 	margin:0;
+	display: block;
   }
 
 /* Styling for footer */
@@ -30,8 +31,8 @@ footer {
 
 /* Styling for all the paragraghs */
 p {
-	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
+	color: #595959;
 }
 
 /* Styling for all the cards */
@@ -103,3 +104,66 @@ p {
 		transform: rotate(-45deg) translate(0, 0);
 	}
 }
+
+#sig{
+	/* width:100%; */
+	height:300%;
+  }
+  
+#sig .pimg1, .pimg2, .pimg3{
+	position:relative;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+  
+	/*
+	  fixed = parallax
+	  scroll = normal
+	*/
+	background-attachment:fixed;
+  }
+  
+  #sig .pimg1{
+	background-image:url('/ACM/img/Wsig.png');
+	height:33.33%;
+  }
+  
+  #sig .pimg2{
+	background-image:url('/ACM/img/Dsig.png');
+	height:33.33%;
+  }
+  
+  #sig .pimg3{
+	background-image:url('/ACM/img/Csig.png');
+	height:33.33%;
+  }
+  
+  #sig .ptext{
+	position:absolute;
+	top:40%;
+	width:50%;
+	text-align:center;
+	font-size: 1.2rem;
+  }
+  
+ .border{
+	background-color:#595959;
+	color:#fff;
+	padding:20px;
+	font-size:20px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+  }
+  
+  #sig .head{
+	position:absolute;
+	top: 235%;
+	width:100%;
+	
+	z-index: 1;
+  }
+  @media(max-width:568px){
+	#sig .pimg1, .pimg2, .pimg3{
+	  background-attachment:scroll;
+	}
+  }
