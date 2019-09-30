@@ -36,13 +36,14 @@ p {
 
 /* Styling for all the cards */
 .card {
-	transition: transform 0.2s;
+	/* transition: transform 0.2s; */
+	border: none;
 }
 
-.card:hover {
+/* .card:hover {
 	transform: scale(1.025);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 /* Styling for Gallery Indicator */
 .gal img {
