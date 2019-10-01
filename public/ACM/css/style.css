@@ -6,6 +6,14 @@ html {
 /* Styling for body */
 body {
 	transition: 0.2s;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	display: block;
 }
 
 /* Styling for footer */
@@ -24,36 +32,20 @@ footer {
 
 /* Styling for all the paragraghs */
 p {
-	font-family: 'Nunito Sans', sans-serif;
 	font-size: 1.2rem;
+	color: #595959;
 }
 
 /* Styling for all the cards */
 .card {
-	transition: transform 0.2s;
+	/* transition: transform 0.2s; */
+	border: none;
 }
 
-.card:hover {
+/* .card:hover {
 	transform: scale(1.025);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Setting height of bootstrap Carousel for different resolutions */
-.bd-example .carousel .carousel-inner .carousel-item img {
-	height: 40rem;
-}
-
-@media only screen and (max-width: 768px) {
-	.bd-example .carousel .carousel-inner .carousel-item img {
-		height: 30rem;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.bd-example .carousel .carousel-inner .carousel-item img {
-		height: 20rem;
-	}
-}
+} */
 
 /* Styling for Gallery Indicator */
 .gal img {
@@ -111,5 +103,72 @@ p {
 	}
 	40% {
 		transform: rotate(-45deg) translate(0, 0);
+	}
+}
+
+#sig {
+	/* width:100%; */
+	height: 300%;
+}
+
+#sig .pimg1,
+.pimg2,
+.pimg3 {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/*
+	  fixed = parallax
+	  scroll = normal
+	*/
+	background-attachment: fixed;
+}
+
+#sig .pimg1 {
+	background-image: url('/ACM/img/Wsig.png');
+	height: 33.33%;
+}
+
+#sig .pimg2 {
+	background-image: url('/ACM/img/Dsig.png');
+	height: 33.33%;
+}
+
+#sig .pimg3 {
+	background-image: url('/ACM/img/Csig.png');
+	height: 33.33%;
+}
+
+#sig .ptext {
+	position: absolute;
+	top: 40%;
+	width: 50%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.border {
+	background-color: #595959;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+#sig .head {
+	position: absolute;
+	top: 235%;
+	width: 100%;
+
+	z-index: 1;
+}
+@media (max-width: 568px) {
+	#sig .pimg1,
+	.pimg2,
+	.pimg3 {
+		background-attachment: scroll;
 	}
 }
