@@ -15,8 +15,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 # :family: Team
 
 * **Abhishek Sai** - *Front-end, Testing and Back-end* - [Abhishek-Sai](https://github.com/Abhishek-Sai)
-* **Aravind V. Nair** - *Front-end, Testing, Back-end and Security* - [AravindVNair99](https://github.com/aravindvnair99)
-* **Priyaa Iyer** - *Front-end, Testing and Back-end* - [PriyaaIyer](https://github.com/PriyaaIyer)
+* **Aravind V. Nair** - *Front-end, Testing, Back-end and Security* - [AravindVNair99](https://github.com/AravindVNair99)
+* **Priyaa Iyer** - *Front-end and Back-end* - [PriyaaIyer](https://github.com/PriyaaIyer)
 * **Vinayak Tekade** - *Front-end, Testing and Back-end* - [VinayakTekade](https://github.com/VinayakTekade)
 
 See the full list of [contributors](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/graphs/contributors) who participated in this project and statistics.

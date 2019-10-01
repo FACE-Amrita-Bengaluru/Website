@@ -24,29 +24,29 @@ $('.navbar-nav>li>a').on('click', function() {
 	$('.navbar-collapse').collapse('hide');
 });
 
-
-
-
-$(window).scroll(function(){
-	$('.sig').each(function(){
-	  if(isScrolledIntoView($(this))){
-		$(this).children('.head').css('display','block');
-	  }
-	  else{
-		$(this).children('.head').css('display','none');
-	  }
+$(window).scroll(function() {
+	$('.sig').each(function() {
+		if (isScrolledIntoView($(this))) {
+			$(this)
+				.children('.head')
+				.css('display', 'block');
+		} else {
+			$(this)
+				.children('.head')
+				.css('display', 'none');
+		}
 	});
-  });
-  
-  function isScrolledIntoView(elem){
-	  var $elem = $(elem);
-	  var $window = $(window);
-  
-	  var docViewTop = $window.scrollTop();
-	  var docViewBottom = docViewTop + $window.height();
-  
-	  var elemTop = $elem.offset().top;
-	  var elemBottom = elemTop + $elem.height();
-  
-	  return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-  }
+});
+
+function isScrolledIntoView(elem) {
+	var $elem = $(elem);
+	var $window = $(window);
+
+	var docViewTop = $window.scrollTop();
+	var docViewBottom = docViewTop + $window.height();
+
+	var elemTop = $elem.offset().top;
+	var elemBottom = elemTop + $elem.height();
+
+	return elemBottom <= docViewBottom && elemTop >= docViewTop;
+}
