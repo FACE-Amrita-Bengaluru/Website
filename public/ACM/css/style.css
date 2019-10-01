@@ -16,6 +16,11 @@ html {
 	display: block;
 }
 
+.container
+{
+	max-width: 80%;
+}
+
 /* Styling for footer */
 footer {
 	background-color: gainsboro;
@@ -145,6 +150,7 @@ p {
 	position: absolute;
 	top: 40%;
 	width: 50%;
+	left: 7%;
 	text-align: center;
 	font-size: 1.2rem;
 }
