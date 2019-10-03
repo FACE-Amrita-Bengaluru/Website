@@ -158,7 +158,7 @@ p {
 	top: 40%;
 	width: 50%;
 	left: 7%;
-	text-align: center;
+
 	font-size: 1.2rem;
 }
 
@@ -180,26 +180,14 @@ p {
 	text-transform: uppercase;
 }
 
-#sig{
-	display:block;
-	/* margin: 10px 5%; */
+.pimg1 .head, .pimg2 .head, .pimg3 .head{
+	position: absolute;
+	top: 30%;
+	padding-left: 5%;
 }
-
-.sigm{
-	display: none;
-}
-
-
+ 
 @media (max-width: 568px) {
-	#sig{
-		display:none;
-		/* margin: 10px 5%; */
-	}
-
-	.sigm{
-		display: block;
-	}
-
+	
 	.sigm img{
 		width: 100%;
 		height: fit-content;
