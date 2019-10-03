@@ -128,10 +128,10 @@
 			<!-- ACM Intro -->
 			<div class="card bg-light mb-3">
 				<div class="row no-gutters">
-					<div class="col-md-6 d-flex align-items-center">
+					<div class="col-md-6 d-flex align-items-center order-1 order-md-0">
 						<img src="/ACM/img/acm.png" class="card-img p-5" alt="ACM logo" />
 					</div>
-					<div class="col-md-6 d-flex align-items-center">
+					<div class="col-md-6 d-flex align-items-center order-0 order-md-1">
 						<div class="card-body">
 							<h5 class="card-title ptext head">
 								Association of Computing Machinery
@@ -167,7 +167,10 @@
 			<!-- ACM-W Intro -->
 			<div class="card mb-5 bg-light">
 				<div class="row no-gutters">
-					<div class="col-md-6 d-flex align-items-center">
+					<div class="col-md-6 d-flex align-items-center order-1 order-md-1">
+						<img src="/ACM/img/acmw.png" class="card-img p-5" alt="..." />
+					</div>
+					<div class="col-12 col-md-6 d-flex align-items-center order-0 order-md-0">
 						<div class="card-body ">
 							<h5 class="card-title ptext head">
 								Association of Computing Machinery- Women in
@@ -188,9 +191,6 @@
 							</p>
 						</div>
 					</div>
-					<div class="col-md-6 d-flex align-items-center">
-						<img src="/ACM/img/acmw.png" class="card-img p-5" alt="..." />
-					</div>
 				</div>
 			</div>
 			<!-- End of ACM-W Intro -->
@@ -199,13 +199,13 @@
 	</div>
 	<!-- end of container -->
 
-	<!-- SIG Intro -->
+	<!-- SIG Intro for big screen-->
 	<div id="sig">
 		<div class="pimg0">
 			<div class="ptext">
-				<span class="head">
+				<div class="head">
 					ACM Special Interest Groups
-				</span>
+				</div>
 				<p class="pt-5">
 					ACM Special Interest Groups also called as ACM SIG’s is a community that work to develop and
 					research on various fields in computer science technology like web development, data sciences,
@@ -219,7 +219,6 @@
 					This is achieved by conducting various informative workshops, discussions, interactive sessions,
 					various competitions, skill training sessions, tutorials and practical experience to revive the geek
 					in you.
-
 				</p>
 			</div>
 		</div>
@@ -280,7 +279,83 @@
 			</div>
 		</div>
 	</div>
+	<!-- end of sig for big screen -->
+
+	<!-- sig for small screen -->
+	<div class="sigm container">
+		<div class="card bg-light">
+			<span class="head">
+				ACM Special Interest Groups
+			</span>
+			<p class="pt-5">
+				ACM Special Interest Groups also called as ACM SIG’s is a community that work to develop and
+				research on various fields in computer science technology like web development, data sciences,
+				coding, artificial intelligence, graphics and few more exciting fields for growth of computer
+				science technologic carries most of its works through Self Interest Groups in the field of computer
+				science.
+				<br>
+				The Self-interest group’s (SIG’s) at Amrita school of engineering works with this motto. The SIG’s
+				at Amrita provide a platform to help young budding computer aspirants to make it into the big world
+				of computer science technology.
+				This is achieved by conducting various informative workshops, discussions, interactive sessions,
+				various competitions, skill training sessions, tutorials and practical experience to revive the geek
+				in you.
+			</p>
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM Web Development SIG
+			</span>
+			<p class="pt-5">
+				The ACM chapter at Amrita invites all the creative and
+				tech-savvy minds to test their skills in developing
+				projects. Those who have no idea about web development
+				can still join and they will be taught from scratch.
+				Active participation is the key to SIG. We had conducted
+				a boot camp on web development by two web development
+				enthusiasts Aravind V Nair and Abhishek Sai. It was a
+				full-stack web development workshop focusing on HTML5,
+				CSS3, Bootcamp, Node.js, Express.js, GitHub, Database,
+				CLI, JS, and Firebase. At last but not least our motto
+				always here is to learn, unlearn and relearn.
+			</p>
+			<img src="/ACM/img/WD1.png" class="card-img p-5" alt="..." />
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM DATA SCIENCE SIG
+			</span>
+			<p class="pt-5">
+				We at ACM Amrita Student Chapter bring forth the ACM
+				Data Science SIG which focuses on learning specific
+				efficient learning algorithms and implementing them in
+				real life with the help of sample data. This learning
+				will encourage you to build artificial Agents which will
+				make your work easier. We here learn the math and code
+				that goes into algorithms.
+			</p>
+			<img src="/ACM/img/DS1.png" class="card-img p-5" alt="..." />
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM COMPETITIVE PROGRAMMING SIG
+			</span>
+			<p class="pt-5">
+				ACM and ACM-W Student chapters in collaboration with
+				Code chef bring to you the opportunity to be a part of
+				the Competitive Coding Student Interest Group (ACM
+				Competitive Coding) for the year 2019-2020. The
+				Competitive Coding SIG at Amrita School of Engineering
+				was created as a platform to help programmers make it
+				big in the world of algorithms, computer programming,
+				and programming contests. In this SIG we revive the geek
+				in you by hosting various programming contests.
+			</p>
+			<img src="/ACM/img/CP1.png" class="card-img p-5" alt="..." />
+		</div>
+	</div>
 	<!-- End of SIG -->
+
 	<!-- End of Introduction -->
 	<div class="container">
 		<!-- Blog -->
@@ -288,7 +363,7 @@
 			<h3 class="display-3 pt-5" id="blog">Read our Latest Blog</h3>
 			<div class="row justify-content-around pt-3">
 				<!-- blog 1 -->
-				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
 					<div class="card mx-3">
 						<div class="card-body">
 							<div class="btn"><a href="#" class="btn btn-primary rounded-pill">Read More</a></div>
@@ -299,7 +374,7 @@
 				<!-- End of blog 1 -->
 
 				<!-- blog 2 -->
-				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
 					<div class="card  mx-3">
 						<div class="card-body">
 							<div class="btn"><a href="#" class="btn btn-primary rounded-pill">Read More</a></div>
@@ -310,7 +385,7 @@
 				<!-- End of blog 2 -->
 
 				<!-- blog 3 -->
-				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
 					<div class="card  mx-3">
 						<div class="card-body">
 							<div class="btn"><a href="#" class="btn btn-primary rounded-pill">Read More</a></div>
@@ -330,149 +405,149 @@
 			<div class="row justify-content-between pt-3">
 				<!-- Event 1 -->
 				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
-						<div class="container">
-								<div class="card">
-									<div class="card__front">
-										<div class="card__top"></div>
-	
-										<div class="card__bottom">
-											<h3 class="card__title pt-3">
-												Event Name
-											</h3>
-										</div>
-									</div>
-	
-									<div class="card__back">
-										<h3 class="card__title card__title--cream">
-											Details
-										</h3>
-										<p class="card__text text-white">
-											Lorem ipsum dolor sit amet pokrm lo
-											consectetur adipisicing elit mors.
-											Quaery ipsa autem repellendus lot fuga
-											molre, ipsum dolor. dolore nis temporayo
-											dolor rerum deleniti sip reiciendis.
-										</p>
-	
-										<ul class="card__list">
-											<li class="card__item">
-													<strong>Speaker:</strong> Speaker Name.
-											</li>
-											<li class="card__item">
-													<strong>Moderator:</strong> Moderator Name.<br>
-											</li>
-											<li class="card__item">
-													<strong>Date:</strong> 01 October 2019<br>
-											</li>
-											<li class="card__item">
-													<strong>Time:</strong> 15:30 hrs<br>
-											</li>
-											<li class="card__item">
-													<strong>Place:</strong> CP Lab<br>
-											</li>
-										</ul>
-									</div>
+					<div class="container">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
+
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
+									</h3>
 								</div>
 							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong> Moderator Name.<br>
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October 2019<br>
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br>
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- End of Event 1 -->
 
 				<!-- Event 2 -->
 				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
-						<div class="container">
-								<div class="card">
-									<div class="card__front">
-										<div class="card__top"></div>
-	
-										<div class="card__bottom">
-											<h3 class="card__title pt-3">
-												Event Name
-											</h3>
-										</div>
-									</div>
-	
-									<div class="card__back">
-										<h3 class="card__title card__title--cream">
-											Details
-										</h3>
-										<p class="card__text text-white">
-											Lorem ipsum dolor sit amet pokrm lo
-											consectetur adipisicing elit mors.
-											Quaery ipsa autem repellendus lot fuga
-											molre, ipsum dolor. dolore nis temporayo
-											dolor rerum deleniti sip reiciendis.
-										</p>
-	
-										<ul class="card__list">
-											<li class="card__item">
-													<strong>Speaker:</strong> Speaker Name.
-											</li>
-											<li class="card__item">
-													<strong>Moderator:</strong> Moderator Name.<br>
-											</li>
-											<li class="card__item">
-													<strong>Date:</strong> 01 October 2019<br>
-											</li>
-											<li class="card__item">
-													<strong>Time:</strong> 15:30 hrs<br>
-											</li>
-											<li class="card__item">
-													<strong>Place:</strong> CP Lab<br>
-											</li>
-										</ul>
-									</div>
+					<div class="container">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
+
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
+									</h3>
 								</div>
 							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong> Moderator Name.<br>
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October 2019<br>
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br>
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
+				</div>
 				<!-- End of Event 2 -->
 
 				<!-- Event 3 -->
 				<div class="col-12 col-sm-6 col-lg-4 mx-auto">
-						<div class="container">
-								<div class="card">
-									<div class="card__front">
-										<div class="card__top"></div>
-	
-										<div class="card__bottom">
-											<h3 class="card__title pt-3">
-												Event Name
-											</h3>
-										</div>
-									</div>
-	
-									<div class="card__back">
-										<h3 class="card__title card__title--cream">
-											Details
-										</h3>
-										<p class="card__text text-white">
-											Lorem ipsum dolor sit amet pokrm lo
-											consectetur adipisicing elit mors.
-											Quaery ipsa autem repellendus lot fuga
-											molre, ipsum dolor. dolore nis temporayo
-											dolor rerum deleniti sip reiciendis.
-										</p>
-	
-										<ul class="card__list">
-											<li class="card__item">
-													<strong>Speaker:</strong> Speaker Name.
-											</li>
-											<li class="card__item">
-													<strong>Moderator:</strong> Moderator Name.<br>
-											</li>
-											<li class="card__item">
-													<strong>Date:</strong> 01 October 2019<br>
-											</li>
-											<li class="card__item">
-													<strong>Time:</strong> 15:30 hrs<br>
-											</li>
-											<li class="card__item">
-													<strong>Place:</strong> CP Lab<br>
-											</li>
-										</ul>
-									</div>
+					<div class="container">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
+
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
+									</h3>
 								</div>
 							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong> Moderator Name.<br>
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October 2019<br>
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br>
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br>
+									</li>
+								</ul>
+							</div>
+						</div>
 					</div>
+				</div>
 				<!-- End of Event 3 -->
 			</div>
 			<a href="#" class="btn btn-primary float-right mt-3">All Events</a>

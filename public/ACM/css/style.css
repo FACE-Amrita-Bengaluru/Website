@@ -176,11 +176,41 @@ p {
 	text-transform: uppercase;
 }
 
+#sig{
+	display:block;
+	/* margin: 10px 5%; */
+}
+
+.sigm{
+	display: none;
+}
+
+
 @media (max-width: 568px) {
-	#sig .pimg1,
-	.pimg2,
-	.pimg3 {
-		background-attachment: scroll;
+	#sig{
+		display:none;
+		/* margin: 10px 5%; */
+	}
+
+	.sigm{
+		display: block;
+	}
+
+	.sigm img{
+		width: 100%;
+		height: fit-content;
+	}
+
+	.blog .card{
+		width: 100%;
+	}
+
+	.blog .card-container{
+		padding: 0;
+	}
+
+	.event .card{
+		margin: auto;
 	}
 }
 
@@ -269,12 +299,7 @@ p {
 	margin: 5px;
 	font-family: 'Merienda One', cursive;
 }
-.event .card__subtitle {
-	font-size: 24px;
-	margin: 0;
-	color: #e4e0c9;
-	font-family: 'Amaranth', sans-serif;
-}
+
 .event .card__list {
 	margin: 25px 0;
 	font-family: 'Quicksand', sans-serif;
