@@ -199,17 +199,19 @@
 				<div class="card bg-light mb-3">
 					<div class="row no-gutters">
 						<div
-							class="col-md-6 d-flex align-items-center col-reverse"
+							class="col-md-6 d-flex align-items-center order-1 order-md-0"
 						>
 							<img
 								src="/ACM/img/acm.png"
-								class="card-img"
+								class="card-img p-5"
 								alt="ACM logo"
 							/>
 						</div>
-						<div class="col-md-6 d-flex align-items-center">
+						<div
+							class="col-md-6 d-flex align-items-center order-0 order-md-1"
+						>
 							<div class="card-body">
-								<h5 class="card-title ptext border">
+								<h5 class="card-title ptext head">
 									Association of Computing Machinery
 								</h5>
 								<p class="card-text">
@@ -243,9 +245,20 @@
 				<!-- ACM-W Intro -->
 				<div class="card mb-5 bg-light">
 					<div class="row no-gutters">
-						<div class="col-md-6 d-flex align-items-center">
+						<div
+							class="col-md-6 d-flex align-items-center order-1 order-md-1"
+						>
+							<img
+								src="/ACM/img/acmw.png"
+								class="card-img p-5"
+								alt="..."
+							/>
+						</div>
+						<div
+							class="col-12 col-md-6 d-flex align-items-center order-0 order-md-0"
+						>
 							<div class="card-body ">
-								<h5 class="card-title ptext border">
+								<h5 class="card-title ptext head">
 									Association of Computing Machinery- Women in
 									Computing
 								</h5>
@@ -264,13 +277,6 @@
 								</p>
 							</div>
 						</div>
-						<div class="col-md-6 d-flex align-items-center">
-							<img
-								src="/ACM/img/acmw.png"
-								class="card-img"
-								alt="..."
-							/>
-						</div>
 					</div>
 				</div>
 				<!-- End of ACM-W Intro -->
@@ -279,13 +285,40 @@
 		</div>
 		<!-- end of container -->
 
-		<!-- SIG Intro -->
-		<div id="sig">
+		<!-- SIG Intro for big screen-->
+		<div id="sig" class="d-none d-md-block">
+			<div class="pimg0">
+				<div class="ptext">
+					<div class="head">
+						ACM Special Interest Groups
+					</div>
+					<p class="pt-5">
+						ACM Special Interest Groups also called as ACM SIG’s is
+						a community that work to develop and research on various
+						fields in computer science technology like web
+						development, data sciences, coding, artificial
+						intelligence, graphics and few more exciting fields for
+						growth of computer science technologic carries most of
+						its works through Self Interest Groups in the field of
+						computer science.
+						<br />
+						The Self-interest group’s (SIG’s) at Amrita school of
+						engineering works with this motto. The SIG’s at Amrita
+						provide a platform to help young budding computer
+						aspirants to make it into the big world of computer
+						science technology. This is achieved by conducting
+						various informative workshops, discussions, interactive
+						sessions, various competitions, skill training sessions,
+						tutorials and practical experience to revive the geek in
+						you.
+					</p>
+				</div>
+			</div>
 			<div class="pimg1">
-				<div class="ptext mx-4">
-					<span class="border">
-						ACM Web Development SIG
-					</span>
+				<span class="head">
+					ACM Web Development SIG
+				</span>
+				<div class="ptext">
 					<p class="pt-5">
 						The ACM chapter at Amrita invites all the creative and
 						tech-savvy minds to test their skills in developing
@@ -303,10 +336,10 @@
 			</div>
 
 			<div class="pimg2">
-				<div class="ptext mx-4">
-					<span class="border">
-						ACM DATA SCIENCE SIG
-					</span>
+				<span class="head">
+					ACM DATA SCIENCE SIG
+				</span>
+				<div class="ptext">
 					<p class="pt-5">
 						We at ACM Amrita Student Chapter bring forth the ACM
 						Data Science SIG which focuses on learning specific
@@ -320,10 +353,10 @@
 			</div>
 
 			<div class="pimg3">
-				<div class="ptext mx-4">
-					<span class="border">
-						ACM COMPETITIVE PROGRAMMING SIG
-					</span>
+				<span class="head">
+					ACM COMPETITIVE Coding SIG
+				</span>
+				<div class="ptext">
 					<p class="pt-5">
 						ACM and ACM-W Student chapters in collaboration with
 						Code chef bring to you the opportunity to be a part of
@@ -338,209 +371,325 @@
 				</div>
 			</div>
 		</div>
+		<!-- end of sig for big screen -->
+
+		<!-- sig for small screen -->
+		<div class="sigm container d-block d-md-none">
+			<div class="card bg-light">
+				<span class="head">
+					ACM Special Interest Groups
+				</span>
+				<p class="pt-5">
+					ACM Special Interest Groups also called as ACM SIG’s is a
+					community that work to develop and research on various
+					fields in computer science technology like web development,
+					data sciences, coding, artificial intelligence, graphics and
+					few more exciting fields for growth of computer science
+					technologic carries most of its works through Self Interest
+					Groups in the field of computer science.
+					<br />
+					The Self-interest group’s (SIG’s) at Amrita school of
+					engineering works with this motto. The SIG’s at Amrita
+					provide a platform to help young budding computer aspirants
+					to make it into the big world of computer science
+					technology. This is achieved by conducting various
+					informative workshops, discussions, interactive sessions,
+					various competitions, skill training sessions, tutorials and
+					practical experience to revive the geek in you.
+				</p>
+			</div>
+			<div class="card bg-light">
+				<span class="head">
+					ACM Web Development SIG
+				</span>
+				<p class="pt-5">
+					The ACM chapter at Amrita invites all the creative and
+					tech-savvy minds to test their skills in developing
+					projects. Those who have no idea about web development can
+					still join and they will be taught from scratch. Active
+					participation is the key to SIG. We had conducted a boot
+					camp on web development by two web development enthusiasts
+					Aravind V Nair and Abhishek Sai. It was a full-stack web
+					development workshop focusing on HTML5, CSS3, Bootcamp,
+					Node.js, Express.js, GitHub, Database, CLI, JS, and
+					Firebase. At last but not least our motto always here is to
+					learn, unlearn and relearn.
+				</p>
+				<img src="/ACM/img/WD1.png" class="card-img p-5" alt="..." />
+			</div>
+			<div class="card bg-light">
+				<span class="head">
+					ACM DATA SCIENCE SIG
+				</span>
+				<p class="pt-5">
+					We at ACM Amrita Student Chapter bring forth the ACM Data
+					Science SIG which focuses on learning specific efficient
+					learning algorithms and implementing them in real life with
+					the help of sample data. This learning will encourage you to
+					build artificial Agents which will make your work easier. We
+					here learn the math and code that goes into algorithms.
+				</p>
+				<img src="/ACM/img/DS1.png" class="card-img p-5" alt="..." />
+			</div>
+			<div class="card bg-light">
+				<span class="head">
+					ACM COMPETITIVE Coding SIG
+				</span>
+				<p class="pt-5">
+					ACM and ACM-W Student chapters in collaboration with Code
+					chef bring to you the opportunity to be a part of the
+					Competitive Coding Student Interest Group (ACM Competitive
+					Coding) for the year 2019-2020. The Competitive Coding SIG
+					at Amrita School of Engineering was created as a platform to
+					help programmers make it big in the world of algorithms,
+					computer programming, and programming contests. In this SIG
+					we revive the geek in you by hosting various programming
+					contests.
+				</p>
+				<img src="/ACM/img/CP1.png" class="card-img p-5" alt="..." />
+			</div>
+		</div>
 		<!-- End of SIG -->
+
 		<!-- End of Introduction -->
 		<div class="container">
 			<!-- Blog -->
-			<div class="p-3 mb-3 clearfix">
-				<h3 class="display-3 pt-5" id="blog">Blogs</h3>
-				<div class="row justify-content-between">
+			<div class="p-3 mb-3 clearfix blog">
+				<h3 class="display-3 pt-5" id="blog">Read our Latest Blog</h3>
+				<div class="row justify-content-around pt-3">
 					<!-- blog 1 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
+					<div
+						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
+					>
+						<div class="card mx-3">
 							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+								<div class="btn">
+									<a
+										href="#"
+										class="btn btn-primary rounded-pill"
+										>Read More</a
+									>
+								</div>
+								<h5 class="card-title text-white text-center">
+									Card title
+								</h5>
 							</div>
 						</div>
 					</div>
 					<!-- End of blog 1 -->
 
 					<!-- blog 2 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
+					<div
+						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
+					>
+						<div class="card  mx-3">
 							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+								<div class="btn">
+									<a
+										href="#"
+										class="btn btn-primary rounded-pill"
+										>Read More</a
+									>
+								</div>
+								<h5 class="card-title text-white text-center">
+									Card title
+								</h5>
 							</div>
 						</div>
 					</div>
 					<!-- End of blog 2 -->
 
 					<!-- blog 3 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
+					<div
+						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
+					>
+						<div class="card  mx-3">
 							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+								<div class="btn">
+									<a
+										href="#"
+										class="btn btn-primary rounded-pill"
+										>Read More</a
+									>
+								</div>
+								<h5 class="card-title text-white text-center">
+									Card title
+								</h5>
 							</div>
 						</div>
 					</div>
 					<!-- End of blog 3 -->
-
-					<!-- blog 4 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
-							</div>
-						</div>
-					</div>
-					<!-- End of blog 4 -->
 				</div>
 				<a href="/ACM_Blog" class="btn btn-primary float-right mt-3"
-					>Blog Page</a
+					>All Blogs</a
 				>
 			</div>
 			<!-- End of Blogs -->
 
 			<!-- Events -->
-			<div class="p-3 mb-3 clearfix">
-				<h3 class="display-3 pt-5" id="events">Events</h3>
-				<div class="row justify-content-between">
-					<!-- Evnet 1 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+			<div class="p-3 mb-3 clearfix event">
+				<h3 class="display-3 pt-5" id="events">
+					Our Latest Events at ASEB
+				</h3>
+				<div class="row justify-content-between pt-3">
+					<!-- Event 1 -->
+					<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+						<div class="container">
+							<div class="card">
+								<div class="card__front">
+									<div class="card__top"></div>
+
+									<div class="card__bottom">
+										<h3 class="card__title pt-3">
+											Event Name
+										</h3>
+									</div>
+								</div>
+
+								<div class="card__back">
+									<h3 class="card__title card__title--cream">
+										Details
+									</h3>
+									<p class="card__text text-white">
+										Lorem ipsum dolor sit amet pokrm lo
+										consectetur adipisicing elit mors.
+										Quaery ipsa autem repellendus lot fuga
+										molre, ipsum dolor. dolore nis temporayo
+										dolor rerum deleniti sip reiciendis.
+									</p>
+
+									<ul class="card__list">
+										<li class="card__item">
+											<strong>Speaker:</strong> Speaker
+											Name.
+										</li>
+										<li class="card__item">
+											<strong>Moderator:</strong>
+											Moderator Name.<br />
+										</li>
+										<li class="card__item">
+											<strong>Date:</strong> 01 October
+											2019<br />
+										</li>
+										<li class="card__item">
+											<strong>Time:</strong> 15:30 hrs<br />
+										</li>
+										<li class="card__item">
+											<strong>Place:</strong> CP Lab<br />
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End of Event 1 -->
 
-					<!-- Evnet 2 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+					<!-- Event 2 -->
+					<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+						<div class="container">
+							<div class="card">
+								<div class="card__front">
+									<div class="card__top"></div>
+
+									<div class="card__bottom">
+										<h3 class="card__title pt-3">
+											Event Name
+										</h3>
+									</div>
+								</div>
+
+								<div class="card__back">
+									<h3 class="card__title card__title--cream">
+										Details
+									</h3>
+									<p class="card__text text-white">
+										Lorem ipsum dolor sit amet pokrm lo
+										consectetur adipisicing elit mors.
+										Quaery ipsa autem repellendus lot fuga
+										molre, ipsum dolor. dolore nis temporayo
+										dolor rerum deleniti sip reiciendis.
+									</p>
+
+									<ul class="card__list">
+										<li class="card__item">
+											<strong>Speaker:</strong> Speaker
+											Name.
+										</li>
+										<li class="card__item">
+											<strong>Moderator:</strong>
+											Moderator Name.<br />
+										</li>
+										<li class="card__item">
+											<strong>Date:</strong> 01 October
+											2019<br />
+										</li>
+										<li class="card__item">
+											<strong>Time:</strong> 15:30 hrs<br />
+										</li>
+										<li class="card__item">
+											<strong>Place:</strong> CP Lab<br />
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End of Event 2 -->
 
-					<!-- Evnet 3 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
+					<!-- Event 3 -->
+					<div class="col-12 col-sm-6 col-lg-4 mx-auto">
+						<div class="container">
+							<div class="card">
+								<div class="card__front">
+									<div class="card__top"></div>
+
+									<div class="card__bottom">
+										<h3 class="card__title pt-3">
+											Event Name
+										</h3>
+									</div>
+								</div>
+
+								<div class="card__back">
+									<h3 class="card__title card__title--cream">
+										Details
+									</h3>
+									<p class="card__text text-white">
+										Lorem ipsum dolor sit amet pokrm lo
+										consectetur adipisicing elit mors.
+										Quaery ipsa autem repellendus lot fuga
+										molre, ipsum dolor. dolore nis temporayo
+										dolor rerum deleniti sip reiciendis.
+									</p>
+
+									<ul class="card__list">
+										<li class="card__item">
+											<strong>Speaker:</strong> Speaker
+											Name.
+										</li>
+										<li class="card__item">
+											<strong>Moderator:</strong>
+											Moderator Name.<br />
+										</li>
+										<li class="card__item">
+											<strong>Date:</strong> 01 October
+											2019<br />
+										</li>
+										<li class="card__item">
+											<strong>Time:</strong> 15:30 hrs<br />
+										</li>
+										<li class="card__item">
+											<strong>Place:</strong> CP Lab<br />
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End of Event 3 -->
-
-					<!-- Evnet 4 -->
-					<div class="col-12 col-sm-6 col-lg-3 mx-auto">
-						<div class="card">
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="card-img-top"
-								alt="..."
-							/>
-							<div class="card-body">
-								<h5 class="card-title">Card title</h5>
-								<p class="card-text">
-									Some quick example text to build on the card
-									title and make up the bulk of the card's
-									content.
-								</p>
-								<a href="#" class="btn btn-primary"
-									>Go somewhere</a
-								>
-							</div>
-						</div>
-					</div>
-					<!-- End of Event 4 -->
 				</div>
 				<a href="#" class="btn btn-primary float-right mt-3"
-					>Events Page</a
+					>All Events</a
 				>
 			</div>
 			<!-- End of Events -->
@@ -556,7 +705,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name1
@@ -569,7 +718,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name2
@@ -582,7 +731,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name3
@@ -595,7 +744,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name4
@@ -608,7 +757,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name5
@@ -621,7 +770,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name6
@@ -634,7 +783,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name7
@@ -647,7 +796,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name8
@@ -660,7 +809,7 @@
 					<div class="item mb-2">
 						<img
 							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle"
+							class="img-fluid rounded-circle p-4"
 						/>
 						<h2 class="text-dark text-center">
 							Member name9
