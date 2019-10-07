@@ -1,4 +1,4 @@
-*{
+* {
 	box-sizing: border-box;
 }
 
@@ -20,8 +20,7 @@ html {
 	display: block;
 }
 
-.container
-{
+.container {
 	max-width: 80%;
 }
 
@@ -44,7 +43,6 @@ p {
 	font-size: 1.2rem;
 	color: #595959;
 }
-
 
 /* Styling for all the cards */
 .card {
@@ -121,7 +119,10 @@ p {
 	height: 400%;
 }
 
-#sig .pimg0, .pimg1, .pimg2, .pimg3 {
+#sig .pimg0,
+.pimg1,
+.pimg2,
+.pimg3 {
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -162,7 +163,7 @@ p {
 	font-size: 1.2rem;
 }
 
-#sig .pimg0 .ptext{
+#sig .pimg0 .ptext {
 	position: absolute;
 	top: 30%;
 	width: 80%;
@@ -180,46 +181,46 @@ p {
 	text-transform: uppercase;
 }
 
-.pimg1 .head, .pimg2 .head, .pimg3 .head{
+.pimg1 .head,
+.pimg2 .head,
+.pimg3 .head {
 	position: absolute;
 	top: 30%;
 	padding-left: 5%;
 }
- 
+
 @media (max-width: 568px) {
-	
-	.sigm img{
+	.sigm img {
 		width: 100%;
 		height: fit-content;
 	}
 
-	.blog .card{
+	.blog .card {
 		width: 100%;
 	}
 
-	.blog .card-container{
+	.blog .card-container {
 		padding: 0;
 	}
 
-	.event .card{
+	.event .card {
 		margin: auto;
 	}
 }
 
-
-.blog .card{
+.blog .card {
 	height: 480px;
-	background: url("/ACM/img/pattern2.jpeg");
+	background: url('/ACM/img/pattern2.jpeg');
 	background-size: auto;
 	background-repeat: no-repeat;
 }
 
-.blog .card .card-body{
+.blog .card .card-body {
 	display: flex;
 	flex-direction: column-reverse;
 }
 
-.event .card{
+.event .card {
 	height: 350px;
 	background-size: auto;
 	background-repeat: no-repeat;
