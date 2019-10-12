@@ -231,8 +231,8 @@ p {
 .event .card,
 .card__front,
 .card__back {
-	width: 320px;
-	height: 480px;
+	width: 100%;
+	height: 30rem;
 	border-radius: 5px;
 }
 .event .card {
@@ -266,7 +266,7 @@ p {
 	flex-direction: column;
 	justify-content: space-around;
 }
-.event .container:hover .card {
+.event .container-fluid:hover .card {
 	transform: rotateY(180deg);
 }
 .event .card__top {
