@@ -266,6 +266,12 @@ p {
 	flex-direction: column;
 	justify-content: space-around;
 }
+#events_container .container-fluid {
+	padding: 0;
+}
+#event_card {
+	padding-left: 0;
+}
 .event .container-fluid:hover .card {
 	transform: rotateY(180deg);
 }
