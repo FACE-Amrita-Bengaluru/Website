@@ -20,6 +20,9 @@ app.get('/ACMComingSoon', (req, res) => {
 app.get('/ACM_Member', (req, res) => {
 	res.render('acmMember');
 });
+app.get('/ACM_Event', (req, res) => {
+	res.render('acmEvent');
+});
 app.get('/ACMW', (req, res) => {
 	res.render('acmw');
 });
