@@ -17,6 +17,11 @@ body {
 	justify-content: flex-end;
 }
 
+/* Blank space behind nav */
+.behindNav {
+	height: 75px;
+}
+
 /* Style for text in paragraphs */
 p {
 	font-family: 'Nunito Sans', sans-serif;
