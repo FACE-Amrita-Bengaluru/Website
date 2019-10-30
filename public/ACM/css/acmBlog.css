@@ -23,6 +23,44 @@ p {
 	font-size: 1.2rem;
 }
 
+/* Style for hr with centered text */
+.hr-text {
+	line-height: 2em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	color: black;
+	text-align: center;
+	height: 4em;
+}
+.hr-text:before {
+	content: '';
+	background: linear-gradient(to right, transparent, #818078, transparent);
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	height: 2px;
+}
+.hr-text:after {
+	content: attr(data-content);
+	font-size: 2em;
+	position: relative;
+	display: inline-block;
+	color: black;
+	padding: 0 1em;
+	line-height: 2em;
+	color: #818078;
+	background-color: #fcfcfa;
+}
+
+/* Style for event card */
+ 
+.eventCard{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 /* Style for cards */
 .card {
 	transition: transform 0.2s;
