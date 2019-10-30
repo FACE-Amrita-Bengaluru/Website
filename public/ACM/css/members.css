@@ -2,12 +2,18 @@ html {
 	scroll-behavior: smooth;
 }
 
-body {
-	transition: 0.2s;
-}
-
+/* Styling for navbar */
 .navbar {
 	background-color: #1b80ce;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Blank space behind nav */
+.behindNav {
+	height: 75px;
 }
 
 footer {
