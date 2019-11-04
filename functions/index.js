@@ -17,11 +17,19 @@ app.get('/ACM_Blog', (req, res) => {
 app.get('/ACM_Members', (req, res) => {
 	res.render('ACM_Members');
 });
+<<<<<<< HEAD
 app.get('/ACMW_Members', (req, res) => {
 	res.render('ACMW_Members');
 });
 app.get('/ACM_Events', (req, res) => {
 	res.render('ACM_Events');
+=======
+app.get('/ACM_Members', (req, res) => {
+	res.render('acmMembers');
+});
+app.get('/ACM_Events', (req, res) => {
+	res.render('acmEvents');
+>>>>>>> Fix spelling
 });
 app.get('/ACMW', (req, res) => {
 	res.render('ACMW');
