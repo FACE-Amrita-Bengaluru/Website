@@ -17,11 +17,11 @@ app.get('/ACM_Blog', (req, res) => {
 app.get('/ACMComingSoon', (req, res) => {
 	res.render('acmComingSoon');
 });
-app.get('/ACM_Member', (req, res) => {
-	res.render('acmMember');
+app.get('/ACM_Members', (req, res) => {
+	res.render('acmMembers');
 });
-app.get('/ACM_Event', (req, res) => {
-	res.render('acmEvent');
+app.get('/ACM_Events', (req, res) => {
+	res.render('acmEvents');
 });
 app.get('/ACMW', (req, res) => {
 	res.render('acmw');
