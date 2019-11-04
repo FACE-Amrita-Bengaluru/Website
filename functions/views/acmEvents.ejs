@@ -1,324 +1,468 @@
 <Doctype!>
 	<!DOCTYPE html>
 	<html lang="en">
+		<head>
+			<meta charset="utf-8" />
+			<meta
+				name="viewport"
+				content="width=device-width, initial-scale=1, shrink-to-fit=no"
+			/>
+			<link
+				rel="stylesheet"
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+				integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+				crossorigin="anonymous"
+			/>
+			<link
+				href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap"
+				rel="stylesheet"
+			/>
 
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous" />
-		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap" rel="stylesheet" />
+			<title>ACM Blogs</title>
 
-		<title>ACM Blogs</title>
+			<link rel="stylesheet" href="/ACM/css/acmEvent.css" />
+		</head>
 
-		<link rel="stylesheet" href="/ACM/css/acmEvent.css" />
+		<body>
+			<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+				<div class="container">
+					<a href="/ACM"
+						><img
+							src="/ACM/img/logo.png"
+							class="d-inline-block align-top"
+							width="238"
+							height="70"
+					/></a>
 
-	</head>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarToggler"
+						aria-controls="navbarToggler"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container">
-				<a href="/ACM"><img src="/ACM/img/logo.png" class="d-inline-block align-top" width="238"
-						height="70" /></a>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-					aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="/acm">Home<span
-									class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/acm#sig">SIG</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/acm#blog">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/acm#events">Events</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/acm#members">Members</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/acm#gallery">Gallery</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- End of navbar -->
-
-		<div class="container">
-			<div class="behindNav"></div>
-			<h1 class="display-3 mb-3">Events</h1>
-
-			<!-- Navbar for searching and sorting -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Month
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">January</a>
-								<a class="dropdown-item" href="#">February</a>
-								<a class="dropdown-item" href="#">March</a>
-								<a class="dropdown-item" href="#">April</a>
-								<a class="dropdown-item" href="#">May</a>
-								<a class="dropdown-item" href="#">June</a>
-								<a class="dropdown-item" href="#">July</a>
-								<a class="dropdown-item" href="#">August</a>
-								<a class="dropdown-item" href="#">September</a>
-								<a class="dropdown-item" href="#">October</a>
-								<a class="dropdown-item" href="#">November</a>
-								<a class="dropdown-item" href="#">December</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Year
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="#">2019</a>
-								<a class="dropdown-item" href="#">2018</a>
-								<a class="dropdown-item" href="#">2017</a>
-								<a class="dropdown-item" href="#">2016</a>
-							</div>
-						</li>
-					</ul>
-					<form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search with Keywords"
-							aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form>
+					<div class="collapse navbar-collapse" id="navbarToggler">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="/acm"
+									>Home<span class="sr-only"
+										>(current)</span
+									></a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/acm#sig">SIG</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/acm#blog">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/acm#events"
+									>Events</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/acm#members"
+									>Members</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="/acm#gallery"
+									>Gallery</a
+								>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</nav>
-			<!--End of Navbar for searching and sorting -->
+			<!-- End of navbar -->
 
-			<hr class="hr-text" data-content="January 2019">
+			<div class="container">
+				<div class="behindNav"></div>
+				<h1 class="display-3 mb-3">Events</h1>
 
-			<!-- eventCard -->
-			<div class="eventCard container">
-				<div class="card mb-3">
+				<!-- Navbar for searching and sorting -->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light">
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-					<div class="card-header bg-white border-0">
-						<h4 class="my-0">Card title</h4>
-							<ul class="card__list my-0" style="list-style-type: none;">
-								<li class="card__item">
-									<strong>01 October 2019</strong> @ 15:30 hrs<br />
-								</li>
-								<li class="card__item"> CP Lab</li>
-							</ul>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav mr-auto">
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Month
+								</a>
+								<div
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdown"
+								>
+									<a class="dropdown-item" href="#"
+										>January</a
+									>
+									<a class="dropdown-item" href="#"
+										>February</a
+									>
+									<a class="dropdown-item" href="#">March</a>
+									<a class="dropdown-item" href="#">April</a>
+									<a class="dropdown-item" href="#">May</a>
+									<a class="dropdown-item" href="#">June</a>
+									<a class="dropdown-item" href="#">July</a>
+									<a class="dropdown-item" href="#">August</a>
+									<a class="dropdown-item" href="#"
+										>September</a
+									>
+									<a class="dropdown-item" href="#"
+										>October</a
+									>
+									<a class="dropdown-item" href="#"
+										>November</a
+									>
+									<a class="dropdown-item" href="#"
+										>December</a
+									>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false"
+								>
+									Year
+								</a>
+								<div
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdown"
+								>
+									<a class="dropdown-item" href="#">2019</a>
+									<a class="dropdown-item" href="#">2018</a>
+									<a class="dropdown-item" href="#">2017</a>
+									<a class="dropdown-item" href="#">2016</a>
+								</div>
+							</li>
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<input
+								class="form-control mr-sm-2"
+								type="search"
+								placeholder="Search with Keywords"
+								aria-label="Search"
+							/>
+							<button
+								class="btn btn-outline-success my-2 my-sm-0"
+								type="submit"
+							>
+								Search
+							</button>
+						</form>
 					</div>
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="/ACM/img/pattern2.jpeg" class="card-img" alt="...">
+				</nav>
+				<!--End of Navbar for searching and sorting -->
+
+				<hr class="hr-text" data-content="January 2019" />
+
+				<!-- eventCard -->
+				<div class="eventCard container">
+					<div class="card mb-3">
+						<div class="card-header bg-white border-0">
+							<h4 class="my-0">Card title</h4>
+							<ul
+								class="card__list my-0"
+								style="list-style-type: none;"
+							>
+								<li class="card__item">
+									<strong>01 October 2019</strong> @ 15:30
+									hrs<br />
+								</li>
+								<li class="card__item">CP Lab</li>
+							</ul>
 						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to
-									additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">tags tags tags</small></p>
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img
+									src="/ACM/img/pattern2.jpeg"
+									class="card-img"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<p class="card-text">
+										This is a wider card with supporting
+										text below as a natural lead-in to
+										additional content. This content is a
+										little bit longer.
+									</p>
+									<p class="card-text">
+										<small class="text-muted"
+											>tags tags tags</small
+										>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
+				<!-- End of eventCard -->
 
-			<!-- eventCard -->
-			<div class="eventCard container">
-				<div class="card mb-3">
-
-					<div class="card-header bg-white border-0">
-						<h4 class="my-0">Card title</h4>
-							<ul class="card__list my-0" style="list-style-type: none;">
+				<!-- eventCard -->
+				<div class="eventCard container">
+					<div class="card mb-3">
+						<div class="card-header bg-white border-0">
+							<h4 class="my-0">Card title</h4>
+							<ul
+								class="card__list my-0"
+								style="list-style-type: none;"
+							>
 								<li class="card__item">
-									<strong>01 October 2019</strong> @ 15:30 hrs<br />
+									<strong>01 October 2019</strong> @ 15:30
+									hrs<br />
 								</li>
-								<li class="card__item"> CP Lab</li>
+								<li class="card__item">CP Lab</li>
 							</ul>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="/ACM/img/pattern2.jpeg" class="card-img" alt="...">
 						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to
-									additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">tags tags tags</small></p>
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img
+									src="/ACM/img/pattern2.jpeg"
+									class="card-img"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<p class="card-text">
+										This is a wider card with supporting
+										text below as a natural lead-in to
+										additional content. This content is a
+										little bit longer.
+									</p>
+									<p class="card-text">
+										<small class="text-muted"
+											>tags tags tags</small
+										>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
+				<!-- End of eventCard -->
 
-			<hr class="hr-text" data-content="March 2019">
+				<hr class="hr-text" data-content="March 2019" />
 
-			<!-- eventCard -->
-			<div class="eventCard container">
-				<div class="card mb-3">
-
-					<div class="card-header bg-white border-0">
-						<h4 class="my-0">Card title</h4>
-							<ul class="card__list my-0" style="list-style-type: none;">
+				<!-- eventCard -->
+				<div class="eventCard container">
+					<div class="card mb-3">
+						<div class="card-header bg-white border-0">
+							<h4 class="my-0">Card title</h4>
+							<ul
+								class="card__list my-0"
+								style="list-style-type: none;"
+							>
 								<li class="card__item">
-									<strong>01 October 2019</strong> @ 15:30 hrs<br />
+									<strong>01 October 2019</strong> @ 15:30
+									hrs<br />
 								</li>
-								<li class="card__item"> CP Lab</li>
+								<li class="card__item">CP Lab</li>
 							</ul>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="/ACM/img/pattern2.jpeg" class="card-img" alt="...">
 						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to
-									additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">tags tags tags</small></p>
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img
+									src="/ACM/img/pattern2.jpeg"
+									class="card-img"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<p class="card-text">
+										This is a wider card with supporting
+										text below as a natural lead-in to
+										additional content. This content is a
+										little bit longer.
+									</p>
+									<p class="card-text">
+										<small class="text-muted"
+											>tags tags tags</small
+										>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
+				<!-- End of eventCard -->
 
-
-			<!-- eventCard -->
-			<div class="eventCard container">
-				<div class="card mb-3">
-
-					<div class="card-header bg-white border-0">
-						<h4 class="my-0">Card title</h4>
-							<ul class="card__list my-0" style="list-style-type: none;">
+				<!-- eventCard -->
+				<div class="eventCard container">
+					<div class="card mb-3">
+						<div class="card-header bg-white border-0">
+							<h4 class="my-0">Card title</h4>
+							<ul
+								class="card__list my-0"
+								style="list-style-type: none;"
+							>
 								<li class="card__item">
-									<strong>01 October 2019</strong> @ 15:30 hrs<br />
+									<strong>01 October 2019</strong> @ 15:30
+									hrs<br />
 								</li>
-								<li class="card__item"> CP Lab</li>
+								<li class="card__item">CP Lab</li>
 							</ul>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="/ACM/img/pattern2.jpeg" class="card-img" alt="...">
 						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to
-									additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">tags tags tags</small></p>
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img
+									src="/ACM/img/pattern2.jpeg"
+									class="card-img"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<p class="card-text">
+										This is a wider card with supporting
+										text below as a natural lead-in to
+										additional content. This content is a
+										little bit longer.
+									</p>
+									<p class="card-text">
+										<small class="text-muted"
+											>tags tags tags</small
+										>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
+				<!-- End of eventCard -->
 
-
-			<!-- eventCard -->
-			<div class="eventCard container">
-				<div class="card mb-3">
-
-					<div class="card-header bg-white border-0">
-						<h4 class="my-0">Card title</h4>
-							<ul class="card__list my-0" style="list-style-type: none;">
+				<!-- eventCard -->
+				<div class="eventCard container">
+					<div class="card mb-3">
+						<div class="card-header bg-white border-0">
+							<h4 class="my-0">Card title</h4>
+							<ul
+								class="card__list my-0"
+								style="list-style-type: none;"
+							>
 								<li class="card__item">
-									<strong>01 October 2019</strong> @ 15:30 hrs<br />
+									<strong>01 October 2019</strong> @ 15:30
+									hrs<br />
 								</li>
-								<li class="card__item"> CP Lab</li>
+								<li class="card__item">CP Lab</li>
 							</ul>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-md-4">
-							<img src="/ACM/img/pattern2.jpeg" class="card-img" alt="...">
 						</div>
-						<div class="col-md-8">
-							<div class="card-body">
-								<p class="card-text">This is a wider card with supporting text below as a natural
-									lead-in to
-									additional content. This content is a little bit longer.</p>
-								<p class="card-text"><small class="text-muted">tags tags tags</small></p>
+						<div class="row no-gutters">
+							<div class="col-md-4">
+								<img
+									src="/ACM/img/pattern2.jpeg"
+									class="card-img"
+									alt="..."
+								/>
+							</div>
+							<div class="col-md-8">
+								<div class="card-body">
+									<p class="card-text">
+										This is a wider card with supporting
+										text below as a natural lead-in to
+										additional content. This content is a
+										little bit longer.
+									</p>
+									<p class="card-text">
+										<small class="text-muted"
+											>tags tags tags</small
+										>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- End of eventCard -->
 			</div>
-			<!-- End of eventCard -->
-		</div>
 
-
-
-
-
-
-
-
-		<footer class="page-footer font-small text-dark pt-4">
-			<div class="container text-center text-md-left">
-				<div class="row">
-					<div class="col-md-6 mt-md-0 mt-3">
-						<h5 class="text-uppercase font-weight-bold">
-							Address
-						</h5>
-						<p>
-							Amrita Vishwa Vidyapeetham<br />
-							Bengaluru Campus<br />
-							Kasavanahalli, Carmelaram P.O.<br />
-							Bengaluru - 560 035<br />
-							Karnataka, India
-						</p>
-					</div>
-					<hr class="clearfix w-100 d-md-none pb-3" />
-					<div class="col-md-6 text-right mb-md-0 mb-3">
-						<h5 class="text-uppercase font-weight-bold">
-							Contact Us
-						</h5>
-						<p>
-							Phone Number: 080 2518 3700<br />
-							Email ID: info@blr.amrita.edu
-						</p>
+			<footer class="page-footer font-small text-dark pt-4">
+				<div class="container text-center text-md-left">
+					<div class="row">
+						<div class="col-md-6 mt-md-0 mt-3">
+							<h5 class="text-uppercase font-weight-bold">
+								Address
+							</h5>
+							<p>
+								Amrita Vishwa Vidyapeetham<br />
+								Bengaluru Campus<br />
+								Kasavanahalli, Carmelaram P.O.<br />
+								Bengaluru - 560 035<br />
+								Karnataka, India
+							</p>
+						</div>
+						<hr class="clearfix w-100 d-md-none pb-3" />
+						<div class="col-md-6 text-right mb-md-0 mb-3">
+							<h5 class="text-uppercase font-weight-bold">
+								Contact Us
+							</h5>
+							<p>
+								Phone Number: 080 2518 3700<br />
+								Email ID: info@blr.amrita.edu
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="footer-copyright text-center py-3">
-				© 2019 Copyright: ACM Student Chapter - Amrita School of
-				Engineering
-			</div>
-		</footer>
+				<div class="footer-copyright text-center py-3">
+					© 2019 Copyright: ACM Student Chapter - Amrita School of
+					Engineering
+				</div>
+			</footer>
 
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"></script>
-	</body>
-
+			<!-- Optional JavaScript -->
+			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+			<script
+				src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+				integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+				crossorigin="anonymous"
+			></script>
+			<script
+				src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+				integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+				crossorigin="anonymous"
+			></script>
+			<script
+				src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+				integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+				crossorigin="anonymous"
+			></script>
+		</body>
 	</html>
 </Doctype!>
