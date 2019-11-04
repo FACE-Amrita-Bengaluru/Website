@@ -1,988 +1,790 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
 
-		<!-- Owl Carousel CSS -->
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-		/>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-		<!-- Bootstrap CSS -->
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
+	<!-- Owl Carousel CSS -->
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
 
-		<!-- Google Fonts -->
-		<link
-			href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap"
-			rel="stylesheet"
-		/>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 
-		<!-- Custom CSS -->
-		<link rel="stylesheet" href="/ACM/css/acm.css" />
-		<title>ACM ASEB</title>
-	</head>
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap" rel="stylesheet" />
 
-	<body
-		class="bg-light"
-		data-spy="scroll"
-		data-target=".navbar"
-		data-offset-top="200"
-	>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container">
-				<a href="/ACM"
-					><img
-						src="/ACM/img/logo.png"
-						class="d-inline-block align-top"
-						width="170"
-						height="50"
-				/></a>
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/ACM/css/acm.css" />
+	<title>ACM ASEB</title>
+</head>
 
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarToggler"
-					aria-controls="navbarToggler"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#carouselExampleCaptions"
-								>Home <span class="sr-only">(current)</span></a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#sig">SIG</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#blog">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#events">Events</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#members">Members</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#gallery">Gallery</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- End of navbar -->
-
-		<!-- bootstrap carousel -->
-		<div class="bd-example mb-5">
-			<div
-				id="carouselExampleCaptions"
-				class="carousel slide"
-				data-ride="carousel"
-			>
-				<ol class="carousel-indicators">
-					<section id="section04" class="demo">
-						<a href="#home"><span></span></a>
-					</section>
-				</ol>
-
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div
-							class="d-flex align-items-center justify-content-center min-vh-100"
-						>
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="d-block min-vh-100 max-w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block">
-								<h5>First slide label</h5>
-								<p>
-									Nulla vitae elit libero, a pharetra augue
-									mollis interdum.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div
-							class="d-flex align-items-center justify-content-center min-vh-100"
-						>
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="d-block min-vh-100 max-w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block ">
-								<h5>Second slide label</h5>
-								<p>
-									Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit.
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="carousel-item">
-						<div
-							class="d-flex align-items-center justify-content-center min-vh-100"
-						>
-							<img
-								src="/ACM/img/pattern2.jpeg"
-								class="d-block min-vh-100 max-w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block">
-								<h5>Third slide label</h5>
-								<p>
-									Praesent commodo cursus magna, vel
-									scelerisque nisl consectetur.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a
-					class="carousel-control-prev"
-					href="#carouselExampleCaptions"
-					role="button"
-					data-slide="prev"
-				>
-					<span
-						class="carousel-control-prev-icon"
-						aria-hidden="true"
-					></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a
-					class="carousel-control-next"
-					href="#carouselExampleCaptions"
-					role="button"
-					data-slide="next"
-				>
-					<span
-						class="carousel-control-next-icon"
-						aria-hidden="true"
-					></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
-		<!-- End of Bootstrap Carousel  -->
-
-		<!-- container -->
+<body class="bg-light" data-spy="scroll" data-target=".navbar" data-offset-top="200">
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 		<div class="container">
-			<br />
-			<!--Introduction -->
-			<div id="home" class="pt-2 mb-3">
-				<!-- ACM Intro -->
-				<div class="card bg-light mb-3">
-					<div class="row no-gutters">
-						<div
-							class="col-md-6 d-flex align-items-center order-1 order-md-0"
-						>
-							<img
-								src="/ACM/img/acm.png"
-								class="card-img p-5"
-								alt="ACM logo"
-							/>
-						</div>
-						<div
-							class="col-md-6 d-flex align-items-center order-0 order-md-1"
-						>
-							<div class="card-body">
-								<h5 class="card-title ptext head">
-									Association of Computing Machinery
-								</h5>
-								<p class="card-text">
-									Association for computing machinery is a
-									consortium which connects computer
-									scientists, researchers, students and
-									professionals. Founded in 1947 at New York,
-									today it blooms as the world’s biggest
-									educational computing ring. It promotes
-									proficient evolution for sustained learning
-									and professional unite. ACM enables
-									networking amongst councils established all
-									over the world to strengthen technical
-									skills, provide prominent job openings and
-									nonpareil resource material. Apart from
-									traditional journals and magazines, ACM has
-									a magnificent digital library and detailed
-									card catalogue resources from several
-									reputed publishers. Being the unsurpassed
-									computing society, it aims to be a
-									foundation for promoting high standards,
-									primacy skills and a brilliant technical
-									mindset.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End of ACM Intro -->
+			<a href="/ACM"><img src="/ACM/img/logo.png" class="d-inline-block align-top" width="238" height="70" /></a>
 
-				<!-- ACM-W Intro -->
-				<div class="card mb-5 bg-light">
-					<div class="row no-gutters">
-						<div
-							class="col-md-6 d-flex align-items-center order-1 order-md-1"
-						>
-							<img
-								src="/ACM/img/acmw.png"
-								class="card-img p-5"
-								alt="..."
-							/>
-						</div>
-						<div
-							class="col-12 col-md-6 d-flex align-items-center order-0 order-md-0"
-						>
-							<div class="card-body ">
-								<h5 class="card-title ptext head">
-									Association of Computing Machinery- Women in
-									Computing
-								</h5>
-								<p class="card-text">
-									Women can be rational and extremely
-									newfangled at the same time. ACM-W aims to
-									recognize, motivate and celebrate women in
-									technical excellence. The wing is always
-									stimulated with the urge to continue the
-									legacy of achievements of the women in
-									computing. The ACM-W Rising Star Award will
-									recognize woman for her early-career
-									research excellence that has led to
-									development of advanced technology or
-									created a positive social impact.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- End of ACM-W Intro -->
-			</div>
-			<!-- End of home -->
-		</div>
-		<!-- end of container -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+				aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<!-- SIG Intro for big screen-->
-		<div id="sig" class="d-none d-md-block">
-			<div class="pimg0">
-				<div class="ptext">
-					<div class="head">
-						ACM Special Interest Groups
-					</div>
-					<p class="pt-5">
-						ACM Special Interest Groups also called as ACM SIG’s is
-						a community that work to develop and research on various
-						fields in computer science technology like web
-						development, data sciences, coding, artificial
-						intelligence, graphics and few more exciting fields for
-						growth of computer science technologic carries most of
-						its works through Self Interest Groups in the field of
-						computer science.
-						<br />
-						The Self-interest group’s (SIG’s) at Amrita school of
-						engineering works with this motto. The SIG’s at Amrita
-						provide a platform to help young budding computer
-						aspirants to make it into the big world of computer
-						science technology. This is achieved by conducting
-						various informative workshops, discussions, interactive
-						sessions, various competitions, skill training sessions,
-						tutorials and practical experience to revive the geek in
-						you.
-					</p>
-				</div>
-			</div>
-			<div class="pimg1">
-				<span class="head">
-					ACM Web Development SIG
-				</span>
-				<div class="ptext">
-					<p class="pt-5">
-						The ACM chapter at Amrita invites all the creative and
-						tech-savvy minds to test their skills in developing
-						projects. Those who have no idea about web development
-						can still join and they will be taught from scratch.
-						Active participation is the key to SIG. We had conducted
-						a boot camp on web development by two web development
-						enthusiasts Aravind V Nair and Abhishek Sai. It was a
-						full-stack web development workshop focusing on HTML5,
-						CSS3, Bootcamp, Node.js, Express.js, GitHub, Database,
-						CLI, JS, and Firebase. At last but not least our motto
-						always here is to learn, unlearn and relearn.
-					</p>
-				</div>
-			</div>
-
-			<div class="pimg2">
-				<span class="head">
-					ACM DATA SCIENCE SIG
-				</span>
-				<div class="ptext">
-					<p class="pt-5">
-						We at ACM Amrita Student Chapter bring forth the ACM
-						Data Science SIG which focuses on learning specific
-						efficient learning algorithms and implementing them in
-						real life with the help of sample data. This learning
-						will encourage you to build artificial Agents which will
-						make your work easier. We here learn the math and code
-						that goes into algorithms.
-					</p>
-				</div>
-			</div>
-
-			<div class="pimg3">
-				<span class="head">
-					ACM COMPETITIVE Coding SIG
-				</span>
-				<div class="ptext">
-					<p class="pt-5">
-						ACM and ACM-W Student chapters in collaboration with
-						Code chef bring to you the opportunity to be a part of
-						the Competitive Coding Student Interest Group (ACM
-						Competitive Coding) for the year 2019-2020. The
-						Competitive Coding SIG at Amrita School of Engineering
-						was created as a platform to help programmers make it
-						big in the world of algorithms, computer programming,
-						and programming contests. In this SIG we revive the geek
-						in you by hosting various programming contests.
-					</p>
-				</div>
+			<div class="collapse navbar-collapse" id="navbarToggler">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="#carouselExampleCaptions">Home<span
+								class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#sig">SIG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#blog">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#events">Events</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#members">Members</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#gallery">Gallery</a>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<!-- end of sig for big screen -->
+	</nav>
+	<!-- End of navbar -->
 
-		<!-- sig for small screen -->
-		<div class="sigm container d-block d-md-none">
-			<div class="card bg-light">
-				<span class="head">
+	<!-- bootstrap carousel -->
+	<div class="bd-example mb-5">
+		<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<section id="section04" class="demo">
+					<a href="#home"><span></span></a>
+				</section>
+			</ol>
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="d-flex align-items-center justify-content-center min-vh-100">
+						<img src="/ACM/img/pattern2.jpeg" class="d-block min-vh-100 max-w-100" alt="..." />
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>
+								Nulla vitae elit libero, a pharetra augue
+								mollis interdum.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="d-flex align-items-center justify-content-center min-vh-100">
+						<img src="/ACM/img/pattern2.jpeg" class="d-block min-vh-100 max-w-100" alt="..." />
+						<div class="carousel-caption d-none d-md-block ">
+							<h5>Second slide label</h5>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur
+								adipiscing elit.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="d-flex align-items-center justify-content-center min-vh-100">
+						<img src="/ACM/img/pattern2.jpeg" class="d-block min-vh-100 max-w-100" alt="..." />
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>
+								Praesent commodo cursus magna, vel
+								scelerisque nisl consectetur.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	<!-- End of Bootstrap Carousel  -->
+
+	<!-- container -->
+	<div class="container">
+		<br />
+		<!--Introduction -->
+		<div id="home" class="pt-2 mb-3">
+			<!-- ACM Intro -->
+			<div class="card bg-light mb-3">
+				<div class="row no-gutters">
+					<div class="col-md-6 d-flex align-items-center order-1 order-md-0">
+						<img src="/ACM/img/acm.png" class="card-img p-5" alt="ACM logo" />
+					</div>
+					<div class="col-md-6 d-flex align-items-center order-0 order-md-1">
+						<div class="card-body">
+							<h5 class="card-title ptext head">
+								Association of Computing Machinery
+							</h5>
+							<p class="card-text">
+								Association for computing machinery is a
+								consortium which connects computer
+								scientists, researchers, students and
+								professionals. Founded in 1947 at New York,
+								today it blooms as the world’s biggest
+								educational computing ring. It promotes
+								proficient evolution for sustained learning
+								and professional unite. ACM enables
+								networking amongst councils established all
+								over the world to strengthen technical
+								skills, provide prominent job openings and
+								nonpareil resource material. Apart from
+								traditional journals and magazines, ACM has
+								a magnificent digital library and detailed
+								card catalogue resources from several
+								reputed publishers. Being the unsurpassed
+								computing society, it aims to be a
+								foundation for promoting high standards,
+								primacy skills and a brilliant technical
+								mindset.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of ACM Intro -->
+
+			<!-- ACM-W Intro -->
+			<div class="card mb-5 bg-light">
+				<div class="row no-gutters">
+					<div class="col-md-6 d-flex align-items-center order-1 order-md-1">
+						<img src="/ACM/img/acmw.png" class="card-img p-5" alt="..." />
+					</div>
+					<div class="col-12 col-md-6 d-flex align-items-center order-0 order-md-0">
+						<div class="card-body ">
+							<h5 class="card-title ptext head">
+								Association of Computing Machinery- Women in
+								Computing
+							</h5>
+							<p class="card-text">
+								Women can be rational and extremely
+								newfangled at the same time. ACM-W aims to
+								recognize, motivate and celebrate women in
+								technical excellence. The wing is always
+								stimulated with the urge to continue the
+								legacy of achievements of the women in
+								computing. The ACM-W Rising Star Award will
+								recognize woman for her early-career
+								research excellence that has led to
+								development of advanced technology or
+								created a positive social impact.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End of ACM-W Intro -->
+		</div>
+		<!-- End of home -->
+	</div>
+	<!-- end of container -->
+
+	<!-- SIG Intro for big screen-->
+	<div id="sig" class="d-none d-md-block">
+		<div class="pimg0">
+			<div class="ptext">
+				<div class="head">
 					ACM Special Interest Groups
-				</span>
+				</div>
 				<p class="pt-5">
-					ACM Special Interest Groups also called as ACM SIG’s is a
-					community that work to develop and research on various
-					fields in computer science technology like web development,
-					data sciences, coding, artificial intelligence, graphics and
-					few more exciting fields for growth of computer science
-					technologic carries most of its works through Self Interest
-					Groups in the field of computer science.
+					ACM Special Interest Groups also called as ACM SIG’s is
+					a community that work to develop and research on various
+					fields in computer science technology like web
+					development, data sciences, coding, artificial
+					intelligence, graphics and few more exciting fields for
+					growth of computer science technologic carries most of
+					its works through Self Interest Groups in the field of
+					computer science.
 					<br />
 					The Self-interest group’s (SIG’s) at Amrita school of
 					engineering works with this motto. The SIG’s at Amrita
-					provide a platform to help young budding computer aspirants
-					to make it into the big world of computer science
-					technology. This is achieved by conducting various
-					informative workshops, discussions, interactive sessions,
-					various competitions, skill training sessions, tutorials and
-					practical experience to revive the geek in you.
+					provide a platform to help young budding computer
+					aspirants to make it into the big world of computer
+					science technology. This is achieved by conducting
+					various informative workshops, discussions, interactive
+					sessions, various competitions, skill training sessions,
+					tutorials and practical experience to revive the geek in
+					you.
 				</p>
 			</div>
-			<div class="card bg-light">
-				<span class="head">
-					ACM Web Development SIG
-				</span>
+		</div>
+		<div class="pimg1">
+			<span class="head">
+				ACM Web Development SIG
+			</span>
+			<div class="ptext">
 				<p class="pt-5">
 					The ACM chapter at Amrita invites all the creative and
 					tech-savvy minds to test their skills in developing
-					projects. Those who have no idea about web development can
-					still join and they will be taught from scratch. Active
-					participation is the key to SIG. We had conducted a boot
-					camp on web development by two web development enthusiasts
-					Aravind V Nair and Abhishek Sai. It was a full-stack web
-					development workshop focusing on HTML5, CSS3, Bootcamp,
-					Node.js, Express.js, GitHub, Database, CLI, JS, and
-					Firebase. At last but not least our motto always here is to
-					learn, unlearn and relearn.
+					projects. Those who have no idea about web development
+					can still join and they will be taught from scratch.
+					Active participation is the key to SIG. We had conducted
+					a boot camp on web development by two web development
+					enthusiasts Aravind V Nair and Abhishek Sai. It was a
+					full-stack web development workshop focusing on HTML5,
+					CSS3, Bootcamp, Node.js, Express.js, GitHub, Database,
+					CLI, JS, and Firebase. At last but not least our motto
+					always here is to learn, unlearn and relearn.
 				</p>
-				<img
-					src="/ACM/img/WD1.png"
-					class="card-img mb-3"
-					alt="ACM Web Development SIG"
-				/>
 			</div>
-			<div class="card bg-light">
-				<span class="head">
-					ACM DATA SCIENCE SIG
-				</span>
+		</div>
+
+		<div class="pimg2">
+			<span class="head">
+				ACM DATA SCIENCE SIG
+			</span>
+			<div class="ptext">
 				<p class="pt-5">
-					We at ACM Amrita Student Chapter bring forth the ACM Data
-					Science SIG which focuses on learning specific efficient
-					learning algorithms and implementing them in real life with
-					the help of sample data. This learning will encourage you to
-					build artificial Agents which will make your work easier. We
-					here learn the math and code that goes into algorithms.
+					We at ACM Amrita Student Chapter bring forth the ACM
+					Data Science SIG which focuses on learning specific
+					efficient learning algorithms and implementing them in
+					real life with the help of sample data. This learning
+					will encourage you to build artificial Agents which will
+					make your work easier. We here learn the math and code
+					that goes into algorithms.
 				</p>
-				<img
-					src="/ACM/img/DS1.png"
-					class="card-img mb-3"
-					alt="ACM DATA SCIENCE SIG"
-				/>
 			</div>
-			<div class="card bg-light">
-				<span class="head">
-					ACM COMPETITIVE Coding SIG
-				</span>
+		</div>
+
+		<div class="pimg3">
+			<span class="head">
+				ACM COMPETITIVE Coding SIG
+			</span>
+			<div class="ptext">
 				<p class="pt-5">
-					ACM and ACM-W Student chapters in collaboration with Code
-					chef bring to you the opportunity to be a part of the
-					Competitive Coding Student Interest Group (ACM Competitive
-					Coding) for the year 2019-2020. The Competitive Coding SIG
-					at Amrita School of Engineering was created as a platform to
-					help programmers make it big in the world of algorithms,
-					computer programming, and programming contests. In this SIG
-					we revive the geek in you by hosting various programming
-					contests.
+					ACM and ACM-W Student chapters in collaboration with
+					Code chef bring to you the opportunity to be a part of
+					the Competitive Coding Student Interest Group (ACM
+					Competitive Coding) for the year 2019-2020. The
+					Competitive Coding SIG at Amrita School of Engineering
+					was created as a platform to help programmers make it
+					big in the world of algorithms, computer programming,
+					and programming contests. In this SIG we revive the geek
+					in you by hosting various programming contests.
 				</p>
-				<img
-					src="/ACM/img/CP1.png"
-					class="card-img mb-3"
-					alt="ACM COMPETITIVE Coding SIG"
-				/>
 			</div>
 		</div>
-		<!-- End of SIG -->
+	</div>
+	<!-- end of sig for big screen -->
 
-		<!-- End of Introduction -->
-		<!-- Blog -->
-		<div class="container">
-			<div class="p-3 mb-3 clearfix blog">
-				<h3 class="display-3 pt-5" id="blog">Read our Latest Blog</h3>
-				<div class="row justify-content-around pt-3">
-					<!-- blog 1 -->
-					<div
-						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
-					>
-						<div class="card mx-3">
-							<div class="card-body">
-								<div class="btn">
-									<a
-										href="#"
-										class="btn btn-primary rounded-pill"
-										>Read More</a
-									>
-								</div>
-								<h5 class="card-title text-white text-center">
-									Card title
-								</h5>
+	<!-- sig for small screen -->
+	<div class="sigm container d-block d-md-none">
+		<div class="card bg-light">
+			<span class="head">
+				ACM Special Interest Groups
+			</span>
+			<p class="pt-5">
+				ACM Special Interest Groups also called as ACM SIG’s is a
+				community that work to develop and research on various
+				fields in computer science technology like web development,
+				data sciences, coding, artificial intelligence, graphics and
+				few more exciting fields for growth of computer science
+				technologic carries most of its works through Self Interest
+				Groups in the field of computer science.
+				<br />
+				The Self-interest group’s (SIG’s) at Amrita school of
+				engineering works with this motto. The SIG’s at Amrita
+				provide a platform to help young budding computer aspirants
+				to make it into the big world of computer science
+				technology. This is achieved by conducting various
+				informative workshops, discussions, interactive sessions,
+				various competitions, skill training sessions, tutorials and
+				practical experience to revive the geek in you.
+			</p>
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM Web Development SIG
+			</span>
+			<p class="pt-5">
+				The ACM chapter at Amrita invites all the creative and
+				tech-savvy minds to test their skills in developing
+				projects. Those who have no idea about web development can
+				still join and they will be taught from scratch. Active
+				participation is the key to SIG. We had conducted a boot
+				camp on web development by two web development enthusiasts
+				Aravind V Nair and Abhishek Sai. It was a full-stack web
+				development workshop focusing on HTML5, CSS3, Bootcamp,
+				Node.js, Express.js, GitHub, Database, CLI, JS, and
+				Firebase. At last but not least our motto always here is to
+				learn, unlearn and relearn.
+			</p>
+			<img src="/ACM/img/WD1.png" class="card-img mb-3" alt="ACM Web Development SIG" />
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM DATA SCIENCE SIG
+			</span>
+			<p class="pt-5">
+				We at ACM Amrita Student Chapter bring forth the ACM Data
+				Science SIG which focuses on learning specific efficient
+				learning algorithms and implementing them in real life with
+				the help of sample data. This learning will encourage you to
+				build artificial Agents which will make your work easier. We
+				here learn the math and code that goes into algorithms.
+			</p>
+			<img src="/ACM/img/DS1.png" class="card-img mb-3" alt="ACM DATA SCIENCE SIG" />
+		</div>
+		<div class="card bg-light">
+			<span class="head">
+				ACM COMPETITIVE Coding SIG
+			</span>
+			<p class="pt-5">
+				ACM and ACM-W Student chapters in collaboration with Code
+				chef bring to you the opportunity to be a part of the
+				Competitive Coding Student Interest Group (ACM Competitive
+				Coding) for the year 2019-2020. The Competitive Coding SIG
+				at Amrita School of Engineering was created as a platform to
+				help programmers make it big in the world of algorithms,
+				computer programming, and programming contests. In this SIG
+				we revive the geek in you by hosting various programming
+				contests.
+			</p>
+			<img src="/ACM/img/CP1.png" class="card-img mb-3" alt="ACM COMPETITIVE Coding SIG" />
+		</div>
+	</div>
+	<!-- End of SIG -->
+
+	<!-- End of Introduction -->
+	<!-- Blog -->
+	<div class="container">
+		<div class="p-3 mb-3 clearfix blog">
+			<h3 class="display-3 pt-5" id="blog">Read our Latest Blog</h3>
+			<div class="row justify-content-around pt-3">
+				<!-- blog 1 -->
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
+					<div class="card mx-3">
+						<div class="card-body">
+							<div class="btn">
+								<a href="#" class="btn btn-primary rounded-pill">Read More</a>
 							</div>
+							<h5 class="card-title text-white text-center">
+								Card title
+							</h5>
 						</div>
 					</div>
-					<!-- End of blog 1 -->
-
-					<!-- blog 2 -->
-					<div
-						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
-					>
-						<div class="card  mx-3">
-							<div class="card-body">
-								<div class="btn">
-									<a
-										href="#"
-										class="btn btn-primary rounded-pill"
-										>Read More</a
-									>
-								</div>
-								<h5 class="card-title text-white text-center">
-									Card title
-								</h5>
-							</div>
-						</div>
-					</div>
-					<!-- End of blog 2 -->
-
-					<!-- blog 3 -->
-					<div
-						class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3"
-					>
-						<div class="card  mx-3">
-							<div class="card-body">
-								<div class="btn">
-									<a
-										href="#"
-										class="btn btn-primary rounded-pill"
-										>Read More</a
-									>
-								</div>
-								<h5 class="card-title text-white text-center">
-									Card title
-								</h5>
-							</div>
-						</div>
-					</div>
-					<!-- End of blog 3 -->
 				</div>
-				<a href="/ACM_Blog" class="btn btn-primary float-right mt-3"
-					>All Blogs</a
-				>
+				<!-- End of blog 1 -->
+
+				<!-- blog 2 -->
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
+					<div class="card  mx-3">
+						<div class="card-body">
+							<div class="btn">
+								<a href="#" class="btn btn-primary rounded-pill">Read More</a>
+							</div>
+							<h5 class="card-title text-white text-center">
+								Card title
+							</h5>
+						</div>
+					</div>
+				</div>
+				<!-- End of blog 2 -->
+
+				<!-- blog 3 -->
+				<div class="col-12 col-sm-6 col-lg-4 mx-auto card-container mb-3">
+					<div class="card  mx-3">
+						<div class="card-body">
+							<div class="btn">
+								<a href="#" class="btn btn-primary rounded-pill">Read More</a>
+							</div>
+							<h5 class="card-title text-white text-center">
+								Card title
+							</h5>
+						</div>
+					</div>
+				</div>
+				<!-- End of blog 3 -->
 			</div>
+			<a href="/ACM_Blog" class="btn btn-primary float-right mt-3">All Blogs</a>
 		</div>
-		<!-- End of Blogs -->
-		<!-- Events -->
-		<div class="container" id="events_container">
-			<div class="mb-3 clearfix event">
-				<h3 class="display-3 pt-5" id="events">
-					Latest Events at ASEB
-				</h3>
-				<div class="row justify-content-between pt-3">
-					<!-- Event 1 -->
-					<div
-						id="event_card"
-						class="col-12 col-sm-6 col-lg-4 mx-auto"
-					>
-						<div class="container-fluid">
-							<div class="card">
-								<div class="card__front">
-									<div class="card__top"></div>
+	</div>
+	<!-- End of Blogs -->
+	<!-- Events -->
+	<div class="container" id="events_container">
+		<div class="mb-3 clearfix event">
+			<h3 class="display-3 pt-5" id="events">
+				Latest Events at ASEB
+			</h3>
+			<div class="row justify-content-between pt-3">
+				<!-- Event 1 -->
+				<div id="event_card" class="col-12 col-sm-6 col-lg-4 mx-auto">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
 
-									<div class="card__bottom">
-										<h3 class="card__title pt-3">
-											Event Name
-										</h3>
-									</div>
-								</div>
-
-								<div class="card__back">
-									<h3 class="card__title card__title--cream">
-										Details
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
 									</h3>
-									<p class="card__text text-white">
-										Lorem ipsum dolor sit amet pokrm lo
-										consectetur adipisicing elit mors.
-										Quaery ipsa autem repellendus lot fuga
-										molre, ipsum dolor. dolore nis temporayo
-										dolor rerum deleniti sip reiciendis.
-									</p>
-
-									<ul class="card__list">
-										<li class="card__item">
-											<strong>Speaker:</strong> Speaker
-											Name.
-										</li>
-										<li class="card__item">
-											<strong>Moderator:</strong>
-											Moderator Name.<br />
-										</li>
-										<li class="card__item">
-											<strong>Date:</strong> 01 October
-											2019<br />
-										</li>
-										<li class="card__item">
-											<strong>Time:</strong> 15:30 hrs<br />
-										</li>
-										<li class="card__item">
-											<strong>Place:</strong> CP Lab<br />
-										</li>
-									</ul>
 								</div>
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker
+										Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong>
+										Moderator Name.<br />
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October
+										2019<br />
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br />
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br />
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<!-- End of Event 1 -->
+				</div>
+				<!-- End of Event 1 -->
 
-					<!-- Event 2 -->
-					<div
-						id="event_card"
-						class="col-12 col-sm-6 col-lg-4 mx-auto"
-					>
-						<div class="container-fluid">
-							<div class="card">
-								<div class="card__front">
-									<div class="card__top"></div>
+				<!-- Event 2 -->
+				<div id="event_card" class="col-12 col-sm-6 col-lg-4 mx-auto">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
 
-									<div class="card__bottom">
-										<h3 class="card__title pt-3">
-											Event Name
-										</h3>
-									</div>
-								</div>
-
-								<div class="card__back">
-									<h3 class="card__title card__title--cream">
-										Details
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
 									</h3>
-									<p class="card__text text-white">
-										Lorem ipsum dolor sit amet pokrm lo
-										consectetur adipisicing elit mors.
-										Quaery ipsa autem repellendus lot fuga
-										molre, ipsum dolor. dolore nis temporayo
-										dolor rerum deleniti sip reiciendis.
-									</p>
-
-									<ul class="card__list">
-										<li class="card__item">
-											<strong>Speaker:</strong> Speaker
-											Name.
-										</li>
-										<li class="card__item">
-											<strong>Moderator:</strong>
-											Moderator Name.<br />
-										</li>
-										<li class="card__item">
-											<strong>Date:</strong> 01 October
-											2019<br />
-										</li>
-										<li class="card__item">
-											<strong>Time:</strong> 15:30 hrs<br />
-										</li>
-										<li class="card__item">
-											<strong>Place:</strong> CP Lab<br />
-										</li>
-									</ul>
 								</div>
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker
+										Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong>
+										Moderator Name.<br />
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October
+										2019<br />
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br />
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br />
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<!-- End of Event 2 -->
+				</div>
+				<!-- End of Event 2 -->
 
-					<!-- Event 3 -->
-					<div
-						id="event_card"
-						class="col-12 col-sm-6 col-lg-4 mx-auto"
-					>
-						<div class="container-fluid">
-							<div class="card">
-								<div class="card__front">
-									<div class="card__top"></div>
+				<!-- Event 3 -->
+				<div id="event_card" class="col-12 col-sm-6 col-lg-4 mx-auto">
+					<div class="container-fluid">
+						<div class="card">
+							<div class="card__front">
+								<div class="card__top"></div>
 
-									<div class="card__bottom">
-										<h3 class="card__title pt-3">
-											Event Name
-										</h3>
-									</div>
-								</div>
-
-								<div class="card__back">
-									<h3 class="card__title card__title--cream">
-										Details
+								<div class="card__bottom">
+									<h3 class="card__title pt-3">
+										Event Name
 									</h3>
-									<p class="card__text text-white">
-										Lorem ipsum dolor sit amet pokrm lo
-										consectetur adipisicing elit mors.
-										Quaery ipsa autem repellendus lot fuga
-										molre, ipsum dolor. dolore nis temporayo
-										dolor rerum deleniti sip reiciendis.
-									</p>
-
-									<ul class="card__list">
-										<li class="card__item">
-											<strong>Speaker:</strong> Speaker
-											Name.
-										</li>
-										<li class="card__item">
-											<strong>Moderator:</strong>
-											Moderator Name.<br />
-										</li>
-										<li class="card__item">
-											<strong>Date:</strong> 01 October
-											2019<br />
-										</li>
-										<li class="card__item">
-											<strong>Time:</strong> 15:30 hrs<br />
-										</li>
-										<li class="card__item">
-											<strong>Place:</strong> CP Lab<br />
-										</li>
-									</ul>
 								</div>
+							</div>
+
+							<div class="card__back">
+								<h3 class="card__title card__title--cream">
+									Details
+								</h3>
+								<p class="card__text text-white">
+									Lorem ipsum dolor sit amet pokrm lo
+									consectetur adipisicing elit mors.
+									Quaery ipsa autem repellendus lot fuga
+									molre, ipsum dolor. dolore nis temporayo
+									dolor rerum deleniti sip reiciendis.
+								</p>
+
+								<ul class="card__list">
+									<li class="card__item">
+										<strong>Speaker:</strong> Speaker
+										Name.
+									</li>
+									<li class="card__item">
+										<strong>Moderator:</strong>
+										Moderator Name.<br />
+									</li>
+									<li class="card__item">
+										<strong>Date:</strong> 01 October
+										2019<br />
+									</li>
+									<li class="card__item">
+										<strong>Time:</strong> 15:30 hrs<br />
+									</li>
+									<li class="card__item">
+										<strong>Place:</strong> CP Lab<br />
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
-					<!-- End of Event 3 -->
 				</div>
-				<a href="#" class="btn btn-primary float-right mt-3"
-					>All Events</a
-				>
+				<!-- End of Event 3 -->
+			</div>
+			<a href="/ACM_Event" class="btn btn-primary float-right mt-3">All Events</a>
+		</div>
+	</div>
+	<!-- End of Events -->
+	<!-- Members -->
+	<div class="container">
+		<div class="team">
+			<h3 class="display-3 pt-5" id="members">
+				Meet Our Office Bearers
+			</h3>
+
+			<!-- Members Carousel -->
+			<div class="owl-carousel owl-theme px-3">
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name1
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name2
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name3
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name4
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name5
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name6
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name7
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name8
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+
+				<div class="item mb-2">
+					<img src="/ACM/img/member.jpg" class="img-fluid rounded-circle p-4" />
+					<h2 class="text-dark text-center">
+						Member name9
+					</h2>
+					<h6 class="text-secondary text-center">
+						Member Role
+					</h6>
+				</div>
+			</div>
+			<!-- End of members carousel -->
+			<a href="/ACM_Member" class="btn btn-primary float-right mt-3">Members Page</a>
+		</div>
+		<!-- End of members -->
+	</div>
+	<!-- Gallery -->
+	<div class="container">
+		<div id="gallery">
+			<h3 class="display-3 pt-5">Gallery</h3>
+			<div class="row gal">
+				<div class="col-12 col-md-4">
+					<img src="https://picsum.photos/id/10/640/480" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/100/512/720" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/1002/350" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/515/350/350" alt="Lorem Picsum" />
+				</div>
+				<div class="col-12 col-md-4 mb-1">
+					<img src="https://picsum.photos/id/1018/340/550" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/1058/420/640" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/1069/350" alt="Lorem Picsum" />
+					<!-- <img src="https://picsum.photos/id/64/420/640" alt="Lorem Picsum"> -->
+				</div>
+				<div class="col-12 col-md-4 mb-1">
+					<img src="https://picsum.photos/id/1080/512/720" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/348/512" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/447/600" alt="Lorem Picsum" />
+					<img src="https://picsum.photos/id/799/440/600" alt="Lorem Picsum" />
+				</div>
 			</div>
 		</div>
-		<!-- End of Events -->
-		<!-- Members -->
-		<div class="container">
-			<div class="team">
-				<h3 class="display-3 pt-5" id="members">
-					Meet Our Office Bearers
-				</h3>
+		<!-- End of Gallery -->
+	</div>
 
-				<!-- Members Carousel -->
-				<div class="owl-carousel owl-theme px-3">
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name1
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name2
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name3
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name4
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name5
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name6
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name7
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name8
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
-
-					<div class="item mb-2">
-						<img
-							src="/ACM/img/member.jpg"
-							class="img-fluid rounded-circle p-4"
-						/>
-						<h2 class="text-dark text-center">
-							Member name9
-						</h2>
-						<h6 class="text-secondary text-center">
-							Member Role
-						</h6>
-					</div>
+	<!-- Footer -->
+	<footer class="page-footer font-small text-dark pt-4 footer">
+		<!-- Top section -->
+		<div class="container text-center text-md-left">
+			<div class="row">
+				<!-- Left Section -->
+				<div class="col-md-6 mt-md-0 mt-3">
+					<h5 class="text-uppercase font-weight-bold">
+						Address
+					</h5>
+					<p>
+						Amrita Vishwa Vidyapeetham<br />
+						Bengaluru Campus<br />
+						Kasavanahalli, Carmelaram P.O.<br />
+						Bengaluru - 560 035<br />
+						Karnataka, India
+					</p>
 				</div>
-				<!-- End of members carousel -->
-				<a href="/ACM_Member" class="btn btn-primary float-right mt-3"
-					>Members Page</a
-				>
+				<!-- End of Left Section -->
+				<hr class="clearfix w-100 d-md-none pb-3" />
+
+				<!-- Right Section -->
+				<div class="col-md-6 text-right mb-md-0 mb-3">
+					<h5 class="text-uppercase font-weight-bold">
+						Contact Us
+					</h5>
+					<p>
+						Phone Number: 080 2518 3700<br />
+						Email ID:
+						<a href="mailto:amritaface@gmail.com">amritaface@gmail.com</a>
+					</p>
+				</div>
+				<!-- End of Right Section -->
 			</div>
-			<!-- End of members -->
 		</div>
-		<!-- Gallery -->
-		<div class="container">
-			<div id="gallery">
-				<h3 class="display-3 pt-5">Gallery</h3>
-				<div class="row gal">
-					<div class="col-12 col-md-4">
-						<img
-							src="https://picsum.photos/id/10/640/480"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/100/512/720"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/1002/350"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/515/350/350"
-							alt="Lorem Picsum"
-						/>
-					</div>
-					<div class="col-12 col-md-4 mb-1">
-						<img
-							src="https://picsum.photos/id/1018/340/550"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/1058/420/640"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/1069/350"
-							alt="Lorem Picsum"
-						/>
-						<!-- <img src="https://picsum.photos/id/64/420/640" alt="Lorem Picsum"> -->
-					</div>
-					<div class="col-12 col-md-4 mb-1">
-						<img
-							src="https://picsum.photos/id/1080/512/720"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/348/512"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/447/600"
-							alt="Lorem Picsum"
-						/>
-						<img
-							src="https://picsum.photos/id/799/440/600"
-							alt="Lorem Picsum"
-						/>
-					</div>
-				</div>
-			</div>
-			<!-- End of Gallery -->
+		<!-- End of Top section -->
+
+		<!-- Bottom center section -->
+		<div class="footer-copyright text-center py-3">
+			&copy; 2019 Copyright | ACM Student Chapter - Amrita School of
+			Engineering
 		</div>
+		<!-- End of Bottom center section -->
+	</footer>
+	<!-- End of footer -->
 
-		<!-- Footer -->
-		<footer class="page-footer font-small text-dark pt-4 footer">
-			<!-- Top section -->
-			<div class="container text-center text-md-left">
-				<div class="row">
-					<!-- Left Section -->
-					<div class="col-md-6 mt-md-0 mt-3">
-						<h5 class="text-uppercase font-weight-bold">
-							Address
-						</h5>
-						<p>
-							Amrita Vishwa Vidyapeetham<br />
-							Bengaluru Campus<br />
-							Kasavanahalli, Carmelaram P.O.<br />
-							Bengaluru - 560 035<br />
-							Karnataka, India
-						</p>
-					</div>
-					<!-- End of Left Section -->
-					<hr class="clearfix w-100 d-md-none pb-3" />
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
 
-					<!-- Right Section -->
-					<div class="col-md-6 text-right mb-md-0 mb-3">
-						<h5 class="text-uppercase font-weight-bold">
-							Contact Us
-						</h5>
-						<p>
-							Phone Number: 080 2518 3700<br />
-							Email ID:
-							<a href="mailto:amritaface@gmail.com"
-								>amritaface@gmail.com</a
-							>
-						</p>
-					</div>
-					<!-- End of Right Section -->
-				</div>
-			</div>
-			<!-- End of Top section -->
+	<!-- popperJS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
 
-			<!-- Bottom center section -->
-			<div class="footer-copyright text-center py-3">
-				&copy; 2019 Copyright | ACM Student Chapter - Amrita School of
-				Engineering
-			</div>
-			<!-- End of Bottom center section -->
-		</footer>
-		<!-- End of footer -->
+	<!-- BootstrapJS-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 
-		<!-- jQuery -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
+	<!-- Owl Carosel JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-		<!-- popperJS -->
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
+	<!-- Custom JS -->
+	<script src="/ACM/js/main.js"></script>
+</body>
 
-		<!-- BootstrapJS-->
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-
-		<!-- Owl Carosel JS -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-		<!-- Custom JS -->
-		<script src="/ACM/js/main.js"></script>
-	</body>
 </html>
