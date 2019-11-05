@@ -26,6 +26,7 @@ footer {
 	background-image: url('/ACM/img/team.png');
 }
 
+
 .card .memberImg
 {
 	height: 250px;
@@ -33,7 +34,7 @@ footer {
 	margin: 0 auto;
 	border: 1px solid grey;
 	border-radius: 50%;
-	background-image: url("/ACM/img/member.jpg");
+	/* background-image: url("/ACM/img/member.jpg"); */
 	background-size: contain;
 }
 
@@ -46,9 +47,13 @@ footer {
 		margin: 0 auto;
 		border: 1px solid grey;
 		border-radius: 50%;
-		background-image: url("/ACM/img/member.jpg");
+		/* background-image: url("/ACM/img/member.jpg"); */
 		background-size: contain;
 	}
+}
+
+.shreya{
+	background-image: url("/ACM/img/members/shreya.jpg");
 }
 
 footer {
