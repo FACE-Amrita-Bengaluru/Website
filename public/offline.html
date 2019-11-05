@@ -1,237 +1,410 @@
 <!DOCTYPE html>
-<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
-<!--<![endif]-->
+	<!--<![endif]-->
 
-<head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126622119-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+	<head>
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=UA-126622119-1"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
 
-        gtag('config', 'UA-126622119-1');
-    </script>
-    <meta charset="utf-8">
-    <meta name="author" content="Aravind V. Nair, Abhishek Sai">
-    <meta name="keywords" content="FACE, Amrita, ASE, ASEB, forum, Bangalore, Bengaluru, ACM, CSI, ACM-W">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta property="og:image" content="/android-chrome-384x384.png" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_GB" />
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/modernizr.js"></script>
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="apple-mobile-web-app-title" content="FACE Amrita">
-    <meta name="application-name" content="FACE Amrita">
-    <meta name="msapplication-TileColor" content="#000000">
-    <meta name="theme-color" content="#000000">
-    <title>Offline - FACE Amrita Bangalore</title>
-    <meta name="description" content="Offline - Forum for Aspiring Computer Engineers">
-    <meta property="og:title" content="Offline - FACE Amrita Bangalore" />
-    <meta property="og:url" content="https://face-amrita.firebaseapp.com/offline.html" />
-    <meta property="og:description" content="Offline - Forum for Aspiring Computer Engineers" />
-</head>
+			gtag('config', 'UA-126622119-1');
+		</script>
+		<meta charset="utf-8" />
+		<meta name="author" content="Aravind V. Nair, Abhishek Sai" />
+		<meta
+			name="keywords"
+			content="FACE, Amrita, ASE, ASEB, forum, Bangalore, Bengaluru, ACM, CSI, ACM-W"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, maximum-scale=1"
+		/>
+		<meta property="og:image" content="/android-chrome-384x384.png" />
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_GB" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/vendor.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script src="js/modernizr.js"></script>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="manifest.json" />
+		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+		<meta name="apple-mobile-web-app-title" content="FACE Amrita" />
+		<meta name="application-name" content="FACE Amrita" />
+		<meta name="msapplication-TileColor" content="#000000" />
+		<meta name="theme-color" content="#000000" />
+		<title>Offline - FACE Amrita Bangalore</title>
+		<meta
+			name="description"
+			content="Offline - Forum for Aspiring Computer Engineers"
+		/>
+		<meta property="og:title" content="Offline - FACE Amrita Bangalore" />
+		<meta
+			property="og:url"
+			content="https://face-amrita.firebaseapp.com/offline.html"
+		/>
+		<meta
+			property="og:description"
+			content="Offline - Forum for Aspiring Computer Engineers"
+		/>
+	</head>
 
-<body>
-    <header id="main-header">
-        <div class="row">
-            <div class="logo">
-                <a href="/">FACE</a>
-            </div>
-            <nav id="nav-wrap">
-                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-                    <span class="menu-icon">Menu</span>
-                </a>
-                <a class="mobile-btn" href="#" title="Hide navigation">
-                    <span class="menu-icon">Menu</span>
-                </a>
-                <ul id="nav" class="nav">
-                    <li class="current"><a class="smoothscroll" href="./#hero">Home</a></li>
-                    <li><a href="/TFS">TFS</a></li>
-                    <li><a target="_blank" rel="noopener" href="/Identifire">Identifire</a></li>
-                    <li><a class="smoothscroll" href="/#about">About</a></li>
-                    <li><a href="/Team">Team</a></li>
-                    <li><a target="_blank" rel="noopener" href="/Blog">Blog</a></li>
-                    <li><a class="smoothscroll" href="/#portfolio">Gallery</a></li>
-                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <ul class="header-social">
-                <li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook"></i></a></li>
-                <li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter"></i></a></li>
-                <li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram"></i></a></li>
-                <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-    </header>
-    <section id="hero">
-        <div class="row hero-content">
-            <div class="twelve columns hero-container">
-                <div id="hero-slider" class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <div class="flex-caption">
-                                <h1 class="">
-                                    Offline &#x1f61f;
-                                </h1>
-                                <h3 class="">
-                                    The content you are looking for couldn't be found. Please check your connection or
-                                    URL and try
-                                    again.
-                                </h3>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="contact">
-        <div class="row section-head">
-            <div class="twelve columns">
-                <h1>Get In Touch With Us<span>.</span></h1>
-                <hr />
-            </div>
-        </div>
-        <div class="row">
-            <div id="contact-form" class="six columns tab-whole left">
-                <form name="contactForm" method="post" action="https://formspree.io/amritaface@gmail.com">
-                    <fieldset>
-                        <div class="group">
-                            <input name="contactName" type="text" id="contactName" placeholder="Name" value=""
-                                minLength="2" required />
-                        </div>
-                        <div>
-                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
-                                required />
-                        </div>
-                        <div>
-                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value=""
-                                required />
-                        </div>
-                        <div>
-                            <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
-                                required></textarea>
-                        </div>
-                        <div>
-                            <button class="submitform">Submit</button>
-                            <div id="submit-loader">
-                                <div class="text-loader">Sending...</div>
-                                <div class="s-loader">
-                                    <div class="bounce1"></div>
-                                    <div class="bounce2"></div>
-                                    <div class="bounce3"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-                <div id="message-warning"></div>
-                <div id="message-success">
-                    <i class="icon-ok"></i>Your message was sent, thank you!<br />
-                </div>
-            </div>
-            <div class="six columns tab-whole right">
-                <p class="lead">
-                    At FACE, we provide foundational learning skills to computer enthusiasts through weekly events that
-                    are laced
-                    with knowledge that is usually not provided within the four walls of a classroom. Connect with us
-                    for queries / feedback or to learn more.
-                </p>
-                <h3 class="address">Where to find us</h3>
-                <p>
-                    Amrita Vishwa Vidyapeetham University, <br>
-                    Kasavanahalli, <br>
-                    Carmelaram P.O., Bangalore <br>
-                    560 035 <br>
-                    Karnataka, India
-                </p>
-                <h3>Email us at:</h3>
-                <p>
-                    <a href="mailto:amritaface@gmail.com">amritaface@gmail.com</a>
-                </p>
-                <h3>Contact Numbers:</h3>
-                <p>
-                    Mobile: <a href="tel:+919148579702">(+91) 9148579702</a>
-                </p>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="row">
-            <div class="twelve columns content group">
-                <ul class="social-links">
-                    <li><a target="_blank" rel="noopener" href="https://www.facebook.com/face00amrita/"><i class="fa fa-facebook-square"></i></a></li>
-                    <li><a target="_blank" rel="noopener" href="https://www.instagram.com/face_aseb/"><i class="fa fa-instagram "></i></a></li>
-                    <li><a target="_blank" rel="noopener" href="https://twitter.com/faceaseb"><i class="fa fa-twitter-square"></i></a></li>
-                    <li><a target="_blank" rel="noopener" href="https://www.linkedin.com/company/face-aseb/"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a target="_blank" rel="noopener" href="/Blog"><i class="fa fa-wordpress"></i></a></li>
-                </ul>
-                <hr />
-                <div class="info">
-                    <div class="footer-logo"></div>
-                    <p>
-                        FACE | Amrita School of Engineering, Bangalore
-                    </p>
-                </div>
-            </div>
-            <ul class="copyright">
-                <li>&copy; Copyright FACE Amrita 2018</li>
-                <li>
-                    Made and maintained by <a target="_blank" rel="noopener" href="https://aravindvnair99.firebaseapp.com">Aravind
-                        V
-                        Nair</a> and <a target="_blank" rel="noopener" href="https://abhishek-sai.firebaseapp.com">Abhishek
-                        Sai</a> with
-                    credits to <a target="_blank" rel="noopener" href="https://styleshout.com">Styleshout</a>
-                </li>
-            </ul>
-            <div id="go-top">
-                <a class="smoothscroll" title="Back to Top" href="#hero">Back to Top<i class="fa fa-angle-up"></i></a>
-            </div>
-        </div>
-    </footer>
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/jquery.placeholder.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script async src="js/manup.js"></script>
-    <script>
-        if (navigator.serviceWorker.controller) {
-            console.log('[PWA Builder] active service worker found, no need to register')
-        } else {
-            navigator.serviceWorker.register('pwabuilder-sw.js', {
-                scope: './'
-            }).then(function (reg) {
-                console.log('Service worker has been registered for scope:' + reg.scope);
-            });
-        }
-    </script>
-    <script type="application/ld+json">
-        {
-          "@context": "http://schema.org/",
-          "@type": "WebSite",
-          "name": "FACE Amrita",
-          "alternateName": "Forum for Aspiring Computer Engineers",
-          "url": "https://face-amrita.firebaseapp.com"
-        }
-    </script>
-</body>
-
+	<body>
+		<header id="main-header">
+			<div class="row">
+				<div class="logo">
+					<a href="/">FACE</a>
+				</div>
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation"
+					>
+						<span class="menu-icon">Menu</span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-icon">Menu</span>
+					</a>
+					<ul id="nav" class="nav">
+						<li class="current">
+							<a class="smoothscroll" href="./#hero">Home</a>
+						</li>
+						<li><a href="/TFS">TFS</a></li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Identifire"
+								>Identifire</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="/#about">About</a>
+						</li>
+						<li><a href="/Team">Team</a></li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Blog"
+								>Blog</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="/#portfolio"
+								>Gallery</a
+							>
+						</li>
+						<li>
+							<a class="smoothscroll" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="header-social">
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.facebook.com/face00amrita/"
+							><i class="fa fa-facebook"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://twitter.com/faceaseb"
+							><i class="fa fa-twitter"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.instagram.com/face_aseb/"
+							><i class="fa fa-instagram"></i
+						></a>
+					</li>
+					<li>
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://www.linkedin.com/company/face-aseb/"
+							><i class="fa fa-linkedin"></i
+						></a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section id="hero">
+			<div class="row hero-content">
+				<div class="twelve columns hero-container">
+					<div id="hero-slider" class="flexslider">
+						<ul class="slides">
+							<li>
+								<div class="flex-caption">
+									<h1 class="">
+										Offline &#x1f61f;
+									</h1>
+									<h3 class="">
+										The content you are looking for couldn't
+										be found. Please check your connection
+										or URL and try again.
+									</h3>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="row section-head">
+				<div class="twelve columns">
+					<h1>Get In Touch With Us<span>.</span></h1>
+					<hr />
+				</div>
+			</div>
+			<div class="row">
+				<div id="contact-form" class="six columns tab-whole left">
+					<form
+						name="contactForm"
+						method="post"
+						action="https://formspree.io/amritaface@gmail.com"
+					>
+						<fieldset>
+							<div class="group">
+								<input
+									name="contactName"
+									type="text"
+									id="contactName"
+									placeholder="Name"
+									value=""
+									minLength="2"
+									required
+								/>
+							</div>
+							<div>
+								<input
+									name="contactEmail"
+									type="email"
+									id="contactEmail"
+									placeholder="Email"
+									value=""
+									required
+								/>
+							</div>
+							<div>
+								<input
+									name="contactSubject"
+									type="text"
+									id="contactSubject"
+									placeholder="Subject"
+									value=""
+									required
+								/>
+							</div>
+							<div>
+								<textarea
+									name="contactMessage"
+									id="contactMessage"
+									placeholder="message"
+									rows="10"
+									cols="50"
+									required
+								></textarea>
+							</div>
+							<div>
+								<button class="submitform">Submit</button>
+								<div id="submit-loader">
+									<div class="text-loader">Sending...</div>
+									<div class="s-loader">
+										<div class="bounce1"></div>
+										<div class="bounce2"></div>
+										<div class="bounce3"></div>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+					</form>
+					<div id="message-warning"></div>
+					<div id="message-success">
+						<i class="icon-ok"></i>Your message was sent, thank
+						you!<br />
+					</div>
+				</div>
+				<div class="six columns tab-whole right">
+					<p class="lead">
+						At FACE, we provide foundational learning skills to
+						computer enthusiasts through weekly events that are
+						laced with knowledge that is usually not provided within
+						the four walls of a classroom. Connect with us for
+						queries / feedback or to learn more.
+					</p>
+					<h3 class="address">Where to find us</h3>
+					<p>
+						Amrita Vishwa Vidyapeetham University, <br />
+						Kasavanahalli, <br />
+						Carmelaram P.O., Bangalore <br />
+						560 035 <br />
+						Karnataka, India
+					</p>
+					<h3>Email us at:</h3>
+					<p>
+						<a href="mailto:amritaface@gmail.com"
+							>amritaface@gmail.com</a
+						>
+					</p>
+					<h3>Contact Numbers:</h3>
+					<p>
+						Mobile: <a href="tel:+919148579702">(+91) 9148579702</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="row">
+				<div class="twelve columns content group">
+					<ul class="social-links">
+						<li>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://www.facebook.com/face00amrita/"
+								><i class="fa fa-facebook-square"></i
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://www.instagram.com/face_aseb/"
+								><i class="fa fa-instagram "></i
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://twitter.com/faceaseb"
+								><i class="fa fa-twitter-square"></i
+							></a>
+						</li>
+						<li>
+							<a
+								target="_blank"
+								rel="noopener"
+								href="https://www.linkedin.com/company/face-aseb/"
+								><i class="fa fa-linkedin"></i
+							></a>
+						</li>
+						<li>
+							<a target="_blank" rel="noopener" href="/Blog"
+								><i class="fa fa-wordpress"></i
+							></a>
+						</li>
+					</ul>
+					<hr />
+					<div class="info">
+						<div class="footer-logo"></div>
+						<p>
+							FACE | Amrita School of Engineering, Bangalore
+						</p>
+					</div>
+				</div>
+				<ul class="copyright">
+					<li>&copy; Copyright FACE Amrita 2018</li>
+					<li>
+						Made and maintained by
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://aravindvnair99.firebaseapp.com"
+							>Aravind V Nair</a
+						>
+						and
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://abhishek-sai.firebaseapp.com"
+							>Abhishek Sai</a
+						>
+						with credits to
+						<a
+							target="_blank"
+							rel="noopener"
+							href="https://styleshout.com"
+							>Styleshout</a
+						>
+					</li>
+				</ul>
+				<div id="go-top">
+					<a class="smoothscroll" title="Back to Top" href="#hero"
+						>Back to Top<i class="fa fa-angle-up"></i
+					></a>
+				</div>
+			</div>
+		</footer>
+		<div id="preloader">
+			<div id="loader"></div>
+		</div>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/jquery.flexslider-min.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.validate.min.js"></script>
+		<script src="js/jquery.fittext.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/main.js"></script>
+		<script async src="js/manup.js"></script>
+		<script>
+			if (navigator.serviceWorker.controller) {
+				console.log(
+					'[PWA Builder] active service worker found, no need to register'
+				);
+			} else {
+				navigator.serviceWorker
+					.register('pwabuilder-sw.js', {
+						scope: './'
+					})
+					.then(function(reg) {
+						console.log(
+							'Service worker has been registered for scope:' +
+								reg.scope
+						);
+					});
+			}
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org/",
+				"@type": "WebSite",
+				"name": "FACE Amrita",
+				"alternateName": "Forum for Aspiring Computer Engineers",
+				"url": "https://face-amrita.firebaseapp.com"
+			}
+		</script>
+	</body>
 </html>
