@@ -2,9 +2,14 @@
 
 # ACM
 
-acm.ejs	@VinayakTekade	@AravindVNair99
 ACM/	@VinayakTekade	@AravindVNair99
+acm.ejs	@VinayakTekade	@AravindVNair99
+acmBlog.ejs	@VinayakTekade	@AravindVNair99
+acmEvents.ejs	@VinayakTekade	@AravindVNair99
+acmMembers.ejs	@VinayakTekade	@AravindVNair99
 
 # ACM - W
 
 acmw.ejs	@PriyaaIyer	@AravindVNair99
+acmw.css	@PriyaaIyer	@AravindVNair99
+acmw.png	@PriyaaIyer	@AravindVNair99
