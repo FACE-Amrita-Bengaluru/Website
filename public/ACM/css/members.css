@@ -52,16 +52,21 @@ footer {
 	}
 }
 
+
 .shreya{
 	background-image: url("/ACM/img/members/shreya.jpg");
 }
 
 .ritwik{
-	background-color: url("/ACM/img/members/ritwik.jpg")
+	background-image: url("/ACM/img/members/ritwik.jpg");
 }
 
 .aditya{
-	background-color: url("/ACM/img/member.jpg")
+	background-image: url("/ACM/img/member.jpg")
+}
+
+.member{
+	background-image: url("/ACM/img/member.jpg")
 }
 
 .sahana{
@@ -81,19 +86,19 @@ footer {
 }
 
 .hrudeep{
-	background-image: url("/public/ACM/img/members/hrudeep.jpg");
+	background-image: url("/ACM/img/members/hrudeep.jpg");
 }
 
 .malvika{
-	background-image: url("/public/ACM/img/members/malvika.jpeg");
+	background-image: url("/ACM/img/members/malvika.jpeg");
 }
 
 .jaswanth{
-	background-image: url("/public/ACM/img/members/jaswanth.jpg");
+	background-image: url("/ACM/img/members/jaswanth.jpg");
 }
 
 .subaharish{
-	background-image: url("/public/ACM/img/members/subaharish.jpg");
+	background-image: url("/ACM/img/members/subaharish.jpg");
 }
 footer {
 	background-color: gainsboro;
