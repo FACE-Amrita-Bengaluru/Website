@@ -1,10 +1,10 @@
 # FACE Amrita Bengaluru
 
-Official source code of FACE Amrita Bangalore website along with CSI, ACM and ACM - W chapters of Amrita Bangalore.
+Official source code of FACE Amrita Bangalore website along with CSI, ACM, and ACM - W chapters of Amrita Bangalore.
 
 # :octocat: How to contribute?
 
-All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
+All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki contents -- whatever you have to offer, it would be appreciated!
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 
@@ -39,7 +39,7 @@ Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new
 
 * What steps did you take to make the bug appear?
 * How can the bug be fixed? (In case you know)
-* Which OS and which all packages / softwares / dependencies are you using?
+* Which OS and which all packages/software/dependencies are you using?
 * Have you tried any troubleshooting steps such as a reboot for example?
 * Have you followed the prescribed prerequisites?
 
