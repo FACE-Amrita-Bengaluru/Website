@@ -9,19 +9,19 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 app.get('/ACM', (req, res) => {
-	res.render('acm');
+	res.render('ACM');
 });
 app.get('/ACM_Blog', (req, res) => {
-	res.render('acmBlog');
+	res.render('ACM_Blog');
 });
 app.get('/ACM_Members', (req, res) => {
-	res.render('acmMembers');
+	res.render('ACM_Members');
 });
 app.get('/ACM_Events', (req, res) => {
-	res.render('acmEvents');
+	res.render('ACM_Events');
 });
 app.get('/ACMW', (req, res) => {
-	res.render('acmw');
+	res.render('ACMW');
 });
 app.get('/Submission', (req, res) => {
 	res.render('submission');
