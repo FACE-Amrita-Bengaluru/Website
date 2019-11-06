@@ -4,7 +4,7 @@ Official source code of FACE Amrita Bangalore website along with CSI, ACM and AC
 
 # :octocat: How to contribute?
 
-All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
+All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki contents -- whatever you have to offer, it would be appreciated!
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 
