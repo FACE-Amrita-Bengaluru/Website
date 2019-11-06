@@ -17,6 +17,9 @@ app.get('/ACM_Blog', (req, res) => {
 app.get('/ACM_Members', (req, res) => {
 	res.render('ACM_Members');
 });
+app.get('/ACMW_Members', (req, res) => {
+	res.render('ACMW_Members');
+});
 app.get('/ACM_Events', (req, res) => {
 	res.render('ACM_Events');
 });
