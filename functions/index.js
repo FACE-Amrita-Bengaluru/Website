@@ -23,6 +23,15 @@ app.get('/ACMW_Members', (req, res) => {
 app.get('/ACM_Events', (req, res) => {
 	res.render('ACM_Events');
 });
+app.get('/ACM_WD', (req, res) => {
+	res.render('ACM_WD');
+});
+app.get('/ACM_CP', (req, res) => {
+	res.render('ACM_CP');
+});
+app.get('/ACM_DS', (req, res) => {
+	res.render('ACM_Events');
+});
 app.get('/ACMW', (req, res) => {
 	res.render('ACMW');
 });
