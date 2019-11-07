@@ -8,7 +8,8 @@ body {
 	color: #777;
 }
 
-h3, h4 {
+h3, 
+h4 {
 	margin: 10px 0 30px 0;
 	letter-spacing: 10px;
 	font-size: 20px;
@@ -17,7 +18,7 @@ h3, h4 {
 .container {
 	padding: 80px 120px;
 }
-/*.person {
+.person {
 	border: 10px solid transparent;
 	margin-bottom: 25px;
 	width: 80%;
@@ -26,12 +27,33 @@ h3, h4 {
 }
 .person:hover {
 	border-color: #f1f1f1;
-}*/
-.home{
+}
+.home {
 	margin-top: 20px;
 }
 
-.bg-1 h3 {color: #111;}
+/* carousel design */
+/*.carousel-inner img {*/
+	/* -webkit-filter: grayscale(90%);
+		filter: grayscale(90%); /* make all photos black and white */
+	/*width: 100%; /* Set width to 100% */
+	/*margin: auto;
+}
+.carousel-caption h3 {
+	color: #fff !important;
+}
+@media (max-width: 600px) {
+	.carousel-caption {
+		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+	/*}
+}*/
+/* .bg-1 {
+	background: #fff; */
+/*color: #111;
+}*/
+.bg-1 h3 {
+	color: #111;
+}
 /*.bg-1 p {font-style: italic;} */
 /*.list-group-item:first-child {
 	border-top-right-radius: 0;
@@ -49,8 +71,7 @@ h3, h4 {
 .thumbnail p {
 	margin-top: 15px;
 	color: #555;
-}
-
+} 
 
 /* navber design */
 .btn {
@@ -60,7 +81,8 @@ h3, h4 {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover, .btn:focus {
+.btn:hover, 
+.btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
 	color: #000;
@@ -75,7 +97,8 @@ h3, h4 {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a, .navbar .navbar-brand {
+.navbar li a, 
+.navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
