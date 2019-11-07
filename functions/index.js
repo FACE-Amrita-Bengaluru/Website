@@ -30,7 +30,7 @@ app.get('/ACM_CP', (req, res) => {
 	res.render('ACM_CP');
 });
 app.get('/ACM_DS', (req, res) => {
-	res.render('ACM_Events');
+	res.render('ACM_DS');
 });
 app.get('/ACMW', (req, res) => {
 	res.render('ACMW');
