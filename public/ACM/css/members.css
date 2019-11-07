@@ -23,7 +23,9 @@ footer {
 /* Members section */
 .jumbotron {
 	background-color: white;
-	background-image: url('/ACM/img/team.png');
+	background-image: url('/ACM/img/team.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 
