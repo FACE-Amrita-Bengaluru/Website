@@ -8,33 +8,6 @@ app.set('view engine', 'ejs');
 app.get('/', (req, res) => {
 	res.render('index');
 });
-app.get('/ACM', (req, res) => {
-	res.render('ACM');
-});
-app.get('/ACM_Blog', (req, res) => {
-	res.render('ACM_Blog');
-});
-app.get('/ACM_Members', (req, res) => {
-	res.render('ACM_Members');
-});
-app.get('/ACMW_Members', (req, res) => {
-	res.render('ACMW_Members');
-});
-app.get('/ACM_Events', (req, res) => {
-	res.render('ACM_Events');
-});
-app.get('/ACM_WD', (req, res) => {
-	res.render('ACM_WD');
-});
-app.get('/ACM_CP', (req, res) => {
-	res.render('ACM_CP');
-});
-app.get('/ACM_DS', (req, res) => {
-	res.render('ACM_DS');
-});
-app.get('/ACMW', (req, res) => {
-	res.render('ACMW');
-});
 app.get('/Submission', (req, res) => {
 	res.render('submission');
 });
@@ -75,6 +48,33 @@ app.get('/UI-UX', (req, res) => {
 });
 app.get('/SLAC', (req, res) => {
 	res.redirect('https://slacfest.in');
+});
+app.get('/ACM', (req, res) => {
+	res.render('ACM/ACM');
+});
+app.get('/ACM_Blog', (req, res) => {
+	res.render('ACM/ACM_Blog');
+});
+app.get('/ACM_Members', (req, res) => {
+	res.render('ACM/ACM_Members');
+});
+app.get('/ACM_Events', (req, res) => {
+	res.render('ACM/ACM_Events');
+});
+app.get('/ACM_WD', (req, res) => {
+	res.render('ACM/ACM_WD');
+});
+app.get('/ACM_CP', (req, res) => {
+	res.render('ACM/ACM_CP');
+});
+app.get('/ACM_DS', (req, res) => {
+	res.render('ACM/ACM_DS');
+});
+app.get('/ACMW', (req, res) => {
+	res.render('ACMW/ACMW');
+});
+app.get('/ACMW_Members', (req, res) => {
+	res.render('ACMW/ACMW_Members');
 });
 app.use((req, res, next) => {
 	res.status(404).render('404');

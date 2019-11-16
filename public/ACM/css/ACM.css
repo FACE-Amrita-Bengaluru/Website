@@ -233,13 +233,13 @@ p {
 /* Styling for Events card */
 
 .event1{
-	background-image: url('/ACM/img/Events/SIG_Intro.jpeg');
+	background-image: url('/ACM/img/events/SIG_Intro.jpg');
 }
 .event2{
-	background-image: url('/ACM/img/Events/Start.jpeg');
+	background-image: url('/ACM/img/events/Start.jpg');
 }
 .event3{
-	background-image: url('/ACM/img/Events/FindFitFinish.jpeg');
+	background-image: url('/ACM/img/events/FindFitFinish.jpg');
 }
 
 
