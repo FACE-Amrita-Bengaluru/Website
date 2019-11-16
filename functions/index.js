@@ -42,7 +42,7 @@ app.get('/Comquer', (req, res) => {
 	res.render('Comquer');
 });
 app.get('/TFS', (req, res) => {
-	res.render('tfs');
+	res.render('TFS');
 });
 app.get('/Team', (req, res) => {
 	res.redirect('/Team_1920');
@@ -60,7 +60,7 @@ app.get('/Privacy', (req, res) => {
 	res.render('privacy');
 });
 app.get('/ICIC2018', (req, res) => {
-	res.render('icic2018');
+	res.render('ICIC2018');
 });
 app.get('/Blog', (req, res) => {
 	res.redirect('https://faceaseb.wordpress.com');
