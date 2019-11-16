@@ -54,6 +54,9 @@ footer {
 	}
 }
 
+.memberImg{
+	background-image: url("/ACM/img/member.jpg")
+}
 
 .shreya{
 	background-image: url("/ACM/img/members/shreya.jpg");
