@@ -128,13 +128,14 @@ p {
 
 #sig {
 	/* width:100%; */
-	height: 400%;
+	height: 500%;
 }
 
 #sig .pimg0,
 .pimg1,
 .pimg2,
-.pimg3 {
+.pimg3,
+.pimg4 {
 	position: relative;
 	background-position: center;
 	background-size: cover;
@@ -148,22 +149,26 @@ p {
 }
 
 #sig .pimg0 {
-	height: 25%;
+	height: 20%;
 }
 
 #sig .pimg1 {
-	background-image: url('/ACM/img/Wsig.png');
-	height: 25%;
+	height: 20%;
 }
 
 #sig .pimg2 {
-	background-image: url('/ACM/img/Dsig.png');
-	height: 25%;
+	background-image: url('/ACM/img/Wsig.png');
+	height: 20%;
 }
 
 #sig .pimg3 {
+	background-image: url('/ACM/img/Dsig.png');
+	height: 20%;
+}
+
+#sig .pimg4 {
 	background-image: url('/ACM/img/Csig.png');
-	height: 25%;
+	height: 20%;
 }
 
 #sig .ptext {
@@ -184,6 +189,15 @@ p {
 	font-size: 1.2rem;
 }
 
+#sig .pimg1 .ptext {
+	position: absolute;
+	top: 20%;
+	width: 80%;
+	padding-left: 5%;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
 .head {
 	background-color: #595959;
 	color: #fff;
@@ -193,9 +207,9 @@ p {
 	text-transform: uppercase;
 }
 
-.pimg1 .head,
 .pimg2 .head,
-.pimg3 .head {
+.pimg3 .head,
+.pimg4 .head {
 	position: absolute;
 	top: 30%;
 	padding-left: 5%;
