@@ -1,0 +1,53 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/* Styling for navbar */
+.navbar {
+	background-color: #1b80ce;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Blank space behind nav */
+.behindNav {
+	height: 75px;
+}
+
+footer {
+	background-color: gainsboro;
+}
+
+/* Members section */
+.jumbotron {
+	background-color: white;
+	background-image: url('/ACM/img/team.png');
+}
+
+.card .memberImg {
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	border: 1px solid grey;
+	border-radius: 50%;
+	background-image: url('/ACM/img/member.jpg');
+	background-size: contain;
+}
+
+@media only screen and (max-width: 825px) {
+	.card .memberImg {
+		height: 220px;
+		width: 220px;
+		margin: 0 auto;
+		border: 1px solid grey;
+		border-radius: 50%;
+		background-image: url('/ACM/img/member.jpg');
+		background-size: contain;
+	}
+}
+
+footer {
+	background-color: gainsboro;
+}
