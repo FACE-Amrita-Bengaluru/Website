@@ -56,6 +56,7 @@ p {
 
 /* .card:hover {
 	transform: scale(1.025);
+	-webkit-transform: scale(1.025);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
 
@@ -71,6 +72,7 @@ p {
 	z-index: 2;
 	display: inline-block;
 	-webkit-transform: translate(0, -50%);
+	-ms-transform: translate(0,-50%);
 	transform: translate(0, -50%);
 	transition: opacity 0.3s;
 }
@@ -97,23 +99,29 @@ p {
 }
 @-webkit-keyframes sdb04 {
 	0% {
+		transform: rotate(-45deg) translate(0,0);
 		-webkit-transform: rotate(-45deg) translate(0, 0);
 	}
 	20% {
+		transform: rotate(-45deg) translate(-10px, 10px);
 		-webkit-transform: rotate(-45deg) translate(-10px, 10px);
 	}
 	40% {
+		transform: rotate(-45deg) translate(0,0);
 		-webkit-transform: rotate(-45deg) translate(0, 0);
 	}
 }
 @keyframes sdb04 {
 	0% {
+		transform: rotate(-45deg) translate(0,0);
 		transform: rotate(-45deg) translate(0, 0);
 	}
 	20% {
 		transform: rotate(-45deg) translate(-10px, 10px);
+		transform: rotate(-45deg) translate(-10px, 10px);
 	}
 	40% {
+		transform: rotate(-45deg) translate(0,0);
 		transform: rotate(-45deg) translate(0, 0);
 	}
 }
