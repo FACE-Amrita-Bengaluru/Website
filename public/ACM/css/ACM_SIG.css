@@ -1,0 +1,55 @@
+
+/* Styling for whole html */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Styling for body */
+body {
+	transition: 0.2s;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	display: block;
+}
+
+.container {
+	max-width: 80%;
+}
+
+/* Styling for footer */
+footer {
+	background-color: gainsboro;
+}
+
+/* Styling for navbar */
+.navbar {
+	background-color: #1b80ce;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Styling for all the paragraghs */
+p {
+	font-size: 1.2rem;
+	color: #595959;
+}
+
+/* Styling for all the cards */
+.card {
+	/* transition: transform 0.2s; */
+	border: none;
+}
+
+/* .card:hover {
+	transform: scale(1.025);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+

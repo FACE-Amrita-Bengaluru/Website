@@ -1,0 +1,103 @@
+html {
+	scroll-behavior: smooth;
+}
+
+/* Styling for navbar */
+.navbar {
+	background-color: #1b80ce;
+}
+.navbar-collapse {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Blank space behind nav */
+.behindNav {
+	height: 75px;
+}
+
+footer {
+	background-color: gainsboro;
+}
+
+/* Members section */
+.jumbotron {
+	background-color: white;
+	background-image: url('/ACM/img/team.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+.card .memberImg
+{
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	border: 1px solid grey;
+	border-radius: 50%;
+	/* background-image: url("/ACM/img/member.jpg"); */
+	background-size: contain;
+}
+
+@media only screen and (max-width: 825px) 
+{
+	.card .memberImg
+	{
+		height: 220px;
+		width: 220px;
+		margin: 0 auto;
+		border: 1px solid grey;
+		border-radius: 50%;
+		/* background-image: url("/ACM/img/member.jpg"); */
+		background-size: contain;
+	}
+}
+
+
+.shreya{
+	background-image: url("/ACM/img/members/shreya.jpg");
+}
+
+.ritwik{
+	background-image: url("/ACM/img/members/ritwik.jpg")
+}
+
+.aditya{
+	background-image: url("/ACM/img/member.jpg")
+}
+
+.sahana{
+	background-image: url("/ACM/img/members/sahana.jpg");
+}
+
+.vishnu{
+	background-image: url("/ACM/img/members/vishnu.jpg");
+}
+
+.priyaa{
+	background-image: url("/ACM/img/members/priyaa.jpg");
+}
+
+.vaishnavi{
+	background-image: url("/ACM/img/members/vaishnavi.jpg");
+}
+
+.hrudeep{
+	background-image: url("/ACM/img/members/hrudeep.jpg");
+}
+
+.malvika{
+	background-image: url("/ACM/img/members/malvika.jpeg");
+}
+
+.jaswanth{
+	background-image: url("/ACM/img/members/jaswanth.jpg");
+}
+
+.subaharish{
+	background-image: url("/ACM/img/members/subaharish.jpg");
+}
+footer {
+	background-color: gainsboro;
+}

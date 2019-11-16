@@ -32,7 +32,6 @@ p {
 .hr-text {
 	line-height: 2em;
 	position: relative;
-	outline: 0;
 	border: 0;
 	color: black;
 	text-align: center;
@@ -52,7 +51,6 @@ p {
 	font-size: 2em;
 	position: relative;
 	display: inline-block;
-	color: black;
 	padding: 0 1em;
 	line-height: 2em;
 	color: #818078;
