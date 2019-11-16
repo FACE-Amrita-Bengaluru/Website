@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 app.get('/ACM', (req, res) => {
-	res.render('acm');
+	res.render('ACM');
 });
 app.get('/ACM_Blog', (req, res) => {
 	res.render('ACM_Blog');
