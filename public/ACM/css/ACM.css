@@ -258,13 +258,47 @@ p {
 .blog .card {
 	height: 480px;
 	background: url('/ACM/img/pattern.jpg');
-	background-size: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog .card-container{
+	transition: transform 0.2s;	
+}
+
+.blog .card-container :hover
+{
+	transform: scale(1.025);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog a{
+	text-decoration: none;
+}
+
+.blog .blog1{
+	background: url('/ACM/img/DataScience.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog .blog2{
+	background: url('/ACM/img/RamHack.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog .blog3{
+	background: url('/ACM/img/ML.png');
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .card .card-body {
 	display: flex;
 	flex-direction: column-reverse;
+	color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(to top,rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0))
 }
 
 .event .card {
