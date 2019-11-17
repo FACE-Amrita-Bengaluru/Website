@@ -1,234 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- Owl Carousel CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		/>
 
-    <!-- Owl Carousel CSS -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+			crossorigin="anonymous"
+		/>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap" rel="stylesheet" />
+		<!-- Custom CSS -->
+		<link rel="stylesheet" href="/ACM/css/ACM_SIG.css" />
+		<title>ACM Amrita Bengaluru</title>
+	</head>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/ACM/css/ACM_SIG.css" />
-    <title>ACM Amrita Bengaluru</title>
-</head>
+	<body
+		class="bg-light"
+		data-spy="scroll"
+		data-target=".navbar"
+		data-offset-top="200"
+	>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+				<a href="/ACM"
+					><img
+						src="/ACM/img/logo.png"
+						class="d-inline-block align-top"
+						width="238"
+						height="70"
+				/></a>
 
-<body class="bg-light" data-spy="scroll" data-target=".navbar" data-offset-top="200">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a href="/ACM"><img src="/ACM/img/logo.png" class="d-inline-block align-top" width="238" height="70" /></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-toggle="collapse"
+					data-target="#navbarToggler"
+					aria-controls="navbarToggler"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+				<div class="collapse navbar-collapse" id="navbarToggler">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#carouselExampleCaptions"
+								>Home<span class="sr-only">(current)</span></a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/ACM#sig">SIG</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/ACM#blog">Blog</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/ACM#events">Events</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/ACM#members">Members</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="/ACM#gallery">Gallery</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- End of navbar -->
 
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#carouselExampleCaptions">Home<span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ACM#sig">SIG</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ACM#blog">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ACM#events">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ACM#members">Members</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/ACM#gallery">Gallery</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- End of navbar -->
+		<!-- container -->
+		<div class="container">
+			<div class="behindNav"></div>
+			<div class="jumbotron jumbotron-fluid mt-4">
+				<div class="container clearfix">
+					<h1 class="display-4">ACM Web Development SIG</h1>
+				</div>
+			</div>
+			<div class="sigLogo">
+				<img src="/ACMW/img/WD.png" alt="ACM Web Dev" />
+			</div>
+			<!--Introduction -->
+			<div id="home" class="pt-2 mb-3">
+				<!-- ACM-W Intro -->
+				<div class="card mb-5 bg-light">
+					<div class="row no-gutters">
+						<div
+							class="col-md-4 d-flex align-items-center order-1 order-md-1"
+						>
+							<!-- <img src="/ACMW/img/ACMW.png" class="card-img p-5" alt="..." /> -->
+						</div>
+						<div
+							class="col-12 col-md-8 d-flex align-items-center order-0 order-md-0"
+						>
+							<div class="card-body">
+								<h5 class="card-title ptext head">
+									What is Web Development?
+								</h5>
+								<p class="card-text">
+									Web Development is the task associated with
+									developing websites for hosting via the
+									internet. It includes web design, web
+									content development, client-side/server-side
+									scripting, and network security
+									configuration, among other tasks.
+								</p>
+								<p class="card-text">
+									It is one skill that helps a student to
+									improve communication skills like
+									presentation, expression, writing,
+									vocabulary.It helps a student to earn a
+									part-time income which is a fascinating
+									dream for many students.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- End of ACM-W Intro -->
 
+				<!-- ACM Intro -->
+				<div class="card bg-light mb-3">
+					<div class="card-body ">
+						<h5 class="card-title ptext head">
+							Why is Web Development important for students?
+						</h5>
+						<p class="card-text">
+							Student life is a very crucial period. It is the
+							place where students get exposed to different
+							skills. Learning good skills that refine a student
+							must be the first criterion of every student because
+							education is not just bookish knowledge but to learn
+							and explore skills that help them enhance their
+							overall development.
+						</p>
 
-    <!-- container -->
-    <div class="container">
-        <div class="behindNav"></div>
-        <div class="jumbotron jumbotron-fluid mt-4">
-            <div class="container clearfix">
-                <h1 class="display-4">ACM Web Development SIG</h1>
-            </div>
-        </div>
-        <div class="sigLogo">
-            <img src="/ACMW/img/WD.png" alt="ACM Web Dev">
-        </div>
-        <!--Introduction -->
-        <div id="home" class="pt-2 mb-3">
+						<p class="card-text">
+							A student with many skills is always advantageous
+							and web development helps you to gain programming
+							skills in HTML, CSS, JavaScript, etc., designing
+							skills, SEO skills, and a lot more. Most importantly
+							it helps you to build upon your resume helping you
+							to have good prospects in the job. It is not just a
+							single skill but a cluster of many skills which a
+							student can develop.
+						</p>
+					</div>
+				</div>
+				<!-- End of ACM Intro -->
+			</div>
+			<!-- ACM Intro -->
+			<div class="card bg-light mb-3">
+				<div class="card-body">
+					<h5 class="card-title ptext head">
+						What we do at ACM Web Development SIG?
+					</h5>
+					<p class="card-text">
+						The ACM chapter at Amrita invites all the creative and
+						tech-savvy minds to test their skills in developing
+						projects. Those who have no idea about web development
+						can still join and they will be taught from scratch.
+						Active participation is the key to SIG.
+					</p>
+					<p class="card-text">
+						We had conducted a boot camp on web development by two
+						web development enthusiasts Aravind V Nair and Abhishek
+						Sai. It was a full-stack web development workshop
+						focusing on HTML5, CSS3, Bootcamp, Node.js, Express.js,
+						GitHub, Database, CLI, JS, and Firebase. At last but not
+						least our motto always here is to learn, unlearn and
+						relearn.
+					</p>
+				</div>
+			</div>
+			<!-- End of ACM Intro -->
+			<!-- End of home -->
+			<a href="#" style="text-decoration: none;"
+				><button
+					type="button"
+					class="btn btn-outline-primary btn-lg btn-block mb-5"
+				>
+					Join ACM Web Development SIG now
+				</button></a
+			>
+		</div>
+		<!-- end of container -->
 
-            <!-- ACM-W Intro -->
-            <div class="card mb-5 bg-light">
-                <div class="row no-gutters">
-                    <div class="col-md-4 d-flex align-items-center order-1 order-md-1">
-                        <!-- <img src="/ACMW/img/ACMW.png" class="card-img p-5" alt="..." /> -->
-                    </div>
-                    <div class="col-12 col-md-8 d-flex align-items-center order-0 order-md-0">
-                        <div class="card-body">
-                            <h5 class="card-title ptext head">
-                                What is Web Development?
+		<!-- Footer -->
+		<footer class="page-footer font-small text-dark pt-4 footer">
+			<!-- Top section -->
+			<div class="container text-center text-md-left">
+				<div class="row">
+					<!-- Left Section -->
+					<div class="col-md-6 mt-md-0 mt-3">
+						<h5 class="text-uppercase font-weight-bold">
+							Address
+						</h5>
+						<p>
+							Amrita Vishwa Vidyapeetham<br />
+							Bengaluru Campus<br />
+							Kasavanahalli, Carmelaram P.O.<br />
+							Bengaluru - 560 035<br />
+							Karnataka, India
+						</p>
+					</div>
+					<!-- End of Left Section -->
+					<hr class="clearfix w-100 d-md-none pb-3" />
 
-                            </h5>
-                            <p class="card-text">
-                                Web Development is the task associated with developing websites for hosting via the
-                                internet.
-                                It includes web design, web content development, client-side/server-side scripting, and
-                                network security configuration, among other tasks.
-                            </p>
-                            <p class="card-text">
-                                It is one skill that helps a student to improve communication skills like
-                                presentation, expression, writing, vocabulary.It helps a student to earn a
-                                part-time income which is a fascinating dream for many students.
-                            </p>
-                        </div>
+					<!-- Right Section -->
+					<div class="col-md-6 text-right mb-md-0 mb-3">
+						<h5 class="text-uppercase font-weight-bold">
+							Contact Us
+						</h5>
+						<p>
+							Phone Number: 080 2518 3700<br />
+							Email ID:
+							<a href="mailto:amritaface@gmail.com"
+								>amritaface@gmail.com</a
+							>
+						</p>
+					</div>
+					<!-- End of Right Section -->
+				</div>
+			</div>
+			<!-- End of Top section -->
 
-                    </div>
-                </div>
-            </div>
-            <!-- End of ACM-W Intro -->
+			<!-- Bottom center section -->
+			<div class="footer-copyright text-center py-3">
+				&copy; 2019 Copyright | ACM Student Chapter - Amrita School of
+				Engineering
+			</div>
+			<!-- End of Bottom center section -->
+		</footer>
+		<!-- End of footer -->
 
-            <!-- ACM Intro -->
-            <div class="card bg-light mb-3">
-                <div class="card-body ">
-                    <h5 class="card-title ptext head">
-                        Why is Web Development important for students?
+		<!-- jQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
 
-                    </h5>
-                    <p class="card-text">
-                        Student life is a very crucial period. It is the place where students get exposed to
-                        different skills. Learning good skills that refine a student must be the first criterion
-                        of every student because education is not just bookish knowledge but to learn and
-                        explore skills that help them enhance their overall development.
-                    </p>
+		<!-- popperJS -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
 
-                    <p class="card-text">
-                        A student with many skills is always advantageous and web development helps you to gain
-                        programming skills in HTML, CSS, JavaScript, etc., designing skills, SEO skills, and a
-                        lot more.
-                        Most importantly it helps you to build upon your resume helping you to have good
-                        prospects in the job. It is not just a single skill but a cluster of many skills which a
-                        student can develop.
+		<!-- BootstrapJS-->
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
 
-                    </p>
-                </div>
-            </div>
-            <!-- End of ACM Intro -->
+		<!-- Owl Carosel JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-
-        </div>
-        <!-- ACM Intro -->
-        <div class="card bg-light mb-3">
-            <div class="card-body">
-                <h5 class="card-title ptext head">
-                    What we do at ACM Web Development SIG?
-
-                </h5>
-                <p class="card-text">
-                    The ACM chapter at Amrita invites all the creative and tech-savvy minds to test their skills
-                    in developing projects. Those who have no idea about web development can still join and they
-                    will be taught from scratch. Active participation is the key to SIG.
-
-                </p>
-                <p class="card-text">
-                    We had conducted a boot camp on web development by two web development enthusiasts Aravind V
-                    Nair and Abhishek Sai. It was a full-stack web development workshop focusing on
-                    HTML5, CSS3, Bootcamp, Node.js, Express.js, GitHub, Database, CLI, JS, and Firebase.
-                    At last but not least our motto always here is to learn, unlearn and relearn.
-                </p>
-            </div>
-        </div>
-        <!-- End of ACM Intro -->
-        <!-- End of home -->
-        <a href="#" style="text-decoration: none;"><button type="button" class="btn btn-outline-primary btn-lg btn-block mb-5">Join ACM Web Development
-                SIG now</button></a>
-    </div>
-    <!-- end of container -->
-
-    <!-- Footer -->
-    <footer class="page-footer font-small text-dark pt-4 footer">
-        <!-- Top section -->
-        <div class="container text-center text-md-left">
-            <div class="row">
-                <!-- Left Section -->
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <h5 class="text-uppercase font-weight-bold">
-                        Address
-                    </h5>
-                    <p>
-                        Amrita Vishwa Vidyapeetham<br />
-                        Bengaluru Campus<br />
-                        Kasavanahalli, Carmelaram P.O.<br />
-                        Bengaluru - 560 035<br />
-                        Karnataka, India
-                    </p>
-                </div>
-                <!-- End of Left Section -->
-                <hr class="clearfix w-100 d-md-none pb-3" />
-
-                <!-- Right Section -->
-                <div class="col-md-6 text-right mb-md-0 mb-3">
-                    <h5 class="text-uppercase font-weight-bold">
-                        Contact Us
-                    </h5>
-                    <p>
-                        Phone Number: 080 2518 3700<br />
-                        Email ID:
-                        <a href="mailto:amritaface@gmail.com">amritaface@gmail.com</a>
-                    </p>
-                </div>
-                <!-- End of Right Section -->
-            </div>
-        </div>
-        <!-- End of Top section -->
-
-        <!-- Bottom center section -->
-        <div class="footer-copyright text-center py-3">
-            &copy; 2019 Copyright | ACM Student Chapter - Amrita School of
-            Engineering
-        </div>
-        <!-- End of Bottom center section -->
-    </footer>
-    <!-- End of footer -->
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-
-    <!-- popperJS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-
-    <!-- BootstrapJS-->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
-    <!-- Owl Carosel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
-    <!-- Custom JS -->
-    <script src="/ACM/js/ACM.js"></script>
-</body>
-
+		<!-- Custom JS -->
+		<script src="/ACM/js/ACM.js"></script>
+	</body>
 </html>
