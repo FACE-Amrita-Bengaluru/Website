@@ -52,9 +52,6 @@ app.get('/SLAC', (req, res) => {
 app.get('/ACM', (req, res) => {
 	res.render('ACM/ACM');
 });
-app.get('/ACM_Blog', (req, res) => {
-	res.render('ACM/ACM_Blog');
-});
 app.get('/ACM_Members', (req, res) => {
 	res.render('ACM/ACM_Members');
 });
