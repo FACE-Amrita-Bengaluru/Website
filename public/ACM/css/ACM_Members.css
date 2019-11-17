@@ -54,6 +54,9 @@ footer {
 	}
 }
 
+.memberImg, .aditya{
+	background-image: url("/ACM/img/member.jpg")
+}
 
 .shreya{
 	background-image: url("/ACM/img/members/shreya.jpg");
@@ -61,10 +64,6 @@ footer {
 
 .ritwik{
 	background-image: url("/ACM/img/members/ritwik.jpg")
-}
-
-.aditya{
-	background-image: url("/ACM/img/member.jpg")
 }
 
 .sahana{
@@ -98,6 +97,27 @@ footer {
 .subaharish{
 	background-image: url("/ACM/img/members/subaharish.jpg");
 }
+
+.adithya{
+	background-image: url("/ACM/img/members/adithya.jpg");
+}
+
+.moulika{
+	background-image: url("/ACM/img/members/moulika.jpg");
+}
+
+.gandheesh{
+	background-image: url("/ACM/img/members/gandheesh.jpeg");
+}
+
+.bhuvanashree{
+	background-image: url("/ACM/img/members/bhuvanashree.jpg");
+}
+
+.vinayak{
+	background-image: url("/images/team_1920/vinayak.jpg");
+}
 footer {
 	background-color: gainsboro;
 }
+
