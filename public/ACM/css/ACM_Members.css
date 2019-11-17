@@ -54,7 +54,7 @@ footer {
 	}
 }
 
-.memberImg{
+.memberImg, .aditya{
 	background-image: url("/ACM/img/member.jpg")
 }
 
@@ -64,10 +64,6 @@ footer {
 
 .ritwik{
 	background-image: url("/ACM/img/members/ritwik.jpg")
-}
-
-.aditya{
-	background-image: url("/ACM/img/member.jpg")
 }
 
 .sahana{
