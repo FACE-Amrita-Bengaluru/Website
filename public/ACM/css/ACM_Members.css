@@ -117,6 +117,42 @@ footer {
 .vinayak{
 	background-image: url("/images/team_1920/vinayak.jpg");
 }
+
+.sriharish{
+	background-image: url("/images/team_1920/sriharish.jpg");
+}
+
+.harshita{
+	background-image: url("/images/team_1920/harshita.jpg");
+}
+
+.meghana{
+	background-image: url("/images/team_1920/meghana.jpg");
+}
+
+.ramshankar{
+	background-image: url("/images/team_1819/ramshankar.jpg");
+}
+
+.gowtham{
+	background-image: url("/images/team_1920/gowtham.jpg");
+}
+
+.neelee{
+	background-image: url("/images/team_1920/neelee.jpg");
+}
+
+.aravind{
+	background-image: url("/images/team_1920/aravind.jpg");
+}
+
+.svarnim{
+	background-image: url("/images/team_1920/svarnim.jpg");
+}
+
+.supriya{
+	background-image: url("/ACM/img/supriya-m.jpg");
+}
 footer {
 	background-color: gainsboro;
 }
