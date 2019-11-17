@@ -275,7 +275,11 @@ p {
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
 .blog .blog1 {
+=======
+.blog .blog1{
+>>>>>>> ca084c5... Changed Blog BG
 	background: url('/ACM/img/DataSci.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -287,7 +291,11 @@ p {
 	background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
 .blog .blog3 {
+=======
+.blog .blog3{
+>>>>>>> ca084c5... Changed Blog BG
 	background: url('/ACM/img/ML.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
