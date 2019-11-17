@@ -277,7 +277,7 @@ p {
 }
 
 .blog .blog1{
-	background: url('/ACM/img/DataScience.jpeg');
+	background: url('/ACM/img/DataSci.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -289,7 +289,7 @@ p {
 }
 
 .blog .blog3{
-	background: url('/ACM/img/ML.png');
+	background: url('/ACM/img/ML.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 }
