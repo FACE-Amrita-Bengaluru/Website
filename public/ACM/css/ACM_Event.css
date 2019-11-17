@@ -33,13 +33,13 @@ p {
 	line-height: 2em;
 	position: relative;
 	border: 0;
-	color: black;
+	color: #1b80ce;
 	text-align: center;
 	height: 4em;
 }
 .hr-text:before {
 	content: '';
-	background: linear-gradient(to right, transparent, #818078, transparent);
+	background: linear-gradient(to right, transparent, #1b80ce, transparent);
 	position: absolute;
 	left: 0;
 	top: 50%;
@@ -53,16 +53,15 @@ p {
 	display: inline-block;
 	padding: 0 1em;
 	line-height: 2em;
-	color: #818078;
+	color: #1b80ce;
 	background-color: #fcfcfa;
 }
 
 /* Style for event card */
 
-/* .eventCard {
-	padding-left: 10%;
-	padding-right: 10%;
-} */
+.eventCard .card-header .card-title{
+	text-transform: uppercase;
+}
 
 /* zoom effect for cards */
 .card {
