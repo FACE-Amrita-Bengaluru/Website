@@ -42,57 +42,7 @@
 		data-target=".navbar"
 		data-offset-top="200"
 	>
-		<!-- Navbar -->
-		<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-			<div class="container">
-				<a href="/ACM"
-					><img
-						src="/ACM/img/logo.png"
-						class="d-inline-block align-top"
-						width="238"
-						height="70"
-				/></a>
-
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarToggler"
-					aria-controls="navbarToggler"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarToggler">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-							<a class="nav-link" href="#carouselExampleCaptions"
-								>Home<span class="sr-only">(current)</span></a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACM#sig">SIG</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACM#blog">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACM#events">Events</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACM#members">Members</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACM#gallery">Gallery</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- End of navbar -->
-
+		<%include nav.ejs%>
 		<!-- container -->
 		<div class="container">
 			<div class="behindNav"></div>
