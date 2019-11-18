@@ -174,7 +174,7 @@ p {
 }
 
 #sig .pimg2 {
-	background-image: url('/ACM/img/Wsig.png');
+	background-image: url('/ACM/img/Csig.png');
 	height: 20%;
 }
 
@@ -184,7 +184,7 @@ p {
 }
 
 #sig .pimg4 {
-	background-image: url('/ACM/img/Csig.png');
+	background-image: url('/ACM/img/Wsig.png');
 	height: 20%;
 }
 
@@ -259,13 +259,12 @@ p {
 	background-repeat: no-repeat;
 }
 
-.blog .card-container{
+.blog .card-container {
 	transition: transform 0.2s;
 	border: 0;
 }
 
-.blog .card-container :hover
-{
+.blog .card-container :hover {
 	transform: scale(1.05);
 	-webkit-transform: scale(1.05);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -275,7 +274,7 @@ p {
 	text-decoration: none;
 }
 
-.blog .blog1{
+.blog .blog1 {
 	background: url('/ACM/img/DataSci.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -287,7 +286,7 @@ p {
 	background-repeat: no-repeat;
 }
 
-.blog .blog3{
+.blog .blog3 {
 	background: url('/ACM/img/ML.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
