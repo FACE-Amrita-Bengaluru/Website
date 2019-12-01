@@ -42,7 +42,7 @@
 		data-target=".navbar"
 		data-offset-top="200"
 	>
-		<%include nav.ejs%>
+		<%- include('nav.ejs') -%>
 		<!-- container -->
 		<div class="container">
 			<div class="behindNav"></div>
@@ -209,6 +209,6 @@
 			>
 		</div>
 		<!-- end of container -->
-		<%include footer.ejs%> <%include scripts.ejs%>
+		<%- include('footer.ejs') -%> <%- include('scripts.ejs') -%>
 	</body>
 </html>

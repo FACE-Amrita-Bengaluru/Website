@@ -23,7 +23,7 @@
 	</head>
 
 	<body>
-		<%include nav.ejs%>
+		<%- include('nav.ejs') -%>
 		<div class="container">
 			<div class="behindNav"></div>
 			<h1 class="display-2">Meet Our Team</h1>
@@ -355,7 +355,7 @@
 				</div>
 			</section>
 		</div>
-		<%include footer.ejs%>
+		<%- include('footer.ejs') -%>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script

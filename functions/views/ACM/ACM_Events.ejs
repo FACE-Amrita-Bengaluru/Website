@@ -23,7 +23,7 @@
 	</head>
 
 	<body>
-		<%include nav.ejs%>
+		<%- include('nav.ejs') -%>
 		<div class="container">
 			<div class="behindNav"></div>
 			<h1 class="display-3 my-3">Events</h1>
@@ -1271,7 +1271,7 @@
 			</div>
 			<!-- End of eventCard -->
 		</div>
-		<%include footer.ejs%>
+		<%- include('footer.ejs') -%>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
