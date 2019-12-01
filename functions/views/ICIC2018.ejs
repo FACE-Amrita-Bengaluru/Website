@@ -5,7 +5,7 @@
 <html class="no-js" lang="en">
 	<!--<![endif]-->
 	<head>
-		<%include meta.ejs%>
+		<%- include(' meta.ejs') -%>
 		<title>Conference - FACE Amrita Bangalore</title>
 		<meta
 			name="description"
@@ -122,16 +122,16 @@
 					<a class="mobile-btn" href="#" title="Hide navigation">
 						<span class="menu-icon">Menu</span>
 					</a>
-					<%include nav.ejs%>
+					<%- include(' nav.ejs') -%>
 				</nav>
-				<%include social.ejs%>
+				<%- include(' social.ejs') -%>
 			</div>
 		</header>
 		<section id="hero">
 			<div class="row hero-content">
 				<div class="twelve columns hero-container">
 					<div id="hero-slider" class="flexslider">
-						<%include slides.ejs%>
+						<%- include(' slides.ejs') -%>
 					</div>
 				</div>
 			</div>
@@ -786,6 +786,6 @@
 				</div>
 			</div>
 		</section>
-		<%include contact.ejs%> <%include footer.ejs%> <%include scripts.ejs%>
+		<%- include(' contact.ejs') -%> <%- include(' footer.ejs') -%> <%- include(' scripts.ejs') -%>
 	</body>
 </html>
