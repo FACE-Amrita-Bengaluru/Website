@@ -16,14 +16,11 @@
 			href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap"
 			rel="stylesheet"
 		/>
-
 		<title>Members | ACM Amrita Bengaluru</title>
-
 		<link rel="stylesheet" href="/ACM/css/ACM_Members.css" />
 	</head>
-
 	<body>
-		<%include nav.ejs%>
+		<%- include('nav.ejs') -%>
 		<div class="container">
 			<div class="behindNav"></div>
 			<h1 class="display-2">Meet Our Team</h1>
@@ -33,7 +30,6 @@
 					<p class="lead">All the SIG and ACM office bearers</p>
 				</div>
 			</div>
-
 			<section id="members">
 				<div class="row d-flex">
 					<div class="row d-flex">
@@ -184,7 +180,7 @@
 						>
 							<div class="card border-0 py-3">
 								<div class="memberImg priyaa"></div>
-								<h5 class="card-title">R Gomathi Priyaa</h5>
+								<h5 class="card-title">R G Priyaa</h5>
 								<h6 class="card-subtitle mb-2 text-muted">
 									Lead Designer & Web Development SIG Member
 								</h6>
@@ -355,7 +351,7 @@
 				</div>
 			</section>
 		</div>
-		<%include footer.ejs%>
+		<%- include('footer.ejs') -%>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script

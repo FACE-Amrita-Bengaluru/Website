@@ -14,7 +14,6 @@
 		/>
 		<link rel="stylesheet" href="ACMW/css/ACMW_Members.css" />
 	</head>
-
 	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
@@ -66,7 +65,6 @@
 				</div>
 			</div>
 		</nav>
-
 		<!-- Container (The CAROUSEL section-->
 		<div id="home">
 			<br /><br /><img
@@ -84,9 +82,7 @@
 			</p>
 		</div>-->
 		</div>
-
 		<!-- Container (The About Section) -->
-
 		<!-- Container (THE TEAM SECTION) -->
 		<div id="members" class="container text-center">
 			<h3>THE TEAM</h3>
@@ -265,9 +261,7 @@
 				</div>
 			</div>
 		</div>
-
 		<!-- Container (THE SIG@AMRITA SECTION) -->
-
-		<%include contact.ejs%> <%include scripts.ejs%>
+		<%- include(' contact.ejs') -%> <%- include(' scripts.ejs') -%>
 	</body>
 </html>

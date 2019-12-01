@@ -4,9 +4,8 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html class="no-js" lang="en">
 	<!--<![endif]-->
-
 	<head>
-		<%include meta.ejs%>
+		<%- include(' meta.ejs') -%>
 		<title>Conference - FACE Amrita Bangalore</title>
 		<meta
 			name="description"
@@ -31,16 +30,13 @@
 				max-width: 100%;
 				overflow-x: auto;
 				white-space: nowrap;
-
 				border-collapse: collapse;
 				border-spacing: 0;
 			}
-
 			.rtable,
 			.rtable--flip tbody {
 				/* optional - enable iOS momentum scrolling*/
 				-webkit-overflow-scrolling: touch;
-
 				/* scrolling shadows*/
 				background: radial-gradient(
 							left,
@@ -60,57 +56,48 @@
 				background-attachment: scroll, scroll;
 				background-repeat: no-repeat;
 			}
-
 			.rtable th {
 				font-size: 11px;
 				text-align: left;
 				text-transform: uppercase;
 				background: #f2f0e6;
 			}
-
 			.rtable th,
 			.rtable td {
 				padding: 6px 12px;
 				border: 1px solid #d9d7ce;
 			}
-
 			.rtable--flip {
 				display: flex;
 				overflow: hidden;
 				background: none;
 			}
-
 			.rtable--flip thead {
 				display: flex;
 				flex-shrink: 0;
 				min-width: min-content;
 			}
-
 			.rtable--flip tbody {
 				display: flex;
 				position: relative;
 				overflow-x: auto;
 				overflow-y: hidden;
 			}
-
 			.rtable--flip tr {
 				display: flex;
 				flex-direction: column;
 				min-width: min-content;
 				flex-shrink: 0;
 			}
-
 			.rtable--flip td,
 			.rtable--flip th {
 				display: block;
 			}
-
 			.rtable--flip td {
 				background-image: none !important;
 				/* border-collapse is no longer active*/
 				border-left: 0;
 			}
-
 			/* border-collapse is no longer active*/
 			.rtable--flip th:not(:last-child),
 			.rtable--flip td:not(:last-child) {
@@ -118,7 +105,6 @@
 			}
 		</style>
 	</head>
-
 	<body>
 		<header id="main-header">
 			<div class="row">
@@ -136,16 +122,16 @@
 					<a class="mobile-btn" href="#" title="Hide navigation">
 						<span class="menu-icon">Menu</span>
 					</a>
-					<%include nav.ejs%>
+					<%- include(' nav.ejs') -%>
 				</nav>
-				<%include social.ejs%>
+				<%- include(' social.ejs') -%>
 			</div>
 		</header>
 		<section id="hero">
 			<div class="row hero-content">
 				<div class="twelve columns hero-container">
 					<div id="hero-slider" class="flexslider">
-						<%include slides.ejs%>
+						<%- include(' slides.ejs') -%>
 					</div>
 				</div>
 			</div>
@@ -300,7 +286,6 @@
 						</div>
 					</div>
 				</div>
-
 				<div id="modal-01" class="popup-modal mfp-hide">
 					<div class="description-box">
 						<h4>Data Visualization</h4>
@@ -801,6 +786,6 @@
 				</div>
 			</div>
 		</section>
-		<%include contact.ejs%> <%include footer.ejs%> <%include scripts.ejs%>
+		<%- include(' contact.ejs') -%> <%- include(' footer.ejs') -%> <%- include(' scripts.ejs') -%>
 	</body>
 </html>
