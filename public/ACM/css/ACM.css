@@ -1,10 +1,7 @@
-* {
-	box-sizing: border-box;
-}
-
 /* Styling for whole html */
 html {
 	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 /* Styling for body */
