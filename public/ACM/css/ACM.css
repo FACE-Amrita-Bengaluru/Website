@@ -250,7 +250,6 @@ p {
 	background-repeat: no-repeat;
 }
 
-
 .blog a {
 	text-decoration: none;
 }
@@ -280,12 +279,12 @@ p {
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
 }
 
-.blog .card-container .card{
+.blog .card-container .card {
 	transition: transform 0.2s ease;
 	border: 0;
 }
 
-.blog .card-container:hover .card{
+.blog .card-container:hover .card {
 	-webkit-transform: scale(1.05);
 	-ms-transform: scale(1.05);
 	-moz-transform: scale(1.05);
@@ -294,7 +293,6 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
 .event .card {
 	height: 450px;
 	background-size: contain;
@@ -302,7 +300,7 @@ p {
 	transition: transform 0.2s ease;
 }
 
-.event .card:hover{
+.event .card:hover {
 	-webkit-transform: scale(1.08);
 	-ms-transform: scale(1.08);
 	-moz-transform: scale(1.08);
