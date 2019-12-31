@@ -68,6 +68,14 @@ p {
 	margin-bottom: 20px;
 }
 
+.motto-box {
+	height: 600px;
+}
+
+.motto-text {
+	font-weight: 600;
+}
+
 /* Styling for Scroll Indicator */
 .demo {
 	width: 100%;
@@ -87,12 +95,10 @@ p {
 }
 #section04 a span {
 	position: absolute;
-	left: 50%;
 	width: 24px;
 	height: 24px;
-	margin-left: -12px;
-	border-left: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	transform: rotate(-45deg);
 	animation: sdb04 2s infinite;
 	box-sizing: border-box;
