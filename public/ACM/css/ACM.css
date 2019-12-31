@@ -48,6 +48,7 @@ footer a {
 	background-repeat: no-repeat;	
 }
 
+
 /* Styling for all the paragraghs */
 p {
 	font-size: 1.2rem;
@@ -68,6 +69,9 @@ p {
 }
 
 /* Styling for Scroll Indicator */
+.demo {
+	width: 100%;
+}
 .demo a {
 	z-index: 2;
 	display: inline-block;
