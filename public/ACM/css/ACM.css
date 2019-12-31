@@ -36,15 +36,16 @@ footer a {
 }
 
 /* Styling for hero */
-.home {
-	color: rgba(0, 0, 0, 0.6);
-	background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
-}
 .hero {
+	width: inherit;
+	height: inherit;
+	color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+#home {
 	background-image: url("/ACM/img/ASEB.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
-	
+	background-repeat: no-repeat;	
 }
 
 /* Styling for all the paragraghs */
