@@ -27,8 +27,16 @@ footer a {
 }
 
 /* Styling for navbar */
-.navbar {
+.navbar.scrolled {
 	background-color: #1b80ce;
+}
+.navbar {
+	background-color:rgba(27, 128, 206,0);
+	-webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
 .navbar-collapse {
 	display: flex;
