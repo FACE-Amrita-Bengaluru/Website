@@ -6,6 +6,8 @@ html {
 /* Styling for whole body */
 body {
 	transition: 0.2s;
+	background-image: url(/ACM/img/events/eventBG.png);
+	background-size: contain;
 }
 
 /* Styling for navbar */
@@ -75,6 +77,7 @@ p {
 /* zoom effect for cards */
 .card {
 	transition: transform 0.2s;
+	background-color: rgba(255,255,255,0.8);
 }
 .card:hover {
 	transform: scale(1.025);
