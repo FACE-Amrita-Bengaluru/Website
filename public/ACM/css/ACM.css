@@ -27,13 +27,39 @@ footer a {
 }
 
 /* Styling for navbar */
-.navbar {
+.navbar.scrolled {
 	background-color: #1b80ce;
+}
+.navbar {
+	background-color:rgba(27, 128, 206,0);
+	-webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
 }
 .navbar-collapse {
 	display: flex;
 	justify-content: flex-end;
 }
+
+.nav-link {
+	font-size: 1.1rem;
+}
+
+/* Styling for hero */
+.hero {
+	width: inherit;
+	height: inherit;
+	color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+#home {
+	background-image: url("/ACM/img/ASEB.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
 
 /* Styling for all the paragraghs */
 p {
@@ -54,7 +80,18 @@ p {
 	margin-bottom: 20px;
 }
 
+.motto-box {
+	height: 600px;
+}
+
+.motto-text {
+	font-weight: 600;
+}
+
 /* Styling for Scroll Indicator */
+.demo {
+	width: 100%;
+}
 .demo a {
 	z-index: 2;
 	display: inline-block;
@@ -70,12 +107,10 @@ p {
 }
 #section04 a span {
 	position: absolute;
-	left: 50%;
 	width: 24px;
 	height: 24px;
-	margin-left: -12px;
-	border-left: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	transform: rotate(-45deg);
 	animation: sdb04 2s infinite;
 	box-sizing: border-box;

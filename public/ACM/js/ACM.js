@@ -50,3 +50,41 @@ function isScrolledIntoView(elem) {
 
 	return elemBottom <= docViewBottom && elemTop >= docViewTop;
 }
+
+
+//Typewriter
+var app = document.getElementById('motto-text');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Our motto is to learn')
+    .pauseFor(2500)
+    .deleteChars(5)
+    .typeString('unlearn')
+	.pauseFor(2500)
+	.deleteChars(7)
+    .typeString('relearn...')
+    .pauseFor(2500)
+	.start();
+	
+
+	/**
+ * Listen to scroll to change header opacity class
+ */
+function checkScroll(){
+    var startY = $('#home').height()*0.8; //The point where the navbar changes in px
+
+    if($(window).scrollTop() > startY){
+        $('.navbar').addClass("scrolled");
+    }else{
+        $('.navbar').removeClass("scrolled");
+    }
+}
+
+if($('.navbar').length > 0){
+    $(window).on("scroll load resize", function(){
+        checkScroll();
+    });
+}

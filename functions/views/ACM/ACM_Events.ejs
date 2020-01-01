@@ -1,85 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-			crossorigin="anonymous"
-		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap"
-			rel="stylesheet"
-		/>
-		<title>Events | ACM Amrita Bengaluru</title>
-		<link rel="stylesheet" href="/ACM/css/ACM_Event.css" />
-	</head>
-	<body>
-		<%- include('nav.ejs') -%>
-		<div class="container">
-			<div class="behindNav"></div>
-			<h1 class="display-3 my-3">Events</h1>
-			<!-- Navbar for searching and sorting -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse"
-					id="navbarSupportedContent"
-				>
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdown"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Year
-							</a>
-							<div
-								class="dropdown-menu"
-								aria-labelledby="navbarDropdown"
-							>
-								<a class="dropdown-item" href="#2019">2019</a>
-								<a class="dropdown-item" href="#2018">2018</a>
-								<a class="dropdown-item" href="#2017">2017</a>
-								<a class="dropdown-item" href="#2016">2016</a>
-							</div>
-						</li>
-					</ul>
-					<!-- <form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search with Keywords"
-							aria-label="Search" />
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-							Search
-						</button>
-					</form> -->
-				</div>
-			</nav>
-			<!--End of Navbar for searching and sorting -->
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans|PT+Serif&display=swap" rel="stylesheet" />
+	<title>Events | ACM Amrita Bengaluru</title>
+	<link rel="stylesheet" href="/ACM/css/ACM_Event.css" />
+</head>
+
+<body>
+	<%- include('nav.ejs') -%>
+	<div class="container">
+		<div class="behindNav"></div>
+		<h1 class="display-3 bg-light my-3">Events</h1>
+		<!-- Navbar for searching and sorting -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between stick">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Year
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#2019">2019</a>
+						<a class="dropdown-item" href="#2018">2018</a>
+						<a class="dropdown-item" href="#2017">2017</a>
+						<a class="dropdown-item" href="#2016">2016</a>
+					</div>
+				</li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" id="myInput" type="search" placeholder="Search with Keywords"
+					aria-label="Search" />
+				<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+					Search
+				</button> -->
+			</form>
+		</nav>
+		<!--End of Navbar for searching and sorting -->
+		<div id="myDIV">
 			<hr class="hr-text my-5" id="2019" data-content="2019" />
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							INTRODUCTION TO LOGICAL THINKING
 						</h4>
@@ -123,7 +90,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							Introduction to ACM/ACMW Clubs
 						</h4>
@@ -219,7 +186,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">TALK ON ?AI IN INDUSTRY</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							08 March 2019
@@ -262,7 +229,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							ACM HOUR OF CODE(AHoC)- PYTHON TRACK
 						</h4>
@@ -304,7 +271,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							COMPETITIVE CODING TRAINING SESSION - CCTS
 						</h4>
@@ -353,7 +320,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							INTRODUCTION TO ACM AND IT?S SISTER CLUBS
 						</h4>
@@ -449,7 +416,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							INTRODUCTION TO LOGICAL THINKING
 						</h4>
@@ -493,7 +460,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">TECH TRIATHLON</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							09 July 2018
@@ -542,7 +509,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							ACM HOUR OF CODE(AHoC)- Web Development Track
 						</h4>
@@ -583,7 +550,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							SLAC (Stay Late And Code)
 						</h4>
@@ -616,7 +583,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							Recent Trends in Cloud Computing
 						</h4>
@@ -668,7 +635,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">Cyber Investigation</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							11 January 2018
@@ -717,7 +684,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							SESSION ON COMPETITIVE CODING BY DR. BHADRACHALAM
 						</h4>
@@ -766,7 +733,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">HOUR OF CODE</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							31 October 2017
@@ -819,7 +786,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">ACM-ICPC Warm Up Week</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							20 October 2017
@@ -889,7 +856,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">Introduction to ACM-ICPC</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							06 October 2017
@@ -931,7 +898,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							Artificial Intelligence and its Relevance to
 							Financial Services
@@ -986,7 +953,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">POSTER PRESENTATION</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							26 April 2017
@@ -1014,7 +981,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">CODINGAME</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							24 APril 2017
@@ -1041,7 +1008,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							INTRODUCTION TO WOMEN S CHAPTER
 						</h4>
@@ -1087,7 +1054,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">INTRODUCTION TO DJANGO</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							24 February 2017
@@ -1114,7 +1081,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">ICPC CODING COMPETITION</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							22 December 2016
@@ -1150,7 +1117,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">HOUR OF CODE</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							04 November 2016
@@ -1182,7 +1149,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">INTRODUCTION TO GIT</h4>
 						<h6 class="card-subtitle mb-2 text-muted">
 							05 October 2016
@@ -1211,7 +1178,7 @@
 			<!-- eventCard -->
 			<div class="eventCard mb-3">
 				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
+					<div class="card-header border-0">
 						<h4 class="card-title">
 							Workshop on Eye tracking and computer vision
 						</h4>
@@ -1264,23 +1231,29 @@
 			</div>
 			<!-- End of eventCard -->
 		</div>
-		<%- include('footer.ejs') -%>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
-	</body>
+	</div>
+	<%- include('footer.ejs') -%>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function () {
+			$("#myInput").on("keyup", function () {
+				var value = $(this).val().toLowerCase();
+				$("#myDIV *").filter(function () {
+					$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+				});
+			});
+		});
+	</script>
+</body>
+
 </html>
