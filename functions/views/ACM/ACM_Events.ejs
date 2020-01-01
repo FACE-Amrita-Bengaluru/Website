@@ -19,1250 +19,1315 @@
 		<title>Events | ACM Amrita Bengaluru</title>
 		<link rel="stylesheet" href="/ACM/css/ACM_Event.css" />
 	</head>
+
 	<body>
 		<%- include('nav.ejs') -%>
 		<div class="container">
 			<div class="behindNav"></div>
-			<h1 class="display-3 my-3">Events</h1>
+			<h1 class="display-3 bg-light my-3">Events</h1>
 			<!-- Navbar for searching and sorting -->
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse"
-					id="navbarSupportedContent"
-				>
-					<ul class="navbar-nav mr-auto">
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="navbarDropdown"
-								role="button"
-								data-toggle="dropdown"
-								aria-haspopup="true"
-								aria-expanded="false"
-							>
-								Year
-							</a>
-							<div
-								class="dropdown-menu"
-								aria-labelledby="navbarDropdown"
-							>
-								<a class="dropdown-item" href="#2019">2019</a>
-								<a class="dropdown-item" href="#2018">2018</a>
-								<a class="dropdown-item" href="#2017">2017</a>
-								<a class="dropdown-item" href="#2016">2016</a>
-							</div>
-						</li>
-					</ul>
-					<!-- <form class="form-inline my-2 my-lg-0">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search with Keywords"
-							aria-label="Search" />
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-							Search
-						</button>
-					</form> -->
-				</div>
+			<nav
+				class="navbar navbar-expand-lg navbar-light bg-light justify-content-between stick"
+			>
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="navbarDropdown"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+						>
+							Year
+						</a>
+						<div
+							class="dropdown-menu"
+							aria-labelledby="navbarDropdown"
+						>
+							<a class="dropdown-item" href="#2019">2019</a>
+							<a class="dropdown-item" href="#2018">2018</a>
+							<a class="dropdown-item" href="#2017">2017</a>
+							<a class="dropdown-item" href="#2016">2016</a>
+						</div>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						id="myInput"
+						type="search"
+						placeholder="Search with Keywords"
+						aria-label="Search"
+					/>
+					<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+					Search
+				</button> -->
+				</form>
 			</nav>
 			<!--End of Navbar for searching and sorting -->
-			<hr class="hr-text my-5" id="2019" data-content="2019" />
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							INTRODUCTION TO LOGICAL THINKING
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							30 August 2019
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									FACE rolled out its second event for the
-									semester conducted by its sister club
-									CodeChef. An event on Logical Thinking
-									exclusively for Freshman and Sophomore year
-									students. Each participant was/were allowed
-									to participate individually or in pairs.
-									Organized on a light day of the week,
-									Thursday the expected crowd did not deceive
-									us. We had a full house occupancy of rooms
-									A-404 & A-405. As per schedule the event
-									started at 3:35pm with the giving of the
-									question papers. A period of 35 minutes was
-									given to each contestant with additional 5
-									minutes as buffer. Enthusiastic participants
-									enjoyed the event with full galore. The
-									event ended at 4:15pm, with the collection
-									of the question papers, as our hosts guided
-									the participants through the answer key.
-									With a recorded attendance of 65+36= 101
-									participants, 4 hosts and a few volunteers,
-									we do hope to see you all again in our
-									upcoming events.
-								</p>
+			<div id="myDIV">
+				<hr class="hr-text my-5" id="2019" data-content="2019" />
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								INTRODUCTION TO LOGICAL THINKING
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								30 August 2019
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										FACE rolled out its second event for the
+										semester conducted by its sister club
+										CodeChef. An event on Logical Thinking
+										exclusively for Freshman and Sophomore
+										year students. Each participant was/were
+										allowed to participate individually or
+										in pairs. Organized on a light day of
+										the week, Thursday the expected crowd
+										did not deceive us. We had a full house
+										occupancy of rooms A-404 & A-405. As per
+										schedule the event started at 3:35pm
+										with the giving of the question papers.
+										A period of 35 minutes was given to each
+										contestant with additional 5 minutes as
+										buffer. Enthusiastic participants
+										enjoyed the event with full galore. The
+										event ended at 4:15pm, with the
+										collection of the question papers, as
+										our hosts guided the participants
+										through the answer key. With a recorded
+										attendance of 65+36= 101 participants, 4
+										hosts and a few volunteers, we do hope
+										to see you all again in our upcoming
+										events.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							Introduction to ACM/ACMW Clubs
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							01 July 2019
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The event started off with a prayer to the
-									almighty God praying for a prosperous year
-									ahead. It was followed by an introduction to
-									the ACROM club by Mr. Nippun Kumar. Then the
-									statistics of the various events conducted
-									in the previous academic year were presented
-									by Vineeth (FACE secretary 2017-18). Various
-									ACM goodies were presented to all the
-									members of the FACE team 2017-18 by the CSE
-									dept. HOD, Ms. Amudha. It was followed by a
-									brief talk by Ms. Amudha explaining the
-									purpose of this departmental forum in our
-									college. She also wished good luck to the
-									new FACE team in continuing the legacy of
-									FACE. The event was then taken over by the
-									new secretary of FACE, Ramshankar. He
-									explained the working of FACE and how it can
-									play an instrumental role in the college
-									life of a student. Later, Amrutha, the
-									present joint secretary elucidated that FACE
-									conducts various workshops and fun, yet
-									technical events. Rahul, the joint secretary
-									continued the FACE introduction and spoke in
-									detail about the FACE Seasons. He reiterated
-									that it lasts the entire semester. From
-									there we moved on to the introduction of the
-									various sister clubs of FACE, starting off
-									with Computer Society of India- CSI.
-									Abhirami, CSI chair, explained to the
-									students how CSI is responsible for
-									organising various talks on trending topics
-									by distinguished speakers who specialize in
-									the field about which they are going to
-									talk. Then the various benefits of becoming
-									a CSI student member were explained by
-									Abhishek, CSI co-chair. He explained that it
-									acts as a method to publish papers and
-									projects. This was followed by the
-									introduction of ACM(Association of Computing
-									Machinery). The chair of ACM, Arvind, talked
-									about the international reputation possessed
-									by ACM and the perks of joining the club.
-									Sriharish, the co-chair of ACM explained
-									about the membership procedure. ACM-W, the
-									purpose and utility of the women?s chapter
-									of ACM was explained by the chair of ACM-W,
-									Lavanya. She explained that this
-									organisation supports the women with
-									innovative ideas by sponsoring their ideas
-									to make them into a realit. The co-chair,
-									Harshita Reddy of ACM-W went on to explain
-									that even this club conducts various events
-									on trending topics. Prudhvinath, the
-									chairperson of Codechef spoke about the
-									purpose of this student chapter. He
-									explained that this club conducts various
-									different coding or puzzle solving related
-									events inorder to improve the analytical
-									skills of the students. He also explained
-									how this club helps train the students for
-									coding competitions like ICPC by conducting
-									events and workshops to improve the logical
-									thinking of the student. He encouraged
-									students to take on competitive coding as it
-									helps them improve their mental abilities.
-									We had a brief introduction to the latest
-									addition to the FACE family, FORGE, the
-									gaming club of our college. The main aim of
-									the club was explained by Sathvik and Pavan,
-									chairperson and co-chairperson of FORGE.
-									They explained that this club deals with
-									making games using softwares such as Unity
-									He even showed a small video explaining the
-									aim of this club.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								Introduction to ACM/ACMW Clubs
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								01 July 2019
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The event started off with a prayer to
+										the almighty God praying for a
+										prosperous year ahead. It was followed
+										by an introduction to the ACROM club by
+										Mr. Nippun Kumar. Then the statistics of
+										the various events conducted in the
+										previous academic year were presented by
+										Vineeth (FACE secretary 2017-18).
+										Various ACM goodies were presented to
+										all the members of the FACE team 2017-18
+										by the CSE dept. HOD, Ms. Amudha. It was
+										followed by a brief talk by Ms. Amudha
+										explaining the purpose of this
+										departmental forum in our college. She
+										also wished good luck to the new FACE
+										team in continuing the legacy of FACE.
+										The event was then taken over by the new
+										secretary of FACE, Ramshankar. He
+										explained the working of FACE and how it
+										can play an instrumental role in the
+										college life of a student. Later,
+										Amrutha, the present joint secretary
+										elucidated that FACE conducts various
+										workshops and fun, yet technical events.
+										Rahul, the joint secretary continued the
+										FACE introduction and spoke in detail
+										about the FACE Seasons. He reiterated
+										that it lasts the entire semester. From
+										there we moved on to the introduction of
+										the various sister clubs of FACE,
+										starting off with Computer Society of
+										India- CSI. Abhirami, CSI chair,
+										explained to the students how CSI is
+										responsible for organising various talks
+										on trending topics by distinguished
+										speakers who specialize in the field
+										about which they are going to talk. Then
+										the various benefits of becoming a CSI
+										student member were explained by
+										Abhishek, CSI co-chair. He explained
+										that it acts as a method to publish
+										papers and projects. This was followed
+										by the introduction of ACM(Association
+										of Computing Machinery). The chair of
+										ACM, Arvind, talked about the
+										international reputation possessed by
+										ACM and the perks of joining the club.
+										Sriharish, the co-chair of ACM explained
+										about the membership procedure. ACM-W,
+										the purpose and utility of the women?s
+										chapter of ACM was explained by the
+										chair of ACM-W, Lavanya. She explained
+										that this organisation supports the
+										women with innovative ideas by
+										sponsoring their ideas to make them into
+										a realit. The co-chair, Harshita Reddy
+										of ACM-W went on to explain that even
+										this club conducts various events on
+										trending topics. Prudhvinath, the
+										chairperson of Codechef spoke about the
+										purpose of this student chapter. He
+										explained that this club conducts
+										various different coding or puzzle
+										solving related events inorder to
+										improve the analytical skills of the
+										students. He also explained how this
+										club helps train the students for coding
+										competitions like ICPC by conducting
+										events and workshops to improve the
+										logical thinking of the student. He
+										encouraged students to take on
+										competitive coding as it helps them
+										improve their mental abilities. We had a
+										brief introduction to the latest
+										addition to the FACE family, FORGE, the
+										gaming club of our college. The main aim
+										of the club was explained by Sathvik and
+										Pavan, chairperson and co-chairperson of
+										FORGE. They explained that this club
+										deals with making games using softwares
+										such as Unity He even showed a small
+										video explaining the aim of this club.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">TALK ON ?AI IN INDUSTRY</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							08 March 2019
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The event commenced with an introduction of
-									the speakers by Ms. Ashwini Nayak, former
-									Chairperson of our ACM Student Chapter.
-									After the introduction about the speakers,
-									the speakers started the session. The
-									speakers divided their talk into three
-									parts, the WHAT, the HOW and the WHERE of AI
-									and ML in the industry. Mr. Rangaprasad
-									spoke about the WHAT of AI/ML, he spoke
-									about the Use Cases of AI and many
-									applications of AI and ML in use, like
-									Speech-To-Text systems, Recommendation
-									Systems and the likes. He delved into the
-									different domains that AI/ML can be
-									implemented, AI for betterment of our
-									society, the Industry, and discussed some
-									projects like Disaster Response, FarmBeats
-									and Track Diseases, Deep Dreams, Autodraw
-									and the likes. He also discussed a few
-									project ideas that would be helpful for the
-									audience to dabble in, like those in NLP and
-									Planning and Scheduling.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">TALK ON ?AI IN INDUSTRY</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								08 March 2019
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The event commenced with an introduction
+										of the speakers by Ms. Ashwini Nayak,
+										former Chairperson of our ACM Student
+										Chapter. After the introduction about
+										the speakers, the speakers started the
+										session. The speakers divided their talk
+										into three parts, the WHAT, the HOW and
+										the WHERE of AI and ML in the industry.
+										Mr. Rangaprasad spoke about the WHAT of
+										AI/ML, he spoke about the Use Cases of
+										AI and many applications of AI and ML in
+										use, like Speech-To-Text systems,
+										Recommendation Systems and the likes. He
+										delved into the different domains that
+										AI/ML can be implemented, AI for
+										betterment of our society, the Industry,
+										and discussed some projects like
+										Disaster Response, FarmBeats and Track
+										Diseases, Deep Dreams, Autodraw and the
+										likes. He also discussed a few project
+										ideas that would be helpful for the
+										audience to dabble in, like those in NLP
+										and Planning and Scheduling.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<hr class="hr-text my-5" id="2018" data-content="2018" />
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							ACM HOUR OF CODE(AHoC)- PYTHON TRACK
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							26 December 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The second track of AHoC being Python, the
-									event primarily focused on the basics and
-									why Python is extensively used at present.
-									The event was divided into two sessions. The
-									first session from 2:30-3:30 pm was all
-									about participants learning the basics from
-									the ?Sololearn? website. This interactive
-									tutorial had on offer various topics ranging
-									from simple input/output statements to
-									working with files, regex and object
-									oriented principles. The participants were
-									amazed with what the powerful libraries of
-									Python could accomplish. The second session
-									from 3:30-4:20 pm was the competitive round
-									where the participants (in teams of two) had
-									to put to test the knowledge they had
-									acquired over the past hour by competing in
-									a hackerrank contest consisting of 10
-									questions with gradually increasing
-									difficulty.
-								</p>
+				<!-- End of eventCard -->
+				<hr class="hr-text my-5" id="2018" data-content="2018" />
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								ACM HOUR OF CODE(AHoC)- PYTHON TRACK
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								26 December 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The second track of AHoC being Python,
+										the event primarily focused on the
+										basics and why Python is extensively
+										used at present. The event was divided
+										into two sessions. The first session
+										from 2:30-3:30 pm was all about
+										participants learning the basics from
+										the ?Sololearn? website. This
+										interactive tutorial had on offer
+										various topics ranging from simple
+										input/output statements to working with
+										files, regex and object oriented
+										principles. The participants were amazed
+										with what the powerful libraries of
+										Python could accomplish. The second
+										session from 3:30-4:20 pm was the
+										competitive round where the participants
+										(in teams of two) had to put to test the
+										knowledge they had acquired over the
+										past hour by competing in a hackerrank
+										contest consisting of 10 questions with
+										gradually increasing difficulty.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							COMPETITIVE CODING TRAINING SESSION - CCTS
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							09 October 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									Code Chef Student Chapter started CCTS,
-									which are daily sessions that equips
-									Students with Important Competitive
-									concepts. How it works? ? The Question
-									related to a topic are posted on the prior
-									day. ? Students try to find efficient
-									solutions for these problems. ? Various
-									solutions are discussed in the sessions. The
-									goal is not just to find any solution but to
-									find an optimal solution with low Time and
-									Space complexities. It builds curiosity
-									among Students and then they gradually tend
-									to think outside the box. These interactive
-									sessions enable the audience to reach out to
-									the executive members. Events Professor
-									Radhakrishnan, Codechef incharge, started
-									off the sessions with the ?Introduction to
-									ICPC?. We got to know the importance of
-									Competitive coding and difficulty of ICPC.
-									Topics such as Searching and Sorting, Stacks
-									and Queues, Greedy Algorithms were covered
-									by the executives. A session on Data
-									Structure was conducted by Professor
-									Radhakrishnan. An online contest was held on
-									Hackerrank. This helps in making students
-									more comfortable with Competitive platforms
-									such as Codechef and Hackerrank.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								COMPETITIVE CODING TRAINING SESSION - CCTS
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								09 October 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										Code Chef Student Chapter started CCTS,
+										which are daily sessions that equips
+										Students with Important Competitive
+										concepts. How it works? ? The Question
+										related to a topic are posted on the
+										prior day. ? Students try to find
+										efficient solutions for these problems.
+										? Various solutions are discussed in the
+										sessions. The goal is not just to find
+										any solution but to find an optimal
+										solution with low Time and Space
+										complexities. It builds curiosity among
+										Students and then they gradually tend to
+										think outside the box. These interactive
+										sessions enable the audience to reach
+										out to the executive members. Events
+										Professor Radhakrishnan, Codechef
+										incharge, started off the sessions with
+										the ?Introduction to ICPC?. We got to
+										know the importance of Competitive
+										coding and difficulty of ICPC. Topics
+										such as Searching and Sorting, Stacks
+										and Queues, Greedy Algorithms were
+										covered by the executives. A session on
+										Data Structure was conducted by
+										Professor Radhakrishnan. An online
+										contest was held on Hackerrank. This
+										helps in making students more
+										comfortable with Competitive platforms
+										such as Codechef and Hackerrank.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							INTRODUCTION TO ACM AND IT?S SISTER CLUBS
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							07 October 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The event started off with a prayer to the
-									almighty God praying for a prosperous year
-									ahead. It was followed by an introduction to
-									the ACROM club by Mr. Nippun Kumar. Then the
-									statistics of the various events conducted
-									in the previous academic year were presented
-									by Vineeth (FACE secretary 2017-18). Various
-									ACM goodies were presented to all the
-									members of the FACE team 2017-18 by the CSE
-									dept. HOD, Ms. Amudha. It was followed by a
-									brief talk by Ms. Amudha explaining the
-									purpose of this departmental forum in our
-									college. She also wished good luck to the
-									new FACE team in continuing the legacy of
-									FACE. The event was then taken over by the
-									new secretary of FACE, Ramshankar. He
-									explained the working of FACE and how it can
-									play an instrumental role in the college
-									life of a student. Later, Amrutha, the
-									present joint secretary elucidated that FACE
-									conducts various workshops and fun, yet
-									technical events. Rahul, the joint secretary
-									continued the FACE introduction and spoke in
-									detail about the FACE Seasons. He reiterated
-									that it lasts the entire semester. From
-									there we moved on to the introduction of the
-									various sister clubs of FACE, starting off
-									with Computer Society of India- CSI.
-									Abhirami, CSI chair, explained to the
-									students how CSI is responsible for
-									organising various talks on trending topics
-									by distinguished speakers who specialize in
-									the field about which they are going to
-									talk. Then the various benefits of becoming
-									a CSI student member were explained by
-									Abhishek, CSI co-chair. He explained that it
-									acts as a method to publish papers and
-									projects. This was followed by the
-									introduction of ACM(Association of Computing
-									Machinery). The chair of ACM, Arvind, talked
-									about the international reputation possessed
-									by ACM and the perks of joining the club.
-									Sriharish, the co-chair of ACM explained
-									about the membership procedure. ACM-W, the
-									purpose and utility of the women?s chapter
-									of ACM was explained by the chair of ACM-W,
-									Lavanya. She explained that this
-									organisation supports the women with
-									innovative ideas by sponsoring their ideas
-									to make them into a realit. The co-chair,
-									Harshita Reddy of ACM-W went on to explain
-									that even this club conducts various events
-									on trending topics. Prudhvinath, the
-									chairperson of Codechef spoke about the
-									purpose of this student chapter. He
-									explained that this club conducts various
-									different coding or puzzle solving related
-									events inorder to improve the analytical
-									skills of the students. He also explained
-									how this club helps train the students for
-									coding competitions like ICPC by conducting
-									events and workshops to improve the logical
-									thinking of the student. He encouraged
-									students to take on competitive coding as it
-									helps them improve their mental abilities.
-									We had a brief introduction to the latest
-									addition to the FACE family, FORGE, the
-									gaming club of our college. The main aim of
-									the club was explained by Sathvik and Pavan,
-									chairperson and co-chairperson of FORGE.
-									They explained that this club deals with
-									making games using softwares such as Unity
-									He even showed a small video explaining the
-									aim of this club.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								INTRODUCTION TO ACM AND IT?S SISTER CLUBS
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								07 October 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The event started off with a prayer to
+										the almighty God praying for a
+										prosperous year ahead. It was followed
+										by an introduction to the ACROM club by
+										Mr. Nippun Kumar. Then the statistics of
+										the various events conducted in the
+										previous academic year were presented by
+										Vineeth (FACE secretary 2017-18).
+										Various ACM goodies were presented to
+										all the members of the FACE team 2017-18
+										by the CSE dept. HOD, Ms. Amudha. It was
+										followed by a brief talk by Ms. Amudha
+										explaining the purpose of this
+										departmental forum in our college. She
+										also wished good luck to the new FACE
+										team in continuing the legacy of FACE.
+										The event was then taken over by the new
+										secretary of FACE, Ramshankar. He
+										explained the working of FACE and how it
+										can play an instrumental role in the
+										college life of a student. Later,
+										Amrutha, the present joint secretary
+										elucidated that FACE conducts various
+										workshops and fun, yet technical events.
+										Rahul, the joint secretary continued the
+										FACE introduction and spoke in detail
+										about the FACE Seasons. He reiterated
+										that it lasts the entire semester. From
+										there we moved on to the introduction of
+										the various sister clubs of FACE,
+										starting off with Computer Society of
+										India- CSI. Abhirami, CSI chair,
+										explained to the students how CSI is
+										responsible for organising various talks
+										on trending topics by distinguished
+										speakers who specialize in the field
+										about which they are going to talk. Then
+										the various benefits of becoming a CSI
+										student member were explained by
+										Abhishek, CSI co-chair. He explained
+										that it acts as a method to publish
+										papers and projects. This was followed
+										by the introduction of ACM(Association
+										of Computing Machinery). The chair of
+										ACM, Arvind, talked about the
+										international reputation possessed by
+										ACM and the perks of joining the club.
+										Sriharish, the co-chair of ACM explained
+										about the membership procedure. ACM-W,
+										the purpose and utility of the women?s
+										chapter of ACM was explained by the
+										chair of ACM-W, Lavanya. She explained
+										that this organisation supports the
+										women with innovative ideas by
+										sponsoring their ideas to make them into
+										a realit. The co-chair, Harshita Reddy
+										of ACM-W went on to explain that even
+										this club conducts various events on
+										trending topics. Prudhvinath, the
+										chairperson of Codechef spoke about the
+										purpose of this student chapter. He
+										explained that this club conducts
+										various different coding or puzzle
+										solving related events inorder to
+										improve the analytical skills of the
+										students. He also explained how this
+										club helps train the students for coding
+										competitions like ICPC by conducting
+										events and workshops to improve the
+										logical thinking of the student. He
+										encouraged students to take on
+										competitive coding as it helps them
+										improve their mental abilities. We had a
+										brief introduction to the latest
+										addition to the FACE family, FORGE, the
+										gaming club of our college. The main aim
+										of the club was explained by Sathvik and
+										Pavan, chairperson and co-chairperson of
+										FORGE. They explained that this club
+										deals with making games using softwares
+										such as Unity He even showed a small
+										video explaining the aim of this club.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							INTRODUCTION TO LOGICAL THINKING
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							30 August 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									FACE rolled out its second event for the
-									semester conducted by its sister club
-									CodeChef. An event on Logical Thinking
-									exclusively for Freshman and Sophomore year
-									students. Each participant was/were allowed
-									to participate individually or in pairs.
-									Organized on a light day of the week,
-									Thursday the expected crowd did not deceive
-									us. We had a full house occupancy of rooms
-									A-404 & A-405. As per schedule the event
-									started at 3:35pm with the giving of the
-									question papers. A period of 35 minutes was
-									given to each contestant with additional 5
-									minutes as buffer. Enthusiastic participants
-									enjoyed the event with full galore. The
-									event ended at 4:15pm, with the collection
-									of the question papers, as our hosts guided
-									the participants through the answer key.
-									With a recorded attendance of 65+36= 101
-									participants, 4 hosts and a few volunteers,
-									we do hope to see you all again in our
-									upcoming events.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								INTRODUCTION TO LOGICAL THINKING
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								30 August 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										FACE rolled out its second event for the
+										semester conducted by its sister club
+										CodeChef. An event on Logical Thinking
+										exclusively for Freshman and Sophomore
+										year students. Each participant was/were
+										allowed to participate individually or
+										in pairs. Organized on a light day of
+										the week, Thursday the expected crowd
+										did not deceive us. We had a full house
+										occupancy of rooms A-404 & A-405. As per
+										schedule the event started at 3:35pm
+										with the giving of the question papers.
+										A period of 35 minutes was given to each
+										contestant with additional 5 minutes as
+										buffer. Enthusiastic participants
+										enjoyed the event with full galore. The
+										event ended at 4:15pm, with the
+										collection of the question papers, as
+										our hosts guided the participants
+										through the answer key. With a recorded
+										attendance of 65+36= 101 participants, 4
+										hosts and a few volunteers, we do hope
+										to see you all again in our upcoming
+										events.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">TECH TRIATHLON</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							09 July 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									TECH-TRIATHLON was conducted on Friday,
-									September 7th, 2018 between 3:30 to 4:20 in
-									the rooms A-301,302,303. The event was
-									exclusive for the first years. TECH
-									TRIATHLON, which is also a part of TFS point
-									system is a competition consisting of 3
-									sub-events namely Puzzles, Tech taboo and
-									Tech Pictionary that were all timed. The
-									first round consisted of puzzles wherein the
-									students were given a set of aptitude based
-									questions which were to be solved in 10
-									mins. The second round was Taboo where the
-									objective of the game is for a player to
-									have their teammates guess given words
-									without using the word itself or the five
-									taboo words listed. The last round was
-									Pictionary, a game where you guess the word
-									as your teammate draws it. The games not
-									only ensured that the first years got
-									accustomed to technical terms but that they
-									did so in a fun way. The Competition was a
-									total success with more than 30
-									participants. Post-event feedbacks from the
-									students were extremely positive and we were
-									also requested to conduct more such events
-									in the future. With help of the executives
-									and other FACE members present, the event
-									went on very smoothly and was well
-									coordinated among the three classrooms.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">TECH TRIATHLON</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								09 July 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										TECH-TRIATHLON was conducted on Friday,
+										September 7th, 2018 between 3:30 to 4:20
+										in the rooms A-301,302,303. The event
+										was exclusive for the first years. TECH
+										TRIATHLON, which is also a part of TFS
+										point system is a competition consisting
+										of 3 sub-events namely Puzzles, Tech
+										taboo and Tech Pictionary that were all
+										timed. The first round consisted of
+										puzzles wherein the students were given
+										a set of aptitude based questions which
+										were to be solved in 10 mins. The second
+										round was Taboo where the objective of
+										the game is for a player to have their
+										teammates guess given words without
+										using the word itself or the five taboo
+										words listed. The last round was
+										Pictionary, a game where you guess the
+										word as your teammate draws it. The
+										games not only ensured that the first
+										years got accustomed to technical terms
+										but that they did so in a fun way. The
+										Competition was a total success with
+										more than 30 participants. Post-event
+										feedbacks from the students were
+										extremely positive and we were also
+										requested to conduct more such events in
+										the future. With help of the executives
+										and other FACE members present, the
+										event went on very smoothly and was well
+										coordinated among the three classrooms.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							ACM HOUR OF CODE(AHoC)- Web Development Track
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							10 May 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The Association for Computing Machinery
-									(ACM), a student chapter part of FACE (Forum
-									for Aspiring Computer Engineers), organized
-									its first event under the ACM Hour of Code
-									(AHoC) banner on the 5th of October 2018 at
-									CP lab. About the event The first track of
-									AHoC being web development, the event
-									primarily focused on HTML and CSS basics
-									both being quintessential for making a
-									webpage. The event was divided into two
-									sessions. The first session from 2:30-3:30
-									pm was all about participants learning the
-									basics from the ?codecademy? website. The
-									second session from 3:30-4:20 pm was the
-									competitive round where the participants (in
-									teams of two) had to put to test the
-									knowledge they had acquired over the past
-									hour by making a webpage using the sublime
-									text editor.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								ACM HOUR OF CODE(AHoC)- Web Development Track
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								10 May 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The Association for Computing Machinery
+										(ACM), a student chapter part of FACE
+										(Forum for Aspiring Computer Engineers),
+										organized its first event under the ACM
+										Hour of Code (AHoC) banner on the 5th of
+										October 2018 at CP lab. About the event
+										The first track of AHoC being web
+										development, the event primarily focused
+										on HTML and CSS basics both being
+										quintessential for making a webpage. The
+										event was divided into two sessions. The
+										first session from 2:30-3:30 pm was all
+										about participants learning the basics
+										from the ?codecademy? website. The
+										second session from 3:30-4:20 pm was the
+										competitive round where the participants
+										(in teams of two) had to put to test the
+										knowledge they had acquired over the
+										past hour by making a webpage using the
+										sublime text editor.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							SLAC (Stay Late And Code)
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							24 March 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									SLAC is the annual flagship event of Amrita
-									School of Engineering s Forum for Aspiring
-									Computer Engineers (FACE). This year it is
-									slated to occur on March 24th and 25th.
-									Participants from ASE-B and other top
-									engineering colleges in Bangalore gather to
-									code for 24 hours and create innovative and
-									ingenious apps, which they then present to a
-									panel of judges. The top teams win cash
-									prizes and goodies. ACM plays a part in SLAC
-									annually.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								SLAC (Stay Late And Code)
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								24 March 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										SLAC is the annual flagship event of
+										Amrita School of Engineering s Forum for
+										Aspiring Computer Engineers (FACE). This
+										year it is slated to occur on March 24th
+										and 25th. Participants from ASE-B and
+										other top engineering colleges in
+										Bangalore gather to code for 24 hours
+										and create innovative and ingenious
+										apps, which they then present to a panel
+										of judges. The top teams win cash prizes
+										and goodies. ACM plays a part in SLAC
+										annually.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							Recent Trends in Cloud Computing
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							16 MArch 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									ACM student chapter of ASE-Bengaluru,
-									organized a talk on Recent Trends in Cloud
-									Computing on 16th of March 2018 at the
-									campus. Ms. Ashwini Nayak, The Chair, ACM
-									(Year III, CSE) welcomed and introduced the
-									speaker of the day, Mr. S. Suresh, founder
-									and CEO of Cloudsiksha, to a gathering of
-									around 100 students. Mr. S. Suresh, started
-									his talk by giving an introduction on
-									Containers and Dockers, to the audience. He
-									further explained the various challenges
-									faced by Docker, the usage of Dockers and
-									the difference between a container and a
-									virtual machine. He then shed light on
-									Orchestration software, Docker Swarm and
-									Kubernetes. He showed the complete
-									architectural overview of Kubernetes, a
-									portable open source platform for managing
-									containerized services. He then discussed
-									about the streaming platform for IoT. His
-									last topic of discussion was on serverless
-									computing and its applications. The event
-									came to a closure with a question answering
-									session, wherein the enthusiastic audience
-									asked doubts from various fields of Computer
-									Science and Mr. S. Suresh answered all the
-									questions patiently. He suggested few
-									websites for various courses. Dr. Supriya
-									M., ACM mentor, presented the speaker with
-									memento and the crowd dispersed.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								Recent Trends in Cloud Computing
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								16 MArch 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										ACM student chapter of ASE-Bengaluru,
+										organized a talk on Recent Trends in
+										Cloud Computing on 16th of March 2018 at
+										the campus. Ms. Ashwini Nayak, The
+										Chair, ACM (Year III, CSE) welcomed and
+										introduced the speaker of the day, Mr.
+										S. Suresh, founder and CEO of
+										Cloudsiksha, to a gathering of around
+										100 students. Mr. S. Suresh, started his
+										talk by giving an introduction on
+										Containers and Dockers, to the audience.
+										He further explained the various
+										challenges faced by Docker, the usage of
+										Dockers and the difference between a
+										container and a virtual machine. He then
+										shed light on Orchestration software,
+										Docker Swarm and Kubernetes. He showed
+										the complete architectural overview of
+										Kubernetes, a portable open source
+										platform for managing containerized
+										services. He then discussed about the
+										streaming platform for IoT. His last
+										topic of discussion was on serverless
+										computing and its applications. The
+										event came to a closure with a question
+										answering session, wherein the
+										enthusiastic audience asked doubts from
+										various fields of Computer Science and
+										Mr. S. Suresh answered all the questions
+										patiently. He suggested few websites for
+										various courses. Dr. Supriya M., ACM
+										mentor, presented the speaker with
+										memento and the crowd dispersed.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">Cyber Investigation</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							11 January 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									ACM (Association for Computing Machinery)
-									organized an event named Cyber Investigation
-									on the 11th of January, 2018. The event
-									commenced at 3:30 PM in the CP Lab, fifth
-									floor. About 30 students from various
-									branches and years of study took part in
-									this event. The event required the
-									contestants to solve 6 simple puzzles
-									regarding a fictional cyber crime case which
-									eventually led to the location of the
-									culprit. The participants had to solve the
-									puzzles in a specific order and the right
-									answer to each puzzle was the password which
-									allowed them to access the next puzzle. The
-									puzzles tested the participants ability to
-									solve sudoku, ASCII codes and apply their
-									common sense into problem solving. Ms.
-									Sowmya, Mr. Chandra and Mr. Sri Ram Kalyan
-									(all from Year III, CSE) finished first. Mr.
-									Krishna Vamsi and Mr. R. Anirud (both Year
-									II, CSE) bagged the second place. A few
-									participants were asked for their views,
-									which revealed that the contestants enjoyed
-									the event and could not get enough. They
-									were intrigued and found the event
-									innovative and interesting. On popular
-									demand, ACM is looking forward to hosting
-									Cyber Investigation Part 2 in the close
-									future.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">Cyber Investigation</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								11 January 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										ACM (Association for Computing
+										Machinery) organized an event named
+										Cyber Investigation on the 11th of
+										January, 2018. The event commenced at
+										3:30 PM in the CP Lab, fifth floor.
+										About 30 students from various branches
+										and years of study took part in this
+										event. The event required the
+										contestants to solve 6 simple puzzles
+										regarding a fictional cyber crime case
+										which eventually led to the location of
+										the culprit. The participants had to
+										solve the puzzles in a specific order
+										and the right answer to each puzzle was
+										the password which allowed them to
+										access the next puzzle. The puzzles
+										tested the participants ability to solve
+										sudoku, ASCII codes and apply their
+										common sense into problem solving. Ms.
+										Sowmya, Mr. Chandra and Mr. Sri Ram
+										Kalyan (all from Year III, CSE) finished
+										first. Mr. Krishna Vamsi and Mr. R.
+										Anirud (both Year II, CSE) bagged the
+										second place. A few participants were
+										asked for their views, which revealed
+										that the contestants enjoyed the event
+										and could not get enough. They were
+										intrigued and found the event innovative
+										and interesting. On popular demand, ACM
+										is looking forward to hosting Cyber
+										Investigation Part 2 in the close
+										future.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							SESSION ON COMPETITIVE CODING BY DR. BHADRACHALAM
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							09 January 2018
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The principle intent behind the organization
-									of the event is to introduce competitive
-									coding and place a mind map inside aspirants
-									in order to get the aspirants to move along
-									the path of coding. Prof. Bhadrachalam, Head
-									of Competitive Programming, ASE-Amritapuri
-									has conducted a session on competitive
-									programming on 1st September 2018 at
-									ASE-Bangalore. The primary concepts covered
-									in this session are: Number Theory, Discrete
-									Mathematics and Permutation and
-									Combinations. Fresh aspirants, as well as
-									coders, were introduced with various online
-									coding platforms, so as to help them
-									levitate their skill in coding and reach out
-									a better a community for their future needs.
-									There was also a problem-solving session
-									which gave a hands-on experience on the
-									topics which the students have learnt. At
-									the end of the session, Prof. Bhadrachalam
-									had a brief discussion with the students and
-									gave some general student guidelines about
-									the various career options on which they can
-									pursue. Summarizing everything, it was an
-									informative and interactive event on
-									competitive coding.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								SESSION ON COMPETITIVE CODING BY DR.
+								BHADRACHALAM
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								09 January 2018
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The principle intent behind the
+										organization of the event is to
+										introduce competitive coding and place a
+										mind map inside aspirants in order to
+										get the aspirants to move along the path
+										of coding. Prof. Bhadrachalam, Head of
+										Competitive Programming, ASE-Amritapuri
+										has conducted a session on competitive
+										programming on 1st September 2018 at
+										ASE-Bangalore. The primary concepts
+										covered in this session are: Number
+										Theory, Discrete Mathematics and
+										Permutation and Combinations. Fresh
+										aspirants, as well as coders, were
+										introduced with various online coding
+										platforms, so as to help them levitate
+										their skill in coding and reach out a
+										better a community for their future
+										needs. There was also a problem-solving
+										session which gave a hands-on experience
+										on the topics which the students have
+										learnt. At the end of the session, Prof.
+										Bhadrachalam had a brief discussion with
+										the students and gave some general
+										student guidelines about the various
+										career options on which they can pursue.
+										Summarizing everything, it was an
+										informative and interactive event on
+										competitive coding.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<hr class="hr-text my-5" id="2017" data-content="2017" />
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">HOUR OF CODE</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							31 October 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The Association for Computing Machinery,
-									ACM, along with FACE (Forum for Aspiring
-									Computer Engineers) held a workshop under
-									the banner of Hour of Code that focused on
-									educating the participants about the basics
-									of HTML and CSS, two vital parts of website
-									building. The workshop was held through two
-									sessions, one on the 31st of October 2017
-									and the other on the 3rd of November, 2017
-									at Amrita School of Engineering, Bengaluru.
-									The gathering was welcomed by Ms. Ashwini
-									Nayak, Chair, ACM (Year III, CSE) who gave
-									the participants a fair idea of what they
-									had signed up for. The Workshop was
-									conducted by Ms. Ashwini along with Mr.
-									Raguvir S, Treasurer, ACM (Year III, CSE) as
-									they took turns to explain the basics and
-									subsequently the advanced aspects of the two
-									languages. Under the guidance of Mr. Akhil
-									K, Secretary, ACM (Year III, CSE), the
-									attendees were taught using the website
-									codecademy . The workshop witnessed
-									participation from students across the
-									branches that added to the excitement as
-									they set out to learn something different
-									apart from their core. Contestants were very
-									quick in picking up the new skills and were
-									an enthusiastic bunch. The event culminated
-									with the participants creating a website on
-									their own based on their recently acquired
-									knowledge Mr. Naveen (Year I, CSE) won the
-									first place for his website and ACM goodies
-									were awarded to the best websites created.
-								</p>
+				<!-- End of eventCard -->
+				<hr class="hr-text my-5" id="2017" data-content="2017" />
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">HOUR OF CODE</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								31 October 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The Association for Computing Machinery,
+										ACM, along with FACE (Forum for Aspiring
+										Computer Engineers) held a workshop
+										under the banner of Hour of Code that
+										focused on educating the participants
+										about the basics of HTML and CSS, two
+										vital parts of website building. The
+										workshop was held through two sessions,
+										one on the 31st of October 2017 and the
+										other on the 3rd of November, 2017 at
+										Amrita School of Engineering, Bengaluru.
+										The gathering was welcomed by Ms.
+										Ashwini Nayak, Chair, ACM (Year III,
+										CSE) who gave the participants a fair
+										idea of what they had signed up for. The
+										Workshop was conducted by Ms. Ashwini
+										along with Mr. Raguvir S, Treasurer, ACM
+										(Year III, CSE) as they took turns to
+										explain the basics and subsequently the
+										advanced aspects of the two languages.
+										Under the guidance of Mr. Akhil K,
+										Secretary, ACM (Year III, CSE), the
+										attendees were taught using the website
+										codecademy . The workshop witnessed
+										participation from students across the
+										branches that added to the excitement as
+										they set out to learn something
+										different apart from their core.
+										Contestants were very quick in picking
+										up the new skills and were an
+										enthusiastic bunch. The event culminated
+										with the participants creating a website
+										on their own based on their recently
+										acquired knowledge Mr. Naveen (Year I,
+										CSE) won the first place for his website
+										and ACM goodies were awarded to the best
+										websites created.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">ACM-ICPC Warm Up Week</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							20 October 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									ICPC WARM-UP 2k17 was a prep up session
-									hosted in collaboration with Codechef, a
-									chapter of FACE (Forum for Aspiring Computer
-									Engineers). It mainly aimed at all the
-									student aspirants who wanted to take part in
-									the ACM-ICPC (Association for Computing
-									Machinery- International Collegiate
-									Programming Contest). The session was spread
-									over five days with systematically organized
-									topics which was covered in it s due course.
-									The student coaches for this 5 day session
-									were were Mr. Rishikeshwar, Chair,
-									Codechef(CSE, Year III) and Mr.Vivek Reddy,
-									Co-Chair, Codechef (CSE, year III). Day 1 of
-									the ICPC WARM-UP 2k17 enlightened the
-									students with the Brute Force algorithm and
-									familiarize the students with user-friendly
-									coding platforms like Hackerrank and
-									Codechef. The audience was also introduced
-									to the concept of time complexity, functions
-									and arrays. Day 2 of the warm-up elucidated
-									to the students the concept of arrays, their
-									applications and different code syntaxes in
-									C++. They also elucidated to the audience on
-									the concept of arrays in correspondence to
-									those code syntaxes. Day 3 of the training
-									was meant to give the students a glimpse
-									into the level of skills the competition
-									required. Programming concepts such as
-									primes, sieve, segmented sieve, Euler s
-									quotient function and Euler s GCD were
-									looked into in detail. Students were given
-									insights into the level of technical
-									knowledge required for the competition. Day
-									4 comprised of various applications of bit
-									manipulation, which was elucidated with
-									apposite examples. It underlined the vital
-									length and time constraints in competitive
-									programming Implementations of these
-									concepts from a competitive coding angle
-									were discussed. Day 5 dealt with an
-									exhaustive discussion on the technicalities
-									of the online contest. The prospective
-									contestants were exposed to time management
-									during problem solving, the working of the
-									leader board and formats of the questions.
-									The intensive 5-day session received an
-									appreciable response and it gave the
-									students a grass-root level insight into the
-									thrilling world of competitive coding.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">ACM-ICPC Warm Up Week</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								20 October 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										ICPC WARM-UP 2k17 was a prep up session
+										hosted in collaboration with Codechef, a
+										chapter of FACE (Forum for Aspiring
+										Computer Engineers). It mainly aimed at
+										all the student aspirants who wanted to
+										take part in the ACM-ICPC (Association
+										for Computing Machinery- International
+										Collegiate Programming Contest). The
+										session was spread over five days with
+										systematically organized topics which
+										was covered in it s due course. The
+										student coaches for this 5 day session
+										were were Mr. Rishikeshwar, Chair,
+										Codechef(CSE, Year III) and Mr.Vivek
+										Reddy, Co-Chair, Codechef (CSE, year
+										III). Day 1 of the ICPC WARM-UP 2k17
+										enlightened the students with the Brute
+										Force algorithm and familiarize the
+										students with user-friendly coding
+										platforms like Hackerrank and Codechef.
+										The audience was also introduced to the
+										concept of time complexity, functions
+										and arrays. Day 2 of the warm-up
+										elucidated to the students the concept
+										of arrays, their applications and
+										different code syntaxes in C++. They
+										also elucidated to the audience on the
+										concept of arrays in correspondence to
+										those code syntaxes. Day 3 of the
+										training was meant to give the students
+										a glimpse into the level of skills the
+										competition required. Programming
+										concepts such as primes, sieve,
+										segmented sieve, Euler s quotient
+										function and Euler s GCD were looked
+										into in detail. Students were given
+										insights into the level of technical
+										knowledge required for the competition.
+										Day 4 comprised of various applications
+										of bit manipulation, which was
+										elucidated with apposite examples. It
+										underlined the vital length and time
+										constraints in competitive programming
+										Implementations of these concepts from a
+										competitive coding angle were discussed.
+										Day 5 dealt with an exhaustive
+										discussion on the technicalities of the
+										online contest. The prospective
+										contestants were exposed to time
+										management during problem solving, the
+										working of the leader board and formats
+										of the questions. The intensive 5-day
+										session received an appreciable response
+										and it gave the students a grass-root
+										level insight into the thrilling world
+										of competitive coding.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">Introduction to ACM-ICPC</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							06 October 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									An introduction to ACM - ICPC (International
-									Collegiate Programming Contest), was held on
-									the 6th of October, 2017. Rishikeshwar,
-									Chair, Codechef, (Year III, CSE), addressed
-									the gathering of hopeful students. Dr.
-									Radhakrishnan, Mentor, Codechef, expounded
-									to the audience the three tier structure of
-									the contest. He briefed the attendees about
-									the registration process and the selection
-									of teams to the finals in various regions.
-									He further outlined the team structure and
-									then presented a sample question. Sanket M
-									Bhat, Former Secretary, FACE, (4th year
-									CSE), one of the finalists of the Southern
-									Regionals, 2016, shared his experience of
-									competitive programming. He shed light on
-									the importance of coding from the
-									perspective of job placements. He also
-									discussed with the students the various
-									methods by which one can improve one s
-									programming skills. All the queries from the
-									audience were patiently answered by him.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">Introduction to ACM-ICPC</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								06 October 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										An introduction to ACM - ICPC
+										(International Collegiate Programming
+										Contest), was held on the 6th of
+										October, 2017. Rishikeshwar, Chair,
+										Codechef, (Year III, CSE), addressed the
+										gathering of hopeful students. Dr.
+										Radhakrishnan, Mentor, Codechef,
+										expounded to the audience the three tier
+										structure of the contest. He briefed the
+										attendees about the registration process
+										and the selection of teams to the finals
+										in various regions. He further outlined
+										the team structure and then presented a
+										sample question. Sanket M Bhat, Former
+										Secretary, FACE, (4th year CSE), one of
+										the finalists of the Southern Regionals,
+										2016, shared his experience of
+										competitive programming. He shed light
+										on the importance of coding from the
+										perspective of job placements. He also
+										discussed with the students the various
+										methods by which one can improve one s
+										programming skills. All the queries from
+										the audience were patiently answered by
+										him.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							Artificial Intelligence and its Relevance to
-							Financial Services
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							13 September 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									Amrita School of Engineering, Bengaluru s
-									ACM-W Student Chapter hosted its first event
-									of the odd semester on 13th September, 2017.
-									The event was a Distinguished Speaker
-									Programme on Banking, Fintechs and staying
-									relevant in the age of Artificial
-									Intelligence, and the speakers were Ms.
-									Akshata N. and Ms. Krithika S. of ANZ
-									Bengaluru. The session commenced with a few
-									lines of introduction about the event and
-									the speakers from the ACM-W Chair, Devi
-									Krishnan (Year 3, CSE). The speakers then
-									took over, starting by elaborating on the
-									financial services industry and their
-									company. They went on to talk about various
-									Fintechs, different services provided by the
-									same, and spoke about Artificial
-									Intelligence and its relevance to financial
-									services. The session was very informative
-									as well as interactive. Both speakers
-									interjected humour into the talk, ensuring
-									that the atmosphere was light but still
-									encouraged learning. The attendees asked
-									several questions and it could be seen how
-									interested all the participants were. The
-									event came to an end with a short question
-									and answer session and a vote of thanks
-									given by Lavanya Karthikeyan, ACM-W Co-Chair
-									(Year 2, CSE), following which Dr. Supriya
-									M., ACM-W Student Chapter Mentor, presented
-									the speakers with mementos and the crowd
-									dispersed.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								Artificial Intelligence and its Relevance to
+								Financial Services
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								13 September 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										Amrita School of Engineering, Bengaluru
+										s ACM-W Student Chapter hosted its first
+										event of the odd semester on 13th
+										September, 2017. The event was a
+										Distinguished Speaker Programme on
+										Banking, Fintechs and staying relevant
+										in the age of Artificial Intelligence,
+										and the speakers were Ms. Akshata N. and
+										Ms. Krithika S. of ANZ Bengaluru. The
+										session commenced with a few lines of
+										introduction about the event and the
+										speakers from the ACM-W Chair, Devi
+										Krishnan (Year 3, CSE). The speakers
+										then took over, starting by elaborating
+										on the financial services industry and
+										their company. They went on to talk
+										about various Fintechs, different
+										services provided by the same, and spoke
+										about Artificial Intelligence and its
+										relevance to financial services. The
+										session was very informative as well as
+										interactive. Both speakers interjected
+										humour into the talk, ensuring that the
+										atmosphere was light but still
+										encouraged learning. The attendees asked
+										several questions and it could be seen
+										how interested all the participants
+										were. The event came to an end with a
+										short question and answer session and a
+										vote of thanks given by Lavanya
+										Karthikeyan, ACM-W Co-Chair (Year 2,
+										CSE), following which Dr. Supriya M.,
+										ACM-W Student Chapter Mentor, presented
+										the speakers with mementos and the crowd
+										dispersed.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">POSTER PRESENTATION</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							26 April 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									Our last event for the academic year (26th
-									April 2017) was a Distinguished Speaker
-									programme on Technical Poster Presentation.
-									Ms. Kamala Srinivasan from the ACM committee
-									was the speaker for the day who briefed the
-									students about the prestigious Grace Hopper
-									Conference and details about presenting a
-									paper at the event.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">POSTER PRESENTATION</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								26 April 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										Our last event for the academic year
+										(26th April 2017) was a Distinguished
+										Speaker programme on Technical Poster
+										Presentation. Ms. Kamala Srinivasan from
+										the ACM committee was the speaker for
+										the day who briefed the students about
+										the prestigious Grace Hopper Conference
+										and details about presenting a paper at
+										the event.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">CODINGAME</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							24 APril 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									As part of the local student chapter, ACM
-									held an event on 24th April, 2017 where in
-									students were introduced to the dynamics of
-									programming. The event introduced the basic
-									concepts of competitive programming
-									following which a hackathon was held to test
-									their skills.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">CODINGAME</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								24 APril 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										As part of the local student chapter,
+										ACM held an event on 24th April, 2017
+										where in students were introduced to the
+										dynamics of programming. The event
+										introduced the basic concepts of
+										competitive programming following which
+										a hackathon was held to test their
+										skills.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							INTRODUCTION TO WOMEN S CHAPTER
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							15 March 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									A distinguished speaker program was
-									conducted on March 15th 2017. The highlight
-									of this event was a talk on Women in
-									Technology which was given by Ms Rashmi
-									Mohan. This event began with the
-									inauguration of the Women's Chapter of ACM
-									for the first time in our college on 15th
-									March, 2017. The session started with the
-									traditional lighting of the lamp by Dr.
-									Amudha J., Asso. Prof., Dept. of CSE, Ms.
-									Supriya M., Asst. Professor, Dept. of CSE
-									and the chief guest, Ms. Rashmi Mohan,
-									Secretary, ACM India. Mr. Subramaniam
-									Pillai, an alumnus, addressed the youngsters
-									and discussed the need to focus on being a
-									problem solver rather than just a mere
-									engineer. The speaker for the day, Ms.
-									Rashmi Mohan shared her experiences in the
-									business world, and described her job stint
-									at Yahoo. Her tips and tricks for surviving
-									in the industry were truly enlightening for
-									the audience. The event concluded on a
-									positive note with Dr. Amudha J.
-									felicitating the guest speaker.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								INTRODUCTION TO WOMEN S CHAPTER
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								15 March 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										A distinguished speaker program was
+										conducted on March 15th 2017. The
+										highlight of this event was a talk on
+										Women in Technology which was given by
+										Ms Rashmi Mohan. This event began with
+										the inauguration of the Women's Chapter
+										of ACM for the first time in our college
+										on 15th March, 2017. The session started
+										with the traditional lighting of the
+										lamp by Dr. Amudha J., Asso. Prof.,
+										Dept. of CSE, Ms. Supriya M., Asst.
+										Professor, Dept. of CSE and the chief
+										guest, Ms. Rashmi Mohan, Secretary, ACM
+										India. Mr. Subramaniam Pillai, an
+										alumnus, addressed the youngsters and
+										discussed the need to focus on being a
+										problem solver rather than just a mere
+										engineer. The speaker for the day, Ms.
+										Rashmi Mohan shared her experiences in
+										the business world, and described her
+										job stint at Yahoo. Her tips and tricks
+										for surviving in the industry were truly
+										enlightening for the audience. The event
+										concluded on a positive note with Dr.
+										Amudha J. felicitating the guest
+										speaker.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">INTRODUCTION TO DJANGO</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							24 February 2017
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									On February 24th 2017, a workshop on Django
-									was conducted by Mr Sreecharan, an alumni of
-									our college. In this workshop, students were
-									introduced to the advantages of using Django
-									in software development and its importance
-									as a back-end framework in web development.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">INTRODUCTION TO DJANGO</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								24 February 2017
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										On February 24th 2017, a workshop on
+										Django was conducted by Mr Sreecharan,
+										an alumni of our college. In this
+										workshop, students were introduced to
+										the advantages of using Django in
+										software development and its importance
+										as a back-end framework in web
+										development.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<hr class="hr-text my-5 " id="2016" data-content="2016" />
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">ICPC CODING COMPETITION</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							22 December 2016
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									ACM also co-hosted the ACM-ICPC 2016 (Inter
-									Collegiate Programming Contest) with the
-									Forum of Aspiring Computer Engineers (FACE).
-									The final round was organized in the college
-									on 23rd December 2016 in which over 100
-									teams participated from all over India and
-									some Asian countries. Enthusiastic teams
-									from reputed institutes like the IIT s,
-									IISc, BITS, NIT s, North South
-									University(Dhaka, Bangladesh) to name just a
-									few, gathered at the campus to battle it out
-									at what is known to be the most prestigious
-									international coding contest. The event
-									concluded on a joyous note, with the top 12
-									teams, who have qualified for the World
-									Finals, emerging from the Bengaluru centre.
-								</p>
+				<!-- End of eventCard -->
+				<hr class="hr-text my-5 " id="2016" data-content="2016" />
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">ICPC CODING COMPETITION</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								22 December 2016
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										ACM also co-hosted the ACM-ICPC 2016
+										(Inter Collegiate Programming Contest)
+										with the Forum of Aspiring Computer
+										Engineers (FACE). The final round was
+										organized in the college on 23rd
+										December 2016 in which over 100 teams
+										participated from all over India and
+										some Asian countries. Enthusiastic teams
+										from reputed institutes like the IIT s,
+										IISc, BITS, NIT s, North South
+										University(Dhaka, Bangladesh) to name
+										just a few, gathered at the campus to
+										battle it out at what is known to be the
+										most prestigious international coding
+										contest. The event concluded on a joyous
+										note, with the top 12 teams, who have
+										qualified for the World Finals, emerging
+										from the Bengaluru centre.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">HOUR OF CODE</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							04 November 2016
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									On 4th November 2016, Hour of Code was
-									conducted as a joint effort by the
-									professional members of the ACM student s
-									chapter in the university. The event kicked
-									off with a brief introduction to HTML and
-									CSS which were used to build static
-									webpages. Following this a contest was held
-									to test the participants on the knowledge
-									gained during the session. In this contest,
-									a number of innovative and creative webpages
-									were built by the students which made it
-									difficult to judge the best out of them.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">HOUR OF CODE</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								04 November 2016
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										On 4th November 2016, Hour of Code was
+										conducted as a joint effort by the
+										professional members of the ACM student
+										s chapter in the university. The event
+										kicked off with a brief introduction to
+										HTML and CSS which were used to build
+										static webpages. Following this a
+										contest was held to test the
+										participants on the knowledge gained
+										during the session. In this contest, a
+										number of innovative and creative
+										webpages were built by the students
+										which made it difficult to judge the
+										best out of them.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">INTRODUCTION TO GIT</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							05 October 2016
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									On 5th October 2016, the event on
-									Introduction to GIT enlightened the students
-									about the version controlled technology in
-									software development. The event was
-									presented by Mangalnathan, Secretary of ACM
-									Student Chapter at Amrita Bengaluru. The
-									event drew healthy participation and
-									involvement from students passionate about
-									software technologies.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">INTRODUCTION TO GIT</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								05 October 2016
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										On 5th October 2016, the event on
+										Introduction to GIT enlightened the
+										students about the version controlled
+										technology in software development. The
+										event was presented by Mangalnathan,
+										Secretary of ACM Student Chapter at
+										Amrita Bengaluru. The event drew healthy
+										participation and involvement from
+										students passionate about software
+										technologies.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<!-- End of eventCard -->
-			<!-- eventCard -->
-			<div class="eventCard mb-3">
-				<div class="card mb-3">
-					<div class="card-header bg-white border-0">
-						<h4 class="card-title">
-							Workshop on Eye tracking and computer vision
-						</h4>
-						<h6 class="card-subtitle mb-2 text-muted">
-							19 August 2016
-						</h6>
-					</div>
-					<div class="row no-gutters">
-						<div class="col-12">
-							<div class="card-body">
-								<p class="card-text">
-									The main objective of the workshop is to
-									bridge the gap between computer vision
-									researchers and eye tracking researchers, so
-									has to design and develop their research
-									ideas, by understanding the human perceptual
-									vision through eye tracking technologies.
-									The highlight of the workshop is on the
-									computational saliency models which try to
-									perceive what the human eye focus when
-									he/she sees a certain information scene. The
-									top researchers from NUS, IISc, Tata
-									Innovation Labs, ABB, Robert Bosch, Amrita
-									and others in this field will be delivering
-									on the fundamentals, different architectures
-									and applications of saliency models. The
-									workshop has a hands-on session of
-									understanding the computational model. To
-									understand the human perceptual vision, one
-									has to understand how a human looks and
-									understands the scene. This is the second
-									major goal of the workshop which is handled
-									by Sensomotoric Instruments(SMI), Germany
-									who delivers the fundamentals of eye
-									tracking, technology, Experiments to be
-									conducted on Eye tracking, Data Analytics
-									and Applications inclusive of hands-on
-									session on Eye tracking. The underlying
-									vision of this workshop is to gain useful
-									insight to build computational visual
-									attention models which can be extended for
-									various applications in health care and
-									industry to develop intelligent machine
-									vision tasks.
-								</p>
+				<!-- End of eventCard -->
+				<!-- eventCard -->
+				<div class="eventCard mb-3">
+					<div class="card mb-3">
+						<div class="card-header border-0">
+							<h4 class="card-title">
+								Workshop on Eye tracking and computer vision
+							</h4>
+							<h6 class="card-subtitle mb-2 text-muted">
+								19 August 2016
+							</h6>
+						</div>
+						<div class="row no-gutters">
+							<div class="col-12">
+								<div class="card-body">
+									<p class="card-text">
+										The main objective of the workshop is to
+										bridge the gap between computer vision
+										researchers and eye tracking
+										researchers, so has to design and
+										develop their research ideas, by
+										understanding the human perceptual
+										vision through eye tracking
+										technologies. The highlight of the
+										workshop is on the computational
+										saliency models which try to perceive
+										what the human eye focus when he/she
+										sees a certain information scene. The
+										top researchers from NUS, IISc, Tata
+										Innovation Labs, ABB, Robert Bosch,
+										Amrita and others in this field will be
+										delivering on the fundamentals,
+										different architectures and applications
+										of saliency models. The workshop has a
+										hands-on session of understanding the
+										computational model. To understand the
+										human perceptual vision, one has to
+										understand how a human looks and
+										understands the scene. This is the
+										second major goal of the workshop which
+										is handled by Sensomotoric
+										Instruments(SMI), Germany who delivers
+										the fundamentals of eye tracking,
+										technology, Experiments to be conducted
+										on Eye tracking, Data Analytics and
+										Applications inclusive of hands-on
+										session on Eye tracking. The underlying
+										vision of this workshop is to gain
+										useful insight to build computational
+										visual attention models which can be
+										extended for various applications in
+										health care and industry to develop
+										intelligent machine vision tasks.
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<!-- End of eventCard -->
 			</div>
-			<!-- End of eventCard -->
 		</div>
 		<%- include('footer.ejs') -%>
 		<!-- Optional JavaScript -->
@@ -1282,5 +1347,22 @@
 			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"
 		></script>
+		<script>
+			$(document).ready(function() {
+				$("#myInput").on("keyup", function() {
+					var value = $(this)
+						.val()
+						.toLowerCase();
+					$("#myDIV *").filter(function() {
+						$(this).toggle(
+							$(this)
+								.text()
+								.toLowerCase()
+								.indexOf(value) > -1
+						);
+					});
+				});
+			});
+		</script>
 	</body>
 </html>
