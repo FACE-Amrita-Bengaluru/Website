@@ -31,12 +31,12 @@ footer a {
 	background-color: #1b80ce;
 }
 .navbar {
-	background-color:rgba(27, 128, 206,0);
+	background-color: rgba(27, 128, 206, 0);
 	-webkit-transition: all 0.6s ease-out;
-    -moz-transition: all 0.6s ease-out;
-    -o-transition: all 0.6s ease-out;
-    -ms-transition: all 0.6s ease-out;
-    transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
 }
 .navbar-collapse {
 	display: flex;
@@ -57,9 +57,8 @@ footer a {
 #home {
 	background-image: url("/ACM/img/ASEB.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
 }
-
 
 /* Styling for all the paragraghs */
 p {
@@ -200,17 +199,17 @@ p {
 }
 
 #sig .pimg2 {
-	background-image: url('/ACM/img/Csig.png');
+	background-image: url("/ACM/img/Csig.png");
 	height: 20%;
 }
 
 #sig .pimg3 {
-	background-image: url('/ACM/img/Dsig.png');
+	background-image: url("/ACM/img/Dsig.png");
 	height: 20%;
 }
 
 #sig .pimg4 {
-	background-image: url('/ACM/img/Wsig.png');
+	background-image: url("/ACM/img/Wsig.png");
 	height: 20%;
 }
 
@@ -280,7 +279,7 @@ p {
 .blog .card {
 	height: 450px;
 	width: 350px;
-	background: url('/ACM/img/pattern.jpg');
+	background: url("/ACM/img/pattern.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -290,19 +289,19 @@ p {
 }
 
 .blog .blog1 {
-	background: url('/ACM/img/DataSci.jpg');
+	background: url("/ACM/img/DataSci.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .blog2 {
-	background: url('/ACM/img/RamHack.jpg');
+	background: url("/ACM/img/RamHack.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .blog3 {
-	background: url('/ACM/img/ML.jpg');
+	background: url("/ACM/img/ML.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -347,13 +346,13 @@ p {
 /* Styling for Events card */
 
 .event1 {
-	background-image: url('/ACM/img/events/SIG_Intro.jpg');
+	background-image: url("/ACM/img/events/SIG_Intro.jpg");
 }
 .event2 {
-	background-image: url('/ACM/img/events/Start.jpg');
+	background-image: url("/ACM/img/events/Start.jpg");
 }
 .event3 {
-	background-image: url('/ACM/img/events/FindFitFinish.jpg');
+	background-image: url("/ACM/img/events/FindFitFinish.jpg");
 }
 
 #members .card__title--cream {
