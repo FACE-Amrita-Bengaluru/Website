@@ -28,7 +28,7 @@ body {
   top: 100px;
   z-index: 2;
   margin: 10px 10px;
-  border: rgba(27, 128, 206,0.5) 2px solid;
+  border: rgba(27, 128, 206,0.3) 2px solid;
 }
 
 /* Style for text in paragraphs */
