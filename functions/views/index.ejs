@@ -6,7 +6,7 @@
 	<!--<![endif]-->
 
 	<head>
-		<%- include(' meta.ejs') -%>
+		<%- include('meta.ejs') -%>
 		<title>FACE - Amrita Bangalore</title>
 		<meta
 			name="description"
@@ -21,12 +21,12 @@
 	</head>
 
 	<body>
-		<%- include(' header.ejs') -%>
+		<%- include('header.ejs') -%>
 		<section id="hero">
 			<div class="row hero-content">
 				<div class="twelve columns hero-container">
 					<div id="hero-slider" class="flexslider">
-						<%- include(' slides.ejs') -%>
+						<%- include('slides.ejs') -%>
 					</div>
 				</div>
 			</div>
@@ -899,6 +899,6 @@
 				</div>
 			</div>
 		</section>
-		<%- include(' contact.ejs') -%> <%- include(' footer.ejs') -%> <%- include(' scripts.ejs') -%>
+		<%- include('contact.ejs') -%> <%- include('footer.ejs') -%> <%- include('scripts.ejs') -%>
 	</body>
 </html>
