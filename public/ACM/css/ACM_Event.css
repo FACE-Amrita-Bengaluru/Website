@@ -22,6 +22,15 @@ body {
 	height: 75px;
 }
 
+.stick{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 100px;
+  z-index: 2;
+  margin: 10px 10px;
+  border: rgba(27, 128, 206,0.5) 2px solid;
+}
+
 /* Style for text in paragraphs */
 p {
 	font-family: 'Nunito Sans', sans-serif;
