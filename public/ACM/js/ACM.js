@@ -59,13 +59,13 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Our Motto is to learn')
+typewriter.typeString('Our motto is to learn')
     .pauseFor(2500)
     .deleteChars(5)
     .typeString('unlearn')
 	.pauseFor(2500)
 	.deleteChars(7)
-    .typeString('relearn')
+    .typeString('relearn...')
     .pauseFor(2500)
 	.start();
 	
