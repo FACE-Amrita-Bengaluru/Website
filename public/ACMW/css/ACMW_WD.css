@@ -8,7 +8,7 @@ body {
 	color: #777;
 }
 
-h3,
+h3, 
 h4 {
 	margin: 10px 0 30px 0;
 	letter-spacing: 10px;
@@ -29,16 +29,15 @@ h4 {
 	border-color: #f1f1f1;
 }
 .home {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 /* carousel design */
-.carousel-inner img {
+/*.carousel-inner img {*/
 	/* -webkit-filter: grayscale(90%);
 		filter: grayscale(90%); /* make all photos black and white */
-	width: 100%; /* Set width to 100% */
-	margin: auto;
-	opacity: 5;
+	/*width: 100%; /* Set width to 100% */
+	/*margin: auto;
 }
 .carousel-caption h3 {
 	color: #fff !important;
@@ -46,8 +45,8 @@ h4 {
 @media (max-width: 600px) {
 	.carousel-caption {
 		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-	}
-}
+	/*}
+}*/
 /* .bg-1 {
 	background: #fff; */
 /*color: #111;
@@ -72,7 +71,7 @@ h4 {
 .thumbnail p {
 	margin-top: 15px;
 	color: #555;
-}
+} 
 
 /* navber design */
 .btn {
@@ -82,7 +81,7 @@ h4 {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover,
+.btn:hover, 
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -98,7 +97,7 @@ h4 {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a,
+.navbar li a, 
 .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
