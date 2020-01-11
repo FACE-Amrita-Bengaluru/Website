@@ -38,6 +38,7 @@ h4 {
 		filter: grayscale(90%); /* make all photos black and white */
 	width: 100%; /* Set width to 100% */
 	margin: auto;
+	opacity: 5;
 }
 .carousel-caption h3 {
 	color: #fff !important;
