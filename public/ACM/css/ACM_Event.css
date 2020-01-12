@@ -6,6 +6,8 @@ html {
 /* Styling for whole body */
 body {
 	transition: 0.2s;
+	background-image: url(/ACM/img/events/eventBG.png);
+	background-size: contain;
 }
 
 /* Styling for navbar */
@@ -22,9 +24,18 @@ body {
 	height: 75px;
 }
 
+.stick {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 100px;
+	z-index: 2;
+	margin: 10px 10px;
+	border: rgba(27, 128, 206, 0.3) 2px solid;
+}
+
 /* Style for text in paragraphs */
 p {
-	font-family: 'Nunito Sans', sans-serif;
+	font-family: "Nunito Sans", sans-serif;
 	font-size: 1.2rem;
 }
 
@@ -38,7 +49,7 @@ p {
 	height: 4em;
 }
 .hr-text:before {
-	content: '';
+	content: "";
 	background: linear-gradient(to right, transparent, #1b80ce, transparent);
 	position: absolute;
 	left: 0;
@@ -59,13 +70,14 @@ p {
 
 /* Style for event card */
 
-.eventCard .card-header .card-title{
+.eventCard .card-header .card-title {
 	text-transform: uppercase;
 }
 
 /* zoom effect for cards */
 .card {
 	transition: transform 0.2s;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 .card:hover {
 	transform: scale(1.025);

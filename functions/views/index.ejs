@@ -6,7 +6,7 @@
 	<!--<![endif]-->
 
 	<head>
-		<%include meta.ejs%>
+		<%- include('meta.ejs') -%>
 		<title>FACE - Amrita Bangalore</title>
 		<meta
 			name="description"
@@ -21,12 +21,12 @@
 	</head>
 
 	<body>
-		<%include header.ejs%>
+		<%- include('header.ejs') -%>
 		<section id="hero">
 			<div class="row hero-content">
 				<div class="twelve columns hero-container">
 					<div id="hero-slider" class="flexslider">
-						<%include slides.ejs%>
+						<%- include('slides.ejs') -%>
 					</div>
 				</div>
 			</div>
@@ -153,7 +153,7 @@
 							of student developers globally and work with their
 							communities to solve real-life problems. DSC ASEB
 							was set-up primarily to ensure that we can bridge
-							the divide between a student’s eagerness to learn
+							the divide between a studentâs eagerness to learn
 							and the technology evolving every day.
 							<br /><br />
 							The DSC program is a grassroots channel through
@@ -186,7 +186,7 @@
 							through strong leadership, promotion of the highest
 							standards, and recognition of technical excellence.
 							ACM supports the professional growth of its members
-							by providing opportunities for life‐long learning,
+							by providing opportunities for lifeâlong learning,
 							career development, and professional networking.
 						</p>
 						<p>
@@ -651,7 +651,7 @@
 							</p>
 							<div class="testimonial-author">
 								<img
-									src="images/team_1920/manju.jpg"
+									src="images/team_1819/manju.jpg"
 									alt="Manju Venugopalan"
 								/>
 								<div class="author-info">
@@ -687,7 +687,7 @@
 							</p>
 							<div class="testimonial-author">
 								<img
-									src="images/team_1920/rakshana.jpg"
+									src="images/team_1819/rakshana.jpg"
 									alt="Rakshana J"
 								/>
 								<div class="author-info">
@@ -705,7 +705,7 @@
 							</p>
 							<div class="testimonial-author">
 								<img
-									src="images/team_1920/abhishek.jpg"
+									src="images/team_1819/abhishek.jpg"
 									alt="Abhishek Sai"
 								/>
 								<div class="author-info">
@@ -781,7 +781,7 @@
 							</p>
 							<div class="testimonial-author">
 								<img
-									src="images/team_1920/sriharish.jpg"
+									src="images/team_1819/sriharish.jpg"
 									alt="Sriharish Ramakrishnan"
 								/>
 								<div class="author-info">
@@ -823,7 +823,7 @@
 							</p>
 							<div class="testimonial-author">
 								<img
-									src="images/team_1920/harshita.jpg"
+									src="images/team_1819/harshita.jpg"
 									alt="Harshita Reddy Edugudi"
 								/>
 								<div class="author-info">
@@ -899,6 +899,6 @@
 				</div>
 			</div>
 		</section>
-		<%include contact.ejs%> <%include footer.ejs%> <%include scripts.ejs%>
+		<%- include('contact.ejs') -%> <%- include('footer.ejs') -%> <%- include('scripts.ejs') -%>
 	</body>
 </html>

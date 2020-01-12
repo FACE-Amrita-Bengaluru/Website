@@ -28,9 +28,7 @@ footer {
 	background-repeat: no-repeat;
 }
 
-
-.card .memberImg
-{
+.card .memberImg {
 	height: 250px;
 	width: 250px;
 	margin: 0 auto;
@@ -40,10 +38,8 @@ footer {
 	background-size: contain;
 }
 
-@media only screen and (max-width: 825px) 
-{
-	.card .memberImg
-	{
+@media only screen and (max-width: 825px) {
+	.card .memberImg {
 		height: 220px;
 		width: 220px;
 		margin: 0 auto;
@@ -54,106 +50,106 @@ footer {
 	}
 }
 
-.memberImg, .aditya .shobhanadri{
-	background-image: url("/ACM/img/member.jpg")
+.memberImg,
+.aditya .shobhanadri {
+	background-image: url('/ACM/img/member.jpg');
 }
 
-.shreya{
-	background-image: url("/ACM/img/members/shreya.jpg");
+.shreya {
+	background-image: url('/ACM/img/members/shreya.jpg');
 }
 
-.ritwik{
-	background-image: url("/ACM/img/members/ritwik.jpg")
+.ritwik {
+	background-image: url('/images/team_1920/ritwik.jpg');
 }
 
-.sahana{
-	background-image: url("/ACM/img/members/sahana.jpg");
+.sahana {
+	background-image: url('/images/team_1920/sahana.jpg');
 }
 
-.vishnu{
-	background-image: url("/ACM/img/members/vishnu.jpg");
+.vishnu {
+	background-image: url('/ACM/img/members/vishnu.jpg');
 }
 
-.priyaa{
-	background-image: url("/ACM/img/members/priyaa.jpg");
+.priyaa {
+	background-image: url('/images/team_1920/priyaa.jpg');
 }
 
-.vaishnavi{
-	background-image: url("/ACM/img/members/vaishnavi.jpg");
+.vaishnavi {
+	background-image: url('/ACM/img/members/vaishnavi.jpg');
 }
 
-.hrudeep{
-	background-image: url("/ACM/img/members/hrudeep.jpg");
+.hrudeep {
+	background-image: url('/ACM/img/members/hrudeep.jpg');
 }
 
-.malvika{
-	background-image: url("/ACM/img/members/malvika.jpg");
+.malvika {
+	background-image: url('/ACM/img/members/malvika.jpg');
 }
 
-.jaswanth{
-	background-image: url("/ACM/img/members/jaswanth.jpg");
+.jaswanth {
+	background-image: url('/ACM/img/members/jaswanth.jpg');
 }
 
-.subaharish{
-	background-image: url("/ACM/img/members/subaharish.jpg");
+.subaharish {
+	background-image: url('/ACM/img/members/subaharish.jpg');
 }
 
-.adithya{
-	background-image: url("/ACM/img/members/adithya.jpg");
+.adithya {
+	background-image: url('/ACM/img/members/adithya.jpg');
 }
 
-.moulika{
-	background-image: url("/ACM/img/members/moulika.jpg");
+.moulika {
+	background-image: url('/ACM/img/members/moulika.jpg');
 }
 
-.gandheesh{
-	background-image: url("/ACM/img/members/gandheesh.jpeg");
+.gandheesh {
+	background-image: url('/ACM/img/members/gandheesh.jpeg');
 }
 
-.bhuvanashree{
-	background-image: url("/ACM/img/members/bhuvanashree.jpg");
+.bhuvanashree {
+	background-image: url('/ACM/img/members/bhuvanashree.jpg');
 }
 
-.vinayak{
-	background-image: url("/images/team_1920/vinayak.jpg");
+.vinayak {
+	background-image: url('/images/team_1920/vinayak.jpg');
 }
 
-.sriharish{
-	background-image: url("/images/team_1920/sriharish.jpg");
+.sriharish {
+	background-image: url('/images/team_1819/sriharish.jpg');
 }
 
-.harshita{
-	background-image: url("/images/team_1920/harshita.jpg");
+.harshita {
+	background-image: url('/images/team_1819/harshita.jpg');
 }
 
-.meghana{
-	background-image: url("/images/team_1920/meghana.jpg");
+.meghana {
+	background-image: url('/images/team_1920/meghana.jpg');
 }
 
-.ramshankar{
-	background-image: url("/images/team_1819/ramshankar.jpg");
+.ramshankar {
+	background-image: url('/images/team_1819/ramshankar.jpg');
 }
 
-.gowtham{
-	background-image: url("/images/team_1920/gowtham.jpg");
+.gowtham {
+	background-image: url('/images/team_1920/gowtham.jpg');
 }
 
-.neelee{
-	background-image: url("/images/team_1920/neelee.jpg");
+.neelee {
+	background-image: url('/images/team_1920/neelee.jpg');
 }
 
-.aravind{
-	background-image: url("/images/team_1920/aravind.jpg");
+.aravind {
+	background-image: url('/images/team_1819/aravind.jpg');
 }
 
-.svarnim{
-	background-image: url("/images/team_1920/svarnim.jpg");
+.svarnim {
+	background-image: url('/images/team_1920/svarnim.jpg');
 }
 
-.supriya{
-	background-image: url("/ACM/img/supriya-m.jpg");
+.supriya {
+	background-image: url('/ACM/img/supriya-m.jpg');
 }
 footer {
 	background-color: gainsboro;
 }
-

@@ -1,10 +1,7 @@
-* {
-	box-sizing: border-box;
-}
-
 /* Styling for whole html */
 html {
 	scroll-behavior: smooth;
+	box-sizing: border-box;
 }
 
 /* Styling for body */
@@ -20,26 +17,47 @@ html {
 	display: block;
 }
 
-.container {
-	max-width: 80%;
-}
-
 /* Styling for footer */
 footer {
 	background-color: gainsboro;
 }
 
-footer a{
+footer a {
 	color: #595959;
 }
 
 /* Styling for navbar */
-.navbar {
+.navbar.scrolled {
 	background-color: #1b80ce;
+}
+.navbar {
+	background-color: rgba(27, 128, 206, 0);
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	-ms-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
 }
 .navbar-collapse {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.nav-link {
+	font-size: 1.1rem;
+}
+
+/* Styling for hero */
+.hero {
+	width: inherit;
+	height: inherit;
+	color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+}
+#home {
+	background-image: url("/ACM/img/ASEB.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* Styling for all the paragraghs */
@@ -54,12 +72,6 @@ p {
 	border: none;
 }
 
-/* .card:hover {
-	transform: scale(1.025);
-	-webkit-transform: scale(1.025);
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
-
 /* Styling for Gallery Indicator */
 .gal img {
 	width: 100%;
@@ -67,7 +79,18 @@ p {
 	margin-bottom: 20px;
 }
 
+.motto-box {
+	height: 600px;
+}
+
+.motto-text {
+	font-weight: 600;
+}
+
 /* Styling for Scroll Indicator */
+.demo {
+	width: 100%;
+}
 .demo a {
 	z-index: 2;
 	display: inline-block;
@@ -83,12 +106,10 @@ p {
 }
 #section04 a span {
 	position: absolute;
-	left: 50%;
 	width: 24px;
 	height: 24px;
-	margin-left: -12px;
-	border-left: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-left: 3px solid #fff;
+	border-bottom: 3px solid #fff;
 	transform: rotate(-45deg);
 	animation: sdb04 2s infinite;
 	box-sizing: border-box;
@@ -137,13 +158,13 @@ p {
 }
 @keyframes sdb04 {
 	0% {
-		transform: rotate(-45deg) translate(0,0);
+		transform: rotate(-45deg) translate(0, 0);
 	}
 	20% {
 		transform: rotate(-45deg) translate(-10px, 10px);
 	}
 	40% {
-		transform: rotate(-45deg) translate(0,0);
+		transform: rotate(-45deg) translate(0, 0);
 	}
 }
 
@@ -178,17 +199,17 @@ p {
 }
 
 #sig .pimg2 {
-	background-image: url('/ACM/img/Wsig.png');
+	background-image: url("/ACM/img/Csig.png");
 	height: 20%;
 }
 
 #sig .pimg3 {
-	background-image: url('/ACM/img/Dsig.png');
+	background-image: url("/ACM/img/Dsig.png");
 	height: 20%;
 }
 
 #sig .pimg4 {
-	background-image: url('/ACM/img/Csig.png');
+	background-image: url("/ACM/img/Wsig.png");
 	height: 20%;
 }
 
@@ -256,35 +277,83 @@ p {
 }
 
 .blog .card {
-	height: 480px;
-	background: url('/ACM/img/pattern.jpg');
-	background-size: auto;
+	height: 450px;
+	width: 350px;
+	background: url("/ACM/img/pattern.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog a {
+	text-decoration: none;
+}
+
+.blog .blog1 {
+	background: url("/ACM/img/DataSci.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog .blog2 {
+	background: url("/ACM/img/RamHack.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.blog .blog3 {
+	background: url("/ACM/img/ML.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .card .card-body {
 	display: flex;
 	flex-direction: column-reverse;
+	color: rgba(0, 0, 0, 0.6);
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+}
+
+.blog .card-container .card {
+	transition: transform 0.2s ease;
+	border: 0;
+}
+
+.blog .card-container:hover .card {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-moz-transform: scale(1.05);
+	-o-transform: scale(1.05);
+	transform: scale(1.05);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .event .card {
 	height: 450px;
 	background-size: contain;
 	background-repeat: no-repeat;
+	transition: transform 0.2s ease;
+}
+
+.event .card:hover {
+	-webkit-transform: scale(1.08);
+	-ms-transform: scale(1.08);
+	-moz-transform: scale(1.08);
+	-o-transform: scale(1.08);
+	transform: scale(1.08);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* Styling for Events card */
 
-.event1{
-	background-image: url('/ACM/img/events/SIG_Intro.jpg');
+.event1 {
+	background-image: url("/ACM/img/events/SIG_Intro.jpg");
 }
-.event2{
-	background-image: url('/ACM/img/events/Start.jpg');
+.event2 {
+	background-image: url("/ACM/img/events/Start.jpg");
 }
-.event3{
-	background-image: url('/ACM/img/events/FindFitFinish.jpg');
+.event3 {
+	background-image: url("/ACM/img/events/FindFitFinish.jpg");
 }
-
 
 #members .card__title--cream {
 	color: #e4e0c9;

@@ -36,6 +36,12 @@ app.get('/ICIC2018', (req, res) => {
 	res.render('ICIC2018');
 });
 app.get('/Blog', (req, res) => {
+	res.redirect('/MediumBlog');
+});
+app.get('/MediumBlog', (req, res) => {
+	res.redirect('https://medium.com/face-amrita-bangalore');
+});
+app.get('/WordPressBlog', (req, res) => {
 	res.redirect('https://faceaseb.wordpress.com');
 });
 app.get('/Identifire', (req, res) => {
@@ -51,9 +57,6 @@ app.get('/SLAC', (req, res) => {
 });
 app.get('/ACM', (req, res) => {
 	res.render('ACM/ACM');
-});
-app.get('/ACM_Blog', (req, res) => {
-	res.render('ACM/ACM_Blog');
 });
 app.get('/ACM_Members', (req, res) => {
 	res.render('ACM/ACM_Members');
