@@ -197,6 +197,10 @@ p {
 	align-items: center;	
 }
 
+.card-text {
+	text-align: justify;
+}
+
 #sig .pimg0 {
 	height: 20%;
 }
