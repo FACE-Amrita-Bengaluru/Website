@@ -190,6 +190,13 @@ p {
 	background-attachment: fixed;
 }
 
+.img-placeholder{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;	
+}
+
 #sig .pimg0 {
 	height: 20%;
 }
