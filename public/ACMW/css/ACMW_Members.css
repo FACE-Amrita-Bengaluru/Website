@@ -8,7 +8,6 @@ body {
 	color: #777;
 }
 
-
 h4 {
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -26,8 +25,8 @@ h4 {
 	height: 80%;
 	opacity: 0.7;
 }
-#member{
-	text-align:center;
+#member {
+	text-align: center;
 }
 
 .person:hover {
@@ -40,7 +39,7 @@ h4 {
 	color: #111;
 }
 .thumbnail {
-	padding-bottom:15px ;
+	padding-bottom: 15px;
 	border: none;
 	border-radius: 0;
 }

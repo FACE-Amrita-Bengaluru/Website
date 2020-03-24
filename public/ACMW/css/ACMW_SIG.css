@@ -24,7 +24,7 @@ h4 {
 	height: 80%;
 	opacity: 0.7;
 }
-#sig{
+#sig {
 	text-align: center;
 }
 .person:hover {
@@ -37,7 +37,7 @@ h4 {
 	color: #111;
 }
 .thumbnail {
-	padding-bottom:15px;
+	padding-bottom: 15px;
 	border: none;
 	border-radius: 0;
 }
@@ -104,5 +104,5 @@ footer a:hover {
 	border-radius: 0;
 }
 textarea {
-    resize: none;
+	resize: none;
 }
