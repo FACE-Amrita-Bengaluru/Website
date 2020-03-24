@@ -35,7 +35,6 @@ footer a {
 	-webkit-transition: all 0.6s ease-out;
 	-moz-transition: all 0.6s ease-out;
 	-o-transition: all 0.6s ease-out;
-	-ms-transition: all 0.6s ease-out;
 	transition: all 0.6s ease-out;
 }
 .navbar-collapse {
@@ -188,6 +187,18 @@ p {
 	  scroll = normal
 	*/
 	background-attachment: fixed;
+}
+
+.img-placeholder {
+	max-width: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-text {
+	text-align: justify;
 }
 
 #sig .pimg0 {
