@@ -7,10 +7,9 @@ body {
 	font: 400 15px/1.8 Lato, sans-serif;
 	color: #777;
 }
-
-h3, 
 h4 {
-	margin: 10px 0 30px 0;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	letter-spacing: 10px;
 	font-size: 20px;
 	color: #111;
@@ -25,6 +24,9 @@ h4 {
 	height: 80%;
 	opacity: 0.7;
 }
+#sig {
+	text-align: center;
+}
 .person:hover {
 	border-color: #f1f1f1;
 }
@@ -35,14 +37,14 @@ h4 {
 	color: #111;
 }
 .thumbnail {
-	padding: 0 0 15px 0;
+	padding-bottom: 15px;
 	border: none;
 	border-radius: 0;
 }
 .thumbnail p {
 	margin-top: 15px;
 	color: #555;
-} 
+}
 
 /* navber design */
 .btn {
@@ -52,7 +54,7 @@ h4 {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover, 
+.btn:hover,
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -68,7 +70,7 @@ h4 {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a, 
+.navbar li a,
 .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
@@ -103,3 +105,4 @@ footer a:hover {
 }
 textarea {
 	resize: none;
+}
