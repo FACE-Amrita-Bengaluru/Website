@@ -19,7 +19,7 @@ body {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover, 
+.btn:hover,
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -35,7 +35,7 @@ body {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a, 
+.navbar li a,
 .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
@@ -78,7 +78,9 @@ li {
   color:#FCE154;
 }
  .top-wrapper .container{
-   padding:100px 80px 0 80px;
+   padding-top: 100px;
+   padding-right:80px;
+   padding-left: 80px;
 }
  .top-wrapper h1{
   font-size:140px;
@@ -158,14 +160,12 @@ textarea {
     text-align: center;
     font-family: arial;
   }
-  
 .title {
     color: grey;
     font-size: 11px; 
     letter-spacing: 0;
 
-}
-  
+}  
 button{
     border: none;
     outline: 0;
@@ -177,14 +177,12 @@ button{
     cursor: pointer;
     width: 100%;
     font-size: 11px;
-}
-  
+} 
 a{
     text-decoration: none;
     font-size: 11px;
     color: black;
-}
-  
+}  
 button:hover, a:hover{
     opacity: 0.7;
 }
