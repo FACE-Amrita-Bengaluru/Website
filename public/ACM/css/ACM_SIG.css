@@ -56,10 +56,16 @@ p {
 } */
 
 .sigLogo {
+	width: 400px;
+	height: 400px;
 	z-index: 2;
 	position: absolute;
-	top: 15%;
+	top: 40%;
 	left: 65%;
+}
+
+.sigLogo img {
+	width: 100%;
 }
 
 @media screen and (max-width: 600px) {
