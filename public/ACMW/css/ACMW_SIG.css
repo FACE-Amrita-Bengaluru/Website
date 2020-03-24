@@ -6,7 +6,7 @@ body {
 	transition: 0.2s;
 	font: 400 15px/1.8 Lato, sans-serif;
 	color: #777;
-} 
+}
 h4 {
 	margin-top: 10px;
 	margin-bottom: 30px;
@@ -54,7 +54,7 @@ h4 {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover, 
+.btn:hover,
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -70,7 +70,7 @@ h4 {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a, 
+.navbar li a,
 .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
