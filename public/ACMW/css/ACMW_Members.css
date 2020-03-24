@@ -8,9 +8,9 @@ body {
 	color: #777;
 }
 
-h3, 
 h4 {
-	margin: 10px 0 30px 0;
+	margin-top: 10px;
+	margin-bottom: 30px;
 	letter-spacing: 10px;
 	font-size: 20px;
 	color: #111;
@@ -25,53 +25,28 @@ h4 {
 	height: 80%;
 	opacity: 0.7;
 }
+#member {
+	text-align: center;
+}
+
 .person:hover {
 	border-color: #f1f1f1;
 }
 .home {
 	margin-top: 20px;
 }
-
-/* carousel design */
-/*.carousel-inner img {*/
-	/* -webkit-filter: grayscale(90%);
-		filter: grayscale(90%); /* make all photos black and white */
-	/*width: 100%; /* Set width to 100% */
-	/*margin: auto;
-}
-.carousel-caption h3 {
-	color: #fff !important;
-}
-@media (max-width: 600px) {
-	.carousel-caption {
-		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-	/*}
-}*/
-/* .bg-1 {
-	background: #fff; */
-/*color: #111;
-}*/
 .bg-1 h3 {
 	color: #111;
 }
-/*.bg-1 p {font-style: italic;} */
-/*.list-group-item:first-child {
-	border-top-right-radius: 0;
-	border-top-left-radius: 0;
-}
-.list-group-item:last-child {
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
-}*/
 .thumbnail {
-	padding: 0 0 15px 0;
+	padding-bottom: 15px;
 	border: none;
 	border-radius: 0;
 }
 .thumbnail p {
 	margin-top: 15px;
 	color: #555;
-} 
+}
 
 /* navber design */
 .btn {
@@ -81,7 +56,7 @@ h4 {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover, 
+.btn:hover,
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -97,7 +72,7 @@ h4 {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a, 
+.navbar li a,
 .navbar .navbar-brand {
 	color: #d5d5d5 !important;
 }
@@ -115,12 +90,6 @@ h4 {
 	color: #fff;
 	background-color: #555 !important;
 }
-/*.dropdown-menu li a {
-	color: #000 !important;
-} */
-/*.dropdown-menu li a:hover {
-	background-color: red !important;
-} */
 footer {
 	background-color: #2d2d30;
 	color: #f5f5f5;
@@ -140,58 +109,39 @@ textarea {
 	resize: none;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-  }
-  
-  .title {
-    color: grey;
-    font-size: 11px; 
-    letter-spacing: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
 
-  }
-  
-  button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 11px;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 11px;
-    color: black;
-  }
-  
-  button:hover, a:hover {
-    opacity: 0.7;
-  }
-  /*.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }*/
+.title {
+	color: grey;
+	font-size: 11px;
+	letter-spacing: 0;
+}
 
-    
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 11px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 11px;
+	color: black;
+}
+
+button:hover,
+a:hover {
+	opacity: 0.7;
+}
