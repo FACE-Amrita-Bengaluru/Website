@@ -159,13 +159,12 @@ textarea {
     margin: auto;
     text-align: center;
     font-family: arial;
-  }
+}
 .title {
-    color: grey;
-    font-size: 11px; 
+  	color: grey;
+    font-size: 11px;
     letter-spacing: 0;
-
-}  
+}
 button{
     border: none;
     outline: 0;
@@ -177,12 +176,12 @@ button{
     cursor: pointer;
     width: 100%;
     font-size: 11px;
-} 
+}
 a{
     text-decoration: none;
     font-size: 11px;
     color: black;
-}  
+}
 button:hover, a:hover{
     opacity: 0.7;
 }
