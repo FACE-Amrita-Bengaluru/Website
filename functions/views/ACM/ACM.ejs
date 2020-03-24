@@ -37,6 +37,12 @@
 			rel="stylesheet"
 		/>
 
+		<!-- Font Awesome CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+
 		<!-- Custom CSS -->
 		<link rel="stylesheet" href="/ACM/css/ACM.css" />
 		<title>ACM Amrita Bengaluru</title>
@@ -55,8 +61,10 @@
 					><img
 						src="/ACM/img/logowhite.png"
 						class="d-inline-block align-top"
+						loading="lazy"
 						width="238"
 						height="70"
+						alt="ACMASEB Logo"
 				/></a>
 
 				<button
@@ -113,28 +121,29 @@
 						id="section04"
 						class="demo d-flex justify-content-center"
 					>
-						<a href="#home"><span></span></a>
+						<a href="#intro"><span></span></a>
 					</section>
 				</div>
 			</div>
 		</section>
-
+		<div id="intro" class="mb-4"></div>
 		<!-- container -->
 		<div class="container">
 			<br />
 			<!--Introduction -->
-			<div id="intro" class="pt-2 mb-3">
+			<div class="pt-2 mb-3">
 				<!-- ACM Intro -->
 				<div class="card bg-light mb-3">
 					<div class="row no-gutters">
-						<div
-							class="col-md-6 d-flex align-items-center order-1 order-md-0"
-						>
-							<img
-								src="/ACM/img/ACM.png"
-								class="card-img p-5"
-								alt="ACM logo"
-							/>
+						<div class="col-md-6 order-1 order-md-0">
+							<div class="img-placeholder">
+								<img
+									src="/ACM/img/ACM.png"
+									class="card-img p-5"
+									alt="ACM logo"
+									loading="lazy"
+								/>
+							</div>
 						</div>
 						<div
 							class="col-md-6 d-flex align-items-center order-0 order-md-1"
@@ -181,13 +190,16 @@
 				<div class="card mb-5 bg-light">
 					<div class="row no-gutters">
 						<div
-							class="col-md-6 d-flex align-items-center order-1 order-md-1"
+							class="col-md-6 d-flex align-items-center justify-content-center order-1 order-md-1"
 						>
-							<img
-								src="/ACMW/img/ACMW.png"
-								class="card-img p-5"
-								alt="..."
-							/>
+							<div class="img-placeholer">
+								<img
+									src="/ACMW/img/ACMW.png"
+									class="card-img p-5"
+									alt="ACMW logo"
+									loading="lazy"
+								/>
+							</div>
 						</div>
 						<div
 							class="col-12 col-md-6 d-flex align-items-center order-0 order-md-0"
@@ -227,11 +239,14 @@
 						<div
 							class="col-md-6 d-flex align-items-center order-1 order-md-0"
 						>
-							<img
-								src="/ACM/img/ACM_ASEB.png"
-								class="card-img p-5"
-								alt="ACM logo"
-							/>
+							<div class="img-placeholder">
+								<img
+									src="/ACM/img/ACM_ASEB.png"
+									class="card-img p-5"
+									alt="ACM logo"
+									loading="lazy"
+								/>
+							</div>
 						</div>
 						<div
 							class="col-md-6 d-flex align-items-center order-0 order-md-1"
@@ -643,6 +658,9 @@
 							src="/images/team_1819/sriharish.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Sriharish"
 						/>
 						<h2 class="text-dark text-center">
 							Sriharish Ramakrishnan
@@ -656,6 +674,9 @@
 							src="/images/team_1819/harshita.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Harshita"
 						/>
 						<h2 class="text-dark text-center">
 							Harshita Reddy Edugudi
@@ -669,6 +690,9 @@
 							src="/images/team_1920/ritwik.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Ritwik"
 						/>
 						<h2 class="text-dark text-center">
 							Ritwik Lal
@@ -682,6 +706,9 @@
 							src="/images/team_1920/meghana.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Meghana"
 						/>
 						<h2 class="text-dark text-center">
 							Meghana Rao Somepalli
@@ -695,6 +722,9 @@
 							src="/images/team_1920/svarnim.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Svarnim"
 						/>
 						<h2 class="text-dark text-center">
 							Svarnim Agarwal
@@ -708,6 +738,9 @@
 							src="/ACM/img/member.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Shobhanadri"
 						/>
 						<h2 class="text-dark text-center">
 							Shobhanadri
@@ -728,6 +761,9 @@
 							src="/images/team_1819/aravind.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Aravind"
 						/>
 						<h2 class="text-dark text-center">
 							Aravind V. Nair
@@ -741,6 +777,9 @@
 							src="/images/team_1920/gowtham.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Gowtham"
 						/>
 						<h2 class="text-dark text-center">
 							Jalam Venkata Gowtham
@@ -754,6 +793,9 @@
 							src="/images/team_1920/neelee.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Neelee"
 						/>
 						<h2 class="text-dark text-center">
 							Neelee Upadhyay
@@ -767,6 +809,9 @@
 							src="/images/team_1819/ramshankar.jpg"
 							class="img-fluid rounded-circle p-4"
 							loading="lazy"
+							width="245"
+							height="245"
+							alt="Ramshankar"
 						/>
 						<h2 class="text-dark text-center">
 							Ramshankar Yadhunath
@@ -794,51 +839,71 @@
 							src="/ACM/img/gallery/gal1.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal4.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal7.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal10.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal13.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal16.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal19.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal22.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal25.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal28.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 					</div>
 					<div class="col-12 col-md-4 mb-1">
@@ -846,51 +911,71 @@
 							src="/ACM/img/gallery/gal2.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal5.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal8.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal11.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal14.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal17.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal20.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal23.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal26.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal29.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 					</div>
 					<div class="col-12 col-md-4 mb-1">
@@ -898,51 +983,71 @@
 							src="/ACM/img/gallery/gal3.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal6.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal9.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal12.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal15.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal18.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal21.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal24.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal27.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 						<img
 							src="/ACM/img/gallery/gal30.jpg"
 							alt="Gallery Image"
 							loading="lazy"
+							width="290"
+							height="193"
 						/>
 					</div>
 				</div>
