@@ -6,6 +6,8 @@ body {
 	transition: 0.2s;
 	font: 400 15px/1.8 Lato, sans-serif;
 	color: #777;
+	margin: 0;
+	padding: 0;
 }
 
 h3,
