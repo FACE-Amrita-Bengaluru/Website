@@ -24,10 +24,6 @@ html {
 	max-width: 80%;
 }
 
-/* Styling for footer */
-footer {
-	background-color: gainsboro;
-}
 
 /* Styling for navbar */
 .navbar {
@@ -75,4 +71,13 @@ p {
 	.sigLogo {
 		display: none;
 	}
+}
+
+/* Styling for footer */
+footer {
+	background-color: gainsboro;
+}
+
+.footer-copyright{
+	font-size: 12px;
 }

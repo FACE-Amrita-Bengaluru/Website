@@ -19,9 +19,7 @@ html {
 	height: 75px;
 }
 
-footer {
-	background-color: gainsboro;
-}
+
 
 /* Members section */
 .jumbotron {
@@ -153,6 +151,12 @@ footer {
 .supriya {
 	background-image: url('/ACM/img/supriya-m.jpg');
 }
+
+/* Styling for footer */
 footer {
 	background-color: gainsboro;
+}
+
+.footer-copyright{
+	font-size: 12px;
 }

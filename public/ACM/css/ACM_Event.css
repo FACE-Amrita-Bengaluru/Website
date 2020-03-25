@@ -104,3 +104,7 @@ a:hover {
 footer {
 	background-color: gainsboro;
 }
+
+.footer-copyright{
+	font-size: 12px;
+}
