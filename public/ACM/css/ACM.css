@@ -30,6 +30,7 @@ footer a {
 .navbar.scrolled {
 	background-color: #1b80ce;
 }
+
 .navbar {
 	background-color: rgba(27, 128, 206, 0);
 	-webkit-transition: all 0.6s ease-out;
@@ -44,6 +45,25 @@ footer a {
 
 .nav-link {
 	font-size: 1.1rem;
+}
+
+.nav-logo {
+	-webkit-transition: all 0.6s ease-out;
+	-moz-transition: all 0.6s ease-out;
+	-o-transition: all 0.6s ease-out;
+	transition: all 0.6s ease-out;
+	width : 238px;
+	height : 70px;
+	background-size:cover;
+	background-image: url("/ACM/img/logowhite.png");
+}
+
+.logo{
+	background-image: url("/ACM/img/logowhite.png");
+}
+
+.logo-scrolled {
+	background-image: url("/ACM/img/logo.png");
 }
 
 /* Styling for hero */

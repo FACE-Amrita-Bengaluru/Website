@@ -20,12 +20,12 @@ $(".owl-carousel").owlCarousel({
 
 // Hide navbar on clicking links
 
-$(".navbar-nav>li>a").on("click", function() {
+$(".navbar-nav>li>a").on("click", function () {
 	$(".navbar-collapse").collapse("hide");
 });
 
-$(window).scroll(function() {
-	$(".sig").each(function() {
+$(window).scroll(function () {
+	$(".sig").each(function () {
 		if (isScrolledIntoView($(this))) {
 			$(this)
 				.children(".head")
@@ -77,13 +77,19 @@ function checkScroll() {
 
 	if ($(window).scrollTop() > startY) {
 		$(".navbar").addClass("scrolled");
+		// $(".nav-logo").removeClass("logo");
+		// $(".nav-logo").addClass("logo-scrolled");
 	} else {
 		$(".navbar").removeClass("scrolled");
+		// $(".nav-logo").removeClass("logo-scrolled");
+		// $(".nav-logo").addClass("logo");
 	}
 }
 
-if ($(".navbar").length > 0) {
-	$(window).on("scroll load resize", function() {
+if ($(".navbar").length > 0.7 || $(".navbar").length < 1.0) {
+	$(window).on("scroll load resize", function () {
 		checkScroll();
+		// changeLogo();
+		return;
 	});
 }

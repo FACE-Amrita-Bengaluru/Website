@@ -37,6 +37,9 @@ footer {
 	display: flex;
 	justify-content: flex-end;
 }
+.nav-link {
+	font-size: 1.1rem;
+}
 
 /* Styling for all the paragraghs */
 p {

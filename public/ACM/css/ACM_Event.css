@@ -19,6 +19,10 @@ body {
 	justify-content: flex-end;
 }
 
+.nav-link {
+	font-size: 1.1rem;
+}
+
 /* Blank space behind nav */
 .behindNav {
 	height: 75px;
