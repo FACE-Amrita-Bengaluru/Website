@@ -1,16 +1,27 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
-  margin: 0;
-  padding: 0;
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family:'Acme', sans-serif;
-  transition: 0.2s;
-  background-image: url(/ACM/img/events/eventBG.png);
-  background-size: contain;
+	font-family: "Acme", sans-serif;
+	transition: 0.2s;
+	background-image: url(/ACM/img/events/eventBG.png);
+	background-size: contain;
 }
 .btn {
 	padding: 10px 20px;
@@ -55,57 +66,57 @@ body {
 }
 
 li {
-  list-style: none;
+	list-style: none;
 }
 
 .header {
-  background-color: #760c10;
-  color:#D7BB2B;
-  height: 100px;
+	background-color: #760c10;
+	color: #d7bb2b;
+	height: 100px;
 }
 
 .header-logo {
-  float: left;
-  font-size: 50px;
-  padding: 20px 40px;
+	float: left;
+	font-size: 50px;
+	padding: 20px 40px;
 }
 
-.header-logo p{
-  color:#DA1F28;
+.header-logo p {
+	color: #da1f28;
 }
 
-.header-logo p:hover{
-  color:#FCE154;
+.header-logo p:hover {
+	color: #fce154;
 }
- .top-wrapper .container{
-   padding-top: 100px;
-   padding-right:80px;
-   padding-left: 80px;
+.top-wrapper .container {
+	padding-top: 100px;
+	padding-right: 80px;
+	padding-left: 80px;
 }
- .top-wrapper h1{
-  font-size:140px;
+.top-wrapper h1 {
+	font-size: 140px;
 }
-h1 span{
-  color:#ff4a4a;
+h1 span {
+	color: #ff4a4a;
 }
-.content-section{
-  padding:100px 80px;
+.content-section {
+	padding: 100px 80px;
 }
-.content-section .container{
-  height:500px;
+.content-section .container {
+	height: 500px;
 }
-.content-section h1{
-  border-bottom:2px solid #dee7ec;
-  padding-bottom:15px;
-  font-size:28px;
+.content-section h1 {
+	border-bottom: 2px solid #dee7ec;
+	padding-bottom: 15px;
+	font-size: 28px;
 }
-.cards{
-  padding-top:50px;
-  padding-right:40px;
+.cards {
+	padding-top: 50px;
+	padding-right: 40px;
 }
-.cards p{
-  padding-top:30px;
-  font-size:24px;
+.cards p {
+	padding-top: 30px;
+	font-size: 24px;
 }
 .hr-text {
 	line-height: 2em;
@@ -154,34 +165,35 @@ textarea {
 	resize: none;
 }
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
 }
 .title {
-  	color: grey;
-    font-size: 11px;
-    letter-spacing: 0;
+	color: grey;
+	font-size: 11px;
+	letter-spacing: 0;
 }
-button{
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 11px;
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 11px;
 }
-a{
-    text-decoration: none;
-    font-size: 11px;
-    color: black;
+a {
+	text-decoration: none;
+	font-size: 11px;
+	color: black;
 }
-button:hover, a:hover{
-    opacity: 0.7;
+button:hover,
+a:hover {
+	opacity: 0.7;
 }
