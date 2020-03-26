@@ -7,7 +7,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  *
  * Contributing author: Tyler Smith (@mbmufffin)
- * 
+ *
  */
 
 /* reset */
@@ -73,7 +73,7 @@ html[xmlns] .flexslider .slides {
  * Magnific Popup - v1.0.0 - 2015-09-17
  * http://dimsemenov.com/plugins/magnific-popup/
  * Copyright (c) 2015 Dmitry Semenov;
- * 
+ *
  */
 
 .mfp-bg {
@@ -404,7 +404,7 @@ img.mfp-img {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	padding: 40px 0 40px;
+	padding: 40px 0;
 	margin: 0 auto;
 }
 
