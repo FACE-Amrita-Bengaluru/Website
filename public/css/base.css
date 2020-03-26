@@ -218,11 +218,11 @@ th {
 }
 
 /*
-/* Basic Setup Styles - Top Elements 
+/* Basic Setup Styles - Top Elements
 /* =================================================================== */
 
 /* NOTE
-html is set to 62.5% so that if you use REMS, all the measurements 
+html is set to 62.5% so that if you use REMS, all the measurements
 are based on 10px sizing. So basically 1.5rem = 15px  */
 html {
 	-webkit-font-smoothing: antialiased;
@@ -251,7 +251,7 @@ body {
 }
 
 /*
-/* Typography 
+/* Typography
 ====================================================================== */
 
 div,
@@ -370,8 +370,8 @@ p a:visited {
 	line-height: inherit;
 }
 
-/* 
-/* Media 
+/*
+/* Media
 /* =================================================================== */
 
 img,
@@ -391,7 +391,7 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
-/* 
+/*
 /* Grid
 ===================================================================== */
 
@@ -646,7 +646,7 @@ img {
 	}
 }
 
-/* 
+/*
 /* block grids
 ===================================================================== */
 .bgrid-sixth .bgrid {
@@ -669,7 +669,7 @@ img {
 	padding: 0;
 }
 
-/* Clearing for block grid columns. Allows columns with 
+/* Clearing for block grid columns. Allows columns with
 different heights to align properly.
 --------------------------------------------------------------------- */
 .bgrid-sixth .bgrid:nth-child(6n + 1),
@@ -800,7 +800,7 @@ different heights to align properly.
 	}
 }
 
-/* 
+/*
 /* MISC
 ===================================================================== */
 
@@ -816,7 +816,7 @@ different heights to align properly.
 	clear: both;
 }
 
-/* Misc Helper Styles 
+/* Misc Helper Styles
 --------------------------------------------------------------------- */
 .hide {
 	display: none;
