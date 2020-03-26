@@ -24,7 +24,6 @@ html {
 	max-width: 80%;
 }
 
-
 /* Styling for navbar */
 .navbar {
 	background-color: #1b80ce;
@@ -78,6 +77,6 @@ footer {
 	background-color: gainsboro;
 }
 
-.footer-copyright{
+.footer-copyright {
 	font-size: 12px;
 }

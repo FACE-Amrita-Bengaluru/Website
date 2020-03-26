@@ -43,13 +43,13 @@ html {
 	-moz-transition: all 0.6s ease-out;
 	-o-transition: all 0.6s ease-out;
 	transition: all 0.6s ease-out;
-	width : 230px;
-	height : 72px;
-	background-size:cover;
+	width: 230px;
+	height: 72px;
+	background-size: cover;
 	background-image: url("/ACM/img/logowhite.png");
 }
 
-.logo{
+.logo {
 	background-image: url("/ACM/img/logowhite.png");
 }
 
@@ -95,8 +95,8 @@ p {
 
 #motto-text {
 	font-size: 5.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+	font-weight: 300;
+	line-height: 1.2;
 }
 
 /* Styling for Scroll Indicator */
@@ -304,7 +304,6 @@ p {
 		font-weight: 300;
 		line-height: 1.2;
 	}
-
 }
 
 .blog .card {
@@ -398,6 +397,6 @@ footer a {
 	color: #595959;
 }
 
-.footer-copyright{
+.footer-copyright {
 	font-size: 12px;
 }

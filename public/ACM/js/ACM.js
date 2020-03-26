@@ -1,5 +1,4 @@
 //Owl Carousel
-
 $(".owl-carousel").owlCarousel({
 	loop: true,
 	margin: 10,
@@ -20,12 +19,12 @@ $(".owl-carousel").owlCarousel({
 
 // Hide navbar on clicking links
 
-$(".navbar-nav>li>a").on("click", function () {
+$(".navbar-nav>li>a").on("click", function() {
 	$(".navbar-collapse").collapse("hide");
 });
 
-$(window).scroll(function () {
-	$(".sig").each(function () {
+$(window).scroll(function() {
+	$(".sig").each(function() {
 		if (isScrolledIntoView($(this))) {
 			$(this)
 				.children(".head")
@@ -41,13 +40,10 @@ $(window).scroll(function () {
 function isScrolledIntoView(elem) {
 	var $elem = $(elem);
 	var $window = $(window);
-
 	var docViewTop = $window.scrollTop();
 	var docViewBottom = docViewTop + $window.height();
-
 	var elemTop = $elem.offset().top;
 	var elemBottom = elemTop + $elem.height();
-
 	return elemBottom <= docViewBottom && elemTop >= docViewTop;
 }
 
@@ -87,7 +83,7 @@ function checkScroll() {
 }
 
 if ($(".navbar").length > 0.7 || $(".navbar").length < 1.0) {
-	$(window).on("scroll load resize", function () {
+	$(window).on("scroll load resize", function() {
 		checkScroll();
 		// changeLogo();
 		return;
