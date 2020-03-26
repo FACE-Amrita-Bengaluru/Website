@@ -914,7 +914,6 @@ ul#nav li.current a:after {
 	#nav-wrap ul#nav li a {
 		display: block;
 		width: auto;
-		padding: 0;
 		color: #cacbcb;
 		padding: 12px 0;
 		line-height: 16px;
