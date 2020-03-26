@@ -1,5 +1,4 @@
 //Owl Carousel
-
 $(".owl-carousel").owlCarousel({
 	loop: true,
 	margin: 10,
@@ -41,13 +40,10 @@ $(window).scroll(function() {
 function isScrolledIntoView(elem) {
 	var $elem = $(elem);
 	var $window = $(window);
-
 	var docViewTop = $window.scrollTop();
 	var docViewBottom = docViewTop + $window.height();
-
 	var elemTop = $elem.offset().top;
 	var elemBottom = elemTop + $elem.height();
-
 	return elemBottom <= docViewBottom && elemTop >= docViewTop;
 }
 
@@ -77,13 +73,19 @@ function checkScroll() {
 
 	if ($(window).scrollTop() > startY) {
 		$(".navbar").addClass("scrolled");
+		// $(".nav-logo").removeClass("logo");
+		// $(".nav-logo").addClass("logo-scrolled");
 	} else {
 		$(".navbar").removeClass("scrolled");
+		// $(".nav-logo").removeClass("logo-scrolled");
+		// $(".nav-logo").addClass("logo");
 	}
 }
 
-if ($(".navbar").length > 0) {
+if ($(".navbar").length > 0.7 || $(".navbar").length < 1.0) {
 	$(window).on("scroll load resize", function() {
 		checkScroll();
+		// changeLogo();
+		return;
 	});
 }
