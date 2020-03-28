@@ -59,7 +59,7 @@ app.get("/ACM", (req, res) => {
 	res.render("ACM/index");
 });
 app.get("/ACM/Members", (req, res) => {
-	res.render("ACM/Members");
+	res.render("ACM/members");
 });
 app.get("/ACM/Events", (req, res) => {
 	res.render("ACM/events");
@@ -77,7 +77,7 @@ app.get("/ACMW", (req, res) => {
 	res.render("ACMW/index");
 });
 app.get("/ACMW/Members", (req, res) => {
-	res.render("ACMW/Members");
+	res.render("ACMW/members");
 });
 app.get("/ACMW/Events", (req, res) => {
 	res.render("ACMW/events");
