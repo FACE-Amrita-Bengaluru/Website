@@ -21,7 +21,7 @@
 	"theme_color": "#000000",
 	"background_color": "#000000",
 	"display": "standalone",
-	"start_url": "https://face-amrita.firebaseapp.com/?utm_source=homescreen",
+	"start_url": "https://faceaseb.com/?utm_source=homescreen",
 	"lang": "English",
 	"orientation": "any",
 	"description": "Forum for Aspiring Computer Engineers"
