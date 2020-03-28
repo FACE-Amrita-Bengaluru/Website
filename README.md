@@ -1,6 +1,6 @@
 # FACE Amrita Bengaluru
 
-Official source code of FACE Amrita Bangalore website along with CSI, ACM, and ACM - W chapters of Amrita Bangalore.
+Official source code of FACE Amrita Bangalore website along with CSI, ACM, and ACM-W chapters of Amrita Bangalore.
 
 # :octocat: How to contribute?
 
