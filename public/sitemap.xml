@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 						http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
@@ -44,7 +44,7 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://face-amrita.firebaseapp.com/ICIC2018</loc>
+		<loc>https://face-amrita.firebaseapp.com/ICIC_2018</loc>
 		<lastmod>2019-03-28T12:16:33+00:00</lastmod>
 		<priority>0.80</priority>
 	</url>

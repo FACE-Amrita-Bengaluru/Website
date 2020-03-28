@@ -15,9 +15,9 @@
 			function gtag() {
 				dataLayer.push(arguments);
 			}
-			gtag('js', new Date());
+			gtag("js", new Date());
 
-			gtag('config', 'UA-126622119-1');
+			gtag("config", "UA-126622119-1");
 		</script>
 		<meta charset="utf-8" />
 		<meta name="author" content="Aravind V. Nair, Abhishek Sai" />
@@ -457,16 +457,16 @@
 		<script>
 			if (navigator.serviceWorker.controller) {
 				console.log(
-					'[PWA Builder] active service worker found, no need to register'
+					"[PWA Builder] active service worker found, no need to register"
 				);
 			} else {
 				navigator.serviceWorker
-					.register('pwabuilder-sw.js', {
-						scope: './'
+					.register("pwabuilder-sw.js", {
+						scope: "./"
 					})
 					.then(function(reg) {
 						console.log(
-							'Service worker has been registered for scope:' +
+							"Service worker has been registered for scope:" +
 								reg.scope
 						);
 					});
