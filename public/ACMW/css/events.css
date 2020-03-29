@@ -31,22 +31,22 @@ body {
 .navbar {
 	font-family: Montserrat, sans-serif;
 	margin-bottom: 0;
-	background-color: #2d2d30 !important;
+	background-color: #2d2d30;
 	border: 0;
-	font-size: 11px !important;
+	font-size: 11px ;
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
 .navbar li a, 
 .navbar .navbar-brand {
-	color: #d5d5d5 !important;
+	color: #d5d5d5;
 }
 .navbar-nav li a:hover {
 	color: #fff !important;
 }
 .navbar-nav li.active a {
-	color: #fff !important;
-	background-color: #29292c !important;
+	color: #fff;
+	background-color: #29292c;
 }
 .navbar-default .navbar-toggle {
 	border-color: transparent;
