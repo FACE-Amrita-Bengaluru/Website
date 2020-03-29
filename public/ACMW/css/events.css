@@ -9,9 +9,15 @@ html{
 	scroll-behavior: smooth;
 }
 body {
+<<<<<<< HEAD
     font-family:'Acme', sans-serif;
     transition: 0.2s;
 	background-image: url(/ACM/img/events/eventBG.png);
+=======
+	font-family: "Acme", sans-serif;
+	transition: 0.2s;
+	background-image: url("/ACM/img/events/eventBG.png");
+>>>>>>> chore: ACM final roster (#154)
 	background-size: contain;
 }
 .btn {
