@@ -9,9 +9,9 @@ html{
 	scroll-behavior: smooth;
 }
 body {
-    font-family:'Acme', sans-serif;
-    transition: 0.2s;
-	background-image: url(/ACM/img/events/eventBG.png);
+	font-family: "Acme", sans-serif;
+	transition: 0.2s;
+	background-image: url("/ACM/img/events/eventBG.png");
 	background-size: contain;
 }
 .btn {

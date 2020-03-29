@@ -46,15 +46,15 @@ html {
 	width: 230px;
 	height: 72px;
 	background-size: cover;
-	background-image: url("/ACM/img/logowhite.png");
+	background-image: url("/ACM/img/logos/logowhite.png");
 }
 
 .logo {
-	background-image: url("/ACM/img/logowhite.png");
+	background-image: url("/ACM/img/logos/logowhite.png");
 }
 
 .logo-scrolled {
-	background-image: url("/ACM/img/logo.png");
+	background-image: url("/ACM/img/logos/logo.png");
 }
 
 /* Styling for hero */
@@ -223,17 +223,17 @@ p {
 }
 
 #sig .pimg2 {
-	background-image: url("/ACM/img/Csig.png");
+	background-image: url("/ACM/img/SIG/Csig.png");
 	height: 20%;
 }
 
 #sig .pimg3 {
-	background-image: url("/ACM/img/Dsig.png");
+	background-image: url("/ACM/img/SIG/Dsig.png");
 	height: 20%;
 }
 
 #sig .pimg4 {
-	background-image: url("/ACM/img/Wsig.png");
+	background-image: url("/ACM/img/SIG/Wsig.png");
 	height: 20%;
 }
 
@@ -308,7 +308,6 @@ p {
 
 .blog .card {
 	height: 450px;
-	background: url("/ACM/img/pattern.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -318,19 +317,19 @@ p {
 }
 
 .blog .blog1 {
-	background: url("/ACM/img/DataSci.jpg");
+	background: url("/ACM/img/blog/DataSci.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .blog2 {
-	background: url("/ACM/img/RamHack.jpg");
+	background: url("/ACM/img/blog/RamHack.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
 .blog .blog3 {
-	background: url("/ACM/img/ML.jpg");
+	background: url("/ACM/img/blog/ML.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
