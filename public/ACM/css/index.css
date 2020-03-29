@@ -46,15 +46,15 @@ html {
 	width: 230px;
 	height: 72px;
 	background-size: cover;
-	background-image: url("/ACM/img/logo/logowhite.png");
+	background-image: url("/ACM/img/logos/logowhite.png");
 }
 
 .logo {
-	background-image: url("/ACM/img/logo/logowhite.png");
+	background-image: url("/ACM/img/logos/logowhite.png");
 }
 
 .logo-scrolled {
-	background-image: url("/ACM/img/logo/logo.png");
+	background-image: url("/ACM/img/logos/logo.png");
 }
 
 /* Styling for hero */
