@@ -1,25 +1,16 @@
-html,
-body,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-form,
-input,
-div {
-	margin: 0;
-	padding: 0;
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
 }
-
+html{
+	scroll-behavior: smooth;
+}
 body {
-	font-family: "Acme", sans-serif;
-	transition: 0.2s;
+    font-family:'Acme', sans-serif;
+    transition: 0.2s;
 	background-image: url(/ACM/img/events/eventBG.png);
 	background-size: contain;
 }
@@ -30,7 +21,7 @@ body {
 	border-radius: 0;
 	transition: 0.1s;
 }
-.btn:hover,
+.btn:hover, 
 .btn:focus {
 	border: 1px solid #333;
 	background-color: #fff;
@@ -40,83 +31,62 @@ body {
 .navbar {
 	font-family: Montserrat, sans-serif;
 	margin-bottom: 0;
-	background-color: #2d2d30;
+	background-color: #2d2d30 !important;
 	border: 0;
-	font-size: 11px;
+	font-size: 11px !important;
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
-.navbar li a,
+.navbar li a, 
 .navbar .navbar-brand {
-	color: #d5d5d5;
+	color: #d5d5d5 !important;
 }
 .navbar-nav li a:hover {
-	color: #fff;
+	color: #fff !important;
 }
 .navbar-nav li.active a {
-	color: #fff;
-	background-color: #29292c;
+	color: #fff !important;
+	background-color: #29292c !important;
 }
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
 .open .dropdown-toggle {
 	color: #fff;
-	background-color: #555;
+	background-color: #555 !important;
 }
 
-li {
-	list-style: none;
+ .top-wrapper .container{
+   padding:100px 80px 0 80px;
 }
-
-.header {
-	background-color: #760c10;
-	color: #d7bb2b;
-	height: 100px;
+ .top-wrapper h1{
+  font-size:100px;
 }
-
-.header-logo {
-	float: left;
-	font-size: 50px;
-	padding: 20px 40px;
+.content-section{
+  padding:50px 80px;
 }
-
-.header-logo p {
-	color: #da1f28;
+.content-section .container{
+  height:500px;
 }
-
-.header-logo p:hover {
-	color: #fce154;
+.content-section h1{
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+  font-size:28px;
 }
-.top-wrapper .container {
-	padding-top: 100px;
-	padding-right: 80px;
-	padding-left: 80px;
+/* .content-section h3{
+  border-bottom:2px solid darkgray;
+  padding-bottom:15px;
+  padding-left:50px;
+  font-size:28px;
+  color:dimgrey;
+} */
+.cards{
+  padding-top:50px;
+  padding-right:40px;
 }
-.top-wrapper h1 {
-	font-size: 140px;
-}
-h1 span {
-	color: #ff4a4a;
-}
-.content-section {
-	padding: 100px 80px;
-}
-.content-section .container {
-	height: 500px;
-}
-.content-section h1 {
-	border-bottom: 2px solid #dee7ec;
-	padding-bottom: 15px;
-	font-size: 28px;
-}
-.cards {
-	padding-top: 50px;
-	padding-right: 40px;
-}
-.cards p {
-	padding-top: 30px;
-	font-size: 24px;
+.cards p{
+  padding-top:30px;
+  font-size:24px;
 }
 .hr-text {
 	line-height: 2em;
@@ -164,36 +134,4 @@ footer a:hover {
 textarea {
 	resize: none;
 }
-.card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	max-width: 300px;
-	margin: auto;
-	text-align: center;
-	font-family: arial;
-}
-.title {
-	color: grey;
-	font-size: 11px;
-	letter-spacing: 0;
-}
-button {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
-	color: white;
-	background-color: #000;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-	font-size: 11px;
-}
-a {
-	text-decoration: none;
-	font-size: 11px;
-	color: black;
-}
-button:hover,
-a:hover {
-	opacity: 0.7;
-}
+
