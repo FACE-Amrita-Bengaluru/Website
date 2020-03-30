@@ -50,10 +50,10 @@ html {
 	}
 }
 
-.memberImg,
+/* .memberImg,
 .aditya .shobhanadri {
 	background-image: url("/ACM/img/member.jpg");
-}
+} */
 
 .shreya {
 	background-image: url("/ACM/img/members/shreya.jpg");
@@ -148,7 +148,7 @@ html {
 }
 
 .supriya {
-	background-image: url("/ACM/img/supriya-m.jpg");
+	background-image: url("/ACM/img/members/supriya-m.jpg");
 }
 
 /* Styling for footer */

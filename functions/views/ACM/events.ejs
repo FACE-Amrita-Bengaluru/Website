@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
+		<%- include('meta.ejs') -%>
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -68,9 +64,6 @@
 						placeholder="Search with Keywords"
 						aria-label="Search"
 					/>
-					<!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-					Search
-				</button> -->
 				</form>
 			</nav>
 			<!--End of Navbar for searching and sorting -->
@@ -772,8 +765,8 @@
 										mind map inside aspirants in order to
 										get the aspirants to move along the path
 										of coding. Prof. Bhadrachalam, Head of
-										Competitive Programming, ASE-Amritapuri
-										has conducted a session on competitive
+										Competitive Coding, ASE-Amritapuri has
+										conducted a session on competitive
 										programming on 1st September 2018 at
 										ASE-Bangalore. The primary concepts
 										covered in this session are: Number
@@ -915,7 +908,7 @@
 										of bit manipulation, which was
 										elucidated with apposite examples. It
 										underlined the vital length and time
-										constraints in competitive programming
+										constraints in Competitive Coding
 										Implementations of these concepts from a
 										competitive coding angle were discussed.
 										Day 5 dealt with an exhaustive
@@ -966,8 +959,8 @@
 										Secretary, FACE, (4th year CSE), one of
 										the finalists of the Southern Regionals,
 										2016, shared his experience of
-										competitive programming. He shed light
-										on the importance of coding from the
+										Competitive Coding. He shed light on the
+										importance of coding from the
 										perspective of job placements. He also
 										discussed with the students the various
 										methods by which one can improve one s
@@ -1086,9 +1079,8 @@
 										where in students were introduced to the
 										dynamics of programming. The event
 										introduced the basic concepts of
-										competitive programming following which
-										a hackathon was held to test their
-										skills.
+										Competitive Coding following which a
+										hackathon was held to test their skills.
 									</p>
 								</div>
 							</div>
@@ -1336,24 +1328,7 @@
 				<!-- End of eventCard -->
 			</div>
 		</div>
-		<%- include('footer.ejs') -%>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script
-			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-			crossorigin="anonymous"
-		></script>
+		<%- include('footer.ejs') -%> <%- include('scripts.ejs') -%>
 		<script>
 			$(document).ready(function() {
 				$("#myInput").on("keyup", function() {
