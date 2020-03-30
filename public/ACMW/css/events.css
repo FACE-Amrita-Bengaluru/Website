@@ -121,7 +121,13 @@ body {
 	color: #1b80ce;
 	background-color: #fcfcfa;
 }
+<<<<<<< HEAD
 
+=======
+footer .container{
+	padding:80px 120px 10px 120px;
+}
+>>>>>>> replaced padding properties to single padding property
 footer {
 	background-color: #2d2d30;
 	color: #f5f5f5;
