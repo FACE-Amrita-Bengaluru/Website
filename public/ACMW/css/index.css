@@ -4,7 +4,7 @@ html {
 
 body {
 	transition: 0.2s;
-	font: 400 15px/1.8 Lato, sans-serif;
+	font: 400 15px/1.8 'Lato', sans-serif;
 	color: #777;
 }
 
@@ -93,7 +93,7 @@ h4 {
 }
 
 .navbar {
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0;
 	background-color: #2d2d30;
 	border: 0;
@@ -126,11 +126,17 @@ h4 {
 	background-color: red !important;
 } */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 footer .container{
 	padding: 80px 120px 10px;
 }
 >>>>>>> replaced padding properties to single padding property
+=======
+footer .container{
+	padding: 80px 120px 10px;
+}
+>>>>>>> e26a74ba8763494f3845f4433410f1a7af2ff448
 footer {
 	background-color: #2d2d30;
 	color: #f5f5f5;

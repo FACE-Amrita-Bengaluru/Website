@@ -75,13 +75,6 @@ footer .container{
   padding-bottom:15px;
   font-size:28px;
 }
-/* .content-section h3{
-  border-bottom:2px solid darkgray;
-  padding-bottom:15px;
-  padding-left:50px;
-  font-size:28px;
-  color:dimgrey;
-} */
 .cards{
   padding-top:50px;
   padding-right:40px;
@@ -123,7 +116,10 @@ footer .container{
 footer {
 	background-color: #2d2d30;
 	color: #f5f5f5;
-	padding: 32px;
+	padding-top: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-bottom: -20px;
 }
 footer a {
 	color: #f5f5f5;
