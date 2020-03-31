@@ -32,7 +32,7 @@ body {
 	border: 1px solid #333;
 	background-color: #fff;
 	color: #000;
-} 
+}
 .navbar {
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0;
@@ -53,7 +53,7 @@ body {
 }
 .navbar-default .navbar-nav li a:hover {
 	color: #fff;
-} 
+}
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
