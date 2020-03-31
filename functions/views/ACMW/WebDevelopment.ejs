@@ -2,8 +2,7 @@
 <html lang="en">
 	<head>
 		<title>ACM-W Amrita Bengaluru</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<%- include('meta.ejs') -%>
 		<link
 			rel="stylesheet"
 			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
@@ -12,18 +11,31 @@
 			href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 		<link rel="stylesheet" href="/ACMW/css/index.css" />
 	</head>
 	<body>
-		<h2>ACM-Web Development SIG</h2>
+		<%- include('nav.ejs') -%>
+		<div class="container">
+			<h2 style="text-align: center;">ACM-Web Development SIG</h2>
+			<br />
+			<img  style="margin-left: 350px;"  src="/ACMW/img/WD.png" alt="WEB DEVELOPMENT" height="200" width="200">
+			<br />
+			<br />
 		<p>
-			<em>What is web development?</em>
+			<strong><em>What is web development?</em></strong>
+			<br />
 			Web Development is the task associated with developing websites for
 			hosting via the internet. It includes web design, web content
 			development, client-side/server-side scripting, and network security
 			configuration, among other tasks.
-
-			<em>Why is it important for students?</em>
+			<br />
+			<br />
+			<strong><em>Why is it important for students?</em></strong>
+			<br />
 			Student life is a very crucial period. It is the place where
 			students get exposed to different skills. Learning good skills that
 			refine a student must be the first criterion of every student
@@ -39,14 +51,17 @@
 			upon your resume helping you to have good prospects in the job. It
 			is not just a single skill but a cluster of many skills which a
 			student can develop.
-
-			<em>How is it beneficial for the organizations?</em>
+			<br />
+			<br />
+			<strong><em>How is it beneficial for the organizations?</em></strong>
+			<br />
 			It benefits organizations to have a competitive advantage industry
 			and improve business image. It improves customer service, helps to
 			gain leads and prospects and enhances your professional brands.
-
-			<em>What we do at ACM Amrita?</em>
-
+			<br />
+			<br />
+			<strong><em>What we do at ACM Amrita?</em></strong>
+			<br />
 			The ACM chapter at Amrita invites all the creative and tech-savvy
 			minds to test their skills in developing projects. Those who have no
 			idea about web development can still join and they will be taught
@@ -58,51 +73,7 @@
 			and Firebase. At last but not least our motto always here is to
 			learn, unlearn and relearn.
 		</p>
-	</body>
-	<div id="contact">
-		<div class="container-fluid">
-			<footer class="page-footer font-small text-dark pt-4">
-				<!-- Top section -->
-				<div class="container text-left text-md-left">
-					<div class="row">
-						<!-- Left Section -->
-						<div class="col-md-6 mt-md-0 mt-3">
-							<h5 class="text-uppercase font-weight-bold">
-								Address
-							</h5>
-							<p>
-								Amrita Vishwa Vidyapeetham<br />
-								Bengaluru Campus<br />
-								Kasavanahalli, Carmelaram P.O.<br />
-								Bengaluru - 560 035<br />
-								Karnataka, India
-							</p>
-						</div>
-						<!-- End of Left Section -->
-						<!--<hr class="clearfix w-100 d-md-none pb-3" /> -->
-						<!-- Right Section -->
-						<div class="col-md-6 text-right mb-md-0 mb-3">
-							<h5 class="text-uppercase font-weight-bold">
-								<h5>CONTACT US</h5>
-								<p>
-									Phone Number:
-									<a href="tel:+918025183700">080 2518 3700</a
-									><br />
-									Email ID:
-									<a href="mailto:amritaface@gmail.com"
-										>amritaface@gmail.com
-									</a>
-								</p>
-								<hr class="clearfix w-100 d-md-none pb-3" />
-								<div class="footer-copyright text-center py-3">
-									&copy; 2019 Copyright| ACM-W Student Chapter
-									- Amrita School of Engineering
-								</div>
-							</h5>
-						</div>
-					</div>
-				</div>
-			</footer>
 		</div>
-	</div>
+		<%- include('contact.ejs') -%> <%- include('scripts.ejs') -%>
+	</body>
 </html>

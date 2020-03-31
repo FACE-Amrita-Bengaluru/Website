@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<%- include('meta.ejs') -%>
 		<title>ACM-W @ ASE-B</title>
 		<link
 			rel="stylesheet"
@@ -12,84 +11,15 @@
 			href="https://fonts.googleapis.com/css?family=Lato|Montserrat&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="/ACMW/css/members.css" />
 	</head>
 
 	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<img
-						src="ACM/img/logo.png"
-						class="d-inline-block align-top"
-						width="170"
-						alt="ACM logo"
-						height="50"
-					/>
-					<button
-						type="button"
-						class="navbar-toggle"
-						data-toggle="collapse"
-						data-target="#myNavbar"
-					>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<!-- <a class="navbar-brand" href="#myPage">Logo</a> -->
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav navbar-center">
-						<li class="nav-item">
-							<a class="nav-link" href="#home"
-								>HOME<span class="sr-only">(current)</span></a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACMW#about">ABOUT</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#members">MEMBERS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACMW#sig"
-								>SIG @ AMRITA</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="/ACW#events">EVENTS</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#contact">CONTACT</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-		<!-- Container (The CAROUSEL section-->
-		<!--<div id="home">
-		<br /><br /><img src="ACMW/img/team-image.png" alt="TEAM IMAGE" width="1600" height="500" />
-		<h3 id="member">
-			SCROLL DOWN TO MEET THE ENTIRE TEAM
-		</h3>
-		<div class="caption">
-			<h3>TEAM PHOTO</h3>
-			<p>
-				<center>
-					Here the photo of the entire ACM and ACM-W team will come
-					up</center>
-			</p>
-		</div>
-	</div>-->
-		<!-- Container (The About Section) -->
-		<!-- Container (THE TEAM SECTION) -->
-		<!-- <div id="members" class="container text-center">
-			<h3><strong>THE TEAM</strong></h3><br>
-			<div class="row">
-				<div class="col-sm-4">
-					<img
-						src="/ACMW/img/Team/supriya-m.jpg"
-					/> -->
+		<%- include('nav.ejs') -%>
 		<div id="members" class="container text-center">
 			<h3><strong>SIG MEMBERS</strong></h3>
 			<br />
@@ -105,7 +35,7 @@
 					/>
 					<p class="text-center">
 						<strong>R.G.Priyaa Iyer</strong><br />
-						<strong>Lead Web Developer</strong><br />
+						Lead Web Developer<br />
 					</p>
 					<br />
 				</div>
@@ -230,9 +160,10 @@
 				</div>
 			</div>
 			<br />
-
+			
 			<div class="row">
 				<div class="col-sm-4">
+					<br/>
 					<img
 						src="/ACMW/img/Team/Trisha.png"
 						class="img-circle"
@@ -277,6 +208,7 @@
 				</div>
 			</div>
 		</div>
+		
 		<!-- Container (THE SIG@AMRITA SECTION) -->
 		<%- include('contact.ejs') -%> <%- include('scripts.ejs') -%>
 	</body>

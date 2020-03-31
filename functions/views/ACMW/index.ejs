@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<%- include('meta.ejs') -%>
 		<title>ACM-W Amrita Bengaluru</title>
 		<link
 			rel="stylesheet"
@@ -22,18 +21,23 @@
 		<nav class="navbar navbar-default navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<img
+					<a href="/ACMW">
+						<img
 						src="/ACM/img/logos/logo.png"
 						class="d-inline-block align-top"
 						width="170"
 						alt="ACM logo"
 						height="54"
 					/>
+					</a>
 					<button
 						type="button"
 						class="navbar-toggle"
 						data-toggle="collapse"
 						data-target="#myNavbar"
+						aria-controls="myNavbar"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
 					>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -57,12 +61,6 @@
 		<!-- Container (The CAROUSEL section-->
 		<div id="home">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Indicators -->
-				<!--<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>-->
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
@@ -124,20 +122,22 @@
 						href="https://india.acm.org/acm-w-india"
 						target="_blank"
 						rel="noopener"
-						rel="noopener"
 						class="btn btn-primary float-right mt-3"
 						>ACM-W India Chapter Website</a
 					>
 				</p>
 				<div class="row text-center">
-					<!--<div class="col-sm-4">-->
+					<br>
+					<br> 
+					<br> 
+					<br> 
 					<div class="thumbnail">
 						<br /><img
 							src="/ACMW/img/ACMW.png"
 							class="float-left"
 							alt="image"
-							width="200"
-							height="200"
+							width="350"
+							height="300"
 						/>
 					</div>
 				</div>
@@ -188,7 +188,7 @@
 						/>
 						<p class="text-center">
 							<strong>Meghana Rao Somepalli</strong><br />
-							<strong>Vice-Chairperson</strong>
+							<strong>Vice-Chairperson</strong><br />
 							ACM-W
 						</p>
 						<br />
@@ -280,7 +280,7 @@
 					/>
 					<p class="text-center">
 						<strong>Jalam Venkata Gowtham</strong><br />
-						<strong>Competitive Programming SIG Lead</strong><br />
+						<strong>SIG Lead</strong><br />
 						Competitive Coding
 					</p>
 					<br />
@@ -372,7 +372,6 @@
 			<br />
 		</div>
 		<!-- Container (The EVENT Section) -->
-		<!--<div id="events" class="bg-1" >-->
 		<div id="events" div class="container text-center">
 			<h3 class="text-center">EVENTS CONDUCTED</h3>
 			<br /><br />
@@ -386,11 +385,6 @@
 							height="200"
 						/>
 						<p><strong>SIG Introduction</strong></p>
-						<!--<p class="card-text">
-						With supporting text below as a natural lead-in to
-						additional content.
-					</p>
-					<a href="#" class="btn btn-primary">Go somehwere</a>-->
 					</div>
 				</div>
 				<div class="col-sm-4">
@@ -402,11 +396,6 @@
 							height="200"
 						/>
 						<p><strong>Competitive Coding Begins</strong></p>
-						<!--<p class="card-text">
-						With supporting text below as a natural lead-in to
-						additional content.
-					</p>
-					<a href="#" class="btn btn-primary">Go somehwere</a>-->
 					</div>
 				</div>
 				<div class="col-sm-4">
@@ -418,16 +407,10 @@
 							height="200"
 						/>
 						<p><strong>FIND-FIT-FINISH</strong></p>
-						<!--<p class="card-text">
-						With supporting text below as a natural lead-in to
-						additional content.
-					</p>
-					<a href="#" class="btn btn-primary">Go somehwere</a>-->
 					</div>
 				</div>
 				<br />
 				<div class="events">
-					<!--<div class="ACM/img/thumbnail">-->
 					<p>
 						<a href="/ACMW/Events" class="btn btn-primary"
 							>Visit our Events Page
