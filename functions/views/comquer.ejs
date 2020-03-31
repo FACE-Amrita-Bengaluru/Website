@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+	<!--<![endif]-->
+	<head>
+		<%- include('meta.ejs') -%>
+		<title>CSI Comquer - FACE Amrita Bangalore</title>
+		<meta
+			name="description"
+			content="CSI Comquer - Forum for Aspiring Computer Engineers"
+		/>
+		<meta
+			property="og:title"
+			content="CSI Comquer - FACE Amrita Bangalore"
+		/>
+		<meta
+			property="og:url"
+			content="https://faceaseb.com/Comquer"
+		/>
+		<meta
+			property="og:description"
+			content="CSI Comquer - Forum for Aspiring Computer Engineers"
+		/>
+	</head>
+	<body>
+		<header id="main-header">
+			<div class="row">
+				<div class="logo">
+					<a href="/">FACE</a>
+				</div>
+				<nav id="nav-wrap">
+					<a
+						class="mobile-btn"
+						href="#nav-wrap"
+						title="Show navigation"
+					>
+						<span class="menu-icon">Menu</span>
+					</a>
+					<a class="mobile-btn" href="#" title="Hide navigation">
+						<span class="menu-icon">Menu</span>
+					</a>
+					<%- include('nav.ejs') -%>
+				</nav>
+				<%- include('social.ejs') -%>
+			</div>
+		</header>
+		<section id="hero">
+			<div class="row hero-content">
+				<div class="twelve columns hero-container">
+					<div id="hero-slider" class="flexslider">
+						<%- include('slides.ejs') -%>
+					</div>
+				</div>
+			</div>
+			<div id="more">
+				<a class="smoothscroll" href="#about"
+					>Take the quiz<i class="fa fa-angle-down"></i
+				></a>
+			</div>
+		</section>
+		<section id="about">
+			<div class="row section-head">
+				<div class="twelve columns">
+					<iframe
+						src="https://docs.google.com/forms/d/e/1FAIpQLSc_9ns0R_4IyKYkHjnBam-nC1W6GERoxtDfS1W4GodkgqCj3Q/viewform?embedded=true"
+						style="width: 100%; height: 100vh;"
+						frameborder="0"
+						marginheight="0"
+						marginwidth="0"
+						>Loading...</iframe
+					>
+				</div>
+			</div>
+		</section>
+		<%- include('contact.ejs') -%> <%- include('footer.ejs') -%> <%-
+		include('scripts.ejs') -%>
+	</body>
+</html>
