@@ -9,7 +9,6 @@ html{
 	scroll-behavior: smooth;
 }
 body {
-    font-family:'Acme', sans-serif;
     transition: 0.2s;
 	background-image: url(/ACM/img/events/eventBG.png);
 	background-size: contain;
@@ -51,10 +50,6 @@ body {
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
-/* .open .dropdown-toggle {
-	color: #fff;
-	background-color: #555 !important;
-} */
 footer .container{
 	padding:80px 120px 10px;
 }
@@ -79,9 +74,12 @@ footer .container{
   padding-top:50px;
   padding-right:40px;
 }
+p{
+	text-align: justify;
+}
 .cards p{
   padding-top:30px;
-  font-size:24px;
+  font: 400 15px/1.8 'Lato', sans-serif;
 }
 .hr-text {
 	line-height: 2em;

@@ -34,8 +34,6 @@ h4 {
 
 /* carousel design */
 .carousel-inner img {
-	 /* -webkit-filter: grayscale(90%);
-		filter: grayscale(90%); make all photos black and white */
 	width: 100%; /* Set width to 100% */
 	margin: auto;
 	opacity: 5;
@@ -48,22 +46,9 @@ h4 {
 		display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
 	}
 }
-/* .bg-1 {
-	background: #fff; */
-/*color: #111;
-}*/
 .bg-1 h3 {
 	color: #111;
 }
-/*.bg-1 p {font-style: italic;} */
-/*.list-group-item:first-child {
-	border-top-right-radius: 0;
-	border-top-left-radius: 0;
-}
-.list-group-item:last-child {
-	border-bottom-right-radius: 0;
-	border-bottom-left-radius: 0;
-}*/
 .thumbnail {
 	padding: 0 0 5px;
 	border: none;
@@ -119,12 +104,6 @@ h4 {
 	color: #fff;
 	background-color: #555 !important;
 }
-/*.dropdown-menu li a {
-	color: #000 !important;
-} */
-/*.dropdown-menu li a:hover {
-	background-color: red !important;
-} */
 footer .container{
 	padding: 80px 120px 10px;
 }
