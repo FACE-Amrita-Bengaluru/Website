@@ -20,7 +20,7 @@ body {
 >>>>>>> chore: ACM final roster (#154)
 	background-size: contain;
 }
-.btn {
+ .btn {
 	padding: 10px 20px;
 	background-color: #333;
 	color: #f1f1f1;
@@ -32,10 +32,9 @@ body {
 	border: 1px solid #333;
 	background-color: #fff;
 	color: #000;
-}
-
+} 
 .navbar {
-	font-family: Montserrat, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 0;
 	background-color: #2d2d30;
 	border: 0;
@@ -43,24 +42,24 @@ body {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
+.navbar-default .navbar-nav li a:hover {
+	color: #fff;
+}
 .navbar li a,
 .navbar .navbar-brand {
 	color: #d5d5d5;
 }
-.navbar-nav li a:hover {
-	color: #fff !important;
-}
-.navbar-nav li.active a {
+ .navbar-nav li.active a {
 	color: #fff;
 	background-color: #29292c;
 }
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
-.open .dropdown-toggle {
+/* .open .dropdown-toggle {
 	color: #fff;
 	background-color: #555 !important;
-}
+} */
 
  .top-wrapper .container{
    padding:100px 80px 0;
