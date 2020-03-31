@@ -36,6 +36,10 @@ body {
 	letter-spacing: 4px;
 	opacity: 0.9;
 }
+.navbar-nav li.active a {
+	color: #fff;
+	background-color: #29292c;
+}
 .navbar-default .navbar-nav li a:hover {
 	color: #fff;
 }
@@ -43,10 +47,7 @@ body {
 .navbar .navbar-brand {
 	color: #d5d5d5;
 }
- .navbar-nav li.active a {
-	color: #fff;
-	background-color: #29292c;
-}
+ 
 .navbar-default .navbar-toggle {
 	border-color: transparent;
 }
@@ -54,8 +55,10 @@ body {
 	color: #fff;
 	background-color: #555 !important;
 } */
-
- .top-wrapper .container{
+footer .container{
+	padding:80px 120px 10px;
+}
+.top-wrapper .container{
    padding:100px 80px 0;
 }
  .top-wrapper h1{
@@ -106,9 +109,6 @@ body {
 	line-height: 2em;
 	color: #1b80ce;
 	background-color: #fcfcfa;
-}
-footer .container{
-	padding:80px 120px 10px;
 }
 footer {
 	background-color: #2d2d30;
