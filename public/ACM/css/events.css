@@ -6,7 +6,7 @@ html {
 /* Styling for whole body */
 body {
 	transition: 0.2s;
-	background-image: url(/ACM/img/events/eventBG.png);
+	background-image: url(/ACM/img/events/eventBG.jpg);
 	background-size: contain;
 }
 

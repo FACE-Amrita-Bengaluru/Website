@@ -21,7 +21,7 @@ html {
 }
 body {
 	transition: 0.2s;
-	background-image: url(/ACM/img/events/eventBG.png);
+	background-image: url(/ACM/img/events/eventBG.jpg);
 	background-size: contain;
 }
 .btn {
@@ -63,9 +63,6 @@ body {
 }
 footer .container {
 	padding: 80px 120px 10px;
-}
-.content-section .container {
-	height: 500px;
 }
 .top-wrapper .container {
 	padding: 100px 80px 0;
