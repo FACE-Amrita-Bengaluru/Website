@@ -92,7 +92,7 @@ if ($(".navbar").length > 0.7 || $(".navbar").length < 1.0) {
 
 //Animate on Scroll initialization
 AOS.init({
-	startEvent: 'load',
+	startEvent: "load",
 	easing: "ease-out-back",
 	duration: 800,
 	delay: 300,
