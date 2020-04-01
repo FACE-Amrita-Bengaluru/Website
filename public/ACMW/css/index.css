@@ -134,3 +134,7 @@ footer a:hover {
 textarea {
 	resize: none;
 }
+
+.gal img {
+	margin-bottom: 20px;
+}
