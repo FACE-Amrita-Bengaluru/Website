@@ -104,11 +104,14 @@ h4 {
 	color: #fff;
 	background-color: #555 !important;
 }
-footer .container {
-	/* padding: 80px 120px 10px; */
+footer {
+	padding: 0 40px;
 }
 .footer-copyright{
 	padding-bottom: 20px;
+}
+footer .top-section{
+	padding: 0 80px;
 }
 footer {
 	background-color: #2d2d30;
