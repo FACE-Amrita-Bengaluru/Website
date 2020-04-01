@@ -26,6 +26,9 @@ app.get("/Team_1819", (req, res) => {
 app.get("/Team_1920", (req, res) => {
 	res.render("team_1920");
 });
+app.get("/Team_2021", (req, res) => {
+	res.render("team_2021");
+});
 app.get("/Offline", (req, res) => {
 	res.render("offline");
 });
