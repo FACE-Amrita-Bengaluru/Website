@@ -118,6 +118,7 @@ p {
 }
 #section04 a span {
 	position: absolute;
+	top: 10%;
 	width: 24px;
 	height: 24px;
 	border-left: 3px solid #fff;
