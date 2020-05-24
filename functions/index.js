@@ -56,7 +56,7 @@ app.get("/UI-UX", (req, res) => {
 	res.render("uiux");
 });
 app.get("/SLAC", (req, res) => {
-	res.redirect("https://slacfest.in");
+	res.redirect("https://slac.faceaseb.com");
 });
 app.get("/ACM", (req, res) => {
 	res.render("ACM/index");
