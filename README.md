@@ -1,4 +1,4 @@
-# FACE Amrita Bengaluru
+# FACE Amrita Bengaluru ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 
 Official source code of FACE Amrita Bangalore website along with CSI, ACM, and ACM-W chapters of Amrita Bangalore.
 
