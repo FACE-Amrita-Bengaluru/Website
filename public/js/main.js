@@ -1,21 +1,19 @@
-(function($) {
+(function ($) {
 	"use strict";
 	/*---------------------------------------------------- */
 	/* Preloader
 	------------------------------------------------------ */
-	$(window).load(function() {
+	$(window).load(function () {
 		// will first fade out the loading animation
-		$("#loader").fadeOut("slow", function() {
+		$("#loader").fadeOut("slow", function () {
 			// will fade out the whole DIV that covers the website.
-			$("#preloader")
-				.delay(300)
-				.fadeOut("slow");
+			$("#preloader").delay(300).fadeOut("slow");
 		});
 	});
 	/*----------------------------------------------------*/
 	/* Flexslider
 	/*----------------------------------------------------*/
-	$(window).load(function() {
+	$(window).load(function () {
 		$("#hero-slider").flexslider({
 			namespace: "flex-",
 			controlsContainer: ".hero-container",
@@ -26,14 +24,14 @@
 			slideshowSpeed: 7000,
 			animationSpeed: 600,
 			randomize: false,
-			before: function(slider) {
+			before: function (slider) {
 				$(slider)
 					.find(".animated")
-					.each(function() {
+					.each(function () {
 						$(this).removeAttr("class");
 					});
 			},
-			start: function(slider) {
+			start: function (slider) {
 				$(slider)
 					.find(".flex-active-slide")
 					.find("h1")
@@ -43,14 +41,14 @@
 
 				$(window).trigger("resize");
 			},
-			after: function(slider) {
+			after: function (slider) {
 				$(slider)
 					.find(".flex-active-slide")
 					.find("h1")
 					.addClass("animated fadeInDown show")
 					.next()
 					.addClass("animated fadeInUp show");
-			}
+			},
 		});
 		$("#testimonial-slider").flexslider({
 			namespace: "flex-",
@@ -61,13 +59,13 @@
 			smoothHeight: true,
 			slideshowSpeed: 7000,
 			animationSpeed: 600,
-			randomize: false
+			randomize: false,
 		});
 	});
 	/*----------------------------------------------------*/
 	/* Adjust Primary Navigation Background Opacity
 	------------------------------------------------------*/
-	$(window).on("scroll", function() {
+	$(window).on("scroll", function () {
 		var h = $("header").height();
 		var y = $(window).scrollTop();
 		var header = $("#main-header");
@@ -89,7 +87,7 @@
 		navigation_links = $("#nav-wrap a");
 
 	sections.waypoint({
-		handler: function(direction) {
+		handler: function (direction) {
 			var active_section;
 
 			active_section = $("section#" + this.element.id);
@@ -104,16 +102,16 @@
 			active_link.parent().addClass("current");
 		},
 
-		offset: "25%"
+		offset: "25%",
 	});
 
 	/*----------------------------------------------------*/
 	/* FitText Settings
 	------------------------------------------------------ */
-	setTimeout(function() {
+	setTimeout(function () {
 		$("#hero-slider h1").fitText(1, {
 			minFontSize: "30px",
-			maxFontSize: "49px"
+			maxFontSize: "49px",
 		});
 	}, 100);
 
@@ -125,7 +123,7 @@
 		id: "toggle-btn",
 		html: "",
 		title: "Menu",
-		href: "#"
+		href: "#",
 	});
 	var nav_wrap = $("nav#nav-wrap");
 	var nav = $("ul#nav");
@@ -136,25 +134,25 @@
 	toggle_button.append(menu_icon);
 	nav_wrap.prepend(toggle_button);
 
-	toggle_button.on("click", function(e) {
+	toggle_button.on("click", function (e) {
 		e.preventDefault();
 		nav.slideToggle("fast");
 	});
 
 	if (toggle_button.is(":visible")) nav.addClass("mobile");
-	$(window).resize(function() {
+	$(window).resize(function () {
 		if (toggle_button.is(":visible")) nav.addClass("mobile");
 		else nav.removeClass("mobile");
 	});
 
-	$("ul#nav li a#mobile_click").on("click", function() {
+	$("ul#nav li a#mobile_click").on("click", function () {
 		if (nav.hasClass("mobile")) nav.fadeOut("fast");
 	});
 
 	/*----------------------------------------------------*/
 	/* Smooth Scrolling
 	------------------------------------------------------ */
-	$(".smoothscroll").on("click", function(e) {
+	$(".smoothscroll").on("click", function (e) {
 		e.preventDefault();
 
 		var target = this.hash,
@@ -164,11 +162,11 @@
 			.stop()
 			.animate(
 				{
-					scrollTop: $target.offset().top
+					scrollTop: $target.offset().top,
 				},
 				800,
 				"swing",
-				function() {
+				function () {
 					window.location.hash = target;
 				}
 			);
@@ -182,10 +180,10 @@
 		fixedContentPos: false,
 		removalDelay: 300,
 		showCloseBtn: false,
-		mainClass: "mfp-fade"
+		mainClass: "mfp-fade",
 	});
 
-	$(document).on("click", ".popup-modal-dismiss", function(e) {
+	$(document).on("click", ".popup-modal-dismiss", function (e) {
 		e.preventDefault();
 		$.magnificPopup.close();
 	});
