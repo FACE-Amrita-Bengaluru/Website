@@ -15,9 +15,9 @@
 			function gtag() {
 				dataLayer.push(arguments);
 			}
-			gtag('js', new Date());
+			gtag("js", new Date());
 
-			gtag('config', 'UA-126622119-1');
+			gtag("config", "UA-126622119-1");
 		</script>
 		<meta charset="utf-8" />
 		<meta name="author" content="Aravind V. Nair, Abhishek Sai" />
@@ -65,10 +65,7 @@
 			content="Offline - Forum for Aspiring Computer Engineers"
 		/>
 		<meta property="og:title" content="Offline - FACE Amrita Bangalore" />
-		<meta
-			property="og:url"
-			content="https://faceaseb.com/offline.html"
-		/>
+		<meta property="og:url" content="https://faceaseb.com/offline.html" />
 		<meta
 			property="og:description"
 			content="Offline - Forum for Aspiring Computer Engineers"
@@ -164,9 +161,7 @@
 						<ul class="slides">
 							<li>
 								<div class="flex-caption">
-									<h1 class="">
-										Offline &#x1f61f;
-									</h1>
+									<h1 class="">Offline &#x1f61f;</h1>
 									<h3 class="">
 										The content you are looking for couldn't
 										be found. Please check your connection
@@ -201,7 +196,7 @@
 									id="contactName"
 									placeholder="Name"
 									value=""
-									minLength="2"
+									minlength="2"
 									required
 								/>
 							</div>
@@ -300,7 +295,7 @@
 								target="_blank"
 								rel="noopener"
 								href="https://www.instagram.com/face_aseb/"
-								><i class="fa fa-instagram "></i
+								><i class="fa fa-instagram"></i
 							></a>
 						</li>
 						<li>
@@ -328,9 +323,7 @@
 					<hr />
 					<div class="info">
 						<div class="footer-logo"></div>
-						<p>
-							FACE | Amrita School of Engineering, Bangalore
-						</p>
+						<p>FACE | Amrita School of Engineering, Bangalore</p>
 					</div>
 				</div>
 				<ul class="copyright">
@@ -382,16 +375,16 @@
 		<script>
 			if (navigator.serviceWorker.controller) {
 				console.log(
-					'[PWA Builder] active service worker found, no need to register'
+					"[PWA Builder] active service worker found, no need to register"
 				);
 			} else {
 				navigator.serviceWorker
-					.register('pwabuilder-sw.js', {
-						scope: './'
+					.register("pwabuilder-sw.js", {
+						scope: "./",
 					})
-					.then(function(reg) {
+					.then(function (reg) {
 						console.log(
-							'Service worker has been registered for scope:' +
+							"Service worker has been registered for scope:" +
 								reg.scope
 						);
 					});

@@ -6,11 +6,11 @@ All contributions are welcome! Code, documentation, softwares, scripts, graphics
 
 Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new) in detail answering these questions:
 
-* What steps did you take to make the bug appear?
-* How can the bug be fixed? (In case you know)
-* Which OS are you using?
-* Have you tried any troubleshooting steps such as a reboot for example?
-* Have you followed the prescribed prerequisites?
+- What steps did you take to make the bug appear?
+- How can the bug be fixed? (In case you know)
+- Which OS are you using?
+- Have you tried any troubleshooting steps such as a reboot for example?
+- Have you followed the prescribed prerequisites?
 
 # How do I contact the team?
 

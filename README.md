@@ -14,14 +14,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # :family: Team
 
--   **Abhishek Venkata Sai Kandikattu** - _Front-end Developer for FACE Amrita_ - [Abhishek-Sai](https://github.com/Abhishek-Sai)
--   **Aravind V. Nair** - _Front-end, Back-end and DevOps for FACE, ACM and ACM-W of Amrita_ - [AravindVNair99](https://github.com/AravindVNair99)
--   **Iyer Shreya Rajkumar** - _Front-end Developer for ACM-W Amrita_ - [Shreya1304](https://github.com/Shreya1304)
--   **R Gomathi Priyaa** - _Front-end Developer for ACM-W Amrita_ - [PriyaaIyer](https://github.com/PriyaaIyer)
--   **R K Subaharish** - _Front-end Developer for ACM and ACM-W of Amrita_ - [Subaharish](https://github.com/Subaharish)
--   **Vinayak Tekade** - _Front-end Developer for ACM Amrita_ - [VinayakTekade](https://github.com/VinayakTekade)
+- **Abhishek Venkata Sai Kandikattu** - _Front-end Developer for FACE_ - [Abhishek-Sai](https://github.com/Abhishek-Sai)
+- **Aravind V. Nair** - _Front-end, Back-end and DevOps for FACE, ACM and ACM-W_ - [AravindVNair99](https://github.com/AravindVNair99)
+- **Iyer Shreya Rajkumar** - _Front-end Developer for ACM-W_ - [Shreya1304](https://github.com/Shreya1304)
+- **R Gomathi Priyaa** - _Front-end Developer for ACM-W_ - [PriyaaIyer](https://github.com/PriyaaIyer)
+- **R K Subaharish** - _Front-end Developer for ACM and ACM-W_ - [Subaharish](https://github.com/Subaharish)
+- **Vinayak Tekade** - _Front-end Developer for ACM_ - [VinayakTekade](https://github.com/VinayakTekade)
 
-Note: Amrita refers to Amrita School of Engineering, Bengaluru.
+Note: FACE, ACM and ACM-W here refers to the student chapter at Amrita School of Engineering, Bengaluru.
 
 See the full list of [contributors](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/graphs/contributors) who participated in this project and statistics.
 
@@ -41,11 +41,11 @@ Check the [changelog here](https://github.com/aravindvnair99/FACE-Amrita-Bengalu
 
 Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new/choose) in detail answering these questions:
 
--   What steps did you take to make the bug appear?
--   How can the bug be fixed? (In case you know)
--   Which OS and which all packages/software/dependencies are you using?
--   Have you tried any troubleshooting steps such as a reboot for example?
--   Have you followed the prescribed prerequisites?
+- What steps did you take to make the bug appear?
+- How can the bug be fixed? (In case you know)
+- Which OS and which all packages/software/dependencies are you using?
+- Have you tried any troubleshooting steps such as a reboot for example?
+- Have you followed the prescribed prerequisites?
 
 # :envelope: How do I contact the team?
 
