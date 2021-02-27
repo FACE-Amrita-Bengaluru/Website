@@ -6,33 +6,29 @@ $(".owl-carousel").owlCarousel({
 	autoplay: 1000,
 	responsive: {
 		0: {
-			items: 1
+			items: 1,
 		},
 		600: {
-			items: 2
+			items: 2,
 		},
 		1000: {
-			items: 3
-		}
-	}
+			items: 3,
+		},
+	},
 });
 
 // Hide navbar on clicking links
 
-$(".navbar-nav>li>a").on("click", function() {
+$(".navbar-nav>li>a").on("click", function () {
 	$(".navbar-collapse").collapse("hide");
 });
 
-$(window).scroll(function() {
-	$(".sig").each(function() {
+$(window).scroll(function () {
+	$(".sig").each(function () {
 		if (isScrolledIntoView($(this))) {
-			$(this)
-				.children(".head")
-				.css("display", "block");
+			$(this).children(".head").css("display", "block");
 		} else {
-			$(this)
-				.children(".head")
-				.css("display", "none");
+			$(this).children(".head").css("display", "none");
 		}
 	});
 });
@@ -51,7 +47,7 @@ function isScrolledIntoView(elem) {
 var app = document.getElementById("motto-text");
 
 var typewriter = new Typewriter(app, {
-	loop: true
+	loop: true,
 });
 
 typewriter
@@ -83,7 +79,7 @@ function checkScroll() {
 }
 
 if ($(".navbar").length > 0.7 || $(".navbar").length < 1.0) {
-	$(window).on("scroll load resize", function() {
+	$(window).on("scroll load resize", function () {
 		checkScroll();
 		// changeLogo();
 		return;
@@ -97,5 +93,5 @@ AOS.init({
 	duration: 800,
 	delay: 300,
 	once: true,
-	disable: "mobile"
+	disable: "mobile",
 });
