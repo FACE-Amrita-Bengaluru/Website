@@ -1164,7 +1164,7 @@
 					</div>
 				</div>
 				<!-- End of eventCard -->
-				<hr class="hr-text my-5 " id="2016" data-content="2016" />
+				<hr class="hr-text my-5" id="2016" data-content="2016" />
 				<!-- eventCard -->
 				<div class="eventCard mb-3">
 					<div class="card mb-3">
@@ -1330,17 +1330,12 @@
 		</div>
 		<%- include('footer.ejs') -%> <%- include('scripts.ejs') -%>
 		<script>
-			$(document).ready(function() {
-				$("#myInput").on("keyup", function() {
-					var value = $(this)
-						.val()
-						.toLowerCase();
-					$("#myDIV *").filter(function() {
+			$(document).ready(function () {
+				$("#myInput").on("keyup", function () {
+					var value = $(this).val().toLowerCase();
+					$("#myDIV *").filter(function () {
 						$(this).toggle(
-							$(this)
-								.text()
-								.toLowerCase()
-								.indexOf(value) > -1
+							$(this).text().toLowerCase().indexOf(value) > -1
 						);
 					});
 				});
