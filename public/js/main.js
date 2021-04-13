@@ -61,7 +61,7 @@
 			animationSpeed: 600,
 			randomize: false,
 		});
-		$("#testimonial-slider").flexslider({
+		$("#officeBearer-slider").flexslider({
 			namespace: "flex-",
 			controlsContainer: "",
 			animation: "slide",

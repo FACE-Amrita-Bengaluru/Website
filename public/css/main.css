@@ -9,7 +9,7 @@
 /*  08. =portfolio styles
 /*  09. =services
 /*  10. =about
-/*  11. =testimonials
+/*  11. =officeBearers
 /*  12. =contact
 /*  13. =footer
 /* =================================================================== */
@@ -1984,10 +1984,10 @@ ul#nav li.current a:after {
 }
 
 /**
-/* 11. =testimonials
+/* 11. =officeBearers
 /* =================================================================== */
 
-#testimonials {
+#officeBearers {
 	background: #e4b101;
 	padding-top: 90px;
 	padding-bottom: 112px;
@@ -1998,26 +1998,26 @@ ul#nav li.current a:after {
 	text-align: center;
 }
 
-#testimonials .flex-container {
+#officeBearers .flex-container {
 	width: 80%;
 	max-width: 850px;
 	margin: 0 auto;
 }
 
-#testimonial-slider {
+#officeBearer-slider {
 	margin: 0 0 30px;
 	padding-left: 0;
 	position: relative;
 }
 
-#testimonial-slider p {
+#officeBearer-slider p {
 	font: 27px/1.9 "merriweather-regular", sans-serif;
 	color: rgb(0, 0, 0);
 	padding: 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-#testimonial-slider .testimonial-author {
+#officeBearer-slider .officeBearer-author {
 	display: block;
 	font: 16px/24px "raleway-heavy", sans-serif;
 	letter-spacing: 2px;
@@ -2026,7 +2026,7 @@ ul#nav li.current a:after {
 	color: #ffffff;
 }
 
-#testimonial-slider .testimonial-author img {
+#officeBearer-slider .officeBearer-author img {
 	width: 72px;
 	height: 72px;
 	margin-right: 10px;
@@ -2036,13 +2036,13 @@ ul#nav li.current a:after {
 	vertical-align: middle;
 }
 
-#testimonial-slider .testimonial-author .author-info {
+#officeBearer-slider .officeBearer-author .author-info {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: left;
 }
 
-#testimonial-slider .testimonial-author .author-info span {
+#officeBearer-slider .officeBearer-author .author-info span {
 	display: block;
 	font: 14px/18px "raleway-bold", sans-serif;
 	letter-spacing: 0;
@@ -2051,7 +2051,7 @@ ul#nav li.current a:after {
 }
 
 /* control nav */
-#testimonials .flex-control-nav {
+#officeBearers .flex-control-nav {
 	width: 100%;
 	text-align: center;
 	display: block;
@@ -2059,13 +2059,13 @@ ul#nav li.current a:after {
 	bottom: -72px;
 }
 
-#testimonials .flex-control-nav li {
+#officeBearers .flex-control-nav li {
 	margin: 0 6px;
 	display: inline-block;
 	zoom: 1;
 }
 
-#testimonials .flex-control-paging li a {
+#officeBearers .flex-control-paging li a {
 	width: 12px;
 	height: 12px;
 	display: block;
@@ -2075,70 +2075,70 @@ ul#nav li.current a:after {
 	border-radius: 20px;
 }
 
-#testimonials .flex-control-paging li a:hover {
+#officeBearers .flex-control-paging li a:hover {
 	background: #ccc;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-#testimonials .flex-control-paging li a.flex-active {
+#officeBearers .flex-control-paging li a.flex-active {
 	background: #fff;
 	background: black;
 	cursor: default;
 }
 
 /* media queries:
-/* #testimonials / #testimonial-slider */
+/* #officeBearers / #officeBearer-slider */
 
 @media only screen and (max-width: 1024px) {
-	#testimonials .flex-container {
+	#officeBearers .flex-container {
 		max-width: 700px;
 	}
 
-	#testimonial-slider p {
+	#officeBearer-slider p {
 		font: 25px/1.9 "merriweather-regular", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	#testimonials .flex-container {
+	#officeBearers .flex-container {
 		width: 90%;
 	}
 
-	#testimonial-slider p {
+	#officeBearer-slider p {
 		font: 22px/1.9 "merriweather-regular", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	#testimonials .flex-container {
+	#officeBearers .flex-container {
 		width: 95%;
 	}
 
-	#testimonial-slider p {
+	#officeBearer-slider p {
 		font: 20px/1.9 "merriweather-regular", sans-serif;
 	}
 
-	#testimonial-slider .testimonial-author {
+	#officeBearer-slider .officeBearer-author {
 		font: 14px/24px "raleway-heavy" sans-serif;
 	}
 
-	#testimonial-slider .testimonial-author img {
+	#officeBearer-slider .officeBearer-author img {
 		width: 60px;
 		height: 60px;
 		border: 6px solid white;
 	}
 
-	#testimonial-slider .testimonial-author .author-info span {
+	#officeBearer-slider .officeBearer-author .author-info span {
 		font: 12px/18px "raleway-bold", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 400px) {
-	#testimonials .flex-container {
+	#officeBearers .flex-container {
 		width: auto;
 	}
 
-	#testimonial-slider p {
+	#officeBearer-slider p {
 		font: 18px/1.9 "merriweather-regular", sans-serif;
 	}
 }
