@@ -32,7 +32,7 @@ app.get("/Team_1920", (_req, res) => {
 app.get("/Team_2021", (_req, res) => {
 	res.render("team_2021");
 });
-app.get("/Offline", (_req, res) => {
+app.get("/offline", (_req, res) => {
 	res.render("offline");
 });
 app.get("/Privacy", (_req, res) => {
