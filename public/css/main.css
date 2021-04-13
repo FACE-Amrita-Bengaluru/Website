@@ -9,7 +9,7 @@
 /*  08. =portfolio styles
 /*  09. =services
 /*  10. =about
-/*  11. =officeBearers
+/*  11. =officeBearers and mentors
 /*  12. =contact
 /*  13. =footer
 /* =================================================================== */
@@ -1984,7 +1984,7 @@ ul#nav li.current a:after {
 }
 
 /**
-/* 11. =officeBearers
+/* 11. =officeBearers and mentors
 /* =================================================================== */
 
 #officeBearers {
