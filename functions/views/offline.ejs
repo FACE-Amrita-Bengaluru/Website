@@ -441,45 +441,6 @@
 				</div>
 			</div>
 		</footer>
-		<div id="preloader">
-			<div id="loader"></div>
-		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" integrity="sha512-ju6u+4bPX50JQmgU97YOGAXmRMrD9as4LE05PdC3qycsGQmjGlfm041azyB1VfCXpkpt1i9gqXCT6XuxhBJtKg==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js" integrity="sha512-fDGBclS3HUysEBIKooKWFDEWWORoA20n60OwY7OSYgxGEew9s7NgDaPkj7gqQcVXnASPvZAiFW8DiytstdlGtQ==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.min.js" integrity="sha512-M3wq5WV8hxDfr57VnaB8R3j7TK1dTBwwTWCemilGC1b1bk447mxw8v7t0ImJ0z4pfRVlVcwODbkQbkWiCQGh0w==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js" integrity="sha512-oy0NXKQt2trzxMo6JXDYvDcqNJRQPnL56ABDoPdC+vsIOJnU+OLuc3QP3TJAnsNKXUXVpit5xRYKTiij3ov9Qg==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.14.0/jquery.validate.min.js" integrity="sha512-2ZFPcPxv4xOvt+Sz1JMGyoliB3tccdckAJXlEz13o1byNrevFuyDoLs9tZfi+hTHz/h5o/XealriXyhyzGYrGg==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js" integrity="sha512-e2WVdoOGqKU97DHH6tYamn+eAwLDpyHKqPy4uSv0aGlwDXZKGwyS27sfiIUT8gpZ88/Lr4UZpbRt93QkGRgpug==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-placeholder/2.1.2/jquery.placeholder.min.js" integrity="sha512-QFM0LebqxbNmBqCToVJiksaYGZnvLVIC5g8PIPEceezTaTft1lGY/rimxCe/BO9ahiUYxjB0JuhkajdqxCEDAQ==" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js" integrity="sha512-+m6t3R87+6LdtYiCzRhC5+E0l4VQ9qIT1H9+t1wmHkMJvvUQNI5MKKb7b08WL4Kgp9K0IBgHDSLCRJk05cFUYg==" crossorigin="anonymous"></script>
-		<script src="js/main.js"></script>
-		<script async src="js/manup.js"></script>
-		<script>
-			if (navigator.serviceWorker.controller) {
-				console.log(
-					"[PWA Builder] active service worker found, no need to register"
-				);
-			} else {
-				navigator.serviceWorker
-					.register("pwabuilder-sw.js", {
-						scope: "./",
-					})
-					.then(function (reg) {
-						console.log(
-							"Service worker has been registered for scope:" +
-								reg.scope
-						);
-					});
-			}
-		</script>
-		<script type="application/ld+json">
-			{
-				"@context": "https://schema.org/",
-				"@type": "WebSite",
-				"name": "FACE Amrita",
-				"alternateName": "Forum for Aspiring Computer Engineers",
-				"url": "https://faceaseb.com"
-			}
-		</script>
+		<%- include('scripts.ejs') -%>
 	</body>
 </html>
