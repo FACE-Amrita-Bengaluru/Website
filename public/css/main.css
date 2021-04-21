@@ -1757,45 +1757,53 @@ ul#nav li.current a:after {
 	}
 }
 
-/* team members
+/* mentors and team members
 -------------------------------------------------------------- */
-#about .team {
+#about .team, 
+#about .mentor {
 	margin-top: 30px;
 }
 
-#team-wrapper {
+#team-wrapper, 
+#mentor-wrapper {
 	margin: 0 auto;
 }
 
-#team-wrapper .member {
+#team-wrapper .member, 
+#mentor-wrapper .member {
 	margin-bottom: 24px;
 	margin-top: 12px;
 }
 
-#team-wrapper .member h3 {
+#team-wrapper .member h3, 
+#mentor-wrapper .member h3 {
 	line-height: 24px;
 	margin-bottom: 0;
 }
 
-#team-wrapper .member span {
+#team-wrapper .member span, 
+#mentor-wrapper .member span {
 	position: relative;
 	font-size: 13px;
 	line-height: 15px;
 	color: #ffffff;
 }
 
-#team-wrapper .member-pic {
+#team-wrapper .member-pic, 
+#mentor-wrapper .member-pic {
 	position: relative;
 	line-height: 1;
 	overflow: hidden;
 	background: #ffffff;
 }
 
-#team-wrapper .member-pic img {
+#team-wrapper .member-pic img, 
+#mentor-wrapper .member-pic img {
 	vertical-align: bottom;
 }
 
-#team-wrapper .mask {
+#team-wrapper .mask, 
+#mentor-wrapper .mask {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1813,14 +1821,16 @@ ul#nav li.current a:after {
 	transition: opacity 0.5s ease-in-out;
 }
 
-#team-wrapper .member:hover .mask {
+#team-wrapper .member:hover .mask, 
+#mentor-wrapper .member:hover .mask {
 	filter: alpha(opacity=100);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	opacity: 1;
 	zoom: 1;
 }
 
-#team-wrapper .member-social {
+#team-wrapper .member-social, 
+#mentor-wrapper .member-social {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
@@ -1829,33 +1839,38 @@ ul#nav li.current a:after {
 	padding: 0;
 }
 
-#team-wrapper .member-social li {
+#team-wrapper .member-social li, 
+#mentor-wrapper .member-social li {
 	display: inline-block;
 	margin-right: 15px;
 }
 
-#team-wrapper .member-social li a {
+#team-wrapper .member-social li a, 
+#mentor-wrapper .member-social li a {
 	color: #ffffff;
 }
 
 /* media queries:
-/* .team / #team-wrapper */
+/* .mentor / #mentor-wrapper and .team / #team-wrapper */
 
 @media only screen and (max-width: 1024px) {
-	#team-wrapper .member-social li {
+	#team-wrapper .member-social li, 
+	#mentor-wrapper .member-social li {
 		margin-right: 10px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	#team-wrapper .member p {
+	#team-wrapper .member p, 
+	#mentor-wrapper .member p {
 		font-size: 14px;
 		line-height: 27px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	#team-wrapper .member-pic {
+	#team-wrapper .member-pic, 
+	#mentor-wrapper .member-pic {
 		width: 80px;
 		height: 80px;
 		float: left;
@@ -1864,16 +1879,19 @@ ul#nav li.current a:after {
 		top: 6px;
 	}
 
-	#team-wrapper .member-pic .mask {
+	#team-wrapper .member-pic .mask, 
+	#mentor-wrapper .member-pic .mask {
 		display: none;
 	}
 
-	#team-wrapper .member-name + p {
+	#team-wrapper .member-name + p, 
+	#mentor-wrapper .member-name + p {
 		clear: both;
 		margin-top: 30px;
 	}
 
-	#team-wrapper .member p {
+	#team-wrapper .member p, 
+	#mentor-wrapper .member p {
 		font-size: 16px;
 		line-height: 30px;
 	}
