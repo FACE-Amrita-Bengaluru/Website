@@ -9,7 +9,7 @@
 /*  08. =portfolio styles
 /*  09. =services
 /*  10. =about
-/*  11. =testimonials
+/*  11. =officeBearers and mentors
 /*  12. =contact
 /*  13. =footer
 /* =================================================================== */
@@ -1757,45 +1757,53 @@ ul#nav li.current a:after {
 	}
 }
 
-/* team members
+/* mentors and team members
 -------------------------------------------------------------- */
-#about .team {
+#about .team,
+#about .mentor {
 	margin-top: 30px;
 }
 
-#team-wrapper {
+#team-wrapper,
+#mentor-wrapper {
 	margin: 0 auto;
 }
 
-#team-wrapper .member {
+#team-wrapper .member,
+#mentor-wrapper .member {
 	margin-bottom: 24px;
 	margin-top: 12px;
 }
 
-#team-wrapper .member h3 {
+#team-wrapper .member h3,
+#mentor-wrapper .member h3 {
 	line-height: 24px;
 	margin-bottom: 0;
 }
 
-#team-wrapper .member span {
+#team-wrapper .member span,
+#mentor-wrapper .member span {
 	position: relative;
 	font-size: 13px;
 	line-height: 15px;
 	color: #ffffff;
 }
 
-#team-wrapper .member-pic {
+#team-wrapper .member-pic,
+#mentor-wrapper .member-pic {
 	position: relative;
 	line-height: 1;
 	overflow: hidden;
 	background: #ffffff;
 }
 
-#team-wrapper .member-pic img {
+#team-wrapper .member-pic img,
+#mentor-wrapper .member-pic img {
 	vertical-align: bottom;
 }
 
-#team-wrapper .mask {
+#team-wrapper .mask,
+#mentor-wrapper .mask {
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -1813,14 +1821,16 @@ ul#nav li.current a:after {
 	transition: opacity 0.5s ease-in-out;
 }
 
-#team-wrapper .member:hover .mask {
+#team-wrapper .member:hover .mask,
+#mentor-wrapper .member:hover .mask {
 	filter: alpha(opacity=100);
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 	opacity: 1;
 	zoom: 1;
 }
 
-#team-wrapper .member-social {
+#team-wrapper .member-social,
+#mentor-wrapper .member-social {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 18px;
@@ -1829,33 +1839,38 @@ ul#nav li.current a:after {
 	padding: 0;
 }
 
-#team-wrapper .member-social li {
+#team-wrapper .member-social li,
+#mentor-wrapper .member-social li {
 	display: inline-block;
 	margin-right: 15px;
 }
 
-#team-wrapper .member-social li a {
+#team-wrapper .member-social li a,
+#mentor-wrapper .member-social li a {
 	color: #ffffff;
 }
 
 /* media queries:
-/* .team / #team-wrapper */
+/* .mentor / #mentor-wrapper and .team / #team-wrapper */
 
 @media only screen and (max-width: 1024px) {
-	#team-wrapper .member-social li {
+	#team-wrapper .member-social li,
+	#mentor-wrapper .member-social li {
 		margin-right: 10px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	#team-wrapper .member p {
+	#team-wrapper .member p,
+	#mentor-wrapper .member p {
 		font-size: 14px;
 		line-height: 27px;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	#team-wrapper .member-pic {
+	#team-wrapper .member-pic,
+	#mentor-wrapper .member-pic {
 		width: 80px;
 		height: 80px;
 		float: left;
@@ -1864,16 +1879,19 @@ ul#nav li.current a:after {
 		top: 6px;
 	}
 
-	#team-wrapper .member-pic .mask {
+	#team-wrapper .member-pic .mask,
+	#mentor-wrapper .member-pic .mask {
 		display: none;
 	}
 
-	#team-wrapper .member-name + p {
+	#team-wrapper .member-name + p,
+	#mentor-wrapper .member-name + p {
 		clear: both;
 		margin-top: 30px;
 	}
 
-	#team-wrapper .member p {
+	#team-wrapper .member p,
+	#mentor-wrapper .member p {
 		font-size: 16px;
 		line-height: 30px;
 	}
@@ -1984,10 +2002,165 @@ ul#nav li.current a:after {
 }
 
 /**
-/* 11. =testimonials
+/* 11. =officeBearers and mentors
 /* =================================================================== */
 
-#testimonials {
+#officeBearers {
+	background: #e4b101;
+	padding-bottom: 112px;
+	position: relative;
+	min-height: 198px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+
+#officeBearers .flex-container {
+	width: 80%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+#officeBearer-slider {
+	margin: 0 0 30px;
+	padding-left: 0;
+	position: relative;
+}
+
+#officeBearer-slider p {
+	font: 27px/1.9 "merriweather-regular", sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 0;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#officeBearer-slider .officeBearer-author {
+	display: block;
+	font: 16px/24px "raleway-heavy", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 24px;
+	color: #ffffff;
+}
+
+#officeBearer-slider .officeBearer-author img {
+	width: 72px;
+	height: 72px;
+	margin-right: 10px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 6px solid white;
+	vertical-align: middle;
+}
+
+#officeBearer-slider .officeBearer-author .author-info {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+}
+
+#officeBearer-slider .officeBearer-author .author-info span {
+	display: block;
+	font: 14px/18px "raleway-bold", sans-serif;
+	letter-spacing: 0;
+	text-transform: none;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+/* control nav */
+#officeBearers .flex-control-nav {
+	width: 100%;
+	text-align: center;
+	display: block;
+	position: absolute;
+	bottom: -72px;
+}
+
+#officeBearers .flex-control-nav li {
+	margin: 0 6px;
+	display: inline-block;
+	zoom: 1;
+}
+
+#officeBearers .flex-control-paging li a {
+	width: 12px;
+	height: 12px;
+	display: block;
+	background: white;
+	cursor: pointer;
+	text-indent: -9999px;
+	border-radius: 20px;
+}
+
+#officeBearers .flex-control-paging li a:hover {
+	background: #ccc;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#officeBearers .flex-control-paging li a.flex-active {
+	background: #fff;
+	background: black;
+	cursor: default;
+}
+
+/* media queries:
+/* #officeBearers / #officeBearer-slider */
+
+@media only screen and (max-width: 1024px) {
+	#officeBearers .flex-container {
+		max-width: 700px;
+	}
+
+	#officeBearer-slider p {
+		font: 25px/1.9 "merriweather-regular", sans-serif;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#officeBearers .flex-container {
+		width: 90%;
+	}
+
+	#officeBearer-slider p {
+		font: 22px/1.9 "merriweather-regular", sans-serif;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#officeBearers .flex-container {
+		width: 95%;
+	}
+
+	#officeBearer-slider p {
+		font: 20px/1.9 "merriweather-regular", sans-serif;
+	}
+
+	#officeBearer-slider .officeBearer-author {
+		font: 14px/24px "raleway-heavy" sans-serif;
+	}
+
+	#officeBearer-slider .officeBearer-author img {
+		width: 60px;
+		height: 60px;
+		border: 6px solid white;
+	}
+
+	#officeBearer-slider .officeBearer-author .author-info span {
+		font: 12px/18px "raleway-bold", sans-serif;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	#officeBearers .flex-container {
+		width: auto;
+	}
+
+	#officeBearer-slider p {
+		font: 18px/1.9 "merriweather-regular", sans-serif;
+	}
+}
+
+#mentors {
 	background: #e4b101;
 	padding-top: 90px;
 	padding-bottom: 112px;
@@ -1998,26 +2171,26 @@ ul#nav li.current a:after {
 	text-align: center;
 }
 
-#testimonials .flex-container {
+#mentors .flex-container {
 	width: 80%;
 	max-width: 850px;
 	margin: 0 auto;
 }
 
-#testimonial-slider {
+#mentor-slider {
 	margin: 0 0 30px;
 	padding-left: 0;
 	position: relative;
 }
 
-#testimonial-slider p {
+#mentor-slider p {
 	font: 27px/1.9 "merriweather-regular", sans-serif;
 	color: rgb(0, 0, 0);
 	padding: 0;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 }
 
-#testimonial-slider .testimonial-author {
+#mentor-slider .mentor-author {
 	display: block;
 	font: 16px/24px "raleway-heavy", sans-serif;
 	letter-spacing: 2px;
@@ -2026,7 +2199,7 @@ ul#nav li.current a:after {
 	color: #ffffff;
 }
 
-#testimonial-slider .testimonial-author img {
+#mentor-slider .mentor-author img {
 	width: 72px;
 	height: 72px;
 	margin-right: 10px;
@@ -2036,13 +2209,13 @@ ul#nav li.current a:after {
 	vertical-align: middle;
 }
 
-#testimonial-slider .testimonial-author .author-info {
+#mentor-slider .mentor-author .author-info {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: left;
 }
 
-#testimonial-slider .testimonial-author .author-info span {
+#mentor-slider .mentor-author .author-info span {
 	display: block;
 	font: 14px/18px "raleway-bold", sans-serif;
 	letter-spacing: 0;
@@ -2051,7 +2224,7 @@ ul#nav li.current a:after {
 }
 
 /* control nav */
-#testimonials .flex-control-nav {
+#mentors .flex-control-nav {
 	width: 100%;
 	text-align: center;
 	display: block;
@@ -2059,13 +2232,13 @@ ul#nav li.current a:after {
 	bottom: -72px;
 }
 
-#testimonials .flex-control-nav li {
+#mentors .flex-control-nav li {
 	margin: 0 6px;
 	display: inline-block;
 	zoom: 1;
 }
 
-#testimonials .flex-control-paging li a {
+#mentors .flex-control-paging li a {
 	width: 12px;
 	height: 12px;
 	display: block;
@@ -2075,70 +2248,70 @@ ul#nav li.current a:after {
 	border-radius: 20px;
 }
 
-#testimonials .flex-control-paging li a:hover {
+#mentors .flex-control-paging li a:hover {
 	background: #ccc;
 	background: rgba(0, 0, 0, 0.5);
 }
 
-#testimonials .flex-control-paging li a.flex-active {
+#mentors .flex-control-paging li a.flex-active {
 	background: #fff;
 	background: black;
 	cursor: default;
 }
 
 /* media queries:
-/* #testimonials / #testimonial-slider */
+/* #mentors / #mentor-slider */
 
 @media only screen and (max-width: 1024px) {
-	#testimonials .flex-container {
+	#mentors .flex-container {
 		max-width: 700px;
 	}
 
-	#testimonial-slider p {
+	#mentor-slider p {
 		font: 25px/1.9 "merriweather-regular", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 768px) {
-	#testimonials .flex-container {
+	#mentors .flex-container {
 		width: 90%;
 	}
 
-	#testimonial-slider p {
+	#mentor-slider p {
 		font: 22px/1.9 "merriweather-regular", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 600px) {
-	#testimonials .flex-container {
+	#mentors .flex-container {
 		width: 95%;
 	}
 
-	#testimonial-slider p {
+	#mentor-slider p {
 		font: 20px/1.9 "merriweather-regular", sans-serif;
 	}
 
-	#testimonial-slider .testimonial-author {
+	#mentor-slider .mentor-author {
 		font: 14px/24px "raleway-heavy" sans-serif;
 	}
 
-	#testimonial-slider .testimonial-author img {
+	#mentor-slider .mentor-author img {
 		width: 60px;
 		height: 60px;
 		border: 6px solid white;
 	}
 
-	#testimonial-slider .testimonial-author .author-info span {
+	#mentor-slider .mentor-author .author-info span {
 		font: 12px/18px "raleway-bold", sans-serif;
 	}
 }
 
 @media only screen and (max-width: 400px) {
-	#testimonials .flex-container {
+	#mentors .flex-container {
 		width: auto;
 	}
 
-	#testimonial-slider p {
+	#mentor-slider p {
 		font: 18px/1.9 "merriweather-regular", sans-serif;
 	}
 }

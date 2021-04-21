@@ -50,7 +50,18 @@
 					.addClass("animated fadeInUp show");
 			},
 		});
-		$("#testimonial-slider").flexslider({
+		$("#mentor-slider").flexslider({
+			namespace: "flex-",
+			controlsContainer: "",
+			animation: "slide",
+			controlNav: true,
+			directionNav: false,
+			smoothHeight: true,
+			slideshowSpeed: 7000,
+			animationSpeed: 600,
+			randomize: false,
+		});
+		$("#officeBearer-slider").flexslider({
 			namespace: "flex-",
 			controlsContainer: "",
 			animation: "slide",
