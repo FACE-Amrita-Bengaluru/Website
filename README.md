@@ -1,18 +1,20 @@
 # FACE Amrita Bengaluru ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 
-Official source code of FACE Amrita Bangalore website along with CSI, ACM, and ACM-W chapters of Amrita Bangalore.
+Official source code of FACE Amrita Bangalore website
 
-# :octocat: How to contribute?
+Visit <https://faceaseb.com> to know more about FACE and it's sister clubs such as ACM, ACM-W, CSI, FORGE and CodeChef at Amrita School of Engineering, Bengaluru.
 
-All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki contents -- whatever you have to offer, it would be appreciated!
+## :octocat: How to contribute?
+
+All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Feel free to open issue trackers for bugs or features or send in fixes / features via pull requests - whatever you have to offer, it would be appreciated! Make sure to open an issue tracker before sending in a PR.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on contributing.
 
-# :scroll: License
+## :scroll: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# :family: Team
+## :family: Team
 
 - **Abhishek Venkata Sai Kandikattu** - _Front-end Developer for FACE_ - [Abhishek-Sai](https://github.com/Abhishek-Sai)
 - **Aravind V. Nair** - _Front-end, Back-end and DevOps for FACE, ACM and ACM-W_ - [AravindVNair99](https://github.com/AravindVNair99)
@@ -25,19 +27,19 @@ Note: FACE, ACM and ACM-W here refers to the student chapter at Amrita School of
 
 See the full list of [contributors](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/graphs/contributors) who participated in this project and statistics.
 
-# :heavy_exclamation_mark: Prerequisites aka requirements
+## :heavy_exclamation_mark: Prerequisites aka requirements
 
 Please read [Prerequisite](Prerequisite.md) file for details.
 
-# :bookmark: Releases
+## :bookmark: Releases
 
 View all versions [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/releases).
 
-# :scroll: Changelog
+## :scroll: Changelog
 
 Check the [changelog here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/commits/master).
 
-# :memo: I found some bugs or issues. Where do I report?
+## :memo: I found some bugs or issues. Where do I report?
 
 Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new/choose) in detail answering these questions:
 
@@ -47,6 +49,6 @@ Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new
 - Have you tried any troubleshooting steps such as a reboot for example?
 - Have you followed the prescribed prerequisites?
 
-# :envelope: How do I contact the team?
+## :envelope: How do I contact the team?
 
 Check [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
