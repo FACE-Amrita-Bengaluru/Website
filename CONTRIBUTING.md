@@ -1,8 +1,8 @@
-```
-All contributions are welcome! Code, documentation, softwares, scripts, graphics or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
-```
+# Contributing
 
-# I found some bugs or issues. Where do I report?
+All contributions are welcome! Code, documentation, graphics or even design suggestions are welcome; use GitHub to its fullest. Feel free to open issue trackers for bugs or features or send in fixes / features via pull requests -- whatever you have to offer, it would be appreciated!
+
+## I found some bugs or issues. Where do I report?
 
 Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new) in detail answering these questions:
 
@@ -12,6 +12,6 @@ Report [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/issues/new
 - Have you tried any troubleshooting steps such as a reboot for example?
 - Have you followed the prescribed prerequisites?
 
-# How do I contact the team?
+## How do I contact the team?
 
 Check [here](https://github.com/aravindvnair99/FACE-Amrita-Bengaluru/graphs/contributors) for the list of contributors. Contact one of them through their profiles.
