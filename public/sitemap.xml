@@ -9,25 +9,25 @@
 
 	<url>
 		<loc>https://faceaseb.com/</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>1.00</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/SLAC</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.95</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACM</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.90</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACMW</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.90</priority>
 	</url>
@@ -36,30 +36,30 @@
 
 	<url>
 		<loc>https://faceaseb.com/Team_2021</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.95</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/Team_1920</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.95</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/Team_1819</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACM/Members</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.85</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACMW/Members</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.85</priority>
 	</url>
@@ -68,13 +68,13 @@
 
 	<url>
 		<loc>https://faceaseb.com/TFS</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.95</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/Blog</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.90</priority>
 	</url>
@@ -83,13 +83,13 @@
 
 	<url>
 		<loc>https://faceaseb.com/UI-UX</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.70</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ICIC_2018</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<priority>0.70</priority>
 	</url>
 
@@ -97,13 +97,13 @@
 
 	<url>
 		<loc>https://faceaseb.com/Identifire</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.60</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/Privacy</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<priority>0.50</priority>
 	</url>
 
@@ -111,7 +111,7 @@
 
 	<url>
 		<loc>https://faceaseb.com/Comquer</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>monthly</changefreq>
 		<priority>0.70</priority>
 	</url>
@@ -120,7 +120,7 @@
 
 	<url>
 		<loc>https://faceaseb.com/ACM/Events</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.70</priority>
 	</url>
@@ -129,7 +129,7 @@
 
 	<url>
 		<loc>https://faceaseb.com/ACMW/Events</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.70</priority>
 	</url>
@@ -138,19 +138,19 @@
 
 	<url>
 		<loc>https://faceaseb.com/ACM/CompetitiveCoding</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACM/DataScience</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACM/WebDevelopment</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
@@ -159,19 +159,19 @@
 
 	<url>
 		<loc>https://faceaseb.com/ACMW/WebDevelopment</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACMW/CompetitiveCoding</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
 	<url>
 		<loc>https://faceaseb.com/ACMW/DataScience</loc>
-		<lastmod>2021-04-26T23:20:00+05:30</lastmod>
+		<lastmod>2021-05-12T06:00:00+05:30</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.80</priority>
 	</url>
