@@ -1,9 +1,13 @@
-version: 1
-update_configs:
-  - package_manager: "javascript"
-    directory: "/functions"
-    update_schedule: "live"
-    default_reviewers:
-      - "AravindVNair99"
-    default_assignees:
-      - "AravindVNair99"
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/functions"
+  schedule:
+    interval: daily
+    time: "00:00"
+    timezone: Asia/Calcutta
+  open-pull-requests-limit: 99
+  reviewers:
+  - AravindVNair99
+  assignees:
+  - AravindVNair99
